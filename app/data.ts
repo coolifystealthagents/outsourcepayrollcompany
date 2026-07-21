@@ -133,9 +133,9 @@ export const services = [
 export const blogPosts = [
   {
     slug: 'outsource-payroll-company-planning',
-    title: 'Outsource Payroll Company: What does it plan?',
-    excerpt: 'A plain-English guide to staffing details, scope, and hidden planning.',
-    minutes: 6,
+    title: 'How to plan outsourced payroll support',
+    excerpt: 'Map payroll prep, approvals, access, and provider handoffs before you assign the work.',
+    minutes: 10,
   },
   {
     slug: 'outsource-payroll-company-tasks-to-outsource',
@@ -156,6 +156,93 @@ export const blogPosts = [
     minutes: 9,
   },
 ] as const;
+
+export const blogDetails: Record<string, {
+  takeaways: string[];
+  readinessRows: { area: string; ready: string; ownerCheck: string }[];
+  sections: { heading: string; paragraphs: string[]; bullets?: string[] }[];
+  roleBrief: string[];
+  faqs: { question: string; answer: string }[];
+  sources: { name: string; url: string; note: string }[];
+}> = {
+  'outsource-payroll-company-planning': {
+    takeaways: [
+      'Keep final payroll approval with a named payroll owner or provider.',
+      'Hand off repeatable prep work before you hand off judgment calls.',
+      'Give each worker only the system access needed for the assigned task.',
+      'Test the plan on one pay cycle, then fix the gaps before adding more work.',
+    ],
+    readinessRows: [
+      { area: 'Timesheets', ready: 'A standard file, deadline, and manager approval path exist.', ownerCheck: 'The payroll owner reviews missing or unusual hours.' },
+      { area: 'Employee changes', ready: 'New hire, termination, rate, and bank changes use separate logged requests.', ownerCheck: 'An authorized owner approves each change before entry.' },
+      { area: 'Payroll inbox', ready: 'Common questions have approved replies and a clear routing list.', ownerCheck: 'Pay disputes, tax, benefits, and garnishment questions are escalated.' },
+      { area: 'Provider handoff', ready: 'The provider receives one clean checklist with links to source records.', ownerCheck: 'The owner signs off before the final submission.' },
+    ],
+    sections: [
+      {
+        heading: 'Start with the work around payroll',
+        paragraphs: [
+          'Payroll outsourcing can mean two different things. A payroll company may calculate wages, taxes, and checks. A support worker may collect the inputs, chase missing approvals, keep the change log clean, and prepare the handoff. Decide which kind of help you need before you compare providers.',
+          'Most small teams should begin with the work around payroll. That includes timesheet follow-up, employee document checks, inbox sorting, calendar reminders, and exception reports. These jobs repeat each pay period and leave a record that the payroll owner can review. Final pay approval, tax choices, bank changes, garnishments, and termination decisions should stay with the authorized owner or payroll provider.',
+        ],
+      },
+      {
+        heading: 'Draw the approval line in writing',
+        paragraphs: [
+          'A vague job description is risky around payroll data. Write down what the support worker can prepare, what they can enter, and what they must stop and send to an owner. Use plain examples. For instance: "You may add an approved address change to the tracker. You may not change a bank account or pay rate without a second approval."',
+          'Name the person who gives that approval. A shared inbox is not an owner. The worker needs a person, a backup person, and a response time for urgent items near payroll cut-off. This keeps a late question from turning into a guess.',
+        ],
+        bullets: [
+          'The worker may collect and organize source records.',
+          'The worker may flag missing data and send approved reminders.',
+          'The payroll owner decides disputed hours, rates, deductions, and final corrections.',
+          'The provider or authorized owner submits and approves the final payroll run.',
+        ],
+      },
+      {
+        heading: 'Build one pay-period control sheet',
+        paragraphs: [
+          'Use one tracker for the first handoff. It can be a protected spreadsheet or a task board inside an approved system. Add the employee or department, the item needed, its source, the manager who must approve it, the due date, and the current status. Link to the source record instead of copying sensitive data into extra tools.',
+          'The tracker should show exceptions, not become a second payroll system. A missing-timesheet list is useful. A loose copy of every employee bank detail is not. The IRS keeps separate guidance on employment tax records, so ask your payroll or tax adviser which records your business must retain and where those records should live.',
+        ],
+      },
+      {
+        heading: 'Limit access before the first login',
+        paragraphs: [
+          'Payroll files contain names, addresses, pay data, tax details, and bank information. Start with the least access the worker needs. Use a named account, turn on multifactor authentication, and avoid sending passwords in chat or email. CISA recommends MFA because a stolen password alone is then not enough to enter the account.',
+          'Split risky actions when the software allows it. One person can prepare a change, while the payroll owner approves it. Review the access list after the first pay cycle and remove anything the worker did not use. Keep an exit checklist too, even during a trial, so accounts can be closed without hunting through old messages.',
+        ],
+      },
+      {
+        heading: 'Run one cycle as a supervised test',
+        paragraphs: [
+          'Do not move every payroll task on day one. Pick one pay period and a small lane, such as timesheet follow-up plus the missing-approval report. Give the worker two or three good examples, the cut-off calendar, and the stop rules. The payroll owner should check the tracker each day during that first cycle.',
+          'After payroll closes, review what arrived late, which questions needed an owner, and where the worker lacked a source or example. Fix those points in the checklist. Add another task only when the first lane is easy to review. The goal is a cleaner handoff with fewer surprises, not a quick transfer of every responsibility.',
+        ],
+      },
+    ],
+    roleBrief: [
+      'Role: Payroll preparation and follow-up support',
+      'First task lane: Collect timesheets and manager approvals, then prepare the missing-item report',
+      'Tools: List the payroll, timekeeping, HR, file, and ticket systems the worker may use',
+      'Access: Named account, MFA, least privilege, and no solo bank or pay-rate changes',
+      'Daily output: Updated tracker with source links, missing items, owners, and due dates',
+      'Stop rules: Escalate disputed hours, taxes, garnishments, benefits, terminations, bank changes, and final pay approval',
+      'Owner review: Named payroll owner checks exceptions before provider handoff',
+    ],
+    faqs: [
+      { question: 'What payroll work should we outsource first?', answer: 'Start with timesheet chasing, missing approval lists, employee-change logs, inbox sorting, and provider handoff notes. The work should repeat and be easy for an owner to check.' },
+      { question: 'Can a remote support worker approve payroll?', answer: 'Keep final approval with your authorized payroll owner or provider. A support worker can prepare records and flag exceptions, but should not decide disputed pay, taxes, bank changes, or deductions.' },
+      { question: 'How much system access should the worker get?', answer: 'Give the least access needed for the first task lane. Use a named account and MFA. Add permissions only when a real task requires them and an owner agrees.' },
+      { question: 'How long should the first test run?', answer: 'Use one complete pay cycle. That gives the team a real deadline, real exceptions, and a clear review point without turning a suggested timeline into a promise.' },
+    ],
+    sources: [
+      { name: 'IRS: Understanding employment taxes', url: 'https://www.irs.gov/businesses/small-businesses-self-employed/understanding-employment-taxes', note: 'Overview of federal employment tax responsibilities for employers.' },
+      { name: 'IRS: Employment tax recordkeeping', url: 'https://www.irs.gov/businesses/small-businesses-self-employed/employment-tax-recordkeeping', note: 'IRS guidance on employment tax records and retention.' },
+      { name: 'CISA: Turn on multifactor authentication', url: 'https://www.cisa.gov/secure-our-world/turn-mfa', note: 'Plain guidance on using MFA to protect accounts.' },
+    ],
+  },
+};
 
 export const stats = [
   { label: 'Typical savings target', value: '30-60%', note: 'depends on role, management, and local hiring plan' },
