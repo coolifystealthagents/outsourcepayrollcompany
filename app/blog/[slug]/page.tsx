@@ -102,7 +102,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
 
               <section className="guide-block" aria-labelledby="readiness-heading">
                 <h2 id="readiness-heading">Payroll handoff readiness check</h2>
-                <p>Use this table before a provider or support worker receives access.</p>
+                <p>Use this table before a provider or Filipino payroll support worker receives access.</p>
                 <div className="guide-table-wrap">
                   <table className="guide-table">
                     <thead><tr><th>Work area</th><th>Ready to hand off when</th><th>Owner check</th></tr></thead>
@@ -139,11 +139,11 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
           ) : (
             <div className="card guide-block">
               <h2>The short answer</h2>
-              <p>Start with one role, a short task list, and a weekly scorecard. Do not outsource a messy process until examples and rules are clear.</p>
+              <p>Start with one Filipino payroll role, a short task list, and a weekly scorecard. Do not hand off a messy process until examples and rules are clear.</p>
               <h2>What to prepare</h2>
               <ul><li>Task examples and sample replies</li><li>Tool access and permission rules</li><li>Daily output target</li><li>Escalation rules for anything sensitive</li></ul>
               <h2>Questions to ask</h2>
-              <ul><li>Who screens the worker?</li><li>Who checks quality?</li><li>What happens if fit is poor?</li><li>How are passwords and customer data handled?</li></ul>
+              <ul><li>Who screens Filipino candidates?</li><li>Who checks quality?</li><li>What happens if fit is poor?</li><li>How are passwords and customer data handled?</li></ul>
             </div>
           )}
         </article>

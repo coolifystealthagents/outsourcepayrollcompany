@@ -3,14 +3,14 @@ import { site } from '../data';
 
 export const metadata = {
   title: `Contact ${site.brand}`,
-  description: 'Plan support for payroll prep, timesheet follow-up, employee changes, inbox triage, and provider handoffs.',
+  description: 'Plan Filipino payroll support for timesheets, employee changes, inbox triage, and provider handoffs.',
 };
 
 const planningPoints = [
   'Which pay-period tasks are late or hard to track?',
   'Who approves pay, tax, bank, benefit, and termination changes?',
   'Which payroll, HR, time, and document systems hold the work?',
-  'What access can the assistant start with?',
+  'What access can the Filipino payroll assistant start with?',
   'What should be checked before the payroll owner reviews the file?',
 ];
 
@@ -36,14 +36,15 @@ export default function Contact() {
         <div>
           <p className="eyebrow">Payroll support intake</p>
           <h1>Plan your first payroll handoff.</h1>
-          <p className="lead">Tell us what slows down each pay cycle. We will use your notes to map tasks, access limits, owner checks, and a small first handoff.</p>
+          <p className="lead">Tell us what slows down each pay cycle. We will use your notes to map a first handoff for Filipino payroll talent, including tasks, access limits, and owner checks.</p>
           <div className="card">
             <h2>What to include</h2>
             <ul className="list">{planningPoints.map((item) => <li key={item}>{item}</li>)}</ul>
           </div>
-          <p className="callout"><b>Keep final approval in-house.</b> A support assistant can prepare records and flag gaps. Your payroll owner or provider should approve and submit payroll.</p>
+          <p className="callout"><b>Keep final approval in-house.</b> A Filipino payroll assistant can prepare records and flag gaps. Your payroll owner or provider should approve and submit payroll.</p>
         </div>
         <form className="card" action="/thank-you">
+          <p className="form-disclosure">Talent is recruited and hired only in the Philippines. Your request may be shared with a Philippines staffing team or service partner that can follow up.</p>
           <label>Name<br /><input required name="name" style={{ width: '100%', padding: 12, margin: '6px 0 14px' }} /></label>
           <label>Email<br /><input required name="email" type="email" style={{ width: '100%', padding: 12, margin: '6px 0 14px' }} /></label>
           <label>Company / website<br /><input name="company" style={{ width: '100%', padding: 12, margin: '6px 0 14px' }} /></label>

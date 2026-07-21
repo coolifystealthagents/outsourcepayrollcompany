@@ -41,13 +41,13 @@ export default async function Service({ params }: { params: Promise<{ slug: stri
         '@type': 'Service',
         '@id': `${serviceUrl}#service`,
         name: service.title,
-        serviceType: 'Payroll outsourcing support',
+        serviceType: 'Filipino payroll outsourcing support',
         provider: {
           '@type': 'Organization',
           name: site.brand,
           url: siteUrl,
         },
-        areaServed: 'United States',
+        areaServed: 'Philippines',
         description: service.desc,
       },
       {
@@ -99,7 +99,7 @@ export default async function Service({ params }: { params: Promise<{ slug: stri
               <a className="btn" href="/contact">Plan this role</a>
             </div>
             <div className="hero-card">
-              <img src={site.serviceImage} alt={`${service.title} offshore service team`} />
+              <img src={site.serviceImage} alt={site.alt} />
             </div>
           </div>
         </section>
@@ -126,7 +126,7 @@ export default async function Service({ params }: { params: Promise<{ slug: stri
             <div>
               <p className="eyebrow">First pay cycle</p>
               <h2>Launch it as a small payroll pilot.</h2>
-              <p>Payroll support works best when the first handoff is narrow. Give the assistant a checklist, a few real examples, and a clear stop sign for anything sensitive.</p>
+              <p>Payroll support works best when the first handoff is narrow. Give your Filipino payroll assistant a checklist, a few real examples, and a clear stop sign for anything sensitive.</p>
             </div>
             <div className="card">
               <ol>

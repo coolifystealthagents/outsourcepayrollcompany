@@ -12,8 +12,8 @@ const checkpoints = [
 
 const steps = [
   { number: '01', title: 'Pick one pay cycle', body: 'Show us where hours, changes, and approvals get stuck.' },
-  { number: '02', title: 'Set the stop signs', body: 'Your assistant gets clear rules for access, money changes, and escalation.' },
-  { number: '03', title: 'Run a checked handoff', body: 'The assistant prepares the tracker. Your payroll owner reviews and submits.' },
+  { number: '02', title: 'Set the stop signs', body: 'Your Filipino payroll assistant gets clear rules for access, money changes, and escalation.' },
+  { number: '03', title: 'Run a checked handoff', body: 'Your Filipino payroll assistant prepares the tracker. Your payroll owner reviews and submits.' },
 ];
 
 export default function Home() {
@@ -24,17 +24,17 @@ export default function Home() {
         '@type': 'WebPage',
         name: 'Outsource Payroll Company',
         url: 'https://outsourcepayrollcompany.com',
-        description: 'Payroll outsourcing support for timesheets, employee changes, payroll inboxes, handoffs, and pre-payroll checks.',
+        description: 'Filipino payroll support for timesheets, employee changes, payroll inboxes, handoffs, and pre-payroll checks.',
         mainEntity: { '@id': 'https://outsourcepayrollcompany.com/#service' },
       },
       {
         '@type': 'Service',
         '@id': 'https://outsourcepayrollcompany.com/#service',
-        name: 'Outsourced payroll support',
+        name: 'Filipino payroll support',
         serviceType: 'Payroll administration support',
         provider: { '@type': 'Organization', name: site.brand, url: 'https://outsourcepayrollcompany.com' },
-        areaServed: 'United States',
-        description: 'Remote support for payroll preparation, timesheet follow-up, employee change logs, exception tracking, and provider handoffs.',
+        areaServed: 'Philippines',
+        description: 'Philippines-based support for payroll preparation, timesheet follow-up, employee change logs, exception tracking, and provider handoffs.',
       },
       {
         '@type': 'HowTo',
@@ -46,15 +46,15 @@ export default function Home() {
 
   return <>
     <Header />
-    <main className="payroll-home payroll-runbook-2026">
+    <main className="payroll-home payroll-runbook-2026" data-design="payroll-runbook-2026">
       <JsonLd data={schema} />
 
       <section className="payroll-hero">
         <div className="container payroll-hero-grid">
           <div className="payroll-hero-copy">
-            <p className="payroll-kicker">Outsource payroll support</p>
-            <h1>Payroll prep without the pay-day scramble.</h1>
-            <p className="payroll-lead">Get help chasing timesheets, logging employee changes, sorting payroll questions, and preparing the handoff. Your payroll owner keeps final approval.</p>
+            <p className="payroll-kicker">Filipino payroll support</p>
+            <h1>Payroll prep without the payday scramble.</h1>
+            <p className="payroll-lead">Add a Filipino payroll assistant to chase timesheets, log employee changes, sort payroll questions, and prepare the handoff. Your payroll owner keeps final approval.</p>
             <ul className="payroll-bullets" aria-label="Payroll support tasks">
               <li>Keep pay-period inputs in one clear list</li>
               <li>Flag missing hours and manager approvals</li>
@@ -66,7 +66,7 @@ export default function Home() {
           </div>
 
           <div className="payroll-hero-visual" aria-label="Payroll operations control desk preview">
-            <img src="/payroll-operations-team.jpg" alt="Payroll operations team reviewing a pay-period checklist" />
+            <img src="/payroll-operations-team.jpg" alt="Office team working together on laptops" />
             <div className="payroll-desk-card">
               <div className="desk-card-head">
                 <span>Pay-period desk</span>
@@ -104,7 +104,7 @@ export default function Home() {
         <div className="container control-band-grid">
           <div className="control-copy">
             <p className="payroll-kicker">Built around approval</p>
-            <h2>Your assistant prepares. Your payroll owner decides.</h2>
+            <h2>Your Filipino payroll assistant prepares. Your payroll owner decides.</h2>
             <p>Payroll data is sensitive. Start with the least access needed. Require a named reviewer for pay, tax, bank, benefit, and termination changes.</p>
             <div className="source-links">
               <a href="https://www.irs.gov/businesses/small-businesses-self-employed/employment-taxes" target="_blank" rel="noreferrer">IRS employment tax guide</a>
@@ -112,7 +112,7 @@ export default function Home() {
             </div>
           </div>
           <div className="control-list">
-            <article><span>Assistant</span><h3>Collect and prepare</h3><p>Hours, change notes, missing items, inbox tags, and exception lists.</p></article>
+            <article><span>Filipino payroll assistant</span><h3>Collect and prepare</h3><p>Hours, change notes, missing items, inbox tags, and exception lists.</p></article>
             <article><span>Payroll owner</span><h3>Review and approve</h3><p>Pay changes, tax treatment, bank details, final files, and provider submission.</p></article>
           </div>
         </div>
