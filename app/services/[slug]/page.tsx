@@ -125,8 +125,8 @@ export default async function Service({ params }: { params: Promise<{ slug: stri
           <div className="container two">
             <div>
               <p className="eyebrow">First pay cycle</p>
-              <h2>Launch it as a small payroll pilot.</h2>
-              <p>Payroll support works best when the first handoff is narrow. Give your Filipino payroll assistant a checklist, a few real examples, and a clear stop sign for anything sensitive.</p>
+              <h2>Start with one narrow handoff.</h2>
+              <p>Give your Filipino payroll assistant a checklist, a few real examples, and a clear stop rule for anything sensitive. Keep the payroll owner close during that first cycle.</p>
             </div>
             <div className="card">
               <ol>

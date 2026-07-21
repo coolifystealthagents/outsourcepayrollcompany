@@ -35,7 +35,7 @@ export const services = [
     launchPlan: [
       'pick one payroll cycle and list every item that slows the team down',
       'build a cut-off tracker with columns for employee, item, owner, status, and approval',
-      'run a two-week pilot where the Filipino payroll assistant prepares the tracker and the payroll owner checks it daily',
+      'run one complete pay cycle where the Filipino payroll assistant prepares the tracker and the payroll owner checks it each workday',
       'keep only the tasks that reduce late edits or manager follow-up time',
     ],
     faqs: [
@@ -61,8 +61,8 @@ export const services = [
       'weekly QA checks compare replies against the approved answer bank',
     ],
     launchPlan: [
-      'pull the last 30 payroll questions and group them by topic',
-      'write safe reply templates for the five most common questions',
+      'pull a recent set of payroll questions and group them by topic',
+      'write safe reply templates for the questions that keep coming back',
       'give the Filipino payroll assistant an escalation list for anything involving pay amount, taxes, legal notices, or bank details',
       'review the inbox log twice a week until the reply quality is steady',
     ],
@@ -92,7 +92,7 @@ export const services = [
       'choose one messy admin lane, such as new-hire packets or document filing',
       'show three good examples and three bad examples so the Filipino payroll assistant can spot gaps',
       'set a daily missing-record report during the first pay cycle',
-      'add more admin tasks only after the first lane is clean for two weeks',
+      'add more admin tasks only after the first lane stays clean through a full pay cycle',
     ],
     faqs: [
       { question: 'Is payroll admin a full payroll role?', answer: 'No. It is support work around files, checklists, reminders, and records. Keep final payroll decisions with the payroll owner.' },
@@ -139,20 +139,20 @@ export const blogPosts = [
   },
   {
     slug: 'outsource-payroll-company-tasks-to-outsource',
-    title: 'Outsource Payroll Company: What tasks should you outsource first?',
+    title: 'Which payroll tasks should you outsource first?',
     excerpt: 'Start with recurring work that has examples and clear review rules.',
     minutes: 7,
   },
   {
     slug: 'outsource-payroll-company-provider-questions',
-    title: 'Outsource Payroll Company: Questions to ask before hiring',
-    excerpt: 'Use these questions before you sign with a provider or freelancer.',
+    title: 'Questions to ask a payroll support provider',
+    excerpt: 'Ask who handles the work, where payroll data lives, and which decisions stay with your team.',
     minutes: 8,
   },
   {
     slug: 'outsource-payroll-company-onboarding-checklist',
-    title: 'Outsource Payroll Company: First week onboarding checklist',
-    excerpt: 'A simple checklist for tools, SOPs, calls, QA, and reporting.',
+    title: 'First-pay-cycle onboarding checklist',
+    excerpt: 'Set up access, examples, stop rules, and owner reviews before the first payroll handoff.',
     minutes: 9,
   },
 ] as const;

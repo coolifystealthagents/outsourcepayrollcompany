@@ -62,7 +62,7 @@ export default function Home() {
               <li>Prepare clean notes for your payroll provider</li>
             </ul>
             <a className="btn payroll-primary" href="/contact">Plan my payroll support</a>
-            <p className="payroll-tagline">A tighter handoff. A calmer cut-off day.</p>
+            <p className="payroll-tagline">Keep the handoff clear and cut-off day calmer.</p>
           </div>
 
           <div className="payroll-hero-visual" aria-label="Payroll operations control desk preview">
