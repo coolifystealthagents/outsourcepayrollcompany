@@ -92,6 +92,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   const detail = blogDetails[post.slug];
   const basicGuide = basicGuides[post.slug];
   const postUrl = `${siteUrl}/blog/${post.slug}`;
+  const rich = detail?.rich;
 
   const graph: Record<string, unknown>[] = [
     {
@@ -103,6 +104,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
       mainEntityOfPage: { '@id': `${postUrl}#webpage` },
       author: { '@type': 'Organization', name: site.brand, url: siteUrl },
       publisher: { '@type': 'Organization', name: site.brand, url: siteUrl },
+      ...(rich ? { datePublished: rich.published, dateModified: rich.published } : {}),
       ...(detail ? {
         citation: detail.sources.map((source) => source.url),
         hasPart: detail.sections.map((section, index) => ({
@@ -146,16 +148,25 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
 
   return (
     <>
-      <Header />
+      <Header hidePricing={Boolean(rich)} />
       <main className="section guide-page">
         <JsonLd data={schema} />
-        <article className="container guide-article">
+        <article className={`container guide-article${rich ? ' publisher-article' : ''}`} data-article-marker={rich?.marker}>
           <p className="eyebrow">{site.brand} guide</p>
           <h1>{post.title}</h1>
           <p className="lead">{post.excerpt}</p>
 
           {detail ? (
             <>
+              {rich && <section className="article-direct-answer" aria-labelledby="direct-answer-heading">
+                <h2 id="direct-answer-heading">The short answer</h2>
+                {rich.directAnswer.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+              </section>}
+
+              {rich && <section className="article-stat-grid" aria-label="Evidence snapshot">
+                {rich.stats.map((stat) => <article className="article-stat" key={stat.value + stat.label}><strong>{stat.value}</strong><span>{stat.label}</span><small>{stat.note}</small></article>)}
+              </section>}
+
               <aside className="guide-callout" aria-labelledby="takeaways-heading">
                 <h2 id="takeaways-heading">What to keep in the plan</h2>
                 <ul>{detail.takeaways.map((item) => <li key={item}>{item}</li>)}</ul>
@@ -163,7 +174,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
 
               <section className="guide-block" aria-labelledby="readiness-heading">
                 <h2 id="readiness-heading">Payroll handoff readiness check</h2>
-                <p>Use this table before a provider or Filipino payroll support worker receives access.</p>
+                <p>{rich ? 'Use this table before a provider or Philippines-based payroll support specialist receives access. Match every row to a named owner before the first login.' : 'Use this table before a provider or Filipino payroll support worker receives access.'}</p>
                 <div className="guide-table-wrap">
                   <table className="guide-table">
                     <thead><tr><th>Work area</th><th>Ready to hand off when</th><th>Owner check</th></tr></thead>
@@ -171,6 +182,33 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
                   </table>
                 </div>
               </section>
+
+              {rich && <figure className="article-visual article-chart" data-visual="third-party-chart">
+                <svg viewBox="0 0 680 360" role="img" aria-labelledby="third-party-chart-title third-party-chart-desc">
+                  <title id="third-party-chart-title">{rich.chart.title}</title>
+                  <desc id="third-party-chart-desc">{rich.chart.description}</desc>
+                  <line x1="94" y1="286" x2="626" y2="286" className="chart-axis" />
+                  <line x1="94" y1="56" x2="94" y2="286" className="chart-axis" />
+                  <text x="74" y="290" textAnchor="end">0%</text>
+                  <text x="74" y="216" textAnchor="end">10%</text>
+                  <text x="74" y="143" textAnchor="end">20%</text>
+                  <text x="74" y="69" textAnchor="end">30%</text>
+                  <rect x="178" y="176" width="128" height="110" rx="12" className="chart-bar chart-bar-muted" />
+                  <rect x="404" y="66" width="128" height="220" rx="12" className="chart-bar" />
+                  <text x="242" y="162" textAnchor="middle" className="chart-value">15%</text>
+                  <text x="468" y="52" textAnchor="middle" className="chart-value">30%</text>
+                  <text x="242" y="320" textAnchor="middle">Prior comparison</text>
+                  <text x="468" y="320" textAnchor="middle">2025 report</text>
+                </svg>
+                <figcaption><strong>{rich.chart.title}</strong><span className="chart-methods">{rich.chart.methods}</span></figcaption>
+              </figure>}
+
+              {rich && <blockquote className="article-quote">
+                <p>“{rich.quote.text}”</p>
+                <cite><a href={rich.quote.url} rel="noreferrer">{rich.quote.attribution}</a></cite>
+              </blockquote>}
+
+              {rich && rich.banners.slice(0, 1).map((banner) => <aside className="article-banner banner-blue" data-banner-rotation="1" key={banner.heading}><div><span>{banner.eyebrow}</span><h2>{banner.heading}</h2><p>{banner.text}</p></div><a href={banner.href}>{banner.label}</a></aside>)}
 
               {detail.sections.map((section, index) => (
                 <section className="guide-block" id={`section-${index + 1}`} key={section.heading}>
@@ -180,12 +218,41 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
                 </section>
               ))}
 
+              {rich && <figure className="article-visual article-process" data-visual="payroll-access-path">
+                <svg viewBox="0 0 920 250" role="img" aria-labelledby="access-path-title access-path-desc">
+                  <title id="access-path-title">{rich.graphic.title}</title>
+                  <desc id="access-path-desc">{rich.graphic.description}</desc>
+                  {rich.graphic.steps.map((step, index) => {
+                    const x = 20 + index * 230;
+                    return <g key={step}>
+                      <rect x={x} y="72" width="190" height="104" rx="18" className={index === 2 ? 'process-owner' : 'process-box'} />
+                      <text x={x + 95} y="120" textAnchor="middle" className="process-number">{index + 1}</text>
+                      <text x={x + 95} y="148" textAnchor="middle" className="process-label">{step}</text>
+                      {index < rich.graphic.steps.length - 1 && <>
+                        <path d={`M ${x + 194} 124 H ${x + 214}`} className="process-arrow" />
+                        <polygon points={`${x + 214},116 ${x + 226},124 ${x + 214},132`} className="process-arrowhead" />
+                      </>}
+                    </g>;
+                  })}
+                </svg>
+                <figcaption><strong>{rich.graphic.title}</strong><span>Each arrow is a handoff. The owner review stays separate from record preparation.</span></figcaption>
+              </figure>}
+
+              {rich && rich.banners.slice(1, 2).map((banner) => <aside className="article-banner banner-green" data-banner-rotation="2" key={banner.heading}><div><span>{banner.eyebrow}</span><h2>{banner.heading}</h2><p>{banner.text}</p></div><a href={banner.href}>{banner.label}</a></aside>)}
+
               <section className="guide-brief" aria-labelledby="brief-heading">
                 <p className="eyebrow">Copy-ready brief</p>
                 <h2 id="brief-heading">Payroll support role brief</h2>
                 <p>Replace the tool names and owner details, then use this list in a provider call or job brief.</p>
                 <ul>{detail.roleBrief.map((item) => <li key={item}>{item}</li>)}</ul>
               </section>
+
+              {rich && rich.banners.slice(2, 3).map((banner) => <aside className="article-banner banner-dark" data-banner-rotation="3" key={banner.heading}><div><span>{banner.eyebrow}</span><h2>{banner.heading}</h2><p>{banner.text}</p></div><a href={banner.href}>{banner.label}</a></aside>)}
+
+              {rich && <section className="guide-block article-related" aria-labelledby="related-heading">
+                <h2 id="related-heading">Keep planning</h2>
+                <ul>{rich.internalLinks.map((link) => <li key={link.href}><a href={link.href}>{link.label}</a></li>)}</ul>
+              </section>}
 
               <section className="guide-block" id="faq">
                 <h2>Questions from payroll buyers</h2>
@@ -194,7 +261,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
 
               <section className="guide-sources" aria-labelledby="sources-heading">
                 <h2 id="sources-heading">Sources</h2>
-                <ul>{detail.sources.map((source) => <li key={source.url}><a href={source.url} rel="noreferrer">{source.name}</a><span>{source.note}</span></li>)}</ul>
+                <ol>{detail.sources.map((source) => <li key={source.url}><a href={source.url} rel="noreferrer">{source.name}</a><span>{source.note}</span></li>)}</ol>
               </section>
             </>
           ) : basicGuide ? (
@@ -212,7 +279,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
         </article>
         <CTA />
       </main>
-      <Footer />
+      <Footer hidePricing={Boolean(rich)} />
     </>
   );
 }

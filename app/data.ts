@@ -1,3 +1,5 @@
+import { publisherBlogDetails, publisherBlogPosts } from './publisherArticles';
+
 export const site = {
   domain: 'OutsourcePayrollCompany.com',
   slug: 'outsourcepayrollcompany',
@@ -131,6 +133,7 @@ export const services = [
 ] as const;
 
 export const blogPosts = [
+  ...publisherBlogPosts,
   {
     slug: 'outsource-payroll-company-planning',
     title: 'How to plan outsourced payroll support',
@@ -164,7 +167,20 @@ export const blogDetails: Record<string, {
   roleBrief: string[];
   faqs: { question: string; answer: string }[];
   sources: { name: string; url: string; note: string }[];
+  rich?: {
+    keyword: string;
+    marker: string;
+    published: string;
+    directAnswer: string[];
+    stats: { value: string; label: string; note: string }[];
+    quote: { text: string; attribution: string; url: string };
+    chart: { title: string; description: string; methods: string };
+    graphic: { title: string; description: string; steps: string[] };
+    banners: { eyebrow: string; heading: string; text: string; href: string; label: string }[];
+    internalLinks: { href: string; label: string }[];
+  };
 }> = {
+  ...publisherBlogDetails,
   'outsource-payroll-company-planning': {
     takeaways: [
       'Keep final payroll approval with a named payroll owner or provider.',
