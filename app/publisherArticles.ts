@@ -134,7 +134,7 @@ export const publisherBlogDetails = {
       banners: [
         { eyebrow: 'First pay cycle', heading: 'Map one safe payroll lane', text: 'Choose one repeat task, name its owner, and write the stop rules before access begins.', href: '/services/operations-support', label: 'See payroll operations support' },
         { eyebrow: 'Owner review', heading: 'Give exceptions a clear destination', text: 'Build a short report that shows missing records and sensitive changes without handing over approval.', href: '/services/reporting-and-qa', label: 'See reporting and QA support' },
-        { eyebrow: 'Next step', heading: 'Plan the first login and final sign-out', text: 'Use the onboarding guide to set examples, access limits, and removal checks for the assignment.', href: '/blog/outsource-payroll-company-onboarding-checklist', label: 'Read the onboarding checklist' },
+        { eyebrow: 'Next step', heading: 'Plan the first login and final sign-out', text: 'Use the onboarding guide to set examples, access limits, and removal checks for the assignment.', href: '/blog', label: 'Read the onboarding checklist' },
       ],
       internalLinks: [
         { href: '/services/admin-support', label: 'Payroll admin support in the Philippines' },

@@ -139,26 +139,7 @@ export const blogPosts = [
     title: 'How to plan outsourced payroll support',
     excerpt: 'Map payroll prep, approvals, access, and provider handoffs before you assign the work.',
     minutes: 10,
-  },
-  {
-    slug: 'outsource-payroll-company-tasks-to-outsource',
-    title: 'Which payroll tasks should you outsource first?',
-    excerpt: 'Start with recurring work that has examples and clear review rules.',
-    minutes: 7,
-  },
-  {
-    slug: 'outsource-payroll-company-provider-questions',
-    title: 'Questions to ask a payroll support provider',
-    excerpt: 'Ask who handles the work, where payroll data lives, and which decisions stay with your team.',
-    minutes: 8,
-  },
-  {
-    slug: 'outsource-payroll-company-onboarding-checklist',
-    title: 'First-pay-cycle onboarding checklist',
-    excerpt: 'Set up access, examples, stop rules, and owner reviews before the first payroll handoff.',
-    minutes: 9,
-  },
-] as const;
+  },] as const;
 
 export const blogDetails: Record<string, {
   takeaways: string[];
