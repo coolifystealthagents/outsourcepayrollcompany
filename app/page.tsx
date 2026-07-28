@@ -46,7 +46,7 @@ export default function Home() {
 
   return <>
     <Header />
-    <main className="payroll-home payroll-runbook-2026" data-design="payroll-runbook-2026">
+    <main className="payroll-home payroll-runbook-2026" data-design="payroll-runbook-2026" data-gi-rollout="two-illustration-packs-one-icon-pack">
       <JsonLd data={schema} />
 
       <section className="payroll-hero">
@@ -56,17 +56,17 @@ export default function Home() {
             <h1>Payroll prep without the payday scramble.</h1>
             <p className="payroll-lead">Add a Filipino payroll assistant to chase timesheets, log employee changes, sort payroll questions, and prepare the handoff. Your payroll owner keeps final approval.</p>
             <ul className="payroll-bullets" aria-label="Payroll support tasks">
-              <li>Keep pay-period inputs in one clear list</li>
-              <li>Flag missing hours and manager approvals</li>
-              <li>Route sensitive changes to the right owner</li>
-              <li>Prepare clean notes for your payroll provider</li>
+              <li><img src="/icons/getillustrations/3d-finance/payroll-input-calculator.webp" alt="" aria-hidden="true" />Keep pay-period inputs in one clear list</li>
+              <li><img src="/icons/getillustrations/3d-finance/pay-period-deadline.webp" alt="" aria-hidden="true" />Flag missing hours and manager approvals</li>
+              <li><img src="/icons/getillustrations/3d-finance/sensitive-data-vault.webp" alt="" aria-hidden="true" />Route sensitive changes to the right owner</li>
+              <li><img src="/icons/getillustrations/3d-finance/approval-document.webp" alt="" aria-hidden="true" />Prepare clean notes for your payroll provider</li>
             </ul>
             <a className="btn payroll-primary" href="/contact">Plan my payroll support</a>
             <p className="payroll-tagline">Keep the handoff clear and cut-off day calmer.</p>
           </div>
 
           <div className="payroll-hero-visual" aria-label="Payroll operations control desk preview">
-            <img src="/payroll-operations-team.jpg" alt="Office team working together on laptops" />
+            <img src="/illustrations/getillustrations/drawink-e-commerce/payroll-preparation-handoff.svg" alt="Illustration of hands preparing payroll documents and money for a checked handoff" />
             <div className="payroll-desk-card">
               <div className="desk-card-head">
                 <span>Pay-period desk</span>
@@ -106,6 +106,7 @@ export default function Home() {
             <p className="payroll-kicker">Built around approval</p>
             <h2>Your Filipino payroll assistant prepares. Your payroll owner decides.</h2>
             <p>Payroll data is sensitive. Start with the least access needed. Require a named reviewer for pay, tax, bank, benefit, and termination changes.</p>
+            <img className="payroll-support-illustration" src="/illustrations/getillustrations/hannah-business/payroll-approval-checklist.svg" alt="Illustration of an organized payroll approval checklist" />
             <div className="source-links">
               <a href="https://www.irs.gov/businesses/small-businesses-self-employed/employment-taxes" target="_blank" rel="noreferrer">IRS employment tax guide</a>
               <a href="https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final" target="_blank" rel="noreferrer">NIST access-control guidance</a>
