@@ -30,10 +30,21 @@
       "contentDirectory": "app/fleet-content.ts",
       "humanizer": "blader/humanizer",
       "terminalAction": "validated commit and push to origin/main"
+    },
+    {
+      "title": "Batched Coolify Deployment",
+      "cron": "0 3,9,15,21 * * *",
+      "timezone": "UTC",
+      "concurrency": "skip_if_active",
+      "catchUp": "skip_missed",
+      "priority": "high",
+      "assignee": "Chief of Staff",
+      "implementation": "scripts/batched-coolify-deployment.mjs",
+      "terminalAction": "one manual deployment only after SHA/queue guards; LIVE_VERIFIED only after live commit and Blog-page checks"
     }
   ],
   "prohibitedRoutines": [
     "alternatives", "gsc", "seo-pulse", "audit", "sitemap-digest", "recovery", "deployment", "cro", "documentation", "chat-status"
   ],
-  "deploymentBoundary": "Do not call Coolify or verify live pages from either content routine."
+    "deploymentBoundary": "Do not call Coolify or verify live pages from either content routine; deployment is isolated to Batched Coolify Deployment."
 }

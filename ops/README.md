@@ -2,6 +2,6 @@
 
 This repository is the production source for `OutsourcePayrollCompany.com`.
 
-Only the two routines in `recurring-routines.json` are authorized. Each run must use protected GitHub and Gemini secret injection, pass the applicable validators and build, commit the complete batch, push to `origin/main`, and record the SHA, branch, pushed files, push result, and validation result.
+The two content routines in `recurring-routines.json` remain authorized to create and validate content, commit the complete batch, push to `origin/main`, and record the SHA, branch, pushed files, push result, and validation result. The separate `Batched Coolify Deployment` routine consumes that hand-off and is the only routine allowed to inspect or trigger Coolify.
 
 The GitHub push is the terminal state. Do not call Coolify, trigger or monitor deployment, or verify live pages from these routines. Do not add alternatives, GSC, SEO pulse, audit, sitemap-digest, recovery, deployment, CRO, documentation, or chat-status routines.
