@@ -1,0 +1,28 @@
+{
+  "site": "outsourcepayrollcompany.com",
+  "repository": "coolifystealthagents/outsourcepayrollcompany",
+  "branch": "main",
+  "timezone": "UTC",
+  "routines": [
+    {
+      "id": "daily-blog-publishing",
+      "title": "Daily Blog Publishing",
+      "cron": "0 9 * * 1-5",
+      "concurrency": "skip_if_active",
+      "catchUp": "skip_missed",
+      "priority": "medium",
+      "target": "random inclusive integer 20..25",
+      "runbook": "Research, de-duplicate, brief, draft, validate, run official blader/humanizer, revalidate, generate deterministic thumbnail, update blog indexes/sitemap inputs, build, commit, push, record SHA/branch/files/result, then stop."
+    },
+    {
+      "id": "daily-research-publishing",
+      "title": "Daily Research Publishing",
+      "cron": "0 6 * * *",
+      "concurrency": "always_enqueue",
+      "catchUp": "skip_missed",
+      "priority": "high",
+      "target": "random inclusive integer 10..15",
+      "runbook": "Research at least 10 real sources, de-duplicate, brief, draft, validate, run official blader/humanizer, revalidate, generate deterministic thumbnail, update research indexes/clusters/related mappings/sitemap inputs, build, commit, push, record SHA/branch/files/result, then stop."
+    }
+  ]
+}

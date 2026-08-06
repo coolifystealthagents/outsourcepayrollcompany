@@ -1,0 +1,39 @@
+{
+  "site": "outsourcepayrollcompany.com",
+  "siteLabel": "OutsourcePayrollCompany.com",
+  "repository": "coolifystealthagents/outsourcepayrollcompany",
+  "framework": "Next.js",
+  "productionBranch": "main",
+  "timezone": "UTC",
+  "playbookVersion": "2.4",
+  "routines": [
+    {
+      "title": "Daily Blog Publishing",
+      "cron": "0 9 * * 1-5",
+      "timezone": "UTC",
+      "concurrency": "skip_if_active",
+      "catchUp": "skip_missed",
+      "priority": "medium",
+      "target": { "min": 20, "max": 25 },
+      "contentDirectory": "app/data.ts",
+      "humanizer": "blader/humanizer",
+      "terminalAction": "validated commit and push to origin/main"
+    },
+    {
+      "title": "Daily Research Publishing",
+      "cron": "0 6 * * *",
+      "timezone": "UTC",
+      "concurrency": "always_enqueue",
+      "catchUp": "skip_missed",
+      "priority": "high",
+      "target": { "min": 10, "max": 15 },
+      "contentDirectory": "app/fleet-content.ts",
+      "humanizer": "blader/humanizer",
+      "terminalAction": "validated commit and push to origin/main"
+    }
+  ],
+  "prohibitedRoutines": [
+    "alternatives", "gsc", "seo-pulse", "audit", "sitemap-digest", "recovery", "deployment", "cro", "documentation", "chat-status"
+  ],
+  "deploymentBoundary": "Do not call Coolify or verify live pages from either content routine."
+}
