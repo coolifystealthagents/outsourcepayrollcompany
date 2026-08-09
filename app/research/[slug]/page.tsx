@@ -13,10 +13,12 @@ export default async function ResearchArticle({params}:{params:Promise<{slug:str
     <p className="eyebrow">Research brief · {post.published}</p><h1>{post.title}</h1><p className="lead">{post.excerpt}</p>
     <div className="article-direct-answer"><h2>Research finding</h2><p>{post.takeaways[0]}</p></div>
     <div className="article-stat-grid"><div className="article-stat"><strong>{post.stat.split(' ')[0]}</strong><span>Headline measure</span><small>See the numbered sources below.</small></div></div>
+    <section><h2>Methodology</h2><p>This brief triangulates the headline measure against official Philippine government, regulatory, development, and labor sources. It translates the evidence into an operating control and separates context from recommendations.</p><table><caption>Key stats and interpretation</caption><thead><tr><th>Measure</th><th>Interpretation</th></tr></thead><tbody><tr><td>{post.stat}</td><td>Context signal for planning; not a promise about an individual worker or provider.</td></tr><tr><td>{post.sources.length} source records</td><td>Primary source links are listed and numbered below for review.</td></tr></tbody></table></section>
     <section><h2>Key takeaways</h2><ul>{post.takeaways.map(x=><li key={x}>{x}</li>)}</ul></section>
     {post.sections.map(s=><section key={s.heading}><h2>{s.heading}</h2>{s.body.split('. ').map((p,i)=><p key={i}>{p}{p.endsWith('.')?'':'.'}</p>)}</section>)}
     <section className="guide-sources"><h2>Sources</h2><ol>{post.sources.map(s=><li key={s.url}><a href={s.url} target="_blank" rel="noreferrer">{s.label}</a></li>)}</ol></section>
     <section><h2>FAQs</h2>{post.faq.map(f=><div key={f.question}><h3>{f.question}</h3><p>{f.answer}</p></div>)}</section>
+    <p>For adjacent operating context, see <a href="/services/payroll-preparation">Payroll Preparation</a> and <a href="/blog">the payroll operations guide library</a>.</p>
     <section className="article-related"><h2>Related research</h2><ul>{related.map(r=>{const p=researchPosts.find(x=>x.slug===r);return p?<li key={r}><a href={`/research/${r}`}>{p.title}</a></li>:null})}</ul></section>
     <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(schema)}}/>
   </article></main><Footer/></>
