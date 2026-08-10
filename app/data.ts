@@ -1,4 +1,4 @@
-import { additionalPublisherBlogDetails, additionalPublisherBlogPosts, publisherBlogDetails, publisherBlogPosts } from './publisherArticles';
+import { additionalPublisherBlogDetails, additionalPublisherBlogPosts, publisherBlogDetails, publisherBlogPosts, secondPublisherBlogDetails, secondPublisherBlogPosts } from './publisherArticles';
 
 export const site = {
   domain: 'OutsourcePayrollCompany.com',
@@ -135,6 +135,7 @@ export const services = [
 export const blogPosts = [
   ...publisherBlogPosts,
   ...additionalPublisherBlogPosts,
+  ...secondPublisherBlogPosts,
   {
     slug: 'outsource-payroll-company-planning',
     title: 'How to plan outsourced payroll support',
@@ -164,6 +165,7 @@ export const blogDetails: Record<string, {
 }> = {
   ...publisherBlogDetails,
   ...additionalPublisherBlogDetails,
+  ...secondPublisherBlogDetails,
   'outsource-payroll-company-planning': {
     takeaways: [
       'Keep final payroll approval with a named payroll owner or provider.',
