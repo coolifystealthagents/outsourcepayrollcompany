@@ -220,6 +220,12 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
                 </section>
               ))}
 
+              {detail.publication && <section className="guide-block article-publication-links article-related" aria-label="Related payroll resources">
+                <p>Continue the workflow with <a href={detail.publication.internalLinks[0]}>operations support</a> and <a href={detail.publication.internalLinks[1]}>reporting and QA support</a>. For the access principle behind this routine, review <a href={detail.publication.externalLink} rel="noreferrer">NIST Zero Trust Architecture</a>.</p>
+                <h2>Related articles</h2>
+                <ul>{detail.publication.related.map((related) => <li key={related}><a href={`/blog/${related}`}>{related.replaceAll('-', ' ')}</a></li>)}</ul>
+              </section>}
+
               {rich && <figure className="article-visual article-process" data-visual="payroll-access-path">
                 <svg viewBox="0 0 920 250" role="img" aria-labelledby="access-path-title access-path-desc">
                   <title id="access-path-title">{rich.graphic.title}</title>

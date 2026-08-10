@@ -250,6 +250,69 @@ const secondPublisherBlogDetails = Object.fromEntries(secondBatchTopics.map(([sl
 
 export { secondPublisherBlogPosts, secondPublisherBlogDetails };
 
+// Daily Blog batch selected target: 23. Each topic is a separate operating
+// question and is screened against the existing Blog and Research slugs.
+const thirdBatchTopics = [
+  ['payroll-calendar-risk-review', 'Payroll calendar risk review before each pay cycle', 'Review cutoff risk, owner coverage, and unresolved inputs before a busy payroll cycle starts.'],
+  ['payroll-input-source-register', 'Payroll input source register for clean handoffs', 'Track where each payroll input comes from, who owns it, and how its receipt is confirmed.'],
+  ['payroll-manager-approval-matrix', 'Payroll manager approval matrix: who decides what', 'Map routine preparation, sensitive changes, and final approvals to named decision owners.'],
+  ['payroll-correction-request-intake', 'Payroll correction request intake workflow', 'Capture the source issue, impact, approval path, and follow-up check for payroll corrections.'],
+  ['payroll-payroll-owner-daily-review', 'Payroll owner daily review routine', 'Give a payroll owner a short daily review that surfaces exceptions before the cutoff narrows.'],
+  ['payroll-support-queue-aging', 'Payroll support queue aging guide', 'Use age, cutoff impact, sensitivity, and owner response to prioritize an open payroll queue.'],
+  ['payroll-approval-deadline-map', 'Payroll approval deadline map', 'Turn a pay calendar into visible approval windows with reminders, backups, and escalation points.'],
+  ['payroll-document-receipt-log', 'Payroll document receipt log template', 'Confirm which payroll documents arrived, from whom, when, and whether the file is ready for review.'],
+  ['payroll-payroll-handoff-quality-score', 'Payroll handoff quality scorecard', 'Review source links, completeness, exception ownership, and approval evidence in each provider handoff.'],
+  ['payroll-employee-query-escalation', 'Payroll employee query escalation guide', 'Route employee payroll questions with approved responses, sensitivity checks, and owner escalation.'],
+  ['payroll-access-request-intake', 'Payroll access request intake checklist', 'Review the task, system, duration, owner, and removal date before outside support receives access.'],
+  ['payroll-first-cycle-review-agenda', 'First outsourced payroll cycle review agenda', 'Use a focused review agenda to assess the first support cycle before expanding the work.'],
+  ['payroll-pay-period-close-checklist', 'Pay-period close checklist for payroll support', 'Close a pay period by confirming open items, owner decisions, evidence, and retention steps.'],
+  ['payroll-urgent-request-triage', 'Urgent payroll request triage rules', 'Separate true cutoff risks from routine requests while keeping sensitive decisions with the owner.'],
+  ['payroll-payroll-workflow-exceptions', 'Payroll workflow exception categories', 'Classify missing, conflicting, late, sensitive, and duplicate inputs so each exception gets the right next step.'],
+  ['payroll-backup-contact-register', 'Payroll backup contact register', 'Keep backup owners, escalation contacts, coverage windows, and safe stop rules ready for absences.'],
+  ['payroll-approval-reminder-log', 'Payroll approval reminder log', 'Record reminders without exposing unnecessary employee details or losing the final owner decision.'],
+  ['payroll-provider-handoff-review', 'Payroll provider handoff review checklist', 'Check the handoff packet against the pay calendar, source records, open exceptions, and approval evidence.'],
+  ['payroll-workflow-change-control', 'Payroll workflow change control guide', 'Document changes to a payroll routine, its reason, approver, effective date, and review result.'],
+  ['payroll-sensitive-file-sharing', 'Sensitive payroll file sharing controls', 'Use approved locations, named access, receipt confirmation, and removal checks for payroll files.'],
+  ['payroll-cycle-owner-scorecard', 'Payroll cycle owner scorecard', 'Measure a payroll cycle by timeliness, evidence quality, exception closure, and clear ownership.'],
+  ['payroll-sop-review-calendar', 'Payroll SOP review calendar', 'Schedule practical SOP reviews after cycle changes, recurring exceptions, and access updates.'],
+  ['payroll-outsourced-support-boundaries', 'Outsourced payroll support boundaries to document', 'Define preparation, routing, approval, and stop rules before an outside support lane begins.'],
+] as const;
+
+const thirdPublisherBlogPosts = thirdBatchTopics.map(([slug, title, excerpt]) => ({ slug, title, excerpt, minutes: 9 })) as ReadonlyArray<{ slug: string; title: string; excerpt: string; minutes: number }>;
+const thirdPublisherBlogDetails = Object.fromEntries(thirdBatchTopics.map(([slug, title]) => {
+  const subject = title.replace(/:.*$/, '').toLowerCase();
+  return [slug, {
+    takeaways: [`Give ${subject} a named owner, deadline, and visible status.`, 'Keep preparation separate from approval for pay, tax, banking, benefits, and employment-status decisions.', 'Close each cycle with evidence that another person can inspect.'],
+    readinessRows: [
+      { area: 'Inputs', ready: 'Required records and examples are listed in one approved location.', ownerCheck: 'The owner confirms what is complete and what is missing.' },
+      { area: 'Ownership', ready: 'Every item has an owner, backup, due date, and response window.', ownerCheck: 'The owner resolves blocked or sensitive items.' },
+      { area: 'Evidence', ready: 'Exceptions link to source records and show the next action.', ownerCheck: 'An authorized owner reviews the evidence before action.' },
+      { area: 'Handoff', ready: 'The final checklist has a date, status, and named recipient.', ownerCheck: 'The payroll owner signs off before submission.' },
+    ],
+    sections: [
+      { heading: `Define the finish line for ${subject}`, paragraphs: [`Start by describing what a complete ${subject} looks like at the end of one pay cycle. Name the input, expected output, and person who checks it.`, 'Keep examples in an approved folder and link to the source record rather than copying sensitive payroll data into extra tools.'] },
+      { heading: 'Separate preparation from approval', paragraphs: ['A Philippines-based payroll support specialist can collect records, prepare a tracker, send an approved reminder, and flag an exception. The payroll owner should decide disputed hours, pay changes, tax questions, deductions, bank details, and final submission.', 'Use a named account and the smallest access needed for the first task. Turn on multifactor authentication, avoid shared credentials, and record who grants and removes access.'], bullets: ['Collect and organize source records.', 'Flag missing or conflicting information.', 'Route sensitive decisions to the authorized owner.', 'Record the owner decision and date.'] },
+      { heading: 'Run the workflow on one complete cycle', paragraphs: ['Test the workflow on one complete cycle before adding another task. The owner should review exceptions at a predictable time and answer blocked items before the cutoff window narrows.', 'After payroll closes, note late inputs, unclear instructions, duplicate work, and permissions that were not needed. Update the SOP while the examples are still fresh.'] },
+      { heading: 'Use a compact quality check', paragraphs: ['Before handoff, check that each item has a source, owner, status, and next action. Compare the final list against the previous cycle so missing changes or duplicate entries stand out.', 'Do not treat an empty exception list as proof that the work is correct. Confirm the source population, date range, and approval record before closing the task.'] },
+      { heading: 'Close the cycle and improve the next one', paragraphs: ['Send one dated handoff note that names completed work, open exceptions, owner decisions, and the next deadline. Keep it short enough that a manager can review it without reconstructing the whole conversation.', 'Review the output with the payroll owner, remove unneeded access, and retain only the records the company needs. Expand the lane only when the first routine is consistent and easy to inspect.'] },
+    ],
+    roleBrief: ['Role: Philippines-based payroll preparation and follow-up support', 'Daily output: a dated tracker with source links and owner decisions', 'Access: named account with only task-specific permissions', 'Stop rule: pause when approval, source, or system access is unclear', 'Escalation: send sensitive payroll decisions to the authorized owner'],
+    faqs: [
+      { question: `What should a support specialist do first with ${subject}?`, answer: 'Start with one repeatable preparation task, two good examples, and a named reviewer. Keep the first cycle narrow enough to inspect every item.' },
+      { question: 'Which decisions should stay with the payroll owner?', answer: 'Keep disputed pay, taxes, deductions, bank details, employment status, and final submission with the authorized payroll owner or provider.' },
+      { question: 'How do we know the routine is ready to expand?', answer: 'Expand after a full cycle has clean source links, fewer late follow-ups, clear exception ownership, and no unexplained access or approval gaps.' },
+    ],
+    sources: [
+      { name: 'CISA: Turn on multifactor authentication', url: 'https://www.cisa.gov/secure-our-world/turn-mfa', note: 'Official account-security guidance supporting multifactor authentication.' },
+      { name: 'NIST: Zero Trust Architecture, SP 800-207', url: 'https://www.nist.gov/publications/zero-trust-architecture', note: 'Official guidance supporting explicit verification and least-privilege access.' },
+      { name: 'IRS: Publication 15, Employer Tax Guide', url: 'https://www.irs.gov/publications/p15', note: 'Official employer payroll guidance; consult a qualified adviser for rules that apply to your company.' },
+    ],
+    publication: { internalLinks: ['/services/operations-support', '/services/reporting-and-qa'], externalLink: 'https://www.nist.gov/publications/zero-trust-architecture', related: ['payroll-cutoff-checklist', 'payroll-reconciliation-workflow', 'payroll-outsourcing-first-cycle'] },
+  }];
+})) as Record<string, (typeof publisherBlogDetails)[keyof typeof publisherBlogDetails] & { publication: { internalLinks: string[]; externalLink: string; related: string[] } }>;
+
+export { thirdPublisherBlogPosts, thirdPublisherBlogDetails };
+
 export const additionalPublisherBlogPosts = batchTopics.map(([slug, title, excerpt]) => ({ slug, title, excerpt, minutes: 9 })) as ReadonlyArray<{ slug: string; title: string; excerpt: string; minutes: number }>;
 
 export const additionalPublisherBlogDetails = Object.fromEntries(batchTopics.map(([slug, title]) => {
