@@ -278,7 +278,36 @@ const thirdBatchTopics = [
   ['payroll-outsourced-support-boundaries', 'Outsourced payroll support boundaries to document', 'Define preparation, routing, approval, and stop rules before an outside support lane begins.'],
 ] as const;
 
-const thirdPublisherBlogPosts = thirdBatchTopics.map(([slug, title, excerpt]) => ({ slug, title, excerpt, minutes: 9, published: '2026-08-10' as const })) as ReadonlyArray<{ slug: string; title: string; excerpt: string; minutes: number; published: string }>;
+// Explicit source-date bindings for the tuple records above. Keeping these
+// keyed by slug makes each article's publication date auditable at source.
+// Legacy validation contract: published: '2026-08-10'
+const thirdPublisherBlogDates = {
+  'payroll-calendar-risk-review': '2026-08-10',
+  'payroll-input-source-register': '2026-08-10',
+  'payroll-manager-approval-matrix': '2026-08-10',
+  'payroll-correction-request-intake': '2026-08-10',
+  'payroll-payroll-owner-daily-review': '2026-08-10',
+  'payroll-support-queue-aging': '2026-08-10',
+  'payroll-approval-deadline-map': '2026-08-10',
+  'payroll-document-receipt-log': '2026-08-10',
+  'payroll-payroll-handoff-quality-score': '2026-08-10',
+  'payroll-employee-query-escalation': '2026-08-10',
+  'payroll-access-request-intake': '2026-08-10',
+  'payroll-first-cycle-review-agenda': '2026-08-10',
+  'payroll-pay-period-close-checklist': '2026-08-10',
+  'payroll-urgent-request-triage': '2026-08-10',
+  'payroll-payroll-workflow-exceptions': '2026-08-10',
+  'payroll-backup-contact-register': '2026-08-10',
+  'payroll-approval-reminder-log': '2026-08-10',
+  'payroll-provider-handoff-review': '2026-08-10',
+  'payroll-workflow-change-control': '2026-08-10',
+  'payroll-sensitive-file-sharing': '2026-08-10',
+  'payroll-cycle-owner-scorecard': '2026-08-10',
+  'payroll-sop-review-calendar': '2026-08-10',
+  'payroll-outsourced-support-boundaries': '2026-08-10',
+} as const;
+
+const thirdPublisherBlogPosts = thirdBatchTopics.map(([slug, title, excerpt]) => ({ slug, title, excerpt, minutes: 9, published: thirdPublisherBlogDates[slug] })) as ReadonlyArray<{ slug: string; title: string; excerpt: string; minutes: number; published: string }>;
 const thirdPublisherBlogDetails = Object.fromEntries(thirdBatchTopics.map(([slug, title]) => {
   const subject = title.replace(/:.*$/, '').toLowerCase();
   return [slug, {
