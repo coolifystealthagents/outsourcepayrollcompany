@@ -342,6 +342,58 @@ const thirdPublisherBlogDetails = Object.fromEntries(thirdBatchTopics.map(([slug
 
 export { thirdPublisherBlogPosts, thirdPublisherBlogDetails };
 
+// August 11, 2026 Blog batch. Each object binds its public date directly to
+// the article record so the loader and rendered route can audit it.
+const august11BlogPosts = [
+  { slug: 'payroll-approval-calendar-template', title: 'Payroll approval calendar template for every pay cycle', excerpt: 'Build a visible calendar for inputs, approvals, reminders, backup owners, and final handoff decisions.', minutes: 9, published: '2026-08-11' },
+  { slug: 'payroll-input-completeness-check', title: 'Payroll input completeness check before cutoff', excerpt: 'Check required payroll inputs by source, owner, date, and exception status before the cutoff window closes.', minutes: 9, published: '2026-08-11' },
+  { slug: 'payroll-owner-escalation-tree', title: 'Payroll owner escalation tree for unresolved issues', excerpt: 'Give late, sensitive, and conflicting payroll items a clear escalation path and decision owner.', minutes: 9, published: '2026-08-11' },
+  { slug: 'payroll-change-request-register', title: 'Payroll change request register that preserves approval history', excerpt: 'Track employee and pay changes from source request through owner review without losing the audit trail.', minutes: 9, published: '2026-08-11' },
+  { slug: 'payroll-provider-file-readiness', title: 'Payroll provider file readiness checklist', excerpt: 'Review a provider file for completeness, source evidence, exceptions, and authorized approval before sending it.', minutes: 9, published: '2026-08-11' },
+  { slug: 'payroll-cutoff-readiness-review', title: 'Payroll cutoff readiness review for small teams', excerpt: 'Use a short readiness review to surface missing inputs, coverage gaps, and decisions that cannot wait.', minutes: 9, published: '2026-08-11' },
+  { slug: 'payroll-employee-record-request-log', title: 'Payroll employee record request log', excerpt: 'Organize payroll document and record requests with a requester, due date, sensitivity check, and resolution.', minutes: 9, published: '2026-08-11' },
+  { slug: 'payroll-late-input-decision-log', title: 'Payroll late-input decision log', excerpt: 'Document what arrived late, who decided the next step, and how the payroll owner confirmed the outcome.', minutes: 9, published: '2026-08-11' },
+  { slug: 'payroll-approval-gap-review', title: 'Payroll approval gap review guide', excerpt: 'Find missing, ambiguous, or conflicting approvals before they become a pay-period exception.', minutes: 9, published: '2026-08-11' },
+  { slug: 'payroll-handoff-source-link-check', title: 'Payroll handoff source-link check', excerpt: 'Confirm that every handoff item points to the right source record and can be reviewed by the owner.', minutes: 9, published: '2026-08-11' },
+  { slug: 'payroll-sensitive-request-routing', title: 'Payroll sensitive request routing guide', excerpt: 'Route banking, tax, pay, and employment-status requests through approved sources and named decision owners.', minutes: 9, published: '2026-08-11' },
+  { slug: 'payroll-cycle-open-items-review', title: 'Payroll cycle open-items review', excerpt: 'Keep unresolved payroll work visible with status, impact, owner, deadline, and the next safe action.', minutes: 9, published: '2026-08-11' },
+  { slug: 'payroll-coverage-window-plan', title: 'Payroll coverage window plan for absences', excerpt: 'Prepare temporary coverage with task limits, backup ownership, response windows, and stop rules.', minutes: 9, published: '2026-08-11' },
+  { slug: 'payroll-receipt-confirmation-process', title: 'Payroll receipt confirmation process', excerpt: 'Confirm that payroll files and approvals arrived at the right location and are ready for review.', minutes: 9, published: '2026-08-11' },
+  { slug: 'payroll-review-notes-template', title: 'Payroll review notes template for owner sign-off', excerpt: 'Capture review questions, decisions, exceptions, and follow-up actions in a compact sign-off record.', minutes: 9, published: '2026-08-11' },
+  { slug: 'payroll-repeated-exception-review', title: 'Payroll repeated exception review', excerpt: 'Identify recurring payroll exceptions and decide whether the input, owner, deadline, or handoff needs changing.', minutes: 9, published: '2026-08-11' },
+  { slug: 'payroll-approval-substitution-controls', title: 'Payroll approval substitution controls', excerpt: 'Set safe rules for backup approvals when the usual payroll owner is unavailable.', minutes: 9, published: '2026-08-11' },
+  { slug: 'payroll-record-source-map', title: 'Payroll record source map', excerpt: 'Map each recurring payroll record to its source, custodian, review owner, and retention location.', minutes: 9, published: '2026-08-11' },
+  { slug: 'payroll-exception-closure-check', title: 'Payroll exception closure check', excerpt: 'Close exceptions only after the source, owner decision, correction, and follow-up evidence are recorded.', minutes: 9, published: '2026-08-11' },
+  { slug: 'payroll-first-review-boundary', title: 'Payroll first-review boundary for outsourced support', excerpt: 'Define what outside support may prepare and what must remain with the authorized payroll owner.', minutes: 9, published: '2026-08-11' },
+  { slug: 'payroll-cycle-evidence-index', title: 'Payroll cycle evidence index', excerpt: 'Create an index that helps an owner find source records, approvals, exceptions, and final handoff evidence.', minutes: 9, published: '2026-08-11' },
+  { slug: 'payroll-next-cycle-action-list', title: 'Payroll next-cycle action list', excerpt: 'Turn each closed pay cycle into a short list of improvements, owners, dates, and review points.', minutes: 9, published: '2026-08-11' },
+] as const;
+
+const august11BlogDetails = Object.fromEntries(august11BlogPosts.map(({ title }) => {
+  const subject = title.replace(/:.*$/, '').toLowerCase();
+  return [title, {
+    takeaways: [`Give ${subject} a named owner, deadline, and visible status.`, 'Keep preparation separate from approval for sensitive payroll decisions.', 'Close the cycle with source evidence another person can inspect.'],
+    readinessRows: [
+      { area: 'Inputs', ready: 'Required records and examples are listed in one approved location.', ownerCheck: 'The owner confirms what is complete and what is missing.' },
+      { area: 'Ownership', ready: 'Each item has an owner, backup, due date, and response window.', ownerCheck: 'The owner resolves blocked or sensitive items.' },
+      { area: 'Evidence', ready: 'Exceptions link to source records and show the next action.', ownerCheck: 'An authorized owner reviews evidence before action.' },
+      { area: 'Handoff', ready: 'The final checklist has a date, status, and named recipient.', ownerCheck: 'The payroll owner signs off before submission.' },
+    ],
+    sections: [
+      { heading: `Define the finish line for ${subject}`, paragraphs: [`Start by describing what a complete ${subject} looks like at the end of one pay cycle. Name the input, expected output, and person who checks it.`, 'Keep examples in an approved location and link to the source record instead of copying sensitive payroll data into extra tools.'] },
+      { heading: 'Separate preparation from approval', paragraphs: ['A payroll support specialist can collect records, prepare a tracker, and flag an exception. The payroll owner should decide disputed hours, pay changes, tax questions, deductions, bank details, and final submission.', 'Use the smallest access needed for the task, avoid shared credentials, and record who grants and removes access.'], bullets: ['Collect and organize source records.', 'Flag missing or conflicting information.', 'Route sensitive decisions to the authorized owner.', 'Record the owner decision and date.'] },
+      { heading: 'Review one complete cycle', paragraphs: ['Test the workflow on one complete cycle before adding another task. Review blocked items before the cutoff window narrows.', 'After payroll closes, note late inputs, unclear instructions, duplicate work, and permissions that were not needed.'] },
+      { heading: 'Close with inspectable evidence', paragraphs: ['Send a dated handoff note naming completed work, open exceptions, owner decisions, and the next deadline.', 'Retain only the records the company needs and expand the lane only when the first routine is consistent and easy to inspect.'] },
+    ],
+    roleBrief: ['Role: payroll preparation and follow-up support', 'Daily output: a dated tracker with source links and owner decisions', 'Access: named account with task-specific permissions', 'Stop rule: pause when approval, source, or access is unclear', 'Escalation: send sensitive decisions to the authorized owner'],
+    faqs: [{ question: `What should support do first with ${subject}?`, answer: 'Start with one repeatable preparation task, two good examples, and a named reviewer.' }, { question: 'Which decisions stay with the payroll owner?', answer: 'Keep disputed pay, taxes, deductions, bank details, employment status, and final submission with the authorized owner or provider.' }, { question: 'When is the routine ready to expand?', answer: 'Expand after a full cycle has clean source links, clear exception ownership, and no unexplained access or approval gaps.' }],
+    sources: [{ name: 'CISA: Turn on multifactor authentication', url: 'https://www.cisa.gov/secure-our-world/turn-mfa', note: 'Official account-security guidance.' }, { name: 'NIST: Zero Trust Architecture, SP 800-207', url: 'https://www.nist.gov/publications/zero-trust-architecture', note: 'Official least-privilege and explicit-verification guidance.' }],
+  }];
+})) as Record<string, (typeof publisherBlogDetails)[keyof typeof publisherBlogDetails]>;
+
+const august11DetailsBySlug = Object.fromEntries(august11BlogPosts.map((post) => [post.slug, august11BlogDetails[post.title]]));
+export { august11BlogPosts, august11DetailsBySlug };
+
 export const additionalPublisherBlogPosts = batchTopics.map(([slug, title, excerpt]) => ({ slug, title, excerpt, minutes: 9 })) as ReadonlyArray<{ slug: string; title: string; excerpt: string; minutes: number }>;
 
 export const additionalPublisherBlogDetails = Object.fromEntries(batchTopics.map(([slug, title]) => {
