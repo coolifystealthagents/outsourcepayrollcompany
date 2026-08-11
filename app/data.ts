@@ -133,10 +133,10 @@ export const services = [
 ] as const;
 
 export const blogPosts = [
+  ...thirdPublisherBlogPosts,
   ...publisherBlogPosts,
   ...additionalPublisherBlogPosts,
   ...secondPublisherBlogPosts,
-  ...thirdPublisherBlogPosts,
   {
     slug: 'outsource-payroll-company-planning',
     title: 'How to plan outsourced payroll support',
