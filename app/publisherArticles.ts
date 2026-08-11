@@ -278,7 +278,7 @@ const thirdBatchTopics = [
   ['payroll-outsourced-support-boundaries', 'Outsourced payroll support boundaries to document', 'Define preparation, routing, approval, and stop rules before an outside support lane begins.'],
 ] as const;
 
-const thirdPublisherBlogPosts = thirdBatchTopics.map(([slug, title, excerpt]) => ({ slug, title, excerpt, minutes: 9 })) as ReadonlyArray<{ slug: string; title: string; excerpt: string; minutes: number }>;
+const thirdPublisherBlogPosts = thirdBatchTopics.map(([slug, title, excerpt]) => ({ slug, title, excerpt, minutes: 9, published: '2026-08-10' as const })) as ReadonlyArray<{ slug: string; title: string; excerpt: string; minutes: number; published: string }>;
 const thirdPublisherBlogDetails = Object.fromEntries(thirdBatchTopics.map(([slug, title]) => {
   const subject = title.replace(/:.*$/, '').toLowerCase();
   return [slug, {

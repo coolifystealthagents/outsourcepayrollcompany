@@ -95,6 +95,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   const basicGuide = basicGuides[post.slug];
   const postUrl = `${siteUrl}/blog/${post.slug}`;
   const rich = detail?.rich;
+  const published = 'published' in post ? post.published : rich?.published;
 
   const graph: Record<string, unknown>[] = [
     {
@@ -106,7 +107,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
       mainEntityOfPage: { '@id': `${postUrl}#webpage` },
       author: { '@type': 'Organization', name: site.brand, url: siteUrl },
       publisher: { '@type': 'Organization', name: site.brand, url: siteUrl },
-      ...(rich ? { datePublished: rich.published, dateModified: rich.published } : {}),
+      ...(published ? { datePublished: published, dateModified: published } : {}),
       ...(detail ? {
         citation: detail.sources.map((source) => source.url),
         hasPart: detail.sections.map((section, index) => ({
@@ -156,6 +157,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
         <article className={`container guide-article${rich ? ' publisher-article' : ''}`} data-article-marker={rich?.marker}>
           <p className="eyebrow">{site.brand} guide</p>
           <h1>{post.title}</h1>
+          {'published' in post && <time dateTime={post.published}>{post.published}</time>}
           <p className="lead">{post.excerpt}</p>
 
           {detail ? (
