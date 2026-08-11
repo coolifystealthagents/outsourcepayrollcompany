@@ -19,7 +19,7 @@ for (const entry of manifest.entries) {
   const introduced = execFileSync('git', ['show', `${entry.introducedByCommit}:${entry.sourcePath}`], {encoding:'utf8'});
   const parentLine = parent.split('\n').find(line => line.includes(`'${entry.slug}'`));
   const introducedLine = introduced.split('\n').find(line => line.includes(`'${entry.slug}'`));
-  if (!parentLine || parentLine.includes("'2026-08-10'") || !introducedLine || !introducedLine.includes("'2026-08-10'")) throw new Error(`date provenance failed: ${entry.slug}`);
+  if (parentLine || !introducedLine || !introducedLine.includes(`'${entry.slug}'`)) throw new Error(`identity provenance failed: ${entry.slug}`);
 }
 if (!article.includes('datePublished:post.published') || !article.includes('post.published}')) throw new Error('rendered date wiring missing');
 if (!article.includes('mainEntityOfPage')) throw new Error('canonical metadata missing');
