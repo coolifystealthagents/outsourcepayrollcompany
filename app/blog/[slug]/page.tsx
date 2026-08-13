@@ -4,6 +4,11 @@ import { blogDetails, blogPosts, site } from '../../data';
 
 const siteUrl = 'https://outsourcepayrollcompany.com';
 
+const publicationDateFormatter = new Intl.DateTimeFormat('en-US', {
+  year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC',
+});
+const formatPublicationDate = (value: string) => publicationDateFormatter.format(new Date(`${value}T00:00:00Z`));
+
 const basicGuides: Record<string, {
   intro: string;
   sections: { heading: string; paragraphs: string[]; bullets?: string[] }[];
@@ -157,7 +162,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
         <article className={`container guide-article${rich ? ' publisher-article' : ''}`} data-article-marker={rich?.marker}>
           <p className="eyebrow">{site.brand} guide</p>
           <h1>{post.title}</h1>
-          {'published' in post && <time dateTime={post.published}>{post.published}</time>}
+          {'published' in post && <time dateTime={post.published}>{formatPublicationDate(post.published)}</time>}
           <p className="lead">{post.excerpt}</p>
 
           {detail ? (
