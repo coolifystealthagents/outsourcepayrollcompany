@@ -369,8 +369,21 @@ const august13Body = (s: August13Seed) => [
   `A mature review also asks what should not be retained or automated. Remove duplicate exports, limit sensitive fields, and do not let a threshold replace human approval. Use the evidence to make the next cycle easier to inspect, not merely faster to close.`
 ].join(' ');
 
+const august13PublicationDates = {
+  'philippines-payroll-employee-data-lineage':'2026-08-13',
+  'philippines-payroll-approval-age-analysis':'2026-08-13',
+  'philippines-payroll-remittance-source-matching':'2026-08-13',
+  'philippines-payroll-leave-accrual-evidence':'2026-08-13',
+  'philippines-payroll-bank-file-release-separation':'2026-08-13',
+  'philippines-payroll-provider-rejection-patterns':'2026-08-13',
+  'philippines-payroll-cross-border-time-window':'2026-08-13',
+  'philippines-payroll-sensitive-change-verification':'2026-08-13',
+  'philippines-payroll-workforce-capacity-planning':'2026-08-13',
+  'philippines-payroll-evidence-retention-balance':'2026-08-13'
+} as Record<string, '2026-08-13'>;
+
 const august13ResearchPosts: readonly ResearchPost[] = august13Seeds.map((s, index) => ({
-  slug:s.slug,title:s.title,excerpt:s.excerpt,published:'2026-08-13',stat:s.stat,
+  slug:s.slug,title:s.title,excerpt:s.excerpt,published:august13PublicationDates[s.slug],stat:s.stat,
   takeaways:[s.focus,'Use explicit units, cohorts, periods, and owners when interpreting payroll evidence.',s.conclusion],
   sections:[{heading:'Research question and evidence',body:august13Body(s)},{heading:'Measures and interpretation',body:`${s.measure} ${s.risk} Interpret the result against the defined population and period, then document what the measure cannot establish. ${s.limitation}`},{heading:'Bounded conclusion',body:`${s.conclusion} Apply the recommendation to one controlled pay-period lane first, retain the source and reviewer evidence, and reassess after a representative sample.`}],
   sources:[
