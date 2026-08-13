@@ -394,6 +394,85 @@ const august11BlogDetails = Object.fromEntries(august11BlogPosts.map(({ title })
 const august11DetailsBySlug = Object.fromEntries(august11BlogPosts.map((post) => [post.slug, august11BlogDetails[post.title]]));
 export { august11BlogPosts, august11DetailsBySlug };
 
+// August 13, 2026 Blog batch. Dates are bound directly to every source record.
+const august13BlogPosts = [
+  { slug: 'payroll-employee-data-change-calendar', title: 'Payroll employee-data change calendar', excerpt: 'Coordinate employee record changes by effective date, source, reviewer, and pay-cycle impact.', minutes: 9, published: '2026-08-13' },
+  { slug: 'payroll-rehire-record-review', title: 'Payroll rehire record review guide', excerpt: 'Review rehire details against prior records without carrying an old status into the new pay cycle.', minutes: 9, published: '2026-08-13' },
+  { slug: 'payroll-commission-input-check', title: 'Payroll commission input check before handoff', excerpt: 'Check commission inputs for plan period, approval, duplicate entries, and supporting evidence.', minutes: 9, published: '2026-08-13' },
+  { slug: 'payroll-bonus-approval-record', title: 'Payroll bonus approval record template', excerpt: 'Keep bonus requests tied to a source, authorized decision, effective pay cycle, and final review.', minutes: 9, published: '2026-08-13' },
+  { slug: 'payroll-leave-balance-review', title: 'Payroll leave-balance review before processing', excerpt: 'Review leave inputs against the approved record, period dates, and owner decision before handoff.', minutes: 9, published: '2026-08-13' },
+  { slug: 'payroll-tax-form-request-routing', title: 'Payroll tax-form request routing guide', excerpt: 'Route tax-form questions with identity checks, approved sources, and a clear owner for the answer.', minutes: 9, published: '2026-08-13' },
+  { slug: 'payroll-garnishment-document-intake', title: 'Payroll garnishment document intake controls', excerpt: 'Capture garnishment notices and route them for qualified review without making unsupported payroll decisions.', minutes: 9, published: '2026-08-13' },
+  { slug: 'payroll-payroll-calendar-holiday-check', title: 'Payroll calendar holiday check', excerpt: 'Check holidays, bank closures, provider windows, and manager availability before setting cycle deadlines.', minutes: 9, published: '2026-08-13' },
+  { slug: 'payroll-manager-self-service-review', title: 'Payroll manager self-service review checklist', excerpt: 'Review manager-submitted payroll changes for completeness before they enter the owner approval lane.', minutes: 9, published: '2026-08-13' },
+  { slug: 'payroll-employee-address-change-log', title: 'Payroll employee address-change log', excerpt: 'Track address updates by effective date, source record, reviewer, and downstream notification need.', minutes: 9, published: '2026-08-13' },
+  { slug: 'payroll-pay-rate-change-control', title: 'Payroll pay-rate change control guide', excerpt: 'Separate the request, evidence, approval, effective date, and payroll entry for pay-rate changes.', minutes: 9, published: '2026-08-13' },
+  { slug: 'payroll-department-transfer-review', title: 'Payroll department-transfer review', excerpt: 'Check department transfers for effective dates, manager ownership, coding, and payroll-cycle timing.', minutes: 9, published: '2026-08-13' },
+  { slug: 'payroll-employee-status-change-intake', title: 'Payroll employee-status change intake', excerpt: 'Prepare status-change requests with authoritative sources, effective dates, and an explicit owner decision.', minutes: 9, published: '2026-08-13' },
+  { slug: 'payroll-timezone-cutoff-coordination', title: 'Payroll timezone cutoff coordination', excerpt: 'Make cross-timezone payroll deadlines visible without turning local time differences into missed approvals.', minutes: 9, published: '2026-08-13' },
+  { slug: 'payroll-provider-rejection-log', title: 'Payroll provider rejection log', excerpt: 'Record rejected payroll inputs by reason, source, owner, correction, and resubmission review.', minutes: 9, published: '2026-08-13' },
+  { slug: 'payroll-payslip-distribution-check', title: 'Payroll payslip distribution check', excerpt: 'Confirm the right distribution list, delivery status, exception path, and privacy boundary for payslips.', minutes: 9, published: '2026-08-13' },
+  { slug: 'payroll-payroll-calendar-version-control', title: 'Payroll calendar version-control guide', excerpt: 'Keep one approved payroll calendar and record why each deadline or owner change was made.', minutes: 9, published: '2026-08-13' },
+  { slug: 'payroll-employee-file-missing-item-review', title: 'Payroll employee-file missing-item review', excerpt: 'Find missing employee records early and route each gap to the right requester before cutoff.', minutes: 9, published: '2026-08-13' },
+  { slug: 'payroll-cycle-handoff-acknowledgment', title: 'Payroll cycle handoff acknowledgment', excerpt: 'Get a dated acknowledgment that the owner received the packet, open items, and next decisions.', minutes: 9, published: '2026-08-13' },
+  { slug: 'payroll-payroll-question-source-check', title: 'Payroll question source-check guide', excerpt: 'Answer routine payroll questions from approved records while escalating questions that require judgment.', minutes: 9, published: '2026-08-13' },
+  { slug: 'payroll-correction-effective-date-check', title: 'Payroll correction effective-date check', excerpt: 'Confirm that a correction applies to the intended pay period before the owner approves the next action.', minutes: 9, published: '2026-08-13' },
+  { slug: 'payroll-final-review-attendee-list', title: 'Payroll final-review attendee list', excerpt: 'Define who needs to attend a final payroll review and what decision each person is responsible for.', minutes: 9, published: '2026-08-13' },
+] as const;
+
+const august13Angles = [
+  ['effective dates', 'Place each change on a timeline before reviewing its fields.', 'A change can be complete on paper but still miss the intended cycle when its effective date is unclear.'],
+  ['rehire identity', 'Compare the new request with the prior record without assuming the old status still applies.', 'The reviewer must resolve duplicate identities before any rehire change reaches a payroll file.'],
+  ['commission evidence', 'Separate the plan period from the date a manager submitted the result.', 'A late commission file needs an owner decision, not an automatic move into the next run.'],
+  ['bonus approvals', 'Capture the business reason and approval source beside the requested amount.', 'A bonus tracker should preserve the decision trail without becoming a second payroll system.'],
+  ['leave periods', 'Match leave dates to the pay period and approved leave record.', 'Unresolved balance differences should stop the handoff until the owner decides how to proceed.'],
+  ['tax-form requests', 'Verify the requester and route the question to the person qualified to answer it.', 'A support response should point to an approved source rather than guess at tax treatment.'],
+  ['garnishment notices', 'Record receipt and sensitivity before sending the notice for qualified review.', 'The intake role should preserve the notice and route it, not interpret a legal obligation.'],
+  ['holiday calendars', 'Check local holidays against provider and bank operating windows.', 'A calendar is useful only when every changed deadline has a named owner.'],
+  ['manager submissions', 'Review required fields before the request enters the approval queue.', 'Returning an incomplete request early is safer than asking the payroll owner to reconstruct it later.'],
+  ['address changes', 'Record the requested effective date and authoritative source together.', 'Do not treat a message as proof when the company requires a formal employee record.'],
+  ['pay-rate changes', 'Keep request, evidence, approval, and effective date as separate fields.', 'The preparer can organize the change while the authorized owner decides whether it is valid.'],
+  ['department transfers', 'Review coding and dates together so the change lands in the right cycle.', 'A manager confirmation is not a substitute for the owner decision required by payroll policy.'],
+  ['status changes', 'Use an authoritative status source and distinguish preparation from approval.', 'An ambiguous status should remain open rather than being converted into a payroll assumption.'],
+  ['time zones', 'Publish one deadline with its time zone and a local equivalent for each owner.', 'A late response should show which clock was used and who owns the next decision.'],
+  ['provider rejections', 'Preserve the original reason before preparing a corrected file.', 'Closing a rejection requires evidence that the correction addressed the stated reason.'],
+  ['payslip delivery', 'Check recipients and delivery exceptions without copying sensitive details into extra logs.', 'A delivery check should prove status while limiting exposure of employee information.'],
+  ['calendar versions', 'Give the approved calendar a version, effective date, and change note.', 'Old deadlines should remain recoverable as history but not compete with the current calendar.'],
+  ['missing employee files', 'Classify each gap by requester, due date, and cycle impact.', 'A missing item has no owner until someone is responsible for the next request.'],
+  ['handoff acknowledgment', 'Ask the recipient to confirm what arrived and what remains open.', 'Silence is not evidence that a payroll packet was received or reviewed.'],
+  ['question sources', 'Classify questions by source, sensitivity, and required decision owner.', 'Routine routing can be supported; an uncertain answer must be escalated.'],
+  ['correction periods', 'Compare the correction effective date with the affected pay period.', 'A technically correct correction can still be wrong if it is applied to the wrong run.'],
+  ['review attendees', 'Invite people because of the decision they own, not because of title alone.', 'The final review is complete only when each open decision has an accountable attendee.'],
+] as const;
+
+const august13BlogDetails = Object.fromEntries(august13BlogPosts.map((post, index) => {
+  const [subject, method, caution] = august13Angles[index];
+  return [post.slug, {
+    takeaways: [`Make ${subject} visible in the pay-cycle record.`, 'Keep preparation separate from approval for sensitive payroll decisions.', 'Close the item with a dated source and owner decision.'],
+    readinessRows: [
+      { area: 'Source', ready: `The ${subject} record has an approved source and effective date.`, ownerCheck: 'The owner confirms the source is authoritative.' },
+      { area: 'Review', ready: 'Required fields, requester, and cycle impact are recorded.', ownerCheck: 'The owner resolves incomplete or conflicting information.' },
+      { area: 'Decision', ready: 'The next action and accountable person are visible.', ownerCheck: 'An authorized owner approves sensitive action.' },
+      { area: 'Close', ready: 'The outcome, date, and follow-up evidence are retained.', ownerCheck: 'The owner confirms the item is closed.' },
+    ],
+    sections: [
+      { heading: `Start with ${subject}`, paragraphs: [method, `Write the requested action, source, effective date, and pay-cycle impact in one record. ${caution}`] },
+      { heading: 'Build a review lane', paragraphs: [`The preparation step for ${subject} can collect records, check required fields, and flag conflicts. It should not decide disputed pay, tax treatment, banking, deductions, or final payroll approval.`, 'Use a named owner and backup, then record when the request was sent and when a decision is due.'], bullets: ['Link to the approved source.', 'Record the requester and effective date.', 'Flag sensitive or conflicting fields.', 'Route the decision to the authorized owner.'] },
+      { heading: 'Check the pay-cycle consequence', paragraphs: [`Review ${subject} against the cutoff and the relevant pay period. If the timing is unclear, leave the item open and ask the owner which cycle should receive it.`, 'A short status note should say what is complete, what is blocked, and what the next safe action is.'] },
+      { heading: 'Close with evidence', paragraphs: [`Before closing the ${subject} item, compare the result with its source and record the owner decision. Do not delete the original request when a correction or clarification was needed.`, 'After the cycle, note whether the lane produced repeat questions or late work and update the checklist for the next review.'] },
+    ],
+    roleBrief: [`Role: payroll preparation and follow-up support for ${subject}`, 'Output: dated record with source, status, and owner decision', 'Access: named account with task-specific permissions', 'Stop rule: pause when source, effective date, or approval is unclear', 'Escalation: route sensitive decisions to the authorized payroll owner'],
+    faqs: [
+      { question: `What should be checked first for ${subject}?`, answer: `Start with the source, effective date, requester, and pay-cycle impact. ${caution}` },
+      { question: 'Which decisions stay with the payroll owner?', answer: 'Keep disputed pay, tax treatment, deductions, bank details, employment status, and final submission with the authorized owner or provider.' },
+      { question: 'What proves the item is closed?', answer: 'A source link, recorded outcome, named decision owner, decision date, and any required follow-up check.' },
+    ],
+    sources: [{ name: 'CISA: Turn on multifactor authentication', url: 'https://www.cisa.gov/secure-our-world/turn-mfa', note: 'Official account-security guidance.' }, { name: 'NIST: Zero Trust Architecture, SP 800-207', url: 'https://www.nist.gov/publications/zero-trust-architecture', note: 'Official explicit-verification and least-privilege guidance.' }],
+  }];
+})) as Record<string, (typeof publisherBlogDetails)[keyof typeof publisherBlogDetails]>;
+
+export { august13BlogPosts, august13BlogDetails };
+
 export const additionalPublisherBlogPosts = batchTopics.map(([slug, title, excerpt]) => ({ slug, title, excerpt, minutes: 9 })) as ReadonlyArray<{ slug: string; title: string; excerpt: string; minutes: number }>;
 
 export const additionalPublisherBlogDetails = Object.fromEntries(batchTopics.map(([slug, title]) => {
