@@ -394,6 +394,85 @@ const august11BlogDetails = Object.fromEntries(august11BlogPosts.map(({ title })
 const august11DetailsBySlug = Object.fromEntries(august11BlogPosts.map((post) => [post.slug, august11BlogDetails[post.title]]));
 export { august11BlogPosts, august11DetailsBySlug };
 
+// August 14, 2026 Blog batch. Each source record owns its literal publication date.
+const august14BlogPosts = [
+  { slug: 'payroll-new-hire-start-date-check', title: 'Payroll new-hire start-date check', excerpt: 'Confirm that a new hire’s start date, first pay cycle, source record, and approval path agree before handoff.', minutes: 9, published: '2026-08-14' },
+  { slug: 'payroll-leaver-final-pay-input-review', title: 'Payroll leaver final-pay input review', excerpt: 'Organize departure details and final-pay inputs for qualified review without making unsupported employment decisions.', minutes: 9, published: '2026-08-14' },
+  { slug: 'payroll-overtime-approval-record', title: 'Payroll overtime approval record', excerpt: 'Keep overtime hours tied to the work period, manager approval, source timesheet, and owner decision.', minutes: 9, published: '2026-08-14' },
+  { slug: 'payroll-shift-differential-input-check', title: 'Payroll shift-differential input check', excerpt: 'Check shift premiums against the covered hours, policy source, approval, and intended payroll period.', minutes: 9, published: '2026-08-14' },
+  { slug: 'payroll-pto-carryover-review', title: 'Payroll PTO carryover review', excerpt: 'Review carryover inputs against the approved balance, policy period, employee record, and owner decision.', minutes: 9, published: '2026-08-14' },
+  { slug: 'payroll-contractor-classification-question-routing', title: 'Payroll contractor-classification question routing', excerpt: 'Route classification questions to a qualified owner while keeping the intake record factual and complete.', minutes: 9, published: '2026-08-14' },
+  { slug: 'payroll-expense-reimbursement-input-log', title: 'Payroll expense-reimbursement input log', excerpt: 'Track reimbursement requests by receipt, business date, approver, pay treatment, and review status.', minutes: 9, published: '2026-08-14' },
+  { slug: 'payroll-retroactive-change-review', title: 'Payroll retroactive-change review guide', excerpt: 'Separate the original request, affected periods, supporting evidence, approval, and correction plan.', minutes: 9, published: '2026-08-14' },
+  { slug: 'payroll-multi-country-input-boundary', title: 'Payroll multi-country input boundary guide', excerpt: 'Keep country-specific payroll questions with the right owner while making shared handoff fields clear.', minutes: 9, published: '2026-08-14' },
+  { slug: 'payroll-bank-file-release-checklist', title: 'Payroll bank-file release checklist', excerpt: 'Prepare a bank-file review packet that preserves separation between preparation, verification, and release approval.', minutes: 9, published: '2026-08-14' },
+  { slug: 'payroll-tax-withholding-question-log', title: 'Payroll tax-withholding question log', excerpt: 'Record withholding questions with the employee context, approved source, qualified reviewer, and response status.', minutes: 9, published: '2026-08-14' },
+  { slug: 'payroll-benefit-enrollment-effective-date-check', title: 'Payroll benefit-enrollment effective-date check', excerpt: 'Match enrollment changes to their effective date, source confirmation, deduction period, and owner review.', minutes: 9, published: '2026-08-14' },
+  { slug: 'payroll-pay-period-overlap-check', title: 'Payroll pay-period overlap check', excerpt: 'Find overlapping periods, duplicate submissions, and unclear cutoffs before a provider handoff.', minutes: 9, published: '2026-08-14' },
+  { slug: 'payroll-employee-identity-match-review', title: 'Payroll employee-identity match review', excerpt: 'Compare names, identifiers, and source records carefully before an employee change reaches payroll.', minutes: 9, published: '2026-08-14' },
+  { slug: 'payroll-manager-approval-aging-report', title: 'Payroll manager approval aging report', excerpt: 'Show which approvals are waiting, how long they have been open, and what safe escalation comes next.', minutes: 9, published: '2026-08-14' },
+  { slug: 'payroll-provider-cutoff-confirmation', title: 'Payroll provider cutoff confirmation guide', excerpt: 'Confirm the provider deadline, submission owner, open exceptions, and receipt evidence for each cycle.', minutes: 9, published: '2026-08-14' },
+  { slug: 'payroll-employee-pay-question-intake', title: 'Payroll employee pay-question intake', excerpt: 'Capture employee pay questions accurately and route answers without exposing unnecessary personal details.', minutes: 9, published: '2026-08-14' },
+  { slug: 'payroll-currency-conversion-input-review', title: 'Payroll currency-conversion input review', excerpt: 'Record the source, period, currency, conversion basis, and qualified approval for cross-currency inputs.', minutes: 9, published: '2026-08-14' },
+  { slug: 'payroll-payroll-calendar-owner-confirmation', title: 'Payroll calendar owner confirmation', excerpt: 'Confirm each deadline, backup, approval window, and owner before the next pay cycle begins.', minutes: 9, published: '2026-08-14' },
+  { slug: 'payroll-source-document-version-check', title: 'Payroll source-document version check', excerpt: 'Make sure a handoff uses the approved document version and preserves the reason for any replacement.', minutes: 9, published: '2026-08-14' },
+  { slug: 'payroll-duplicate-employee-record-review', title: 'Payroll duplicate-employee-record review', excerpt: 'Identify possible duplicate employee records and route identity resolution before changing payroll data.', minutes: 9, published: '2026-08-14' },
+  { slug: 'payroll-cycle-handoff-open-question-list', title: 'Payroll cycle handoff open-question list', excerpt: 'Give the payroll owner a concise list of unanswered questions, sources, deadlines, and required decisions.', minutes: 9, published: '2026-08-14' },
+] as const;
+
+const august14Angles = [
+  ['new-hire start dates', 'Compare the signed source, start date, first eligible period, and required approval.', 'An intake record is not proof that the employee should appear in a particular run.'],
+  ['leaver final-pay inputs', 'Separate the departure notice, effective date, outstanding inputs, and qualified review.', 'Do not infer final-pay treatment from an incomplete departure message.'],
+  ['overtime approvals', 'Keep work dates, hours, manager approval, and payroll period in separate fields.', 'A late approval needs an owner decision rather than an automatic carry-forward.'],
+  ['shift differentials', 'Match premium hours to the schedule or policy source before handoff.', 'The preparer should flag a mismatch instead of deciding which rate applies.'],
+  ['PTO carryover', 'Compare the balance, policy period, approved record, and effective pay-cycle date.', 'A displayed balance is not enough when the underlying period is unclear.'],
+  ['classification questions', 'Capture the question and source facts, then route the determination to a qualified reviewer.', 'Operational support can organize facts but should not give legal or tax conclusions.'],
+  ['expense reimbursements', 'Record the receipt, business date, approver, and payroll treatment as distinct evidence.', 'Do not duplicate sensitive receipts across uncontrolled folders.'],
+  ['retroactive changes', 'List every affected period before preparing a correction request.', 'A correction can be accurate yet still land in the wrong pay cycle.'],
+  ['multi-country inputs', 'Mark country, source, owner, period, and escalation path at intake.', 'Shared workflow fields should not erase country-specific review requirements.'],
+  ['bank-file release', 'Use separate preparer, verifier, and release-approver fields.', 'A completed file is not evidence of authorization to release it.'],
+  ['withholding questions', 'Record the employee question and approved reference without guessing at treatment.', 'Route uncertain tax questions to a qualified payroll or tax owner.'],
+  ['benefit enrollment dates', 'Match the enrollment confirmation to the deduction period and effective date.', 'A new election should not be applied simply because it arrived before cutoff.'],
+  ['pay-period overlaps', 'Compare period start, period end, provider window, and prior submission.', 'Overlap warnings should remain open until an owner confirms the intended run.'],
+  ['employee identity matches', 'Compare authoritative identifiers before linking a request to a payroll record.', 'A similar name is not sufficient evidence for an employee change.'],
+  ['approval aging', 'Show age, cycle impact, owner, last reminder, and next escalation.', 'A reminder log should not expose more employee detail than the reviewer needs.'],
+  ['provider cutoff confirmation', 'Record the provider’s stated deadline, time zone, receipt method, and owner.', 'A sent email alone does not prove the provider received a complete packet.'],
+  ['employee pay questions', 'Capture the question, identity check, approved source, and response owner.', 'Answer only from records the company has approved for employee communication.'],
+  ['currency conversion inputs', 'Keep currency, source date, conversion basis, and qualified approval visible.', 'Do not invent a conversion basis when the source or policy is missing.'],
+  ['calendar owner confirmation', 'Ask each owner to confirm deadline, backup, and escalation contact.', 'An old calendar should not remain the implicit source after a deadline changes.'],
+  ['source-document versions', 'Record the approved version, replacement reason, and effective date.', 'Replacing a file without preserving its history makes the handoff hard to audit.'],
+  ['duplicate employee records', 'Compare identifiers and authoritative sources before proposing a merge or correction.', 'Support staff should route identity conflicts rather than alter records on assumption.'],
+  ['open handoff questions', 'List the source, owner, deadline, decision needed, and safe next action.', 'A short unresolved list is more useful than a handoff that hides uncertainty.'],
+] as const;
+
+const august14BlogDetails = Object.fromEntries(august14BlogPosts.map((post, index) => {
+  const [subject, method, caution] = august14Angles[index];
+  return [post.slug, {
+    takeaways: [`Make ${subject} visible in the pay-cycle record.`, 'Keep preparation separate from approval for sensitive payroll decisions.', 'Close each item with a dated source and owner decision.'],
+    readinessRows: [
+      { area: 'Source', ready: `The ${subject} record has an approved source and relevant period or effective date.`, ownerCheck: 'The owner confirms that the source is authoritative.' },
+      { area: 'Review', ready: 'Required fields, requester, and cycle impact are recorded.', ownerCheck: 'The owner resolves incomplete or conflicting information.' },
+      { area: 'Decision', ready: 'The next action and accountable person are visible.', ownerCheck: 'An authorized owner approves sensitive action.' },
+      { area: 'Close', ready: 'The outcome, date, and follow-up evidence are retained.', ownerCheck: 'The owner confirms the item is closed.' },
+    ],
+    sections: [
+      { heading: `Start with ${subject}`, paragraphs: [method, `Write the requested action, source, relevant period, and pay-cycle impact in one record. ${caution}`] },
+      { heading: 'Build a review lane', paragraphs: [`Preparation for ${subject} can collect records, check required fields, and flag conflicts. It should not decide disputed pay, tax treatment, banking, deductions, employment status, or final approval.`, 'Use a named owner and backup, then record when the request was sent and when a decision is due.'], bullets: ['Link to the approved source.', 'Record the requester and relevant date.', 'Flag sensitive or conflicting fields.', 'Route the decision to the authorized owner.'] },
+      { heading: 'Check the pay-cycle consequence', paragraphs: [`Review ${subject} against the cutoff and relevant pay period. If timing or treatment is unclear, leave the item open and ask the owner which cycle should receive it.`, 'A short status note should say what is complete, what is blocked, and what the next safe action is.'] },
+      { heading: 'Close with evidence', paragraphs: [`Before closing the ${subject} item, compare the result with its source and record the owner decision. Do not delete the original request when a correction or clarification was needed.`, 'After the cycle, note repeat questions or late work and update the checklist for the next review.'] },
+    ],
+    roleBrief: [`Role: payroll preparation and follow-up support for ${subject}`, 'Output: dated record with source, status, and owner decision', 'Access: named account with task-specific permissions', 'Stop rule: pause when source, date, or approval is unclear', 'Escalation: route sensitive decisions to the authorized payroll owner'],
+    faqs: [
+      { question: `What should be checked first for ${subject}?`, answer: `Start with the source, relevant date, requester, and pay-cycle impact. ${caution}` },
+      { question: 'Which decisions stay with the payroll owner?', answer: 'Keep disputed pay, tax treatment, deductions, bank details, employment status, and final submission with the authorized owner or provider.' },
+      { question: 'What proves the item is closed?', answer: 'A source link, recorded outcome, named decision owner, decision date, and any required follow-up check.' },
+    ],
+    sources: [{ name: 'CISA: Turn on multifactor authentication', url: 'https://www.cisa.gov/secure-our-world/turn-mfa', note: 'Official account-security guidance.' }, { name: 'NIST: Zero Trust Architecture, SP 800-207', url: 'https://www.nist.gov/publications/zero-trust-architecture', note: 'Official explicit-verification and least-privilege guidance.' }],
+  };
+})) as Record<string, (typeof publisherBlogDetails)[keyof typeof publisherBlogDetails]>;
+
+export { august14BlogPosts, august14BlogDetails };
+
 // August 13, 2026 Blog batch. Dates are bound directly to every source record.
 const august13BlogPosts = [
   { slug: 'payroll-employee-data-change-calendar', title: 'Payroll employee-data change calendar', excerpt: 'Coordinate employee record changes by effective date, source, reviewer, and pay-cycle impact.', minutes: 9, published: '2026-08-13' },
