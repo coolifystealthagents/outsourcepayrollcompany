@@ -468,7 +468,7 @@ const august14BlogDetails = Object.fromEntries(august14BlogPosts.map((post, inde
       { question: 'What proves the item is closed?', answer: 'A source link, recorded outcome, named decision owner, decision date, and any required follow-up check.' },
     ],
     sources: [{ name: 'CISA: Turn on multifactor authentication', url: 'https://www.cisa.gov/secure-our-world/turn-mfa', note: 'Official account-security guidance.' }, { name: 'NIST: Zero Trust Architecture, SP 800-207', url: 'https://www.nist.gov/publications/zero-trust-architecture', note: 'Official explicit-verification and least-privilege guidance.' }],
-  };
+  }];
 })) as Record<string, (typeof publisherBlogDetails)[keyof typeof publisherBlogDetails]>;
 
 export { august14BlogPosts, august14BlogDetails };
