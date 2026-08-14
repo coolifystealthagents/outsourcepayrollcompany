@@ -56,10 +56,10 @@ export default function Home() {
             <h1>Payroll prep without the payday scramble.</h1>
             <p className="payroll-lead">Add a Filipino payroll assistant to chase timesheets, log employee changes, sort payroll questions, and prepare the handoff. Your payroll owner keeps final approval.</p>
             <ul className="payroll-bullets" aria-label="Payroll support tasks">
-              <li><img src="/icons/getillustrations/3d-finance/payroll-input-calculator.webp" alt="" aria-hidden="true" />Keep pay-period inputs in one clear list</li>
-              <li><img src="/icons/getillustrations/3d-finance/pay-period-deadline.webp" alt="" aria-hidden="true" />Flag missing hours and manager approvals</li>
-              <li><img src="/icons/getillustrations/3d-finance/sensitive-data-vault.webp" alt="" aria-hidden="true" />Route sensitive changes to the right owner</li>
-              <li><img src="/icons/getillustrations/3d-finance/approval-document.webp" alt="" aria-hidden="true" />Prepare clean notes for your payroll provider</li>
+              <li><img src="/icons/getillustrations/3d-finance/payroll-input-calculator.webp" alt="Payroll input calculator icon" />Keep pay-period inputs in one clear list</li>
+              <li><img src="/icons/getillustrations/3d-finance/pay-period-deadline.webp" alt="Pay period deadline icon" />Flag missing hours and manager approvals</li>
+              <li><img src="/icons/getillustrations/3d-finance/sensitive-data-vault.webp" alt="Sensitive payroll data icon" />Route sensitive changes to the right owner</li>
+              <li><img src="/icons/getillustrations/3d-finance/approval-document.webp" alt="Payroll approval document icon" />Prepare clean notes for your payroll provider</li>
             </ul>
             <a className="btn payroll-primary" href="/contact">Plan my payroll support</a>
             <p className="payroll-tagline">Keep the handoff clear and cut-off day calmer.</p>
@@ -90,7 +90,7 @@ export default function Home() {
             <p>Start with one repeatable problem. Keep pay decisions, tax calls, and bank changes with the person who owns payroll.</p>
           </div>
           <div className="payroll-lane-grid">
-            {supportLanes.map((service, index) => <a href={`/services/${service.slug}`} className="payroll-lane" key={service.slug}>
+            {supportLanes.map((service, index) => <a href="/services" className="payroll-lane" key={service.slug}>
               <span>0{index + 1}</span>
               <h3>{service.title}</h3>
               <p>{service.desc}</p>
@@ -108,7 +108,7 @@ export default function Home() {
             <p>Payroll data is sensitive. Start with the least access needed. Require a named reviewer for pay, tax, bank, benefit, and termination changes.</p>
             <img className="payroll-support-illustration" src="/illustrations/getillustrations/hannah-business/payroll-approval-checklist.svg" alt="Illustration of an organized payroll approval checklist" />
             <div className="source-links">
-              <a href="https://www.irs.gov/businesses/small-businesses-self-employed/employment-taxes" target="_blank" rel="noreferrer">IRS employment tax guide</a>
+              <span>IRS employment tax guidance</span>
               <a href="https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final" target="_blank" rel="noreferrer">NIST access-control guidance</a>
             </div>
           </div>
