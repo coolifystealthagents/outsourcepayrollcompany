@@ -21,6 +21,7 @@ export default async function ResearchArticle({params}:{params:Promise<{slug:str
     <section><h2>Key takeaways</h2><ul>{post.takeaways.map(x=><li key={x}>{x}</li>)}</ul></section>
     {post.sections.map(s=><section key={s.heading}><h2>{s.heading}</h2>{s.body.split('. ').map((p,i)=><p key={i}>{p}{p.endsWith('.')?'':'.'}</p>)}</section>)}
     <section className="guide-sources"><h2>Sources</h2><ol>{post.sources.map(s=><li key={s.url}><a href={s.url} target="_blank" rel="noreferrer">{s.label}</a></li>)}</ol></section>
+    {post.serviceHandoff&&<section className="article-direct-answer"><h2>{post.serviceHandoff.heading}</h2><p>{post.serviceHandoff.body}</p><a className="btn primary" href={post.serviceHandoff.href}>{post.serviceHandoff.cta}</a></section>}
     <section><h2>FAQs</h2>{post.faq.map(f=><div key={f.question}><h3>{f.question}</h3><p>{f.answer}</p></div>)}</section>
     <p>For adjacent operating context, see <a href="/services/payroll-preparation">Payroll Preparation</a> and <a href="/blog">the payroll operations guide library</a>.</p>
     <section className="article-related"><h2>Related research</h2><ul>{related.map(r=>{const p=researchPosts.find(x=>x.slug===r);return p?<li key={r}><a href={`/research/${r}`}>{p.title}</a></li>:null})}</ul></section>
