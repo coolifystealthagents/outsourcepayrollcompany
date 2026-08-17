@@ -1,4 +1,4 @@
-import { additionalPublisherBlogDetails, additionalPublisherBlogPosts, august11BlogPosts, august11DetailsBySlug, august13BlogDetails, august13BlogPosts, august14BlogDetails, august14BlogPosts, publisherBlogDetails, publisherBlogPosts, secondPublisherBlogDetails, secondPublisherBlogPosts, thirdPublisherBlogDetails, thirdPublisherBlogPosts } from './publisherArticles';
+import { additionalPublisherBlogDetails, additionalPublisherBlogPosts, august11BlogPosts, august11DetailsBySlug, august13BlogDetails, august13BlogPosts, august14BlogDetails, august14BlogPosts, august17BlogDetails, august17BlogPosts, publisherBlogDetails, publisherBlogPosts, secondPublisherBlogDetails, secondPublisherBlogPosts, thirdPublisherBlogDetails, thirdPublisherBlogPosts } from './publisherArticles';
 
 export const site = {
   domain: 'OutsourcePayrollCompany.com',
@@ -133,6 +133,7 @@ export const services = [
 ] as const;
 
 export const blogPosts = [
+  ...august17BlogPosts,
   ...august14BlogPosts,
   ...august13BlogPosts,
   ...august11BlogPosts,
@@ -168,6 +169,7 @@ export const blogDetails: Record<string, {
     internalLinks: { href: string; label: string }[];
   };
 }> = {
+  ...august17BlogDetails,
   ...august14BlogDetails,
   ...august13BlogDetails,
   ...august11DetailsBySlug,
