@@ -1,0 +1,25 @@
+{
+  "date": "2026-08-19",
+  "articles": [
+    {
+      "route": "/research/payroll-operations-source-quality-evidence-research",
+      "source": "content/research/payroll-operations-source-quality-evidence-research.md"
+    },
+    {
+      "route": "/research/payroll-operations-exception-aging-patterns-research",
+      "source": "content/research/payroll-operations-exception-aging-patterns-research.md"
+    },
+    {
+      "route": "/research/payroll-operations-review-consistency-research",
+      "source": "content/research/payroll-operations-review-consistency-research.md"
+    },
+    {
+      "route": "/research/payroll-operations-access-governance-research",
+      "source": "content/research/payroll-operations-access-governance-research.md"
+    },
+    {
+      "route": "/research/payroll-operations-handoff-reliability-research",
+      "source": "content/research/payroll-operations-handoff-reliability-research.md"
+    }
+  ]
+}

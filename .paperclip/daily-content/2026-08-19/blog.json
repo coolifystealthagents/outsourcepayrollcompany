@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-19",
+  "articles": [
+    {
+      "route": "/blog/payroll-operations-intake-source-register",
+      "source": "content/blog/payroll-operations-intake-source-register.md"
+    },
+    {
+      "route": "/blog/payroll-operations-approval-evidence-matrix",
+      "source": "content/blog/payroll-operations-approval-evidence-matrix.md"
+    },
+    {
+      "route": "/blog/payroll-operations-exception-queue-triage",
+      "source": "content/blog/payroll-operations-exception-queue-triage.md"
+    },
+    {
+      "route": "/blog/payroll-operations-quality-review-cadence",
+      "source": "content/blog/payroll-operations-quality-review-cadence.md"
+    },
+    {
+      "route": "/blog/payroll-operations-handoff-acceptance-log",
+      "source": "content/blog/payroll-operations-handoff-acceptance-log.md"
+    },
+    {
+      "route": "/blog/payroll-operations-access-recertification-review",
+      "source": "content/blog/payroll-operations-access-recertification-review.md"
+    },
+    {
+      "route": "/blog/payroll-operations-weekly-decision-brief",
+      "source": "content/blog/payroll-operations-weekly-decision-brief.md"
+    },
+    {
+      "route": "/blog/payroll-operations-source-of-truth-map",
+      "source": "content/blog/payroll-operations-source-of-truth-map.md"
+    },
+    {
+      "route": "/blog/payroll-operations-change-control-record",
+      "source": "content/blog/payroll-operations-change-control-record.md"
+    },
+    {
+      "route": "/blog/payroll-operations-work-queue-ownership",
+      "source": "content/blog/payroll-operations-work-queue-ownership.md"
+    },
+    {
+      "route": "/blog/payroll-operations-escalation-path-design",
+      "source": "content/blog/payroll-operations-escalation-path-design.md"
+    },
+    {
+      "route": "/blog/payroll-operations-launch-readiness-review",
+      "source": "content/blog/payroll-operations-launch-readiness-review.md"
+    }
+  ]
+}

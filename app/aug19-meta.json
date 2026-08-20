@@ -1,0 +1,104 @@
+{
+  "payroll-operations-intake-source-register": {
+    "family": "blog",
+    "title": "Payroll Operations: Intake Source Register",
+    "description": "Payroll Operations: Intake Source Register: evidence-led guidance for Outsource Payroll Company.",
+    "hero": "/aug19-heroes/payroll-operations-intake-source-register.webp"
+  },
+  "payroll-operations-approval-evidence-matrix": {
+    "family": "blog",
+    "title": "Payroll Operations: Approval Evidence Matrix",
+    "description": "Payroll Operations: Approval Evidence Matrix: evidence-led guidance for Outsource Payroll Company.",
+    "hero": "/aug19-heroes/payroll-operations-approval-evidence-matrix.webp"
+  },
+  "payroll-operations-exception-queue-triage": {
+    "family": "blog",
+    "title": "Payroll Operations: Exception Queue Triage",
+    "description": "Payroll Operations: Exception Queue Triage: evidence-led guidance for Outsource Payroll Company.",
+    "hero": "/aug19-heroes/payroll-operations-exception-queue-triage.webp"
+  },
+  "payroll-operations-quality-review-cadence": {
+    "family": "blog",
+    "title": "Payroll Operations: Quality Review Cadence",
+    "description": "Payroll Operations: Quality Review Cadence: evidence-led guidance for Outsource Payroll Company.",
+    "hero": "/aug19-heroes/payroll-operations-quality-review-cadence.webp"
+  },
+  "payroll-operations-handoff-acceptance-log": {
+    "family": "blog",
+    "title": "Payroll Operations: Handoff Acceptance Log",
+    "description": "Payroll Operations: Handoff Acceptance Log: evidence-led guidance for Outsource Payroll Company.",
+    "hero": "/aug19-heroes/payroll-operations-handoff-acceptance-log.webp"
+  },
+  "payroll-operations-access-recertification-review": {
+    "family": "blog",
+    "title": "Payroll Operations: Access Recertification Review",
+    "description": "Payroll Operations: Access Recertification Review: evidence-led guidance for Outsource Payroll Company.",
+    "hero": "/aug19-heroes/payroll-operations-access-recertification-review.webp"
+  },
+  "payroll-operations-weekly-decision-brief": {
+    "family": "blog",
+    "title": "Payroll Operations: Weekly Decision Brief",
+    "description": "Payroll Operations: Weekly Decision Brief: evidence-led guidance for Outsource Payroll Company.",
+    "hero": "/aug19-heroes/payroll-operations-weekly-decision-brief.webp"
+  },
+  "payroll-operations-source-of-truth-map": {
+    "family": "blog",
+    "title": "Payroll Operations: Source of Truth Map",
+    "description": "Payroll Operations: Source of Truth Map: evidence-led guidance for Outsource Payroll Company.",
+    "hero": "/aug19-heroes/payroll-operations-source-of-truth-map.webp"
+  },
+  "payroll-operations-change-control-record": {
+    "family": "blog",
+    "title": "Payroll Operations: Change Control Record",
+    "description": "Payroll Operations: Change Control Record: evidence-led guidance for Outsource Payroll Company.",
+    "hero": "/aug19-heroes/payroll-operations-change-control-record.webp"
+  },
+  "payroll-operations-work-queue-ownership": {
+    "family": "blog",
+    "title": "Payroll Operations: Work Queue Ownership",
+    "description": "Payroll Operations: Work Queue Ownership: evidence-led guidance for Outsource Payroll Company.",
+    "hero": "/aug19-heroes/payroll-operations-work-queue-ownership.webp"
+  },
+  "payroll-operations-escalation-path-design": {
+    "family": "blog",
+    "title": "Payroll Operations: Escalation Path Design",
+    "description": "Payroll Operations: Escalation Path Design: evidence-led guidance for Outsource Payroll Company.",
+    "hero": "/aug19-heroes/payroll-operations-escalation-path-design.webp"
+  },
+  "payroll-operations-launch-readiness-review": {
+    "family": "blog",
+    "title": "Payroll Operations: Launch Readiness Review",
+    "description": "Payroll Operations: Launch Readiness Review: evidence-led guidance for Outsource Payroll Company.",
+    "hero": "/aug19-heroes/payroll-operations-launch-readiness-review.webp"
+  },
+  "payroll-operations-source-quality-evidence-research": {
+    "family": "research",
+    "title": "Research Brief: Payroll Operations Source Quality Evidence",
+    "description": "Research Brief: Payroll Operations Source Quality Evidence: evidence-led guidance for Outsource Payroll Company.",
+    "hero": "/aug19-heroes/payroll-operations-source-quality-evidence-research.webp"
+  },
+  "payroll-operations-exception-aging-patterns-research": {
+    "family": "research",
+    "title": "Research Brief: Payroll Operations Exception Aging Patterns",
+    "description": "Research Brief: Payroll Operations Exception Aging Patterns: evidence-led guidance for Outsource Payroll Company.",
+    "hero": "/aug19-heroes/payroll-operations-exception-aging-patterns-research.webp"
+  },
+  "payroll-operations-review-consistency-research": {
+    "family": "research",
+    "title": "Research Brief: Payroll Operations Review Consistency",
+    "description": "Research Brief: Payroll Operations Review Consistency: evidence-led guidance for Outsource Payroll Company.",
+    "hero": "/aug19-heroes/payroll-operations-review-consistency-research.webp"
+  },
+  "payroll-operations-access-governance-research": {
+    "family": "research",
+    "title": "Research Brief: Payroll Operations Access Governance",
+    "description": "Research Brief: Payroll Operations Access Governance: evidence-led guidance for Outsource Payroll Company.",
+    "hero": "/aug19-heroes/payroll-operations-access-governance-research.webp"
+  },
+  "payroll-operations-handoff-reliability-research": {
+    "family": "research",
+    "title": "Research Brief: Payroll Operations Handoff Reliability",
+    "description": "Research Brief: Payroll Operations Handoff Reliability: evidence-led guidance for Outsource Payroll Company.",
+    "hero": "/aug19-heroes/payroll-operations-handoff-reliability-research.webp"
+  }
+}
