@@ -114,8 +114,8 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
       publisher: { '@type': 'Organization', name: site.brand, url: siteUrl },
       ...(published ? { datePublished: published, dateModified: published } : {}),
       ...(detail ? {
-        citation: detail.sources.map((source: any) => source.url),
-        hasPart: detail.sections.map((section: any, index: number) => ({
+        citation: detail.sources.map((source) => source.url),
+        hasPart: detail.sections.map((section, index) => ({
           '@type': 'WebPageElement',
           '@id': `${postUrl}#section-${index + 1}`,
           name: section.heading,
@@ -144,7 +144,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
     graph.push({
       '@type': 'FAQPage',
       '@id': `${postUrl}#faq`,
-      mainEntity: detail.faqs.map((faq: any) => ({
+      mainEntity: detail.faqs.map((faq) => ({
         '@type': 'Question',
         name: faq.question,
         acceptedAnswer: { '@type': 'Answer', text: faq.answer },
