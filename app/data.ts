@@ -1,5 +1,5 @@
 import { additionalPublisherBlogDetails, additionalPublisherBlogPosts, august11BlogPosts, august11DetailsBySlug, august13BlogDetails, august13BlogPosts, august14BlogDetails, august14BlogPosts, august17BlogDetails, august17BlogPosts, publisherBlogDetails, publisherBlogPosts, secondPublisherBlogDetails, secondPublisherBlogPosts, thirdPublisherBlogDetails, thirdPublisherBlogPosts } from './publisherArticles';
-import { august20BlogDetails, august20BlogPosts } from './august20Blog';
+import { august20RepairDetails, august20RepairPosts } from './august20-repair-index';
 
 export const site = {
   domain: 'OutsourcePayrollCompany.com',
@@ -134,7 +134,7 @@ export const services = [
 ] as const;
 
 export const blogPosts = [
-  ...august20BlogPosts,
+  ...august20RepairPosts,
   ...august17BlogPosts,
   ...august14BlogPosts,
   ...august13BlogPosts,
@@ -150,7 +150,7 @@ export const blogPosts = [
     minutes: 10,
   },] as const;
 
-export const blogDetails: Record<string, {
+type BlogDetail = {
   takeaways: string[];
   readinessRows: { area: string; ready: string; ownerCheck: string }[];
   sections: { heading: string; paragraphs: string[]; bullets?: string[] }[];
@@ -159,11 +159,7 @@ export const blogDetails: Record<string, {
   sources: { name: string; url: string; note: string }[];
   publication?: { internalLinks: string[]; externalLink: string; related: string[] };
   rich?: {
-    keyword: string;
-    marker: string;
-    published: string;
-    image?: string;
-    directAnswer: string[];
+    keyword: string; marker: string; published: string; image?: string; directAnswer: string[];
     stats: { value: string; label: string; note: string }[];
     quote: { text: string; attribution: string; url: string };
     chart: { title: string; description: string; methods: string };
@@ -171,8 +167,10 @@ export const blogDetails: Record<string, {
     banners: { eyebrow: string; heading: string; text: string; href: string; label: string }[];
     internalLinks: { href: string; label: string }[];
   };
-}> = {
-  ...august20BlogDetails,
+};
+
+export const blogDetails: Record<string, BlogDetail> = {
+  ...august20RepairDetails,
   ...august17BlogDetails,
   ...august14BlogDetails,
   ...august13BlogDetails,
