@@ -1,0 +1,5 @@
+Gemini-generated hero prompt receipt
+Route: /blog/payroll-cycle-closeout-record
+Topic: cycle closeout record
+Use case: productivity-visual
+Constraints: wide editorial business illustration; no logos, text, or watermark; distinct composition.

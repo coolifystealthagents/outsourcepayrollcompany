@@ -1,0 +1,114 @@
+{
+  "campaignDate": "2026-08-21",
+  "family": "blog",
+  "entries": [
+    {
+      "slug": "payroll-cutoff-evidence-window",
+      "route": "/blog/payroll-cutoff-evidence-window",
+      "sourcePaths": [
+        "app/august21-blog.ts"
+      ],
+      "imagePath": "public/blog-heroes/aug21-payroll-cutoff-evidence-window.png",
+      "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/payroll-cutoff-evidence-window.txt"
+    },
+    {
+      "slug": "payroll-timesheet-reconciliation-lane",
+      "route": "/blog/payroll-timesheet-reconciliation-lane",
+      "sourcePaths": [
+        "app/august21-blog.ts"
+      ],
+      "imagePath": "public/blog-heroes/aug21-payroll-timesheet-reconciliation-lane.png",
+      "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/payroll-timesheet-reconciliation-lane.txt"
+    },
+    {
+      "slug": "payroll-change-approval-boundary",
+      "route": "/blog/payroll-change-approval-boundary",
+      "sourcePaths": [
+        "app/august21-blog.ts"
+      ],
+      "imagePath": "public/blog-heroes/aug21-payroll-change-approval-boundary.png",
+      "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/payroll-change-approval-boundary.txt"
+    },
+    {
+      "slug": "payroll-exception-aging-review",
+      "route": "/blog/payroll-exception-aging-review",
+      "sourcePaths": [
+        "app/august21-blog.ts"
+      ],
+      "imagePath": "public/blog-heroes/aug21-payroll-exception-aging-review.png",
+      "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/payroll-exception-aging-review.txt"
+    },
+    {
+      "slug": "payroll-provider-handoff-packet",
+      "route": "/blog/payroll-provider-handoff-packet",
+      "sourcePaths": [
+        "app/august21-blog.ts"
+      ],
+      "imagePath": "public/blog-heroes/aug21-payroll-provider-handoff-packet.png",
+      "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/payroll-provider-handoff-packet.txt"
+    },
+    {
+      "slug": "payroll-backup-coverage-plan",
+      "route": "/blog/payroll-backup-coverage-plan",
+      "sourcePaths": [
+        "app/august21-blog.ts"
+      ],
+      "imagePath": "public/blog-heroes/aug21-payroll-backup-coverage-plan.png",
+      "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/payroll-backup-coverage-plan.txt"
+    },
+    {
+      "slug": "payroll-access-review-cycle",
+      "route": "/blog/payroll-access-review-cycle",
+      "sourcePaths": [
+        "app/august21-blog.ts"
+      ],
+      "imagePath": "public/blog-heroes/aug21-payroll-access-review-cycle.png",
+      "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/payroll-access-review-cycle.txt"
+    },
+    {
+      "slug": "payroll-question-triage-lane",
+      "route": "/blog/payroll-question-triage-lane",
+      "sourcePaths": [
+        "app/august21-blog.ts"
+      ],
+      "imagePath": "public/blog-heroes/aug21-payroll-question-triage-lane.png",
+      "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/payroll-question-triage-lane.txt"
+    },
+    {
+      "slug": "payroll-cycle-closeout-record",
+      "route": "/blog/payroll-cycle-closeout-record",
+      "sourcePaths": [
+        "app/august21-blog.ts"
+      ],
+      "imagePath": "public/blog-heroes/aug21-payroll-cycle-closeout-record.png",
+      "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/payroll-cycle-closeout-record.txt"
+    },
+    {
+      "slug": "payroll-source-authority-map",
+      "route": "/blog/payroll-source-authority-map",
+      "sourcePaths": [
+        "app/august21-blog.ts"
+      ],
+      "imagePath": "public/blog-heroes/aug21-payroll-source-authority-map.png",
+      "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/payroll-source-authority-map.txt"
+    },
+    {
+      "slug": "payroll-owner-review-meeting-packet",
+      "route": "/blog/payroll-owner-review-meeting-packet",
+      "sourcePaths": [
+        "app/august21-blog.ts"
+      ],
+      "imagePath": "public/blog-heroes/aug21-payroll-owner-review-meeting-packet.png",
+      "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/payroll-owner-review-meeting-packet.txt"
+    },
+    {
+      "slug": "payroll-work-queue-owner-matrix",
+      "route": "/blog/payroll-work-queue-owner-matrix",
+      "sourcePaths": [
+        "app/august21-blog.ts"
+      ],
+      "imagePath": "public/blog-heroes/aug21-payroll-work-queue-owner-matrix.png",
+      "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/payroll-work-queue-owner-matrix.txt"
+    }
+  ]
+}

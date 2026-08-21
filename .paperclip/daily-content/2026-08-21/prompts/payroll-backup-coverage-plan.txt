@@ -1,0 +1,5 @@
+Gemini-generated hero prompt receipt
+Route: /blog/payroll-backup-coverage-plan
+Topic: backup coverage plan
+Use case: productivity-visual
+Constraints: wide editorial business illustration; no logos, text, or watermark; distinct composition.

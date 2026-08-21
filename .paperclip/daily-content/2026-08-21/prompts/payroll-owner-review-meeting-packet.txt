@@ -1,0 +1,5 @@
+Gemini-generated hero prompt receipt
+Route: /blog/payroll-owner-review-meeting-packet
+Topic: owner review meeting packet
+Use case: productivity-visual
+Constraints: wide editorial business illustration; no logos, text, or watermark; distinct composition.
