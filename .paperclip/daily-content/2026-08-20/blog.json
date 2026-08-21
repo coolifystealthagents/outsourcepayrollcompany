@@ -1,0 +1,14 @@
+[
+  {"route":"/blog/payroll-input-ownership-map","sourcePaths":["app/august20Blog.ts"],"imagePath":"public/blog-heroes/payroll-input-ownership-map.png","promptReceipt":"Gemini 2.5 Flash Image: payroll input ownership map"},
+  {"route":"/blog/payroll-approval-evidence-packet","sourcePaths":["app/august20Blog.ts"],"imagePath":"public/blog-heroes/payroll-approval-evidence-packet.png","promptReceipt":"Gemini 2.5 Flash Image: payroll approval evidence packet"},
+  {"route":"/blog/payroll-provider-cutoff-calendar","sourcePaths":["app/august20Blog.ts"],"imagePath":"public/blog-heroes/payroll-provider-cutoff-calendar.png","promptReceipt":"Gemini 2.5 Flash Image: payroll provider cutoff calendar"},
+  {"route":"/blog/payroll-exception-root-cause-review","sourcePaths":["app/august20Blog.ts"],"imagePath":"public/blog-heroes/payroll-exception-root-cause-review.png","promptReceipt":"Gemini 2.5 Flash Image: payroll exception root cause review"},
+  {"route":"/blog/payroll-employee-change-effective-date","sourcePaths":["app/august20Blog.ts"],"imagePath":"public/blog-heroes/payroll-employee-change-effective-date.png","promptReceipt":"Gemini 2.5 Flash Image: payroll employee change effective date"},
+  {"route":"/blog/payroll-sensitive-request-verification","sourcePaths":["app/august20Blog.ts"],"imagePath":"public/blog-heroes/payroll-sensitive-request-verification.png","promptReceipt":"Gemini 2.5 Flash Image: payroll sensitive request verification"},
+  {"route":"/blog/payroll-provider-rejection-response","sourcePaths":["app/august20Blog.ts"],"imagePath":"public/blog-heroes/payroll-provider-rejection-response.png","promptReceipt":"Gemini 2.5 Flash Image: payroll provider rejection response"},
+  {"route":"/blog/payroll-backup-coverage-lane","sourcePaths":["app/august20Blog.ts"],"imagePath":"public/blog-heroes/payroll-backup-coverage-lane.png","promptReceipt":"Gemini 2.5 Flash Image: payroll backup coverage lane"},
+  {"route":"/blog/payroll-record-source-register","sourcePaths":["app/august20Blog.ts"],"imagePath":"public/blog-heroes/payroll-record-source-register.png","promptReceipt":"Gemini 2.5 Flash Image: payroll record source register"},
+  {"route":"/blog/payroll-cycle-closeout-review","sourcePaths":["app/august20Blog.ts"],"imagePath":"public/blog-heroes/payroll-cycle-closeout-review.png","promptReceipt":"Gemini 2.5 Flash Image: payroll cycle closeout review"},
+  {"route":"/blog/payroll-employee-question-routing","sourcePaths":["app/august20Blog.ts"],"imagePath":"public/blog-heroes/payroll-employee-question-routing.png","promptReceipt":"Gemini 2.5 Flash Image: payroll employee question routing"},
+  {"route":"/blog/payroll-access-removal-checklist","sourcePaths":["app/august20Blog.ts"],"imagePath":"public/blog-heroes/payroll-access-removal-checklist.png","promptReceipt":"Gemini 2.5 Flash Image: payroll access removal checklist"}
+]

@@ -163,6 +163,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
           <p className="eyebrow">{site.brand} guide</p>
           <h1>{post.title}</h1>
           {'published' in post && <time dateTime={post.published}>{formatPublicationDate(post.published)}</time>}
+          {rich?.image && <img className="article-hero-image" src={rich.image} alt="" width={1024} height={1024} />}
           <p className="lead">{post.excerpt}</p>
 
           {detail ? (
