@@ -1,0 +1,3 @@
+Route: /blog/payroll-employee-question-triage-board
+Distinct hero brief: editorial illustration of an outsourced payroll support team sorting employee questions into clearly separated preparation, owner-review, and handoff lanes; wide landscape; no readable text, logo, watermark, stock reuse, money imagery, or claims.
+Generation: Gemini-generated replacement asset for the rejected historical-route identity; generated 2026-08-21.

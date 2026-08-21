@@ -66,13 +66,13 @@
       "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/payroll-permission-recertification.txt"
     },
     {
-      "slug": "payroll-employee-question-routing",
-      "route": "/blog/payroll-employee-question-routing",
+      "slug": "payroll-employee-question-triage-board",
+      "route": "/blog/payroll-employee-question-triage-board",
       "sourcePaths": [
-        "app/aug21-repair-payroll-employee-question-routing.ts"
+        "app/aug21-repair-payroll-employee-question-triage-board.ts"
       ],
-      "imagePath": "public/blog-heroes/aug21-repair-payroll-employee-question-routing.png",
-      "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/payroll-employee-question-routing.txt"
+      "imagePath": "public/blog-heroes/aug21-repair-payroll-employee-question-triage-board.png",
+      "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/payroll-employee-question-triage-board.txt"
     },
     {
       "slug": "payroll-cycle-evidence-close",

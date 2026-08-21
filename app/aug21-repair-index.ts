@@ -5,7 +5,7 @@ import * as a3 from './aug21-repair-payroll-exception-aging-board';
 import * as a4 from './aug21-repair-payroll-provider-transfer-brief';
 import * as a5 from './aug21-repair-payroll-absence-continuity-runbook';
 import * as a6 from './aug21-repair-payroll-permission-recertification';
-import * as a7 from './aug21-repair-payroll-employee-question-routing';
+import * as a7 from './aug21-repair-payroll-employee-question-triage-board';
 import * as a8 from './aug21-repair-payroll-cycle-evidence-close';
 import * as a9 from './aug21-repair-payroll-record-conflict-register';
 import * as a10 from './aug21-repair-payroll-owner-decision-docket';
