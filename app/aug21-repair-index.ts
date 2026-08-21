@@ -1,0 +1,14 @@
+import * as a0 from './aug21-repair-payroll-cutoff-proof-window';
+import * as a1 from './aug21-repair-payroll-hours-reconciliation-notebook';
+import * as a2 from './aug21-repair-payroll-change-request-intake';
+import * as a3 from './aug21-repair-payroll-exception-aging-board';
+import * as a4 from './aug21-repair-payroll-provider-transfer-brief';
+import * as a5 from './aug21-repair-payroll-absence-continuity-runbook';
+import * as a6 from './aug21-repair-payroll-permission-recertification';
+import * as a7 from './aug21-repair-payroll-employee-question-routing';
+import * as a8 from './aug21-repair-payroll-cycle-evidence-close';
+import * as a9 from './aug21-repair-payroll-record-conflict-register';
+import * as a10 from './aug21-repair-payroll-owner-decision-docket';
+import * as a11 from './aug21-repair-payroll-queue-accountability-grid';
+export const august21BlogPosts = [a0.post,a1.post,a2.post,a3.post,a4.post,a5.post,a6.post,a7.post,a8.post,a9.post,a10.post,a11.post];
+export const august21BlogDetails = Object.fromEntries([[a0.post.slug,a0.detail],[a1.post.slug,a1.detail],[a2.post.slug,a2.detail],[a3.post.slug,a3.detail],[a4.post.slug,a4.detail],[a5.post.slug,a5.detail],[a6.post.slug,a6.detail],[a7.post.slug,a7.detail],[a8.post.slug,a8.detail],[a9.post.slug,a9.detail],[a10.post.slug,a10.detail],[a11.post.slug,a11.detail]]);
