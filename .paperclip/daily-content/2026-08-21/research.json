@@ -1,0 +1,11 @@
+{
+  "campaignDate": "2026-08-21",
+  "family": "research",
+  "entries": [
+    {"slug":"philippines-payroll-cutoff-slack-research","route":"/research/philippines-payroll-cutoff-slack-research","sourcePaths":["app/research-aug21.ts"],"imagePath":"public/research-heroes/philippines-payroll-cutoff-slack-research.png","promptReceipt":".paperclip/daily-content/2026-08-21/prompts/philippines-payroll-cutoff-slack-research.txt"},
+    {"slug":"philippines-payroll-effective-date-collision-research","route":"/research/philippines-payroll-effective-date-collision-research","sourcePaths":["app/research-aug21.ts"],"imagePath":"public/research-heroes/philippines-payroll-effective-date-collision-research.png","promptReceipt":".paperclip/daily-content/2026-08-21/prompts/philippines-payroll-effective-date-collision-research.txt"},
+    {"slug":"philippines-payroll-query-cohort-research","route":"/research/philippines-payroll-query-cohort-research","sourcePaths":["app/research-aug21.ts"],"imagePath":"public/research-heroes/philippines-payroll-query-cohort-research.png","promptReceipt":".paperclip/daily-content/2026-08-21/prompts/philippines-payroll-query-cohort-research.txt"},
+    {"slug":"philippines-payroll-provider-rejection-evidence-research","route":"/research/philippines-payroll-provider-rejection-evidence-research","sourcePaths":["app/research-aug21.ts"],"imagePath":"public/research-heroes/philippines-payroll-provider-rejection-evidence-research.png","promptReceipt":".paperclip/daily-content/2026-08-21/prompts/philippines-payroll-provider-rejection-evidence-research.txt"},
+    {"slug":"philippines-payroll-review-export-minimization-research","route":"/research/philippines-payroll-review-export-minimization-research","sourcePaths":["app/research-aug21.ts"],"imagePath":"public/research-heroes/philippines-payroll-review-export-minimization-research.png","promptReceipt":".paperclip/daily-content/2026-08-21/prompts/philippines-payroll-review-export-minimization-research.txt"}
+  ]
+}
