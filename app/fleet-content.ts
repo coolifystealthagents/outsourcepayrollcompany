@@ -1,3 +1,9 @@
+import {researchAug20CutoffEvidence} from './research-aug20-cutoff-evidence';
+import {researchAug20ChangeEffectiveDate} from './research-aug20-change-effective-date';
+import {researchAug20QuerySampling} from './research-aug20-query-sampling';
+import {researchAug20ProviderRejection} from './research-aug20-provider-rejection';
+import {researchAug20ExportMinimization} from './research-aug20-export-minimization';
+
 export const fleetServices = [
   {
     "slug": "payroll-data-entry",
@@ -520,7 +526,7 @@ const august20ResearchPosts: readonly ResearchPost[] = [
   ],sources:[{label:'Bureau of Internal Revenue, official tax resources',url:'https://www.bir.gov.ph/'},{label:'National Privacy Commission, Data Privacy Act',url:'https://privacy.gov.ph/data-privacy-act/'},{label:'Philippine Statistics Authority, Labor Force Survey',url:'https://psa.gov.ph/statistics/labor-force-survey'}],faq:[{question:'What should be matched first?',answer:'Population and period; amount interpretation is weaker when either is uncertain.'},{question:'Does a balanced total prove the filing is correct?',answer:'No. It does not prove the right records, period, treatment, or payment evidence were used.'}],related:['philippines-payroll-remittance-source-matching','philippines-payroll-source-output-population-bridge']}
 ] as const;
 
-export const researchPosts: readonly ResearchPost[] = [...legacyResearchPosts, ...august13ResearchPosts, ...august14ResearchPosts, ...august17ResearchPosts, ...august20ResearchPosts];
+export const researchPosts: readonly ResearchPost[] = [...legacyResearchPosts, ...august13ResearchPosts, ...august14ResearchPosts, ...august17ResearchPosts, ...august20ResearchPosts, researchAug20CutoffEvidence, researchAug20ChangeEffectiveDate, researchAug20QuerySampling, researchAug20ProviderRejection, researchAug20ExportMinimization];
 export const publicTiers = [
   {name:'Executive Assistants', price:'$10/hour', detail:'Philippines-based support for structured executive and administrative work.'},
   {name:'Senior Assistants', price:'$15/hour', detail:'Experienced Philippines-based support for specialized workflows and coordination.'},

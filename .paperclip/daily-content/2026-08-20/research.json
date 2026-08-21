@@ -1,11 +1,11 @@
 {
-  "date": "2026-08-20",
-  "family": "research",
-  "entries": [
-    {"route":"/research/philippines-payroll-population-bridge-research","sourcePaths":["app/fleet-content.ts"],"imagePath":"public/research-heroes/philippines-payroll-population-bridge-research.png","datePublished":"2026-08-20"},
-    {"route":"/research/philippines-payroll-deadline-slack-research","sourcePaths":["app/fleet-content.ts"],"imagePath":"public/research-heroes/philippines-payroll-deadline-slack-research.png","datePublished":"2026-08-20"},
-    {"route":"/research/philippines-payroll-approval-authority-boundary-research","sourcePaths":["app/fleet-content.ts"],"imagePath":"public/research-heroes/philippines-payroll-approval-authority-boundary-research.png","datePublished":"2026-08-20"},
-    {"route":"/research/philippines-payroll-exception-cohort-research","sourcePaths":["app/fleet-content.ts"],"imagePath":"public/research-heroes/philippines-payroll-exception-cohort-research.png","datePublished":"2026-08-20"},
-    {"route":"/research/philippines-payroll-remittance-source-match-research","sourcePaths":["app/fleet-content.ts"],"imagePath":"public/research-heroes/philippines-payroll-remittance-source-match-research.png","datePublished":"2026-08-20"}
+  "date":"2026-08-20",
+  "family":"research",
+  "entries":[
+    {"route":"/research/payroll-cutoff-evidence-window-study","sourcePaths":["app/research-aug20-cutoff-evidence.ts"],"imagePath":"public/research-heroes/payroll-cutoff-evidence-window-study.png","datePublished":"2026-08-20"},
+    {"route":"/research/payroll-change-effective-date-collision-research","sourcePaths":["app/research-aug20-change-effective-date.ts"],"imagePath":"public/research-heroes/payroll-change-effective-date-collision-research.png","datePublished":"2026-08-20"},
+    {"route":"/research/payroll-query-sampling-and-resolution-research","sourcePaths":["app/research-aug20-query-sampling.ts"],"imagePath":"public/research-heroes/payroll-query-sampling-and-resolution-research.png","datePublished":"2026-08-20"},
+    {"route":"/research/payroll-provider-rejection-traceability-study","sourcePaths":["app/research-aug20-provider-rejection.ts"],"imagePath":"public/research-heroes/payroll-provider-rejection-traceability-study.png","datePublished":"2026-08-20"},
+    {"route":"/research/payroll-export-minimization-and-review-research","sourcePaths":["app/research-aug20-export-minimization.ts"],"imagePath":"public/research-heroes/payroll-export-minimization-and-review-research.png","datePublished":"2026-08-20"}
   ]
 }
