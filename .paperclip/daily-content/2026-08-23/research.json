@@ -1,0 +1,11 @@
+{
+  "campaignDate": "2026-08-23",
+  "family": "research",
+  "entries": [
+    {"slug":"philippines-payroll-source-output-bridge-study","route":"/research/philippines-payroll-source-output-bridge-study","sourcePaths":["app/aug23-research.ts"],"imagePath":"public/research-heroes/philippines-payroll-source-output-bridge-study.png","promptReceipt":"source-output-bridge-study.prompt.txt"},
+    {"slug":"philippines-payroll-deadline-review-slack-study","route":"/research/philippines-payroll-deadline-review-slack-study","sourcePaths":["app/aug23-research.ts"],"imagePath":"public/research-heroes/philippines-payroll-deadline-review-slack-study.png","promptReceipt":"deadline-review-slack-study.prompt.txt"},
+    {"slug":"philippines-payroll-correction-lineage-review","route":"/research/philippines-payroll-correction-lineage-review","sourcePaths":["app/aug23-research.ts"],"imagePath":"public/research-heroes/philippines-payroll-correction-lineage-review.png","promptReceipt":"correction-lineage-review.prompt.txt"},
+    {"slug":"philippines-payroll-provider-rejection-cohort-study","route":"/research/philippines-payroll-provider-rejection-cohort-study","sourcePaths":["app/aug23-research.ts"],"imagePath":"public/research-heroes/philippines-payroll-provider-rejection-cohort-study.png","promptReceipt":"provider-rejection-cohort-study.prompt.txt"},
+    {"slug":"philippines-payroll-evidence-retention-minimization-study","route":"/research/philippines-payroll-evidence-retention-minimization-study","sourcePaths":["app/aug23-research.ts"],"imagePath":"public/research-heroes/philippines-payroll-evidence-retention-minimization-study.png","promptReceipt":"evidence-retention-minimization-study.prompt.txt"}
+  ]
+}
