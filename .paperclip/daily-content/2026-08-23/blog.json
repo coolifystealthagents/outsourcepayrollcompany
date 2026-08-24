@@ -1,0 +1,20 @@
+{
+  "campaignDate": "2026-08-23",
+  "family": "blog",
+  "imageStatus": "fallback-text-complete",
+  "imageBlocker": "Gemini image generation is unavailable in this repository worker; no stock or uncertain replacement was used.",
+  "entries": [
+    {"route":"/blog/payroll-reconciliation-by-source","sourcePaths":["app/aug23-blog-batch.ts"]},
+    {"route":"/blog/payroll-approval-window-design","sourcePaths":["app/aug23-blog-batch.ts"]},
+    {"route":"/blog/payroll-source-file-intake","sourcePaths":["app/aug23-blog-batch.ts"]},
+    {"route":"/blog/payroll-late-approval-recovery","sourcePaths":["app/aug23-blog-batch.ts"]},
+    {"route":"/blog/payroll-effective-date-collision","sourcePaths":["app/aug23-blog-batch.ts"]},
+    {"route":"/blog/payroll-provider-receipt-evidence","sourcePaths":["app/aug23-blog-batch.ts"]},
+    {"route":"/blog/payroll-employee-question-knowledge-base","sourcePaths":["app/aug23-blog-batch.ts"]},
+    {"route":"/blog/payroll-absence-coverage-handoff","sourcePaths":["app/aug23-blog-batch.ts"]},
+    {"route":"/blog/payroll-repeated-exception-root-cause","sourcePaths":["app/aug23-blog-batch.ts"]},
+    {"route":"/blog/payroll-record-retention-map","sourcePaths":["app/aug23-blog-batch.ts"]},
+    {"route":"/blog/payroll-correction-followup","sourcePaths":["app/aug23-blog-batch.ts"]},
+    {"route":"/blog/payroll-task-queue-prioritization","sourcePaths":["app/aug23-blog-batch.ts"]}
+  ]
+}
