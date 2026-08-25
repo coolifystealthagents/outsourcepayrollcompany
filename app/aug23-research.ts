@@ -10,7 +10,7 @@ const august23ResearchDrafts: readonly ResearchPost[] = [
     slug: 'philippines-payroll-source-output-bridge-study',
     title: 'Philippines payroll source-to-output population bridge study',
     excerpt: 'Research question: can a payroll team prove that the prepared output contains the authorized population before it compares amounts?',
-    published: '2026-08-23',
+    published: '2026-08-24',
     stat: 'A population bridge compares source records, approved inclusions, approved exclusions, and the resulting payroll output.',
     image: '/research-heroes/philippines-payroll-source-output-bridge-study.png',
     takeaways: [
@@ -38,7 +38,7 @@ const august23ResearchDrafts: readonly ResearchPost[] = [
     slug: 'philippines-payroll-deadline-review-slack-study',
     title: 'Philippines payroll deadline review slack study',
     excerpt: 'Research question: how much usable review time remains after a payroll input is ready, handed off, and matched to the owner’s working calendar?',
-    published: '2026-08-23',
+    published: '2026-08-24',
     stat: 'Review slack is the usable time between an input becoming review-ready and the responsible owner’s decision cutoff.',
     image: '/research-heroes/philippines-payroll-deadline-review-slack-study.png',
     takeaways: [
@@ -65,7 +65,7 @@ const august23ResearchDrafts: readonly ResearchPost[] = [
     slug: 'philippines-payroll-correction-lineage-review',
     title: 'Philippines payroll correction lineage review',
     excerpt: 'Research question: can a reviewer follow a payroll correction from its originating evidence to the confirmed downstream result without relying on memory?',
-    published: '2026-08-23',
+    published: '2026-08-24',
     stat: 'Correction lineage links the request, changed field, effective date, reviewer decision, resulting output, and confirmation.',
     image: '/research-heroes/philippines-payroll-correction-lineage-review.png',
     takeaways: [
@@ -92,7 +92,7 @@ const august23ResearchDrafts: readonly ResearchPost[] = [
     slug: 'philippines-payroll-provider-rejection-cohort-study',
     title: 'Philippines payroll provider rejection cohort study',
     excerpt: 'Research question: do recurring provider rejections originate in source data, timing, transformation, or an unclear review boundary?',
-    published: '2026-08-23',
+    published: '2026-08-24',
     stat: 'A rejection cohort groups failed payroll submissions by field, cause, pay period, correction owner, and resubmission outcome.',
     image: '/research-heroes/philippines-payroll-provider-rejection-cohort-study.png',
     takeaways: [
@@ -119,7 +119,7 @@ const august23ResearchDrafts: readonly ResearchPost[] = [
     slug: 'philippines-payroll-evidence-retention-minimization-study',
     title: 'Philippines payroll evidence retention and minimization study',
     excerpt: 'Research question: how can payroll operations retain enough evidence to explain a decision without turning working copies into an uncontrolled archive?',
-    published: '2026-08-23',
+    published: '2026-08-24',
     stat: 'A retention review connects each evidence class to its purpose, minimum fields, owner, access group, review trigger, and disposition.',
     image: '/research-heroes/philippines-payroll-evidence-retention-minimization-study.png',
     takeaways: [

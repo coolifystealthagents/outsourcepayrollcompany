@@ -1,5 +1,5 @@
 {
-  "campaignDate": "2026-08-23",
+  "campaignDate": "2026-08-24",
   "family": "research",
   "entries": [
     {"slug":"philippines-payroll-source-output-bridge-study","route":"/research/philippines-payroll-source-output-bridge-study","sourcePaths":["app/aug23-research.ts"],"imagePath":"public/research-heroes/philippines-payroll-source-output-bridge-study.png","promptReceipt":"source-output-bridge-study.prompt.txt"},
