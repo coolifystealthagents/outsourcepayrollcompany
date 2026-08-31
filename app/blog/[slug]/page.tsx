@@ -165,6 +165,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
           {'published' in post && <time dateTime={post.published}>{formatPublicationDate(post.published)}</time>}
           {rich?.image && <img className="article-hero-image" src={rich.image} alt="" width={1024} height={1024} />}
           <p className="lead">{post.excerpt}</p>
+          {rich && <p className="article-published"><time dateTime={rich.published}>{new Date(`${rich.published}T00:00:00Z`).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}</time></p>}
 
           {detail ? (
             <>

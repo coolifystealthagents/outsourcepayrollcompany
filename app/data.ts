@@ -2,6 +2,7 @@ import { additionalPublisherBlogDetails, additionalPublisherBlogPosts, august11B
 import { august20RepairDetails, august20RepairPosts } from './august20-repair-index';
 import { august21BlogDetails, august21BlogPosts } from './aug21-repair-index';
 import { august23BlogDetails, august23BlogPosts } from './aug23-blog-batch';
+import { august31BlogDetails, august31BlogPosts } from './august31-content';
 
 export const site = {
   domain: 'OutsourcePayrollCompany.com',
@@ -136,6 +137,7 @@ export const services = [
 ] as const;
 
 export const blogPosts = [
+  ...august31BlogPosts,
   ...august23BlogPosts,
   ...august21BlogPosts,
   ...august20RepairPosts,
@@ -174,6 +176,7 @@ type BlogDetail = {
 };
 
 export const blogDetails: Record<string, BlogDetail> = {
+  ...august31BlogDetails,
   ...august23BlogDetails,
   ...august21BlogDetails,
   ...august20RepairDetails,

@@ -1,0 +1,25 @@
+{
+  "campaignDate": "2026-08-31",
+  "status": "completed",
+  "validated": true,
+  "counts": { "blog": 12, "research": 5, "total": 17 },
+  "tasks": [
+    {"type":"blog","slug":"payroll-variance-review","status":"completed","validated":true,"imagesComplete":true,"metadataComplete":true,"linksComplete":true,"ctaComplete":true},
+    {"type":"blog","slug":"payroll-deadline-escalation","status":"completed","validated":true,"imagesComplete":true,"metadataComplete":true,"linksComplete":true,"ctaComplete":true},
+    {"type":"blog","slug":"payroll-audit-trail-basics","status":"completed","validated":true,"imagesComplete":true,"metadataComplete":true,"linksComplete":true,"ctaComplete":true},
+    {"type":"blog","slug":"payroll-preprocessing-checks","status":"completed","validated":true,"imagesComplete":true,"metadataComplete":true,"linksComplete":true,"ctaComplete":true},
+    {"type":"blog","slug":"off-cycle-payroll-request-intake","status":"completed","validated":true,"imagesComplete":true,"metadataComplete":true,"linksComplete":true,"ctaComplete":true},
+    {"type":"blog","slug":"payroll-garnishment-routing","status":"completed","validated":true,"imagesComplete":true,"metadataComplete":true,"linksComplete":true,"ctaComplete":true},
+    {"type":"blog","slug":"multi-entity-payroll-intake","status":"completed","validated":true,"imagesComplete":true,"metadataComplete":true,"linksComplete":true,"ctaComplete":true},
+    {"type":"blog","slug":"payroll-returned-payment-workflow","status":"completed","validated":true,"imagesComplete":true,"metadataComplete":true,"linksComplete":true,"ctaComplete":true},
+    {"type":"blog","slug":"payroll-year-to-date-validation","status":"completed","validated":true,"imagesComplete":true,"metadataComplete":true,"linksComplete":true,"ctaComplete":true},
+    {"type":"blog","slug":"payroll-case-priority-rules","status":"completed","validated":true,"imagesComplete":true,"metadataComplete":true,"linksComplete":true,"ctaComplete":true},
+    {"type":"blog","slug":"payroll-file-transfer-checklist","status":"completed","validated":true,"imagesComplete":true,"metadataComplete":true,"linksComplete":true,"ctaComplete":true},
+    {"type":"blog","slug":"payroll-service-review-agenda","status":"completed","validated":true,"imagesComplete":true,"metadataComplete":true,"linksComplete":true,"ctaComplete":true},
+    {"type":"research","slug":"philippines-payroll-digital-payment-readiness","status":"completed","validated":true,"imagesComplete":true,"metadataComplete":true,"linksComplete":true,"ctaComplete":true},
+    {"type":"research","slug":"philippines-payroll-privacy-impact-review","status":"completed","validated":true,"imagesComplete":true,"metadataComplete":true,"linksComplete":true,"ctaComplete":true},
+    {"type":"research","slug":"philippines-payroll-workforce-capacity-planning","status":"completed","validated":true,"imagesComplete":true,"metadataComplete":true,"linksComplete":true,"ctaComplete":true},
+    {"type":"research","slug":"philippines-payroll-business-continuity-test","status":"completed","validated":true,"imagesComplete":true,"metadataComplete":true,"linksComplete":true,"ctaComplete":true},
+    {"type":"research","slug":"philippines-payroll-quality-sampling","status":"completed","validated":true,"imagesComplete":true,"metadataComplete":true,"linksComplete":true,"ctaComplete":true}
+  ]
+}
