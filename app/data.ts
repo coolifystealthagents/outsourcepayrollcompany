@@ -188,6 +188,7 @@ export const blogDetails: Record<string, BlogDetail> = {
   ...additionalPublisherBlogDetails,
   ...secondPublisherBlogDetails,
   ...thirdPublisherBlogDetails,
+  'payroll-file-transfer-checklist': august31BlogDetails['payroll-file-transfer-checklist'],
   'outsource-payroll-company-planning': {
     takeaways: [
       'Keep final payroll approval with a named payroll owner or provider.',
