@@ -229,6 +229,12 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
                 </section>
               ))}
 
+              {detail.contextualLink && <section className="guide-block article-contextual-link" aria-labelledby="contextual-link-heading">
+                <h2 id="contextual-link-heading">{detail.contextualLink.heading}</h2>
+                <p>{detail.contextualLink.body}</p>
+                <a href={detail.contextualLink.href}>{detail.contextualLink.label}</a>
+              </section>}
+
               {detail.publication && <section className="guide-block article-publication-links article-related" aria-label="Related payroll resources">
                 <p>Continue the workflow with <a href={detail.publication.internalLinks[0]}>operations support</a> and <a href={detail.publication.internalLinks[1]}>reporting and QA support</a>. For the access principle behind this routine, review <a href={detail.publication.externalLink} rel="noreferrer">NIST Zero Trust Architecture</a>.</p>
                 <h2>Related articles</h2>

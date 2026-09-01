@@ -166,6 +166,7 @@ type BlogDetail = {
   faqs: { question: string; answer: string }[];
   sources: { name: string; url: string; note: string }[];
   publication?: { internalLinks: string[]; externalLink: string; related: string[] };
+  contextualLink?: { heading: string; body: string; href: string; label: string };
   rich?: {
     keyword: string; marker: string; published: string; image?: string; directAnswer: string[];
     stats: { value: string; label: string; note: string }[];

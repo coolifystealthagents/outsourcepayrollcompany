@@ -602,7 +602,14 @@ export const additionalPublisherBlogDetails = Object.fromEntries(batchTopics.map
       { name: 'NIST: Zero Trust Architecture, SP 800-207', url: 'https://www.nist.gov/publications/zero-trust-architecture', note: 'Official guidance supporting explicit verification and least-privilege access.' },
     ],
   }];
-})) as Record<string, (typeof publisherBlogDetails)[keyof typeof publisherBlogDetails]>;
+})) as Record<string, (typeof publisherBlogDetails)[keyof typeof publisherBlogDetails] & { contextualLink?: { heading: string; body: string; href: string; label: string } }>;
+
+additionalPublisherBlogDetails['timesheet-follow-up-workflow'].contextualLink = {
+  heading: 'Reconcile hours before the payroll handoff',
+  body: 'Use a reconciliation step when missing or conflicting hours need a clear source record and next action. A Philippines-based support specialist can prepare the tracker, while the authorized payroll owner resolves disputed hours and approves the final result.',
+  href: '/services/timesheet-reconciliation',
+  label: 'See timesheet reconciliation support',
+};
 
 // August 17, 2026 Blog batch. Every record owns the campaign date directly.
 const august17Topics = [
