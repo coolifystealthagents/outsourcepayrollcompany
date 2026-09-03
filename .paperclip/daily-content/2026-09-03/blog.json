@@ -1,0 +1,20 @@
+{
+  "campaignDate": "2026-09-03",
+  "family": "blog",
+  "imageStatus": "fallback-text-complete",
+  "imageBlocker": "Gemini image generation is unavailable in this repository worker; no stock or uncertain replacement was used.",
+  "entries": [
+    {"route":"/blog/payroll-input-freeze-reopening","sourcePaths":["app/september3-blog.ts"],"datePublished":"2026-09-03"},
+    {"route":"/blog/payroll-negative-net-pay-review","sourcePaths":["app/september3-blog.ts"],"datePublished":"2026-09-03"},
+    {"route":"/blog/payroll-rounding-variance-investigation","sourcePaths":["app/september3-blog.ts"],"datePublished":"2026-09-03"},
+    {"route":"/blog/payroll-bank-change-cooling-off","sourcePaths":["app/september3-blog.ts"],"datePublished":"2026-09-03"},
+    {"route":"/blog/payroll-cutoff-time-zone-register","sourcePaths":["app/september3-blog.ts"],"datePublished":"2026-09-03"},
+    {"route":"/blog/payroll-deduction-cap-exception-check","sourcePaths":["app/september3-blog.ts"],"datePublished":"2026-09-03"},
+    {"route":"/blog/payroll-rehire-identity-linking","sourcePaths":["app/september3-blog.ts"],"datePublished":"2026-09-03"},
+    {"route":"/blog/payroll-manual-adjustment-register","sourcePaths":["app/september3-blog.ts"],"datePublished":"2026-09-03"},
+    {"route":"/blog/payroll-provider-file-version-control","sourcePaths":["app/september3-blog.ts"],"datePublished":"2026-09-03"},
+    {"route":"/blog/payroll-year-to-date-balance-transfer","sourcePaths":["app/september3-blog.ts"],"datePublished":"2026-09-03"},
+    {"route":"/blog/payroll-approval-delegation-register","sourcePaths":["app/september3-blog.ts"],"datePublished":"2026-09-03"},
+    {"route":"/blog/payroll-post-release-anomaly-triage","sourcePaths":["app/september3-blog.ts"],"datePublished":"2026-09-03"}
+  ]
+}
