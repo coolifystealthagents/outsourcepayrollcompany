@@ -1,0 +1,11 @@
+{
+  "campaignDate": "2026-08-23",
+  "family": "research",
+  "entries": [
+    {"route":"/research/philippines-payroll-approval-latency-cascade-study","sourcePaths":["app/aug23-research-v8.ts"],"imagePath":"public/research-heroes/philippines-payroll-approval-latency-cascade-study.png","promptReceipt":".paperclip/daily-content/2026-08-23/prompts/philippines-payroll-approval-latency-cascade-study.txt"},
+    {"route":"/research/philippines-payroll-duplicate-time-entry-detection-study","sourcePaths":["app/aug23-research-v8.ts"],"imagePath":"public/research-heroes/philippines-payroll-duplicate-time-entry-detection-study.png","promptReceipt":".paperclip/daily-content/2026-08-23/prompts/philippines-payroll-duplicate-time-entry-detection-study.txt"},
+    {"route":"/research/philippines-payroll-retroactive-change-propagation-study","sourcePaths":["app/aug23-research-v8.ts"],"imagePath":"public/research-heroes/philippines-payroll-retroactive-change-propagation-study.png","promptReceipt":".paperclip/daily-content/2026-08-23/prompts/philippines-payroll-retroactive-change-propagation-study.txt"},
+    {"route":"/research/philippines-payroll-inbox-severity-calibration-research","sourcePaths":["app/aug23-research-v8.ts"],"imagePath":"public/research-heroes/philippines-payroll-inbox-severity-calibration-research.png","promptReceipt":".paperclip/daily-content/2026-08-23/prompts/philippines-payroll-inbox-severity-calibration-research.txt"},
+    {"route":"/research/philippines-payroll-multi-entity-record-segregation-test","sourcePaths":["app/aug23-research-v8.ts"],"imagePath":"public/research-heroes/philippines-payroll-multi-entity-record-segregation-test.png","promptReceipt":".paperclip/daily-content/2026-08-23/prompts/philippines-payroll-multi-entity-record-segregation-test.txt"}
+  ]
+}
