@@ -1,0 +1,12 @@
+{
+  "campaignDate": "2026-09-04",
+  "family": "research",
+  "imageStatus": "existing-approved-inventory",
+  "entries": [
+    {"route":"/research/philippines-payroll-cutoff-exception-recovery-study","datePublished":"2026-09-04"},
+    {"route":"/research/philippines-payroll-master-data-drift-sampling-study","datePublished":"2026-09-04"},
+    {"route":"/research/philippines-payroll-provider-receipt-reliability-study","datePublished":"2026-09-04"},
+    {"route":"/research/philippines-payroll-access-removal-lag-study","datePublished":"2026-09-04"},
+    {"route":"/research/philippines-payroll-exception-reopen-rate-study","datePublished":"2026-09-04"}
+  ]
+}

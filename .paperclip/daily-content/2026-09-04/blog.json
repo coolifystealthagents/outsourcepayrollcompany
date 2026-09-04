@@ -1,0 +1,19 @@
+{
+  "campaignDate": "2026-09-04",
+  "family": "blog",
+  "imageStatus": "existing-approved-inventory",
+  "entries": [
+    {"route":"/blog/payroll-returned-payment-evidence-lane","datePublished":"2026-09-04"},
+    {"route":"/blog/payroll-new-hire-first-cycle-readiness","datePublished":"2026-09-04"},
+    {"route":"/blog/payroll-termination-input-boundary","datePublished":"2026-09-04"},
+    {"route":"/blog/payroll-garnishment-document-routing","datePublished":"2026-09-04"},
+    {"route":"/blog/payroll-off-cycle-request-register","datePublished":"2026-09-04"},
+    {"route":"/blog/payroll-multi-entity-worker-match","datePublished":"2026-09-04"},
+    {"route":"/blog/payroll-inbox-identity-verification","datePublished":"2026-09-04"},
+    {"route":"/blog/payroll-prior-period-correction-queue","datePublished":"2026-09-04"},
+    {"route":"/blog/payroll-provider-portal-access-review","datePublished":"2026-09-04"},
+    {"route":"/blog/payroll-employee-master-change-diff","datePublished":"2026-09-04"},
+    {"route":"/blog/payroll-unapproved-hours-quarantine","datePublished":"2026-09-04"},
+    {"route":"/blog/payroll-cycle-control-total-check","datePublished":"2026-09-04"}
+  ]
+}
