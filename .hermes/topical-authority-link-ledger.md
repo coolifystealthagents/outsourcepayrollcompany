@@ -8,22 +8,24 @@ The service pages are the commercial pillars. Research briefs and practical payr
 
 | Service pillar | Reader need | Confirmed support route to audit first | Link decision |
 | --- | --- | --- | --- |
-| `/services/payroll-data-entry` | Organize approved payroll records and flag gaps | `/research/philippines-payroll-access-recertification-by-task` | Already linked. Do not add a duplicate. |
-| `/services/timesheet-reconciliation` | Check hours and identify missing or conflicting records before cut-off | `/research/philippines-payroll-reconciliation-false-positive-analysis` | Audit for one contextual handoff. The source must not already contain this target. |
-| `/services/payroll-preparation` | Prepare approved inputs and handoff notes for payroll review | `/research/philippines-payroll-period-close-evidence` | Audit for one contextual handoff. A generic template link is not proof of a reader-useful source link. |
-| `/services/benefits-deduction-administration` | Organize approved benefit or deduction inputs for review | `/research/philippines-payroll-earnings-code-governance` | Audit for one contextual handoff. Keep classification and approval with the payroll owner. |
-| `/services/new-hire-payroll-setup` | Prepare onboarding records and flag incomplete payroll inputs | `/research/philippines-payroll-employee-status-reconciliation` | Audit for one contextual handoff. Do not imply authority to change employment status. |
-| `/services/payroll-query-support` | Sort employee payroll questions and route sensitive cases | `/research/philippines-payroll-provider-rejection-patterns` | Audit for one contextual handoff. Keep pay, tax, and dispute answers with the authorized owner. |
-| `/services/leave-balance-administration` | Prepare leave records and surface missing source evidence | `/research/philippines-payroll-leave-accrual-evidence` | Audit for one contextual handoff. Do not present the route as legal, tax, or policy advice. |
-| `/services/payroll-reporting` | Prepare exception reports and review-ready payroll summaries | `/research/philippines-payroll-control-metric-denominators` | Audit for one contextual handoff. The source must explain what the report can and cannot show. |
-| `/services/contractor-payment-administration` | Prepare payment records and exception notes for owner review | `/research/philippines-payroll-remittance-source-matching` | Audit for one contextual handoff. Do not imply authority to release funds. |
+| `/services/payroll-data-entry` | Organize approved payroll records and flag gaps | `/research/philippines-payroll-access-recertification-by-task` | Delivered locally: one route-local link. Do not add a duplicate. |
+| `/services/timesheet-reconciliation` | Check hours and identify missing or conflicting records before cut-off | `/research/philippines-payroll-reconciliation-false-positive-analysis` | Delivered locally: one route-local link. Do not add a duplicate. |
+| `/services/payroll-preparation` | Prepare approved inputs and handoff notes for payroll review | `/research/philippines-payroll-period-close-evidence` | Delivered locally: one route-local link. Do not add a duplicate. |
+| `/services/benefits-deduction-administration` | Organize approved benefit or deduction inputs for review | `/research/philippines-payroll-earnings-code-governance` | Verified absent in the generated route. Eligible for one future handoff that keeps classification and approval with the payroll owner. |
+| `/services/new-hire-payroll-setup` | Prepare onboarding records and flag incomplete payroll inputs | `/research/philippines-payroll-employee-status-reconciliation` | Verified absent in the generated route. Eligible for one future handoff that does not imply authority to change employment status. |
+| `/services/payroll-query-support` | Sort employee payroll questions and route sensitive cases | `/research/philippines-payroll-provider-rejection-patterns` | Blocked: the declared source is not in the current generated route or sitemap inventory. Repair route registration or choose another generated source before proposing a handoff. |
+| `/services/leave-balance-administration` | Prepare leave records and surface missing source evidence | `/research/philippines-payroll-leave-accrual-evidence` | Blocked: the declared source is not in the current generated route or sitemap inventory. Repair route registration or choose another generated source before proposing a handoff. |
+| `/services/payroll-reporting` | Prepare exception reports and review-ready payroll summaries | `/research/philippines-payroll-control-metric-denominators` | Verified absent in the generated route. Eligible for one future handoff that explains what the report can and cannot show. |
+| `/services/contractor-payment-administration` | Prepare payment records and exception notes for owner review | `/research/philippines-payroll-remittance-source-matching` | Blocked: the declared source is not in the current generated route or sitemap inventory. Repair route registration or choose another generated source before proposing a handoff. |
 | `/services/year-end-payroll-preparation` | Organize approved year-end payroll records for review | No route selected yet | Hold. Select a source only after a route-level audit shows a real reader question and an evidence fit. |
 
-## First executable candidate
+## Next executable candidate
 
-Audit `/research/philippines-payroll-reconciliation-false-positive-analysis` for a single handoff to `/services/timesheet-reconciliation`. This is an existing generated research route. Its reader question and the service intent meet at a practical problem: a specialist can organize source records and flag mismatches, while the payroll owner decides whether a disputed time entry is valid.
+Audit `/research/philippines-payroll-earnings-code-governance` for one handoff to `/services/benefits-deduction-administration`. It is an existing generated research route whose route-local main does not yet contain that service link. A suitable future handoff should say that a Philippines-based specialist can organize approved inputs and flag unclear records for review; the authorized payroll owner keeps classification and approval decisions.
 
-A suitable future handoff should say that a Philippines-based specialist can compare approved time records, keep a clear exception list, and prepare it for review. It must say that the authorized payroll owner resolves disputed hours and approves the final payroll result.
+## 2026-09-06 generated-route reconciliation
+
+The production build checked all nine declared pairs against route-local `<main>` content, canonical tags, H1s, and the generated sitemap. Three pairs are delivered locally, three generated sources are present but have no target link, and three declared sources are not generated or listed in the sitemap. The sitemap includes each generated source route and intentionally supplies no `<lastmod>` fields.
 
 ## Release gates for each future handoff
 
