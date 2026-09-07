@@ -7,7 +7,7 @@ const publicationDateFormatter=new Intl.DateTimeFormat('en-US',{year:'numeric',m
 const formatPublicationDate=(value:string)=>publicationDateFormatter.format(new Date(`${value}T00:00:00Z`));
 
 export function generateStaticParams(){return researchPosts.map(p=>({slug:p.slug}))}
-export function generateMetadata({params}:{params:Promise<{slug:string}>}){return params.then(({slug})=>{const p=researchPosts.find(x=>x.slug===slug);const canonical=`${siteUrl}/research/${slug}`;return p?{title:p.title,description:p.excerpt,alternates:{canonical}}:{}})}
+export function generateMetadata({params}:{params:Promise<{slug:string}>}){return params.then(({slug})=>{const p=researchPosts.find(x=>x.slug===slug);const canonical=`${siteUrl}/research/${slug}`;return p?{title:p.title,description:p.excerpt,alternates:{canonical},openGraph:{title:p.title,description:p.excerpt,url:canonical,siteName:'Outsource Payroll Company',type:'article',images:p.image?[{url:`${siteUrl}${p.image}`}]:undefined}}:{}})}
 
 export default async function ResearchArticle({params}:{params:Promise<{slug:string}>}){
   const {slug}=await params; const post=researchPosts.find(p=>p.slug===slug); if(!post)notFound();

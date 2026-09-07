@@ -77,6 +77,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const post = blogPosts.find((item) => item.slug === slug);
   const canonical = `${siteUrl}/blog/${slug}`;
+  const image = blogDetails[slug]?.rich?.image;
 
   return {
     title: post?.title || 'Payroll guide',
@@ -88,6 +89,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       url: canonical,
       siteName: site.brand,
       type: 'article',
+      images: image ? [{ url: `${siteUrl}${image}` }] : undefined,
     },
   };
 }
