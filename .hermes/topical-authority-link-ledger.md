@@ -11,7 +11,7 @@ The service pages are the commercial pillars. Research briefs and practical payr
 | `/services/payroll-data-entry` | Organize approved payroll records and flag gaps | `/research/philippines-payroll-access-recertification-by-task` | Delivered locally: one route-local link. Do not add a duplicate. |
 | `/services/timesheet-reconciliation` | Check hours and identify missing or conflicting records before cut-off | `/research/philippines-payroll-reconciliation-false-positive-analysis` | Delivered locally: one route-local link. Do not add a duplicate. |
 | `/services/payroll-preparation` | Prepare approved inputs and handoff notes for payroll review | `/research/philippines-payroll-period-close-evidence` | Delivered locally: one route-local link. Do not add a duplicate. |
-| `/services/benefits-deduction-administration` | Organize approved benefit or deduction inputs for review | `/research/philippines-payroll-earnings-code-governance` | Verified absent in the generated route. Eligible for one future handoff that keeps classification and approval with the payroll owner. |
+| `/services/benefits-deduction-administration` | Organize approved benefit or deduction inputs for review | `/research/philippines-payroll-earnings-code-governance` | Not a candidate: the generated route already has its single route-local handoff to Payroll Data Entry. Do not replace or add a competing service CTA without a separate reader-intent review. |
 | `/services/new-hire-payroll-setup` | Prepare onboarding records and flag incomplete payroll inputs | `/research/philippines-payroll-employee-status-reconciliation` | Verified absent in the generated route. Eligible for one future handoff that does not imply authority to change employment status. |
 | `/services/payroll-query-support` | Sort employee payroll questions and route sensitive cases | `/research/philippines-payroll-provider-rejection-patterns` | Blocked: the declared source is not in the current generated route or sitemap inventory. Repair route registration or choose another generated source before proposing a handoff. |
 | `/services/leave-balance-administration` | Prepare leave records and surface missing source evidence | `/research/philippines-payroll-leave-accrual-evidence` | Blocked: the declared source is not in the current generated route or sitemap inventory. Repair route registration or choose another generated source before proposing a handoff. |
@@ -21,11 +21,11 @@ The service pages are the commercial pillars. Research briefs and practical payr
 
 ## Next executable candidate
 
-Audit `/research/philippines-payroll-earnings-code-governance` for one handoff to `/services/benefits-deduction-administration`. It is an existing generated research route whose route-local main does not yet contain that service link. A suitable future handoff should say that a Philippines-based specialist can organize approved inputs and flag unclear records for review; the authorized payroll owner keeps classification and approval decisions.
+Audit `/research/philippines-payroll-employee-status-reconciliation` for one handoff to `/services/new-hire-payroll-setup`. The production artifact has the source and service route, but the source route-local main has no target href. A suitable future handoff should say that a Philippines-based specialist can organize approved onboarding records and flag missing inputs for review; the authorized payroll owner keeps employment-status and approval decisions.
 
-## 2026-09-06 generated-route reconciliation
+## 2026-09-08 generated-route reconciliation
 
-The production build checked all nine declared pairs against route-local `<main>` content, canonical tags, H1s, and the generated sitemap. Three pairs are delivered locally, three generated sources are present but have no target link, and three declared sources are not generated or listed in the sitemap. The sitemap includes each generated source route and intentionally supplies no `<lastmod>` fields.
+The production build checked the former earnings-code candidate against route-local `<main>` content, canonical tags, H1s, and the generated sitemap. It already renders exactly one Payroll Data Entry handoff, so it is not available for a competing Benefits Deduction Administration CTA. The next candidate was advanced to the generated employee-status-reconciliation route, whose route-local main has zero New Hire Payroll Setup links. The sitemap includes both source routes and both service routes and intentionally supplies no `<lastmod>` fields.
 
 ## Release gates for each future handoff
 
