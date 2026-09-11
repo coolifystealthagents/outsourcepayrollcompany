@@ -11,6 +11,7 @@ import { september7BlogDetails, september7BlogPosts } from './september7-content
 import { september8BlogDetails, september8BlogPosts } from './september8-content';
 import { september9BlogDetails, september9BlogPosts } from './september9-content';
 import { september10BlogDetails, september10BlogPosts } from './september10-content';
+import { september11BlogDetails, september11BlogPosts } from './september11-content';
 
 export const site = {
   domain: 'OutsourcePayrollCompany.com',
@@ -145,6 +146,7 @@ export const services = [
 ] as const;
 
 export const blogPosts = [
+  ...september11BlogPosts,
   ...september10BlogPosts,
   ...september9BlogPosts,
   ...september8BlogPosts,
@@ -193,6 +195,7 @@ type BlogDetail = {
 };
 
 export const blogDetails: Record<string, BlogDetail> = {
+  ...september11BlogDetails,
   ...september10BlogDetails,
   ...september9BlogDetails,
   ...september8BlogDetails,
