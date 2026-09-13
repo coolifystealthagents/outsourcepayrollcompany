@@ -15,13 +15,13 @@ The service pages are the commercial pillars. Research briefs and practical payr
 | `/services/new-hire-payroll-setup` | Prepare onboarding records and flag incomplete payroll inputs | `/research/philippines-payroll-employee-status-reconciliation` | Delivered locally: one route-local handoff to New Hire Payroll Setup. Do not add a duplicate; the authorized payroll owner keeps employment-status and approval decisions. |
 | `/services/payroll-query-support` | Sort employee payroll questions and route sensitive cases | `/research/philippines-payroll-provider-rejection-patterns` | Blocked: the declared source is not in the current generated route or sitemap inventory. Repair route registration or choose another generated source before proposing a handoff. |
 | `/services/leave-balance-administration` | Prepare leave records and surface missing source evidence | `/research/philippines-payroll-leave-accrual-evidence` | Blocked: the declared source is not in the current generated route or sitemap inventory. Repair route registration or choose another generated source before proposing a handoff. |
-| `/services/payroll-reporting` | Prepare exception reports and review-ready payroll summaries | `/research/philippines-payroll-control-metric-denominators` | Verified absent in the generated route. Eligible for one future handoff that explains what the report can and cannot show. |
+| `/services/payroll-reporting` | Prepare exception reports and review-ready payroll summaries | `/research/philippines-payroll-control-metric-denominators` | Delivered locally: one route-local handoff explains the reporting boundary. Do not add a duplicate. |
 | `/services/contractor-payment-administration` | Prepare payment records and exception notes for owner review | `/research/philippines-payroll-remittance-source-matching` | Blocked: the declared source is not in the current generated route or sitemap inventory. Repair route registration or choose another generated source before proposing a handoff. |
 | `/services/year-end-payroll-preparation` | Organize approved year-end payroll records for review | No route selected yet | Hold. Select a source only after a route-level audit shows a real reader question and an evidence fit. |
 
 ## Next executable candidate
 
-Audit `/research/philippines-payroll-employee-status-reconciliation` for one handoff to `/services/new-hire-payroll-setup`. The source route and service route exist, and the handoff now renders once in the route-local main. A Philippines-based specialist can organize approved onboarding records and flag missing inputs for review; the authorized payroll owner keeps employment-status and approval decisions.
+The control-metric route now has its one Payroll Reporting handoff. Do not add another. The remaining declared pairs are blocked by missing generated source routes, so the next topical-authority action is either a separately scoped route-registration repair or a new source/service audit for the year-end payroll-preparation pillar.
 
 ## 2026-09-08 generated-route reconciliation
 
