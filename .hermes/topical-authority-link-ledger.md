@@ -17,11 +17,11 @@ The service pages are the commercial pillars. Research briefs and practical payr
 | `/services/leave-balance-administration` | Prepare leave records and surface missing source evidence | `/research/philippines-payroll-leave-accrual-evidence` | Blocked: the declared source is not in the current generated route or sitemap inventory. Repair route registration or choose another generated source before proposing a handoff. |
 | `/services/payroll-reporting` | Prepare exception reports and review-ready payroll summaries | `/research/philippines-payroll-control-metric-denominators` | Delivered locally: one route-local handoff explains the reporting boundary. Do not add a duplicate. |
 | `/services/contractor-payment-administration` | Prepare payment records and exception notes for owner review | `/research/philippines-payroll-remittance-source-matching` | Blocked: the declared source is not in the current generated route or sitemap inventory. Repair route registration or choose another generated source before proposing a handoff. |
-| `/services/year-end-payroll-preparation` | Organize approved year-end payroll records for review | `/research/philippines-payroll-tax-form-checklist` | Ready for editorial review: generated source and service routes exist, and the source has no route-local Year-End Payroll Preparation link. Add only a data-owned, sentence-level handoff that keeps tax decisions and submission approval with the authorized payroll owner. |
+| `/services/year-end-payroll-preparation` | Organize approved year-end payroll records for review | `/research/philippines-payroll-tax-form-checklist` | Delivered locally: one route-local handoff to Year-End Payroll Preparation. Do not add a duplicate; the authorized payroll owner keeps tax treatment and submission approval. |
 
 ## Next executable candidate
 
-The control-metric route now has its one Payroll Reporting handoff. Do not add another. The tax-form checklist is the one verified-absent candidate for Year-End Payroll Preparation: its existing reader task is to prepare and route tax-form evidence, while the service pillar is the next path for organizing approved year-end inputs. A later rendered change must use the existing record-level `serviceHandoff` model, keep the link in a natural sentence, and leave tax decisions and submission approval with the authorized payroll owner.
+The tax-form checklist now has its one Year-End Payroll Preparation handoff. Do not add another. The three routes blocked by absent generated source inventory remain the next planning constraints; do not invent a replacement route or CTA.
 
 ## 2026-09-14 year-end source audit
 

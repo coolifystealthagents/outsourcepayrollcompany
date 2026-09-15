@@ -336,14 +336,24 @@ const sharedBody = (focus:string, stat:string) => [
   'The operating recommendation is to pilot the workflow on one pay cycle, sample the evidence, and adjust the checklist before expanding it. A pilot exposes ambiguous ownership while the cost of correction is still low.',
   'This is operational research, not tax or legal advice. Confirm jurisdiction-specific obligations with the relevant authority and qualified counsel before changing a payroll process.'
 ];
+const legacyResearchHandoffs: Partial<Record<string, NonNullable<ResearchPost['serviceHandoff']>>> = {
+  'philippines-payroll-tax-form-checklist': {
+    heading:'Prepare year-end payroll evidence for review',
+    body:'A Philippines-based specialist can organize approved tax-form records, note missing evidence, and prepare the year-end handoff. Your authorized payroll owner decides tax treatment and approves any submission.',
+    cta:'Review year-end payroll preparation support',
+    href:'/services/year-end-payroll-preparation'
+  }
+};
+
 const legacyResearchPosts: readonly ResearchPost[] = topics.map(([slug,title,excerpt,stat,focus,explicitPublished], index) => ({
-  slug,title,excerpt,published:explicitPublished ?? (index >= 35 ? '2026-08-10' : index >= 21 ? '2026-08-09' : '2026-08-07'),stat,
+  slug,title,excerpt,published:explicitPublished ?? (index >= 35 ? '2026-08-10' : index >= 21 ? '2026-08-09' : '2026-08-07'),updated:legacyResearchHandoffs[slug] ? '2026-09-15' : undefined,stat,
   takeaways:[focus,'Make every cutoff and approval visible to the people who own it.','Keep source records and exception evidence together.'],
   sections:[{heading:'What the evidence says',body:sharedBody(focus,stat).slice(0,3).join(' ')},{heading:'Control design',body:sharedBody(focus,stat).slice(3,7).join(' ')},{heading:'Implementation sequence',body:sharedBody(focus,stat).slice(7).join(' ')}],
   sources:researchSources,
   faq:[{question:'Is this a payroll compliance opinion?',answer:'No. It is a workflow research brief; verify legal, tax, and employment requirements with the relevant authority.'},{question:'How should a team start?',answer:'Pilot one cycle with a named preparer, reviewer, approver, and evidence folder before expanding the lane.'}],
-  related:[topics[(index+1)%topics.length][0],topics[(index+2)%topics.length][0],topics[(index+3)%topics.length][0]]
-} as ResearchPost & {related:readonly string[]}));
+  related:[topics[(index+1)%topics.length][0],topics[(index+2)%topics.length][0],topics[(index+3)%topics.length][0]],
+  serviceHandoff:legacyResearchHandoffs[slug]
+}));
 
 type August13Seed = {
   slug: string;
