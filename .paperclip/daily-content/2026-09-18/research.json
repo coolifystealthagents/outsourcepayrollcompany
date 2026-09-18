@@ -5,7 +5,7 @@
   "status": "validated",
   "repository": "coolifystealthagents/outsourcepayrollcompany",
   "branch": "main",
-  "contentCommitSha": "a757003d6c976f52dc334a10d4af58c3ef5cb398",
+  "contentCommitSha": "c597251968eeb019bab571ba62d958e012c216d4",
   "validation": {"typescript":"passed","productionBuild":"passed","staticRoutes":5,"sitemapEntries":5},
   "entries": [
     {"topic":"source timestamp integrity","slug":"payroll-source-timestamp-integrity-study","liveUrl":"https://outsourcepayrollcompany.com/research/payroll-source-timestamp-integrity-study","sources":["IRS Publication 15 (2026)","DOL Fact Sheet #21","NIST SP 800-53 Rev. 5","Philippine Data Privacy Act"],"contentHash":"abdb2e51cf56ed8d92cf9d0d8de6eee5ce0491a6342ecfa9cf6e4f197142cec8","datePublished":"2026-09-18"},
