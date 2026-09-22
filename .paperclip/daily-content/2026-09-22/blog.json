@@ -1,0 +1,29 @@
+{
+  "publicationDate": "2026-09-22",
+  "family": "blog",
+  "requiredCount": 12,
+  "status": "deployment-blocked",
+  "repository": "coolifystealthagents/outsourcepayrollcompany",
+  "branch": "main",
+  "contentCommit": "7549ddd9bfe0e63b6c5c681fea2d761db9818027",
+  "remoteSha": "7549ddd9bfe0e63b6c5c681fea2d761db9818027",
+  "deploymentEvidence": "Configured Coolify3 API credential redirected authenticated status requests to /login; three bounded public checks returned HTTP 404 for the canary URL after the production-branch push.",
+  "verifiedCount": 0,
+  "blockerOwner": "Coolify3 administrator",
+  "recoveryAction": "Restore API authorization for application vikzsmt3maxniqw8po0yd3rh or confirm its GitHub production-branch webhook, deploy commit 7549ddd9bfe0e63b6c5c681fea2d761db9818027, then live-verify all entries and replace this provisional evidence with verification timestamps.",
+  "sources": ["IRS Publication 15 (2026)", "DOL Fact Sheet #21", "NIST SP 800-207", "Philippine Data Privacy Act"],
+  "entries": [
+    {"topic":"deceased-worker case intake","slug":"payroll-deceased-worker-case-intake","liveUrl":"https://outsourcepayrollcompany.com/blog/payroll-deceased-worker-case-intake","datePublished":"2026-09-22","contentHash":"c35fafc1f8ba3665f7c62262ab0d5af5dfde62f45d03974a0afe1e6663afc646","verification":"pending-deployment"},
+    {"topic":"uncashed payment follow-up","slug":"payroll-uncashed-payment-follow-up-register","liveUrl":"https://outsourcepayrollcompany.com/blog/payroll-uncashed-payment-follow-up-register","datePublished":"2026-09-22","contentHash":"417d6244609cc136cd7ea17a253684babab3552ce51924efe329c32ab908e117","verification":"pending-deployment"},
+    {"topic":"shift differential input review","slug":"payroll-shift-differential-input-review","liveUrl":"https://outsourcepayrollcompany.com/blog/payroll-shift-differential-input-review","datePublished":"2026-09-22","contentHash":"11301a49e0380d2182579934e680b31ddf95384f48e7dce88dcc46bce59e45c3","verification":"pending-deployment"},
+    {"topic":"commission input handoff","slug":"payroll-commission-input-handoff","liveUrl":"https://outsourcepayrollcompany.com/blog/payroll-commission-input-handoff","datePublished":"2026-09-22","contentHash":"5db0336ad754a30ae3091cffa7b58b47fbe91467342cd0ad4763a4173eed3a09","verification":"pending-deployment"},
+    {"topic":"benefit arrears exception review","slug":"payroll-benefit-arrears-exception-review","liveUrl":"https://outsourcepayrollcompany.com/blog/payroll-benefit-arrears-exception-review","datePublished":"2026-09-22","contentHash":"9f53775fdbbe42a139341351a88b18b428611ebe84f9db1be7055c02e199ecd5","verification":"pending-deployment"},
+    {"topic":"funding confirmation handoff","slug":"payroll-funding-confirmation-handoff","liveUrl":"https://outsourcepayrollcompany.com/blog/payroll-funding-confirmation-handoff","datePublished":"2026-09-22","contentHash":"00385a98f5c04c36fd3bc36ff7d383dc4405210d04691ecedc005576d15a53f4","verification":"pending-deployment"},
+    {"topic":"address change tax routing","slug":"payroll-address-change-tax-routing","liveUrl":"https://outsourcepayrollcompany.com/blog/payroll-address-change-tax-routing","datePublished":"2026-09-22","contentHash":"601b95578ac8c781d0911c748d9c8268af3ee4943b63592dd9e154ca4821f59a","verification":"pending-deployment"},
+    {"topic":"reversal reason-code review","slug":"payroll-reversal-reason-code-review","liveUrl":"https://outsourcepayrollcompany.com/blog/payroll-reversal-reason-code-review","datePublished":"2026-09-22","contentHash":"23c78afbae0a98de8a7d700542e1394ea156f416e6bd3889b1efdacba3cbed0c","verification":"pending-deployment"},
+    {"topic":"interface reject queue","slug":"payroll-interface-reject-queue","liveUrl":"https://outsourcepayrollcompany.com/blog/payroll-interface-reject-queue","datePublished":"2026-09-22","contentHash":"60886c3b05c71c08ac05c9684fdfd731656c4d6402f6ca781ad45904e04364b9","verification":"pending-deployment"},
+    {"topic":"gross-to-net variance bridge","slug":"payroll-gross-to-net-variance-bridge","liveUrl":"https://outsourcepayrollcompany.com/blog/payroll-gross-to-net-variance-bridge","datePublished":"2026-09-22","contentHash":"843b7411b11959e221cb12125fb60ab791a8cb32cf56934d9278e7a7a134f2e3","verification":"pending-deployment"},
+    {"topic":"new-hire first-payment readiness","slug":"payroll-new-hire-first-payment-readiness","liveUrl":"https://outsourcepayrollcompany.com/blog/payroll-new-hire-first-payment-readiness","datePublished":"2026-09-22","contentHash":"a1e406997a8814f4f2cf1de399c233864a5c7c3523d041abb4abf746fc815e96","verification":"pending-deployment"},
+    {"topic":"post-termination recurring-input scan","slug":"payroll-post-termination-recurring-input-scan","liveUrl":"https://outsourcepayrollcompany.com/blog/payroll-post-termination-recurring-input-scan","datePublished":"2026-09-22","contentHash":"06ec55e3588d1cfb70ff1d85cd386a24c41d671c67e45f2957119e378a09ef13","verification":"pending-deployment"}
+  ]
+}
