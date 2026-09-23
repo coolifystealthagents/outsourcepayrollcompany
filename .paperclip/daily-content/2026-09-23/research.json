@@ -1,0 +1,24 @@
+{
+  "publicationDate": null,
+  "family": "research",
+  "requiredCount": 5,
+  "verifiedCount": 0,
+  "status": "blocked",
+  "repository": "coolifystealthagents/outsourcepayrollcompany",
+  "branch": "main",
+  "contentCommitSha": "ced76d5fbdb033470754e88e4639cee9d3f5152f",
+  "remoteSha": "ced76d5fbdb033470754e88e4639cee9d3f5152f",
+  "deploymentResource": "Coolify3 application vikzsmt3maxniqw8po0yd3rh; resource l13ylpiz5n7x3du8pnr1cdlx",
+  "deploymentEvidence": "Authenticated Coolify API requests redirected to login (HTTP 302). The configured Git-to-deployment path did not make the pushed routes public during bounded checks; all five canonical URLs returned HTTP 404 through 2026-09-23T15:54:46Z.",
+  "blockedAt": "2026-09-23T15:54:46Z",
+  "blocker": "Production deployment has not exposed commit ced76d5fbdb033470754e88e4639cee9d3f5152f. A Coolify owner must restore or trigger the dedicated application's Git deployment and confirm it tracks main; then live verification and final ledger completion can resume.",
+  "validation": {"typescript":"passed","productionBuild":"passed","staticRoutes":5,"sitemapEntries":5,"cssWarning":"pre-existing autoprefixer flex-start compatibility warning"},
+  "sourceChecks": {"checkedDate":"2026-09-23","reachable":["IRS Publication 15 (2026)","DOL Fact Sheet #21","NIST SP 800-53 Rev. 5"],"temporarilyUnavailable":["Philippine National Privacy Commission Data Privacy Act page"]},
+  "entries": [
+    {"topic":"superseded payroll instruction containment","slug":"payroll-superseded-instruction-containment-study","liveUrl":"https://outsourcepayrollcompany.com/research/payroll-superseded-instruction-containment-study","sources":["IRS Publication 15 (2026)","DOL Fact Sheet #21","NIST SP 800-53 Rev. 5","Philippine Data Privacy Act"],"contentHash":"994ab290f44610381824f2da1caabedcaf42dff52695eebfd21ad77d43d6946c","datePublished":null,"commitSha":"ced76d5fbdb033470754e88e4639cee9d3f5152f","deploymentEvidence":"HTTP 404; not counted","verificationTime":"2026-09-23T15:54:46Z"},
+    {"topic":"payroll evidence provenance breaks","slug":"payroll-evidence-provenance-break-study","liveUrl":"https://outsourcepayrollcompany.com/research/payroll-evidence-provenance-break-study","sources":["IRS Publication 15 (2026)","DOL Fact Sheet #21","NIST SP 800-53 Rev. 5","Philippine Data Privacy Act"],"contentHash":"667946417fe0280c7f190522d23b3af05dc0c48d1f2cbb4ccb15f6c4341a13c4","datePublished":null,"commitSha":"ced76d5fbdb033470754e88e4639cee9d3f5152f","deploymentEvidence":"HTTP 404; not counted","verificationTime":"2026-09-23T15:54:46Z"},
+    {"topic":"payroll calendar version divergence","slug":"payroll-calendar-version-divergence-study","liveUrl":"https://outsourcepayrollcompany.com/research/payroll-calendar-version-divergence-study","sources":["IRS Publication 15 (2026)","DOL Fact Sheet #21","NIST SP 800-53 Rev. 5","Philippine Data Privacy Act"],"contentHash":"529022558e6b192a93f22d03e1acc3b7dee16701db0b069fd3a46c29e69baa23","datePublished":null,"commitSha":"ced76d5fbdb033470754e88e4639cee9d3f5152f","deploymentEvidence":"HTTP 404; not counted","verificationTime":"2026-09-23T15:54:46Z"},
+    {"topic":"unresolved payroll case carry-forward","slug":"payroll-unresolved-case-carryforward-study","liveUrl":"https://outsourcepayrollcompany.com/research/payroll-unresolved-case-carryforward-study","sources":["IRS Publication 15 (2026)","DOL Fact Sheet #21","NIST SP 800-53 Rev. 5","Philippine Data Privacy Act"],"contentHash":"1e1b42a47aade53a57be50dc69a982e7fd93be86185be7f49b27ee3956afb689","datePublished":null,"commitSha":"ced76d5fbdb033470754e88e4639cee9d3f5152f","deploymentEvidence":"HTTP 404; not counted","verificationTime":"2026-09-23T15:54:46Z"},
+    {"topic":"emergency payroll export accountability","slug":"payroll-emergency-export-accountability-study","liveUrl":"https://outsourcepayrollcompany.com/research/payroll-emergency-export-accountability-study","sources":["IRS Publication 15 (2026)","DOL Fact Sheet #21","NIST SP 800-53 Rev. 5","Philippine Data Privacy Act"],"contentHash":"5b77cfb7bbdfdf6051624dccbef95da382d8f919f2eefcfe0cf39035802abed0","datePublished":null,"commitSha":"ced76d5fbdb033470754e88e4639cee9d3f5152f","deploymentEvidence":"HTTP 404; not counted","verificationTime":"2026-09-23T15:54:46Z"}
+  ]
+}
