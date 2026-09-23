@@ -1,0 +1,32 @@
+{
+  "family": "blog",
+  "status": "pending-deployment",
+  "publicationDate": "2026-09-23",
+  "requiredCount": 12,
+  "verifiedCount": 0,
+  "repository": "coolifystealthagents/outsourcepayrollcompany",
+  "branch": "main",
+  "contentCommit": "bd2b3b93992817d9363df9062a12f17a74e14550",
+  "remoteSha": null,
+  "deploymentEvidence": "Pending production-branch push and live verification.",
+  "sources": [
+    "https://www.irs.gov/publications/p15",
+    "https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping",
+    "https://csrc.nist.gov/pubs/sp/800/207/final",
+    "https://privacy.gov.ph/data-privacy-act/"
+  ],
+  "entries": [
+    {"topic":"wage-attachment order intake","slug":"payroll-wage-attachment-order-intake","liveUrl":"https://outsourcepayrollcompany.com/blog/payroll-wage-attachment-order-intake","datePublished":"2026-09-23","contentHash":"93ff3aea80e49d2f72b7a259174df61cdd2fe5a9580af28ba792744e58f5ea79","commitSha":"bd2b3b93992817d9363df9062a12f17a74e14550","verification":"pending-deployment","verifiedAt":null},
+    {"topic":"taxable fringe-benefit input","slug":"payroll-taxable-fringe-benefit-input","liveUrl":"https://outsourcepayrollcompany.com/blog/payroll-taxable-fringe-benefit-input","datePublished":"2026-09-23","contentHash":"0e8f545b778180c00439dc013ab070937b75722d2f1ea054d3ca263c62e908b4","commitSha":"bd2b3b93992817d9363df9062a12f17a74e14550","verification":"pending-deployment","verifiedAt":null},
+    {"topic":"third-party sick-pay reconciliation","slug":"payroll-third-party-sick-pay-reconciliation","liveUrl":"https://outsourcepayrollcompany.com/blog/payroll-third-party-sick-pay-reconciliation","datePublished":"2026-09-23","contentHash":"bd04cf7ccdd34c11f8cf2162ac5eee66b4bbf72b62de4a36c1804665fe9372a2","commitSha":"bd2b3b93992817d9363df9062a12f17a74e14550","verification":"pending-deployment","verifiedAt":null},
+    {"topic":"manual-check authorization","slug":"payroll-manual-check-authorization-packet","liveUrl":"https://outsourcepayrollcompany.com/blog/payroll-manual-check-authorization-packet","datePublished":"2026-09-23","contentHash":"5b1522114b235515d01e1f1dd3465030e1e81d4e99bfc904118b591abb23e0fc","commitSha":"bd2b3b93992817d9363df9062a12f17a74e14550","verification":"pending-deployment","verifiedAt":null},
+    {"topic":"termination cutoff coordination","slug":"payroll-termination-cutoff-coordination","liveUrl":"https://outsourcepayrollcompany.com/blog/payroll-termination-cutoff-coordination","datePublished":"2026-09-23","contentHash":"a64139414e924891247b213edd5f09fe8af25151eb937c2c0a0bba516d48974f","commitSha":"bd2b3b93992817d9363df9062a12f17a74e14550","verification":"pending-deployment","verifiedAt":null},
+    {"topic":"union-dues deduction roster","slug":"payroll-union-dues-deduction-roster","liveUrl":"https://outsourcepayrollcompany.com/blog/payroll-union-dues-deduction-roster","datePublished":"2026-09-23","contentHash":"e2e678c46465ad31d44c81246487bfcf8ba0dc432ebd23dee637bd71398042c4","commitSha":"bd2b3b93992817d9363df9062a12f17a74e14550","verification":"pending-deployment","verifiedAt":null},
+    {"topic":"work-location change intake","slug":"payroll-work-location-change-intake","liveUrl":"https://outsourcepayrollcompany.com/blog/payroll-work-location-change-intake","datePublished":"2026-09-23","contentHash":"e3813938fa9ce88ecaeaaf375c6cd20ab73bccc038a38cf85ba3b7b07131b9cd","commitSha":"bd2b3b93992817d9363df9062a12f17a74e14550","verification":"pending-deployment","verifiedAt":null},
+    {"topic":"negative-net-pay exception","slug":"payroll-negative-net-pay-exception","liveUrl":"https://outsourcepayrollcompany.com/blog/payroll-negative-net-pay-exception","datePublished":"2026-09-23","contentHash":"18082b00c3b99da5668605d2c29a2d013429b97619fd63c255690eb7fe220e99","commitSha":"bd2b3b93992817d9363df9062a12f17a74e14550","verification":"pending-deployment","verifiedAt":null},
+    {"topic":"tax-agency notice intake","slug":"payroll-tax-agency-notice-intake","liveUrl":"https://outsourcepayrollcompany.com/blog/payroll-tax-agency-notice-intake","datePublished":"2026-09-23","contentHash":"3a0c93f9d2089f1613e089b7761c06d1909f48026e61be540f32789df9b86883","commitSha":"bd2b3b93992817d9363df9062a12f17a74e14550","verification":"pending-deployment","verifiedAt":null},
+    {"topic":"supplemental-wage input review","slug":"payroll-supplemental-wage-input-review","liveUrl":"https://outsourcepayrollcompany.com/blog/payroll-supplemental-wage-input-review","datePublished":"2026-09-23","contentHash":"7c65c2a7b8d678458cd111be4b6ad5a785f663d62f655a637bff0abae53ff9e5","commitSha":"bd2b3b93992817d9363df9062a12f17a74e14550","verification":"pending-deployment","verifiedAt":null},
+    {"topic":"leave-return date coordination","slug":"payroll-leave-return-date-coordination","liveUrl":"https://outsourcepayrollcompany.com/blog/payroll-leave-return-date-coordination","datePublished":"2026-09-23","contentHash":"6dcce82731eb9fc0908ee38ddaf6f23766132290bfd3dc60d231c1d60d5818c3","commitSha":"bd2b3b93992817d9363df9062a12f17a74e14550","verification":"pending-deployment","verifiedAt":null},
+    {"topic":"prevailing-wage input review","slug":"payroll-prevailing-wage-input-review","liveUrl":"https://outsourcepayrollcompany.com/blog/payroll-prevailing-wage-input-review","datePublished":"2026-09-23","contentHash":"1ee8697f955c2b878df51760e9a9b5b42893511987586a7504e36de8455a64b0","commitSha":"bd2b3b93992817d9363df9062a12f17a74e14550","verification":"pending-deployment","verifiedAt":null}
+  ]
+}
