@@ -75,7 +75,12 @@ const studies = [
   },
 ] as const;
 
-const sectionsFor = (study: typeof studies[number]) => [
+export type ResearchStudyFrame = {
+  slug:string; title:string; question:string; subject:string; unit:string; states:string;
+  service:string; cta:string; decision:string; evidence:string; image:string;
+};
+
+export const sectionsFor = (study: ResearchStudyFrame) => [
   {
     heading: 'Decision context and research question',
     body: `This protocol asks: ${study.question} The buyer decision is ${study.decision}. The unit of analysis is ${study.unit}. Treat each unit as eligible only when the protocol can identify the employer or operating entity, payroll period, source system, expected result, and accountable owner. The research does not assess an individual worker's performance and does not assume that a missing record proves a missing action. It tests whether the evidence available to a reviewer supports a reproducible classification. Outsourced support may gather records and apply a written classification, but it must not determine wages, taxes, benefits, employment status, privacy law, banking treatment, or disputed entitlement. Those decisions remain with designated owners and qualified advisers. A record that lacks the minimum frame stays unresolved rather than being converted into a favorable state.`,
