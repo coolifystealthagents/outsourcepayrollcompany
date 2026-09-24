@@ -1,0 +1,40 @@
+{
+  "publicationDate": "2026-09-24",
+  "family": "research",
+  "requiredCount": 5,
+  "verifiedCount": 0,
+  "status": "awaiting_deployment",
+  "repository": "coolifystealthagents/outsourcepayrollcompany",
+  "branch": "main",
+  "contentCommitSha": "606539d297e963c2e329e5d79e794eaf138a4c46",
+  "remoteSha": null,
+  "deploymentResource": "Coolify3 application vikzsmt3maxniqw8po0yd3rh; resource l13ylpiz5n7x3du8pnr1cdlx",
+  "deploymentEvidence": "Awaiting the existing Git-to-Coolify3 deployment path and public HTTP verification.",
+  "verifiedAt": null,
+  "validation": {
+    "typescript": "passed",
+    "productionBuild": "passed",
+    "staticRoutes": 5,
+    "sitemapEntries": 5,
+    "minimumRenderedWordCount": 4277,
+    "cssWarning": "pre-existing autoprefixer flex-start compatibility warning"
+  },
+  "sourceChecks": {
+    "checkedDate": "2026-09-24",
+    "reachable": [
+      "IRS Publication 15 (2026)",
+      "DOL Fact Sheet #21",
+      "NIST SP 800-53 Rev. 5"
+    ],
+    "temporarilyUnavailable": [
+      "Philippine National Privacy Commission Data Privacy Act page returned HTTP 403 to automated checking"
+    ]
+  },
+  "entries": [
+    {"topic":"pay-group configuration drift","slug":"payroll-pay-group-configuration-drift-study","liveUrl":"https://outsourcepayrollcompany.com/research/payroll-pay-group-configuration-drift-study","sources":["IRS Publication 15 (2026)","DOL Fact Sheet #21","NIST SP 800-53 Rev. 5","Philippine Data Privacy Act"],"contentHash":"f9fea25303fc6de37078240d094c92e895c02d3337ff5c1fe0542044ce45d6ba","datePublished":"2026-09-24","commitSha":"606539d297e963c2e329e5d79e794eaf138a4c46","deploymentEvidence":"awaiting deployment","verificationTime":null},
+    {"topic":"deduction-priority conflicts","slug":"payroll-deduction-priority-conflict-study","liveUrl":"https://outsourcepayrollcompany.com/research/payroll-deduction-priority-conflict-study","sources":["IRS Publication 15 (2026)","DOL Fact Sheet #21","NIST SP 800-53 Rev. 5","Philippine Data Privacy Act"],"contentHash":"b0dc823c5a7ef8d64076347d31385fea13e9f540c9ccafbf89b6c055ef84e0eb","datePublished":"2026-09-24","commitSha":"606539d297e963c2e329e5d79e794eaf138a4c46","deploymentEvidence":"awaiting deployment","verificationTime":null},
+    {"topic":"off-cycle authority boundaries","slug":"payroll-off-cycle-authority-boundary-study","liveUrl":"https://outsourcepayrollcompany.com/research/payroll-off-cycle-authority-boundary-study","sources":["IRS Publication 15 (2026)","DOL Fact Sheet #21","NIST SP 800-53 Rev. 5","Philippine Data Privacy Act"],"contentHash":"97835cf2a9ad2e32c92ada9ac348e0effe420c1f7882aae234f71cc772a32f53","datePublished":"2026-09-24","commitSha":"606539d297e963c2e329e5d79e794eaf138a4c46","deploymentEvidence":"awaiting deployment","verificationTime":null},
+    {"topic":"master-data field ownership","slug":"payroll-master-data-field-ownership-study","liveUrl":"https://outsourcepayrollcompany.com/research/payroll-master-data-field-ownership-study","sources":["IRS Publication 15 (2026)","DOL Fact Sheet #21","NIST SP 800-53 Rev. 5","Philippine Data Privacy Act"],"contentHash":"d169799b6a040242ac085222558ff2e52985633394227df73112bf920c722c87","datePublished":"2026-09-24","commitSha":"606539d297e963c2e329e5d79e794eaf138a4c46","deploymentEvidence":"awaiting deployment","verificationTime":null},
+    {"topic":"reconciliation-tolerance overrides","slug":"payroll-reconciliation-tolerance-override-study","liveUrl":"https://outsourcepayrollcompany.com/research/payroll-reconciliation-tolerance-override-study","sources":["IRS Publication 15 (2026)","DOL Fact Sheet #21","NIST SP 800-53 Rev. 5","Philippine Data Privacy Act"],"contentHash":"8cf223aaba4c4ce8ce5c35cc1780d2d1bf20890fd8da83ca8011ae68b5883b25","datePublished":"2026-09-24","commitSha":"606539d297e963c2e329e5d79e794eaf138a4c46","deploymentEvidence":"awaiting deployment","verificationTime":null}
+  ]
+}
