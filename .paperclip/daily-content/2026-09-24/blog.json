@@ -1,0 +1,32 @@
+{
+  "family": "blog",
+  "status": "validated-origin",
+  "publicationDate": "2026-09-24",
+  "requiredCount": 12,
+  "verifiedCount": 0,
+  "repository": "coolifystealthagents/outsourcepayrollcompany",
+  "branch": "main",
+  "contentCommit": "3923b8bdf11c51ba647dcd30ac824d2e8f462244",
+  "remoteSha": null,
+  "deploymentEvidence": "Pending production deployment and live verification.",
+  "sources": [
+    "https://www.irs.gov/publications/p15",
+    "https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping",
+    "https://csrc.nist.gov/pubs/sp/800/207/final",
+    "https://privacy.gov.ph/data-privacy-act/"
+  ],
+  "entries": [
+    {"topic":"ACH notice-of-change intake","slug":"payroll-ach-notice-of-change-intake","liveUrl":"https://outsourcepayrollcompany.com/blog/payroll-ach-notice-of-change-intake","datePublished":"2026-09-24","contentHash":"49930adf71cd896a0093606ac6bc3730b4adb84541c51787f88ff43dd83ec328","commitSha":"3923b8bdf11c51ba647dcd30ac824d2e8f462244","verification":"pending","verifiedAt":null},
+    {"topic":"returned direct-deposit resolution","slug":"payroll-returned-direct-deposit-resolution","liveUrl":"https://outsourcepayrollcompany.com/blog/payroll-returned-direct-deposit-resolution","datePublished":"2026-09-24","contentHash":"3ba757d5a13325199e1cc1fb140231dc546c07428fe8f1c2361759fee735df1d","commitSha":"3923b8bdf11c51ba647dcd30ac824d2e8f462244","verification":"pending","verifiedAt":null},
+    {"topic":"earned-wage access reconciliation","slug":"payroll-earned-wage-access-reconciliation","liveUrl":"https://outsourcepayrollcompany.com/blog/payroll-earned-wage-access-reconciliation","datePublished":"2026-09-24","contentHash":"153a983506020cf21aad8e418a713eb43f6c69f8d96107a32719a2c75c055a00","commitSha":"3923b8bdf11c51ba647dcd30ac824d2e8f462244","verification":"pending","verifiedAt":null},
+    {"topic":"paycard enrollment exception","slug":"payroll-paycard-enrollment-exception","liveUrl":"https://outsourcepayrollcompany.com/blog/payroll-paycard-enrollment-exception","datePublished":"2026-09-24","contentHash":"e1c958335ef8f8884d02bc7e7f8f87115f4db6dba9d9f73e54c578454d7b11a4","commitSha":"3923b8bdf11c51ba647dcd30ac824d2e8f462244","verification":"pending","verifiedAt":null},
+    {"topic":"multiple-job-record reconciliation","slug":"payroll-multiple-job-record-reconciliation","liveUrl":"https://outsourcepayrollcompany.com/blog/payroll-multiple-job-record-reconciliation","datePublished":"2026-09-24","contentHash":"d2b126297afe29e09afd7174feec69e2b0798dff7b1f798ba5bf50dbfc2614b4","commitSha":"3923b8bdf11c51ba647dcd30ac824d2e8f462244","verification":"pending","verifiedAt":null},
+    {"topic":"legal-entity transfer readiness","slug":"payroll-legal-entity-transfer-readiness","liveUrl":"https://outsourcepayrollcompany.com/blog/payroll-legal-entity-transfer-readiness","datePublished":"2026-09-24","contentHash":"19d5e94cf74525205475d3553d44d134bdb0febb2bba66a639f23ce369212dd5","commitSha":"3923b8bdf11c51ba647dcd30ac824d2e8f462244","verification":"pending","verifiedAt":null},
+    {"topic":"shadow-payroll input coordination","slug":"payroll-shadow-payroll-input-coordination","liveUrl":"https://outsourcepayrollcompany.com/blog/payroll-shadow-payroll-input-coordination","datePublished":"2026-09-24","contentHash":"160dd793b3e73d0fc1ec38780b75e39c9316d316810d7f6679e5ca851c92cb95","commitSha":"3923b8bdf11c51ba647dcd30ac824d2e8f462244","verification":"pending","verifiedAt":null},
+    {"topic":"foreign-currency input bridge","slug":"payroll-foreign-currency-input-bridge","liveUrl":"https://outsourcepayrollcompany.com/blog/payroll-foreign-currency-input-bridge","datePublished":"2026-09-24","contentHash":"ebd074797ff25e1f3f706526414e1202ad5ccf9e0ae373545ba404a3def4811f","commitSha":"3923b8bdf11c51ba647dcd30ac824d2e8f462244","verification":"pending","verifiedAt":null},
+    {"topic":"court-order release intake","slug":"payroll-court-order-release-intake","liveUrl":"https://outsourcepayrollcompany.com/blog/payroll-court-order-release-intake","datePublished":"2026-09-24","contentHash":"3451a4f860c5b0553d4343cfc35a94434bc106b48bd464e7f6d000b3b64ace29","commitSha":"3923b8bdf11c51ba647dcd30ac824d2e8f462244","verification":"pending","verifiedAt":null},
+    {"topic":"payroll cost-allocation input review","slug":"payroll-cost-allocation-input-review","liveUrl":"https://outsourcepayrollcompany.com/blog/payroll-cost-allocation-input-review","datePublished":"2026-09-24","contentHash":"3836d380a00ed938c8ded52c425764361a7ca5f06d6693c4ac38a67c61391bcc","commitSha":"3923b8bdf11c51ba647dcd30ac824d2e8f462244","verification":"pending","verifiedAt":null},
+    {"topic":"workers-compensation code change","slug":"payroll-workers-comp-code-change","liveUrl":"https://outsourcepayrollcompany.com/blog/payroll-workers-comp-code-change","datePublished":"2026-09-24","contentHash":"f52c7921a0017d377d82562d755a0e360b6fc2d579d386cba2aaebda00058bcb","commitSha":"3923b8bdf11c51ba647dcd30ac824d2e8f462244","verification":"pending","verifiedAt":null},
+    {"topic":"paper-check custody register","slug":"payroll-paper-check-custody-register","liveUrl":"https://outsourcepayrollcompany.com/blog/payroll-paper-check-custody-register","datePublished":"2026-09-24","contentHash":"313355e20d8fd69443f8378fb9113d33f5119630a0dbfe183846ee93df2e96fe","commitSha":"3923b8bdf11c51ba647dcd30ac824d2e8f462244","verification":"pending","verifiedAt":null}
+  ]
+}
