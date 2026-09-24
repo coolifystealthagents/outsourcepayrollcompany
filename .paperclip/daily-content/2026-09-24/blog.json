@@ -1,14 +1,14 @@
 {
   "family": "blog",
-  "status": "validated-origin",
+  "status": "blocked-deployment",
   "publicationDate": "2026-09-24",
   "requiredCount": 12,
   "verifiedCount": 0,
   "repository": "coolifystealthagents/outsourcepayrollcompany",
   "branch": "main",
   "contentCommit": "3923b8bdf11c51ba647dcd30ac824d2e8f462244",
-  "remoteSha": null,
-  "deploymentEvidence": "Pending production deployment and live verification.",
+  "remoteSha": "3ea332a64c55f3ea2dcc23f760ed7f94fb7d90a7",
+  "deploymentEvidence": "Coolify3 authenticated API unavailable: configured version, application, and deployment-list requests returned HTTP 302 to the login page. No deployment request was submitted. All 12 final public URLs returned HTTP 404 after the production push. Recovery owner: Coolify administrator; restore API-token access for the configured application vikzsmt3maxniqw8po0yd3rh, then reconcile deployment state by commit before submitting exactly one deployment.",
   "sources": [
     "https://www.irs.gov/publications/p15",
     "https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping",
