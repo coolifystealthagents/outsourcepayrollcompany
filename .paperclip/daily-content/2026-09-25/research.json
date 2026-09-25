@@ -1,0 +1,34 @@
+{
+  "publicationDate": "2026-09-25",
+  "family": "research",
+  "requiredCount": 5,
+  "verifiedCount": 0,
+  "status": "blocked_deployment",
+  "repository": "coolifystealthagents/outsourcepayrollcompany",
+  "branch": "main",
+  "contentCommitSha": "8194f02ee10b8bd7d0fa5c6f971aa10a7ca0aeb3",
+  "remoteSha": "8194f02ee10b8bd7d0fa5c6f971aa10a7ca0aeb3",
+  "deploymentResource": "Coolify3 application vikzsmt3maxniqw8po0yd3rh; resource l13ylpiz5n7x3du8pnr1cdlx",
+  "deploymentEvidence": "Git push reached origin/main. Coolify API status returned the login redirect, the authenticated deploy request returned HTTP 419 CSRF token mismatch, the internal endpoint timed out, and bounded public checks returned HTTP 404 for all five new routes.",
+  "verifiedAt": null,
+  "validation": {
+    "typescript": "passed",
+    "productionBuild": "passed",
+    "staticRoutes": 5,
+    "sitemapEntries": 5,
+    "minimumRenderedWordCount": 4274,
+    "cssWarning": "pre-existing autoprefixer flex-start compatibility warning"
+  },
+  "sourceChecks": {
+    "checkedDate": "2026-09-25",
+    "reachable": ["IRS Publication 15 (2026)", "NIST SP 800-53 Rev. 5", "Philippine National Privacy Commission Data Privacy Act"],
+    "temporarilyUnavailable": ["DOL Fact Sheet #21 returned an internal retrieval error to the browsing client"]
+  },
+  "entries": [
+    {"topic":"new-hire input readiness","slug":"payroll-new-hire-input-readiness-study","liveUrl":"https://outsourcepayrollcompany.com/research/payroll-new-hire-input-readiness-study","sources":["IRS Publication 15 (2026)","DOL Fact Sheet #21","NIST SP 800-53 Rev. 5","Philippine Data Privacy Act"],"contentHash":"c1aa7c4a600e61d48fa1ec174f97463d3e51e4d36e17208e0fa6e79daf76cbf0","datePublished":"2026-09-25","commitSha":"8194f02ee10b8bd7d0fa5c6f971aa10a7ca0aeb3","deploymentEvidence":"HTTP 404; deployment blocked","verificationTime":null},
+    {"topic":"leave-balance interfaces","slug":"payroll-leave-balance-interface-study","liveUrl":"https://outsourcepayrollcompany.com/research/payroll-leave-balance-interface-study","sources":["IRS Publication 15 (2026)","DOL Fact Sheet #21","NIST SP 800-53 Rev. 5","Philippine Data Privacy Act"],"contentHash":"6678a454dc81f245709a1628fea3420db93e91333a67a106ee982005e5759921","datePublished":"2026-09-25","commitSha":"8194f02ee10b8bd7d0fa5c6f971aa10a7ca0aeb3","deploymentEvidence":"HTTP 404; deployment blocked","verificationTime":null},
+    {"topic":"bank-change channel integrity","slug":"payroll-bank-change-channel-integrity-study","liveUrl":"https://outsourcepayrollcompany.com/research/payroll-bank-change-channel-integrity-study","sources":["IRS Publication 15 (2026)","DOL Fact Sheet #21","NIST SP 800-53 Rev. 5","Philippine Data Privacy Act"],"contentHash":"5eb6c5c592fb23727e1ca2908664e68cc20ec5e1c74e17ddad65865a5761c68a","datePublished":"2026-09-25","commitSha":"8194f02ee10b8bd7d0fa5c6f971aa10a7ca0aeb3","deploymentEvidence":"HTTP 404; deployment blocked","verificationTime":null},
+    {"topic":"provider-file receipt evidence","slug":"payroll-provider-file-receipt-study","liveUrl":"https://outsourcepayrollcompany.com/research/payroll-provider-file-receipt-study","sources":["IRS Publication 15 (2026)","DOL Fact Sheet #21","NIST SP 800-53 Rev. 5","Philippine Data Privacy Act"],"contentHash":"845c1492372b791c01fe67a6514d63355dad627ceacee4f1a2975a98e5d83318","datePublished":"2026-09-25","commitSha":"8194f02ee10b8bd7d0fa5c6f971aa10a7ca0aeb3","deploymentEvidence":"HTTP 404; deployment blocked","verificationTime":null},
+    {"topic":"termination input boundaries","slug":"payroll-termination-input-boundary-study","liveUrl":"https://outsourcepayrollcompany.com/research/payroll-termination-input-boundary-study","sources":["IRS Publication 15 (2026)","DOL Fact Sheet #21","NIST SP 800-53 Rev. 5","Philippine Data Privacy Act"],"contentHash":"636894dc1cf9a2df310f5c96442720781a6a420764e642ea14624b8f7a2a5e6c","datePublished":"2026-09-25","commitSha":"8194f02ee10b8bd7d0fa5c6f971aa10a7ca0aeb3","deploymentEvidence":"HTTP 404; deployment blocked","verificationTime":null}
+  ]
+}
