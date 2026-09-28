@@ -1,0 +1,51 @@
+{
+  "cycleLabel": "September 28, 2026 combined release",
+  "family": "research",
+  "status": "local_handoff_ready",
+  "requiredCount": 5,
+  "preparedCount": 5,
+  "verifiedLiveCount": 0,
+  "publicationDate": "2026-09-28",
+  "publicationDateBasis": "Prepared for the September 28 release in the site's UTC rendering convention; Blog integrator must reconcile before the sole production push if release timing changes.",
+  "repository": "coolifystealthagents/outsourcepayrollcompany",
+  "productionBranch": "main",
+  "baselineRemoteSha": "c8d829bdb2f0fc64a36f5bd2d585a04148e476a8",
+  "researchBranch": "routine/research-2026-09-28",
+  "researchWorktree": "/paperclip/instances/default/projects/179ca2a0-82eb-496f-856d-eff31c871da8/dac9382f-77f7-4b10-84a9-29ed3379f1f9/_default/research-publish-2026-09-28",
+  "contentCommitSha": "8ff4af6e8f665f8ac9e56c141c6a9d04584270ed",
+  "paperclipIssueId": "3ac38513-5b6e-40f2-861b-4c363d13df58",
+  "paperclipRunId": "44e5f47b-31cb-45e4-a54d-9493054adb21",
+  "releaseOwner": "Blog routine",
+  "deploymentOwner": "Browser Operator",
+  "pushOrDeploymentPerformed": false,
+  "validation": {
+    "typescript": "passed",
+    "cleanProductionBuild": "passed with pre-existing autoprefixer flex-start compatibility warning",
+    "staticResearchRoutes": 5,
+    "canonicalAndDateChecks": "passed",
+    "baselineSlugMatches": 0,
+    "renderedBodyWordCounts": {
+      "payroll-funding-readiness-evidence-study": 2412,
+      "payroll-variable-pay-source-lineage-study": 2387,
+      "payroll-garnishment-order-intake-boundary-study": 2400,
+      "payroll-multi-currency-conversion-evidence-study": 2378,
+      "contractor-payment-to-payroll-boundary-study": 2397
+    },
+    "maximumPairwiseFiveWordShingleJaccard": 0.4783,
+    "maximumOverlapPair": ["payroll-variable-pay-source-lineage-study", "payroll-multi-currency-conversion-evidence-study"]
+  },
+  "sourcesCheckedAt": "2026-09-28",
+  "sources": [
+    {"title":"Publication 15 (2026), Employer's Tax Guide","publisher":"Internal Revenue Service","url":"https://www.irs.gov/publications/p15"},
+    {"title":"Fact Sheet #21: Recordkeeping Requirements under the FLSA","publisher":"U.S. Department of Labor","url":"https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping"},
+    {"title":"SP 800-53 Rev. 5, Security and Privacy Controls","publisher":"National Institute of Standards and Technology","url":"https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"},
+    {"title":"Data Privacy Act of 2012","publisher":"Philippine National Privacy Commission","url":"https://privacy.gov.ph/data-privacy-act/"}
+  ],
+  "entries": [
+    {"topic":"payroll funding readiness evidence","slug":"payroll-funding-readiness-evidence-study","contentHash":"113080021f08adcfc2cd63a7f7a792fb6aebfc74dd7dd3c8887988c2dddd30db","datePublished":"2026-09-28","plannedUrl":"https://outsourcepayrollcompany.com/research/payroll-funding-readiness-evidence-study","liveVerified":false},
+    {"topic":"variable-pay source lineage","slug":"payroll-variable-pay-source-lineage-study","contentHash":"29a0a8610479957ca4a5f358f645ddae2c9872d099a019915a62efb251c4a1a8","datePublished":"2026-09-28","plannedUrl":"https://outsourcepayrollcompany.com/research/payroll-variable-pay-source-lineage-study","liveVerified":false},
+    {"topic":"garnishment-order intake boundaries","slug":"payroll-garnishment-order-intake-boundary-study","contentHash":"f38a9c4b5f53777aa16fef9930418bb984c2c152268f60310706afb0c55e28b9","datePublished":"2026-09-28","plannedUrl":"https://outsourcepayrollcompany.com/research/payroll-garnishment-order-intake-boundary-study","liveVerified":false},
+    {"topic":"multi-currency conversion evidence","slug":"payroll-multi-currency-conversion-evidence-study","contentHash":"68ae53d007913aa29e2d24dcce1d180371c5201207f83b6ecd2eec3bf1ff9d45","datePublished":"2026-09-28","plannedUrl":"https://outsourcepayrollcompany.com/research/payroll-multi-currency-conversion-evidence-study","liveVerified":false},
+    {"topic":"contractor-payment and payroll boundaries","slug":"contractor-payment-to-payroll-boundary-study","contentHash":"dfcec838f55ddcf50a94525852dd51fa1c6dfe76e749c1abfc9082be23fb701a","datePublished":"2026-09-28","plannedUrl":"https://outsourcepayrollcompany.com/research/contractor-payment-to-payroll-boundary-study","liveVerified":false}
+  ]
+}
