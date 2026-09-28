@@ -31,3 +31,9 @@ The topics concentrate on provider selection, contracting, implementation, migra
 - Validate sources, hashes, canonicals, images, internal links, indexes, sitemap output, type checks, tests, and a clean combined production build.
 - Fetch and rebase onto the newest remote `main`, then make one non-force combined push.
 - Report the pushed SHA to the Browser Operator and stop production mutations.
+
+## Rendered-body audit
+
+After the clean combined build, run `node scripts/audit-rendered-content.mjs` with both manifest paths. The audit reads each rendered article, removes scripts, navigation, CTA/banner blocks, and source appendices, then reports body-only word counts and the maximum pairwise five-word-shingle Jaccard score separately for Blog and Research. It fails below 900 Blog words, below 1,200 Research words, at 50% or greater overlap, or when an audited family count differs from its manifest requirement.
+
+At the latest inspection, `research-publish-2026-09-28` exists on `routine/research-2026-09-28` at the shared baseline and contains uncommitted Research drafting. Blog must not modify or cherry-pick that work until OUTAAAAAAAAAA-71 supplies its committed handoff.
