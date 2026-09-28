@@ -1,0 +1,47 @@
+{
+  "cycleLabel": "September 28, 2026",
+  "family": "blog",
+  "status": "drafting",
+  "requiredCount": 12,
+  "draftedCount": 0,
+  "verifiedCount": 0,
+  "repository": "coolifystealthagents/outsourcepayrollcompany",
+  "productionBranch": "main",
+  "baselineSha": "c8d829bdb2f0fc64a36f5bd2d585a04148e476a8",
+  "worktree": "blog-publish-2026-09-28",
+  "branch": "routine/blog-2026-09-28",
+  "publicationDate": null,
+  "datePolicy": "Set to the site's local calendar date immediately before the sole combined production push; never infer it from the cycle label.",
+  "pairedResearchIssue": "OUTAAAAAAAAAA-71",
+  "researchHandoff": null,
+  "deploymentOwner": "BROWSER OPERATOR",
+  "deploymentApplication": "vikzsmt3maxniqw8po0yd3rh",
+  "sources": [
+    "https://www.irs.gov/publications/p15",
+    "https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping",
+    "https://csrc.nist.gov/pubs/sp/800/207/final",
+    "https://privacy.gov.ph/data-privacy-act/"
+  ],
+  "entries": [
+    {"topic":"evaluating payroll outsourcing proposals with a decision scorecard","slug":"payroll-outsourcing-rfp-scorecard","status":"queued"},
+    {"topic":"writing measurable payroll outsourcing service levels","slug":"payroll-outsourcing-service-level-agreement","status":"queued"},
+    {"topic":"planning a payroll outsourcing implementation timeline","slug":"payroll-outsourcing-implementation-timeline","status":"queued"},
+    {"topic":"reconciling payroll data during provider migration","slug":"payroll-data-migration-reconciliation","status":"queued"},
+    {"topic":"setting acceptance criteria for a payroll parallel run","slug":"payroll-parallel-run-acceptance-criteria","status":"queued"},
+    {"topic":"comparing payroll outsourcing pricing models","slug":"payroll-outsourcing-pricing-model-comparison","status":"queued"},
+    {"topic":"building a payroll provider exit plan before signing","slug":"payroll-provider-exit-plan","status":"queued"},
+    {"topic":"choosing between multi-country and local payroll providers","slug":"payroll-multi-country-vs-local-provider","status":"queued"},
+    {"topic":"deciding between in-house and outsourced payroll operations","slug":"payroll-in-house-vs-outsourced-payroll","status":"queued"},
+    {"topic":"running payroll provider security due diligence","slug":"payroll-provider-security-due-diligence","status":"queued"},
+    {"topic":"testing payroll business continuity before an outage","slug":"payroll-business-continuity-test","status":"queued"},
+    {"topic":"assigning responsibility for payroll errors and corrections","slug":"payroll-error-responsibility-matrix","status":"queued"}
+  ],
+  "audit": {
+    "existingInventoryChecked": true,
+    "baselineChecked": true,
+    "duplicateSlugsFound": 0,
+    "liveClaims": "none",
+    "productionPush": "not attempted",
+    "deployment": "not attempted"
+  }
+}
