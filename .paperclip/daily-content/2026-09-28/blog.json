@@ -1,19 +1,25 @@
 {
   "cycleLabel": "September 28, 2026",
   "family": "blog",
-  "status": "drafting",
+  "status": "local_handoff_ready",
   "requiredCount": 12,
-  "draftedCount": 0,
+  "draftedCount": 12,
   "verifiedCount": 0,
   "repository": "coolifystealthagents/outsourcepayrollcompany",
   "productionBranch": "main",
   "baselineSha": "c8d829bdb2f0fc64a36f5bd2d585a04148e476a8",
   "worktree": "blog-publish-2026-09-28",
   "branch": "routine/blog-2026-09-28",
-  "publicationDate": null,
+  "publicationDate": "2026-09-28",
   "datePolicy": "Set to the site's local calendar date immediately before the sole combined production push; never infer it from the cycle label.",
   "pairedResearchIssue": "OUTAAAAAAAAAA-71",
-  "researchHandoff": null,
+  "researchHandoff": {
+    "issue": "OUTAAAAAAAAAA-71",
+    "branch": "routine/research-2026-09-28",
+    "worktree": "/paperclip/instances/default/projects/179ca2a0-82eb-496f-856d-eff31c871da8/dac9382f-77f7-4b10-84a9-29ed3379f1f9/_default/research-publish-2026-09-28",
+    "contentCommitSha": "8ff4af6e8f665f8ac9e56c141c6a9d04584270ed",
+    "handoffCommitSha": "f11c9a8d874486f50180f2da3f38c6fd7f456362"
+  },
   "deploymentOwner": "BROWSER OPERATOR",
   "deploymentApplication": "vikzsmt3maxniqw8po0yd3rh",
   "sources": [
@@ -23,18 +29,114 @@
     "https://privacy.gov.ph/data-privacy-act/"
   ],
   "entries": [
-    {"topic":"evaluating payroll outsourcing proposals with a decision scorecard","slug":"payroll-outsourcing-rfp-scorecard","status":"queued"},
-    {"topic":"writing measurable payroll outsourcing service levels","slug":"payroll-outsourcing-service-level-agreement","status":"queued"},
-    {"topic":"planning a payroll outsourcing implementation timeline","slug":"payroll-outsourcing-implementation-timeline","status":"queued"},
-    {"topic":"reconciling payroll data during provider migration","slug":"payroll-data-migration-reconciliation","status":"queued"},
-    {"topic":"setting acceptance criteria for a payroll parallel run","slug":"payroll-parallel-run-acceptance-criteria","status":"queued"},
-    {"topic":"comparing payroll outsourcing pricing models","slug":"payroll-outsourcing-pricing-model-comparison","status":"queued"},
-    {"topic":"building a payroll provider exit plan before signing","slug":"payroll-provider-exit-plan","status":"queued"},
-    {"topic":"choosing between multi-country and local payroll providers","slug":"payroll-multi-country-vs-local-provider","status":"queued"},
-    {"topic":"deciding between in-house and outsourced payroll operations","slug":"payroll-in-house-vs-outsourced-payroll","status":"queued"},
-    {"topic":"running payroll provider security due diligence","slug":"payroll-provider-security-due-diligence","status":"queued"},
-    {"topic":"testing payroll business continuity before an outage","slug":"payroll-business-continuity-test","status":"queued"},
-    {"topic":"assigning responsibility for payroll errors and corrections","slug":"payroll-error-responsibility-matrix","status":"queued"}
+    {
+      "topic": "evaluating payroll outsourcing proposals with a decision scorecard",
+      "slug": "payroll-outsourcing-rfp-scorecard",
+      "status": "prepared",
+      "contentHash": "c4abf5968dbd6a57581d53a1b21fb3b2fdb80ca33a07662fc149cd8dfea1706d",
+      "datePublished": "2026-09-28",
+      "plannedUrl": "https://outsourcepayrollcompany.com/blog/payroll-outsourcing-rfp-scorecard",
+      "liveVerified": false
+    },
+    {
+      "topic": "writing measurable payroll outsourcing service levels",
+      "slug": "payroll-outsourcing-service-level-agreement",
+      "status": "prepared",
+      "contentHash": "533349578f5cd87c62663ddb96bd84239bf09a8cef6652ab921cb808125cc5c9",
+      "datePublished": "2026-09-28",
+      "plannedUrl": "https://outsourcepayrollcompany.com/blog/payroll-outsourcing-service-level-agreement",
+      "liveVerified": false
+    },
+    {
+      "topic": "planning a payroll outsourcing implementation timeline",
+      "slug": "payroll-outsourcing-implementation-timeline",
+      "status": "prepared",
+      "contentHash": "3462a79ea6a841a9ef5ad5d191465fe6361a46321f272c424d78432a17c56df8",
+      "datePublished": "2026-09-28",
+      "plannedUrl": "https://outsourcepayrollcompany.com/blog/payroll-outsourcing-implementation-timeline",
+      "liveVerified": false
+    },
+    {
+      "topic": "reconciling payroll data during provider migration",
+      "slug": "payroll-data-migration-reconciliation",
+      "status": "prepared",
+      "contentHash": "fc54818e2b7a5e930139ab0a17f13a0350d14960238d38b9004dbba92fc7b936",
+      "datePublished": "2026-09-28",
+      "plannedUrl": "https://outsourcepayrollcompany.com/blog/payroll-data-migration-reconciliation",
+      "liveVerified": false
+    },
+    {
+      "topic": "setting acceptance criteria for a payroll parallel run",
+      "slug": "payroll-parallel-run-acceptance-criteria",
+      "status": "prepared",
+      "contentHash": "930cb3ccce121ba772627de3cce29f77d0e42e233dd5f18eed7612f37367cf16",
+      "datePublished": "2026-09-28",
+      "plannedUrl": "https://outsourcepayrollcompany.com/blog/payroll-parallel-run-acceptance-criteria",
+      "liveVerified": false
+    },
+    {
+      "topic": "comparing payroll outsourcing pricing models",
+      "slug": "payroll-outsourcing-pricing-model-comparison",
+      "status": "prepared",
+      "contentHash": "7c27cb5244d2ce36ef3de08f201f32565052716cfb46d68287b51d393688c3ae",
+      "datePublished": "2026-09-28",
+      "plannedUrl": "https://outsourcepayrollcompany.com/blog/payroll-outsourcing-pricing-model-comparison",
+      "liveVerified": false
+    },
+    {
+      "topic": "building a payroll provider exit plan before signing",
+      "slug": "payroll-provider-exit-plan",
+      "status": "prepared",
+      "contentHash": "747835f901c03a5e742713c78ae279083909896e31dda57937c48d90a5c6d549",
+      "datePublished": "2026-09-28",
+      "plannedUrl": "https://outsourcepayrollcompany.com/blog/payroll-provider-exit-plan",
+      "liveVerified": false
+    },
+    {
+      "topic": "choosing between multi-country and local payroll providers",
+      "slug": "payroll-multi-country-vs-local-provider",
+      "status": "prepared",
+      "contentHash": "f2957197586d25e88b42e57671d4758b192f4eff2d844e016d34a622fba772f2",
+      "datePublished": "2026-09-28",
+      "plannedUrl": "https://outsourcepayrollcompany.com/blog/payroll-multi-country-vs-local-provider",
+      "liveVerified": false
+    },
+    {
+      "topic": "deciding between in-house and outsourced payroll operations",
+      "slug": "payroll-in-house-vs-outsourced-payroll",
+      "status": "prepared",
+      "contentHash": "c122391cda4f6e49689d907891e32f92d3dc005efb981738bbfd06f9ce43dc7b",
+      "datePublished": "2026-09-28",
+      "plannedUrl": "https://outsourcepayrollcompany.com/blog/payroll-in-house-vs-outsourced-payroll",
+      "liveVerified": false
+    },
+    {
+      "topic": "running payroll provider security due diligence",
+      "slug": "payroll-provider-security-due-diligence",
+      "status": "prepared",
+      "contentHash": "a94bcd1d95074ac946828c5ac3b98d58a1d642b209c1a0b3d94a2e246f907f05",
+      "datePublished": "2026-09-28",
+      "plannedUrl": "https://outsourcepayrollcompany.com/blog/payroll-provider-security-due-diligence",
+      "liveVerified": false
+    },
+    {
+      "topic": "testing payroll business continuity before an outage",
+      "slug": "payroll-business-continuity-test",
+      "status": "prepared",
+      "contentHash": "632dc64708676963b726a375fa4c51fa49723c29ce7145d39b8cfc03c2a28938",
+      "datePublished": "2026-09-28",
+      "plannedUrl": "https://outsourcepayrollcompany.com/blog/payroll-business-continuity-test",
+      "liveVerified": false
+    },
+    {
+      "topic": "assigning responsibility for payroll errors and corrections",
+      "slug": "payroll-error-responsibility-matrix",
+      "status": "prepared",
+      "contentHash": "533177a8b4ec2c5497fae7b1a85c94899fce30fe438ad801187acc8e680b0752",
+      "datePublished": "2026-09-28",
+      "plannedUrl": "https://outsourcepayrollcompany.com/blog/payroll-error-responsibility-matrix",
+      "liveVerified": false
+    }
   ],
   "audit": {
     "existingInventoryChecked": true,
@@ -43,5 +145,34 @@
     "liveClaims": "none",
     "productionPush": "not attempted",
     "deployment": "not attempted"
+  },
+  "preparedCount": 12,
+  "publicationDateBasis": "Release prepared in the site's UTC rendering convention on 2026-09-28; Browser Operator and user own later deployment and public verification.",
+  "contentCommitSha": "cf41aa5db63e3ed58ec33120ff4c2e73cafed551",
+  "validation": {
+    "typescript": "passed",
+    "cleanProductionBuild": "passed with pre-existing autoprefixer flex-start compatibility warning",
+    "staticBlogRoutes": 12,
+    "canonicalDateAssetsInternalLinks": "passed",
+    "baselineSlugMatches": 0,
+    "renderedBodyWordCounts": {
+      "payroll-outsourcing-rfp-scorecard": 2315,
+      "payroll-outsourcing-service-level-agreement": 2215,
+      "payroll-outsourcing-implementation-timeline": 2438,
+      "payroll-data-migration-reconciliation": 2284,
+      "payroll-parallel-run-acceptance-criteria": 2357,
+      "payroll-outsourcing-pricing-model-comparison": 2328,
+      "payroll-provider-exit-plan": 2392,
+      "payroll-multi-country-vs-local-provider": 2490,
+      "payroll-in-house-vs-outsourced-payroll": 2451,
+      "payroll-provider-security-due-diligence": 2421,
+      "payroll-business-continuity-test": 2458,
+      "payroll-error-responsibility-matrix": 2455
+    },
+    "maximumPairwiseFiveWordShingleJaccard": 0.493624,
+    "maximumOverlapPair": [
+      "payroll-outsourcing-service-level-agreement",
+      "payroll-data-migration-reconciliation"
+    ]
   }
 }
