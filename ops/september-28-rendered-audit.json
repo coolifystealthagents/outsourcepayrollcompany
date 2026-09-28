@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-09-28T15:47:35.103Z",
+  "buildRoot": "/paperclip/instances/default/projects/179ca2a0-82eb-496f-856d-eff31c871da8/dac9382f-77f7-4b10-84a9-29ed3379f1f9/_default/blog-publish-2026-09-28/.next/server/app",
+  "families": {
+    "blog": {
+      "manifest": "/paperclip/instances/default/projects/179ca2a0-82eb-496f-856d-eff31c871da8/dac9382f-77f7-4b10-84a9-29ed3379f1f9/_default/blog-publish-2026-09-28/.paperclip/daily-content/2026-09-28/blog.json",
+      "requiredCount": 12,
+      "auditedCount": 12,
+      "minimumBodyWords": 900,
+      "wordCounts": {
+        "payroll-outsourcing-rfp-scorecard": 2315,
+        "payroll-outsourcing-service-level-agreement": 2215,
+        "payroll-outsourcing-implementation-timeline": 2438,
+        "payroll-data-migration-reconciliation": 2284,
+        "payroll-parallel-run-acceptance-criteria": 2357,
+        "payroll-outsourcing-pricing-model-comparison": 2328,
+        "payroll-provider-exit-plan": 2392,
+        "payroll-multi-country-vs-local-provider": 2490,
+        "payroll-in-house-vs-outsourced-payroll": 2451,
+        "payroll-provider-security-due-diligence": 2421,
+        "payroll-business-continuity-test": 2458,
+        "payroll-error-responsibility-matrix": 2455
+      },
+      "maximumPairwiseFiveWordShingleJaccard": 0.493624,
+      "maximumOverlapPair": [
+        "payroll-outsourcing-service-level-agreement",
+        "payroll-data-migration-reconciliation"
+      ],
+      "depthFailures": [],
+      "overlapFailure": false,
+      "passed": true
+    },
+    "research": {
+      "manifest": "/paperclip/instances/default/projects/179ca2a0-82eb-496f-856d-eff31c871da8/dac9382f-77f7-4b10-84a9-29ed3379f1f9/_default/blog-publish-2026-09-28/.paperclip/daily-content/2026-09-28/research.json",
+      "requiredCount": 5,
+      "auditedCount": 5,
+      "minimumBodyWords": 1200,
+      "wordCounts": {
+        "payroll-funding-readiness-evidence-study": 2592,
+        "payroll-variable-pay-source-lineage-study": 2565,
+        "payroll-garnishment-order-intake-boundary-study": 2583,
+        "payroll-multi-currency-conversion-evidence-study": 2559,
+        "contractor-payment-to-payroll-boundary-study": 2577
+      },
+      "maximumPairwiseFiveWordShingleJaccard": 0.498063,
+      "maximumOverlapPair": [
+        "payroll-garnishment-order-intake-boundary-study",
+        "contractor-payment-to-payroll-boundary-study"
+      ],
+      "depthFailures": [],
+      "overlapFailure": false,
+      "passed": true
+    }
+  },
+  "passed": true
+}
