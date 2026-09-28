@@ -13,15 +13,19 @@ The service pages are the commercial pillars. Research briefs and practical payr
 | `/services/payroll-preparation` | Prepare approved inputs and handoff notes for payroll review | `/research/philippines-payroll-period-close-evidence` | Delivered locally: one route-local link. Do not add a duplicate. |
 | `/services/benefits-deduction-administration` | Organize approved benefit or deduction inputs for review | `/research/philippines-payroll-earnings-code-governance` | Not a candidate: the generated route already has its single route-local handoff to Payroll Data Entry. Do not replace or add a competing service CTA without a separate reader-intent review. |
 | `/services/new-hire-payroll-setup` | Prepare onboarding records and flag incomplete payroll inputs | `/research/philippines-payroll-employee-status-reconciliation` | Delivered locally: one route-local handoff to New Hire Payroll Setup. Do not add a duplicate; the authorized payroll owner keeps employment-status and approval decisions. |
-| `/services/payroll-query-support` | Sort employee payroll questions and route sensitive cases | `/research/philippines-payroll-provider-rejection-patterns` | Blocked: the declared source is not in the current generated route or sitemap inventory. Repair route registration or choose another generated source before proposing a handoff. |
-| `/services/leave-balance-administration` | Prepare leave records and surface missing source evidence | `/research/philippines-payroll-leave-accrual-evidence` | Blocked: the declared source is not in the current generated route or sitemap inventory. Repair route registration or choose another generated source before proposing a handoff. |
+| `/services/payroll-query-support` | Sort employee payroll questions and route sensitive cases | `/research/philippines-payroll-provider-rejection-patterns` | Verified absent: source and service now have generated artifacts, self-canonicals, sitemap locations, and zero route-local target links. Next candidate. |
+| `/services/leave-balance-administration` | Prepare leave records and surface missing source evidence | `/research/philippines-payroll-leave-accrual-evidence` | Verified absent: source and service now have generated artifacts, self-canonicals, sitemap locations, and zero route-local target links. Hold until a later run. |
 | `/services/payroll-reporting` | Prepare exception reports and review-ready payroll summaries | `/research/philippines-payroll-control-metric-denominators` | Delivered locally: one route-local handoff explains the reporting boundary. Do not add a duplicate. |
-| `/services/contractor-payment-administration` | Prepare payment records and exception notes for owner review | `/research/philippines-payroll-remittance-source-matching` | Blocked: the declared source is not in the current generated route or sitemap inventory. Repair route registration or choose another generated source before proposing a handoff. |
+| `/services/contractor-payment-administration` | Prepare payment records and exception notes for owner review | `/research/philippines-payroll-remittance-source-matching` | Verified absent: source and service now have generated artifacts, self-canonicals, sitemap locations, and zero route-local target links. Hold until a later run. |
 | `/services/year-end-payroll-preparation` | Organize approved year-end payroll records for review | `/research/philippines-payroll-tax-form-checklist` | Delivered locally: one route-local handoff to Year-End Payroll Preparation. Do not add a duplicate; the authorized payroll owner keeps tax treatment and submission approval. |
 
 ## Next executable candidate
 
-The tax-form checklist now has its one Year-End Payroll Preparation handoff. Do not add another. The three routes blocked by absent generated source inventory remain the next planning constraints; do not invent a replacement route or CTA.
+The tax-form checklist now has its one Year-End Payroll Preparation handoff. Do not add another. The provider-rejection route is the next verified-absent candidate for a later, separately scoped reader-intent review. The leave-accrual and remittance routes remain verified-absent follow-ups; do not invent a replacement route or CTA.
+
+## 2026-09-28 restored-route artifact reconciliation
+
+A fresh 653-page production build confirmed that the provider-rejection, leave-accrual, and remittance research routes and their matched service routes each have one generated artifact, a self-canonical URL, and a sitemap location. Each source route has zero route-local links to its matched service. This removes the old route-registration blocker only; it does not authorize three same-run CTAs. The sitemap intentionally has no `<lastmod>` fields.
 
 ## 2026-09-14 year-end source audit
 
