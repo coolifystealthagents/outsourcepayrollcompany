@@ -13,7 +13,7 @@ The service pages are the commercial pillars. Research briefs and practical payr
 | `/services/payroll-preparation` | Prepare approved inputs and handoff notes for payroll review | `/research/philippines-payroll-period-close-evidence` | Delivered locally: one route-local link. Do not add a duplicate. |
 | `/services/benefits-deduction-administration` | Organize approved benefit or deduction inputs for review | `/research/philippines-payroll-earnings-code-governance` | Not a candidate: the generated route already has its single route-local handoff to Payroll Data Entry. Do not replace or add a competing service CTA without a separate reader-intent review. |
 | `/services/new-hire-payroll-setup` | Prepare onboarding records and flag incomplete payroll inputs | `/research/philippines-payroll-employee-status-reconciliation` | Delivered locally: one route-local handoff to New Hire Payroll Setup. Do not add a duplicate; the authorized payroll owner keeps employment-status and approval decisions. |
-| `/services/payroll-query-support` | Sort employee payroll questions and route sensitive cases | `/research/philippines-payroll-provider-rejection-patterns` | Verified absent: source and service now have generated artifacts, self-canonicals, sitemap locations, and zero route-local target links. Next candidate. |
+| `/services/payroll-query-support` | Sort employee payroll questions and route sensitive cases | `/research/philippines-payroll-provider-rejection-patterns` | Delivered locally: one route-local handoff to Payroll Query Support. Preserve rendered-source commit `674f576ba13162edc7fa6768df65c99b632ea035`; do not add a duplicate. |
 | `/services/leave-balance-administration` | Prepare leave records and surface missing source evidence | `/research/philippines-payroll-leave-accrual-evidence` | Verified absent: source and service now have generated artifacts, self-canonicals, sitemap locations, and zero route-local target links. Hold until a later run. |
 | `/services/payroll-reporting` | Prepare exception reports and review-ready payroll summaries | `/research/philippines-payroll-control-metric-denominators` | Delivered locally: one route-local handoff explains the reporting boundary. Do not add a duplicate. |
 | `/services/contractor-payment-administration` | Prepare payment records and exception notes for owner review | `/research/philippines-payroll-remittance-source-matching` | Verified absent: source and service now have generated artifacts, self-canonicals, sitemap locations, and zero route-local target links. Hold until a later run. |
@@ -21,7 +21,7 @@ The service pages are the commercial pillars. Research briefs and practical payr
 
 ## Next executable candidate
 
-The tax-form checklist now has its one Year-End Payroll Preparation handoff. Do not add another. The provider-rejection route is the next verified-absent candidate for a later, separately scoped reader-intent review. The leave-accrual and remittance routes remain verified-absent follow-ups; do not invent a replacement route or CTA.
+The provider-rejection route now has its one Payroll Query Support handoff in rendered-source commit `674f576ba13162edc7fa6768df65c99b632ea035`. Do not add another. The leave-accrual and remittance routes remain verified-absent follow-ups; do not invent a replacement route or CTA.
 
 ## 2026-09-28 restored-route artifact reconciliation
 
