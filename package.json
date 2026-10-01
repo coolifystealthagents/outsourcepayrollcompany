@@ -8,7 +8,8 @@
     "lint": "tsc --noEmit",
     "validate:employee-status-handoff": "node scripts/validate-employee-status-handoff.js",
     "validate:control-metric-handoff": "node scripts/validate-control-metric-handoff.js",
-    "validate:year-end-payroll-handoff": "node scripts/validate-year-end-payroll-handoff.js"
+    "validate:year-end-payroll-handoff": "node scripts/validate-year-end-payroll-handoff.js",
+    "validate:provider-rejection-handoff": "node scripts/validate-provider-rejection-handoff.js"
   },
   "dependencies": {
     "@next/third-parties": "^15.1.6",
