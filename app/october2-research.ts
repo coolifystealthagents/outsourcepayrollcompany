@@ -74,7 +74,7 @@ const studies: readonly Study[] = [
     question: 'Can each benefit deduction change be traced from an owner-approved enrollment or eligibility source through effective period, payroll code, arrears rule, output, and carrier or ledger reconciliation?',
     subject: 'benefit deduction interfaces', unit: 'one deduction event expected to start, change, pause, refund, or stop in a defined payroll period',
     states: 'source-to-output matched, effective-period mismatch, code or amount conflict, arrears decision pending, duplicate deduction, downstream reconciliation missing, or unresolved',
-    service: '/services/benefits-administration', cta: 'Review benefits administration support',
+    service: '/services/benefits-deduction-administration', cta: 'Review benefits administration support',
     decision: 'whether benefits administration support can prepare and reconcile deduction records while plan, eligibility, tax, refund, and arrears decisions remain with authorized owners',
     evidence: 'protected participant identifier, plan and coverage reference, approved event, effective date, deduction code, amount source, frequency, arrears instruction, payroll period, output amount, downstream comparison, and disposition owner',
     image: '/research-heroes/philippines-payroll-correction-lineage-review.png',

@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-02T19:36:05.196Z",
+  "generatedAt": "2026-10-02T22:23:48.237Z",
   "currentCycle": "2026-10-02",
   "priorCycle": "2026-09-28",
   "families": {
     "blog": {
       "currentCount": 12,
       "priorCount": 12,
-      "maximumCrossCycleFiveWordShingleJaccard": 0.065856,
-      "maximumCrossCycleFiveWordShingleOverlapCoefficient": 0.143488,
+      "maximumCrossCycleFiveWordShingleJaccard": 0.062711,
+      "maximumCrossCycleFiveWordShingleOverlapCoefficient": 0.137269,
       "maximumBodyPair": [
         "quarterly-payroll-provider-performance-review",
         "payroll-outsourcing-service-level-agreement"

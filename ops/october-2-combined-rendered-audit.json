@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T19:35:10.327Z",
+  "generatedAt": "2026-10-02T22:23:47.329Z",
   "buildRoot": "/paperclip/instances/default/projects/179ca2a0-82eb-496f-856d-eff31c871da8/dac9382f-77f7-4b10-84a9-29ed3379f1f9/_default/blog-publish-2026-10-02/.next/server/app",
   "families": {
     "blog": {
@@ -8,34 +8,34 @@
       "auditedCount": 12,
       "minimumBodyWords": 900,
       "wordCounts": {
-        "payroll-outsourcing-transition-governance": 1407,
-        "retained-payroll-team-capacity-plan": 1578,
-        "payroll-provider-escalation-design": 1591,
-        "outsourced-payroll-funding-controls": 1504,
-        "payroll-calendar-provider-alignment": 1571,
-        "payroll-hris-integration-ownership": 1492,
-        "payroll-outsourcing-merger-acquisition-readiness": 1438,
-        "seasonal-payroll-outsourcing-capacity": 1481,
-        "payroll-audit-evidence-provider-request": 1454,
-        "employee-communications-payroll-provider-change": 1457,
-        "payroll-provider-invoice-reconciliation": 1445,
-        "quarterly-payroll-provider-performance-review": 1421
+        "payroll-outsourcing-transition-governance": 1403,
+        "retained-payroll-team-capacity-plan": 1574,
+        "payroll-provider-escalation-design": 1587,
+        "outsourced-payroll-funding-controls": 1500,
+        "payroll-calendar-provider-alignment": 1567,
+        "payroll-hris-integration-ownership": 1488,
+        "payroll-outsourcing-merger-acquisition-readiness": 1434,
+        "seasonal-payroll-outsourcing-capacity": 1477,
+        "payroll-audit-evidence-provider-request": 1450,
+        "employee-communications-payroll-provider-change": 1453,
+        "payroll-provider-invoice-reconciliation": 1441,
+        "quarterly-payroll-provider-performance-review": 1417
       },
       "contentHashes": {
-        "payroll-outsourcing-transition-governance": "620a937acc1a421490a794d62a3ad701ad791e8df08503a5d611095364e25051",
-        "retained-payroll-team-capacity-plan": "7437fc16974f4777e95d929f8c22e900e5baebb082939725f2ecf0be9d1145ea",
-        "payroll-provider-escalation-design": "20716e88090b3f2db2037ce09ee1d5c391800acbc71a74ee5611a8bc9094c48c",
-        "outsourced-payroll-funding-controls": "aa3ef1a9339983f023224f52dc952c3b76a3a62524177417c11290cee0f3e1e2",
-        "payroll-calendar-provider-alignment": "955d8bbb6e6387621c9977d549183b31264d6835f2b67e0778262867eb17db28",
-        "payroll-hris-integration-ownership": "b446771a0c027026da1268468a8738e5f737966cbd100098919402fae674e598",
-        "payroll-outsourcing-merger-acquisition-readiness": "96798a87d7d81b6f3975812929e705c02dc9341524b8e0733f097879edd9cca4",
-        "seasonal-payroll-outsourcing-capacity": "29969c5293dea9886dd119567650833ec6cc5c857273d38269ffcb0e3e75ef07",
-        "payroll-audit-evidence-provider-request": "0eeb7c0804d93cdc07edb19c9d75f4955b5c9ef538e55c13afd913c00a976dee",
-        "employee-communications-payroll-provider-change": "287d797303ce28784fab3ed70a14fdc4ad5557c3624adb4d77bd10114cb7779d",
-        "payroll-provider-invoice-reconciliation": "8536276934e23b35cd876d274149284effbfe943d5b0433cfb4e2c440ba60640",
-        "quarterly-payroll-provider-performance-review": "3e54dcc71d63e2a7135aff942b8d7de2208b58ca8247a599115782924c8aa9ea"
+        "payroll-outsourcing-transition-governance": "760f104e8be3e350c7f7967b12d22da3fb7f8b0b356e10d7afe4bbced80a63bd",
+        "retained-payroll-team-capacity-plan": "eaff18714c8c039ab9d211a4d521af33b01785d43e2dc1da8c48b206e24abad2",
+        "payroll-provider-escalation-design": "9dfcea52b11433d66c5e6db7d07fe8fa4cf4442ab8d66781f59326bdb014edc9",
+        "outsourced-payroll-funding-controls": "eda84a21ab26fd052ebc6284f89613957dde98bb6cbab5092ac1ed76a239d22a",
+        "payroll-calendar-provider-alignment": "9692980fd6263d4f0623c0bd7d15f30e986f3f92ea6df0be7210f2256d73bbfe",
+        "payroll-hris-integration-ownership": "2e984aad1ca2089c12ae11eeaf48184170b8eaf7ec86cbb7029f17d5761c46a6",
+        "payroll-outsourcing-merger-acquisition-readiness": "e812b3b6046b15a1ec8d693c49fdfbc6f6b493e219fced4f91fa5d8fa802c158",
+        "seasonal-payroll-outsourcing-capacity": "ee582ba78563937c32f6a96944cca00c961195d0ca5cdc8d93bd338cf7d7a445",
+        "payroll-audit-evidence-provider-request": "33274f3c618b89f76a5886300fab6f91248999ac0038e7309603f865e119733e",
+        "employee-communications-payroll-provider-change": "b17717c4131153961c72809d252022a6554e3341ce2b8b1e350397435d5fbd6e",
+        "payroll-provider-invoice-reconciliation": "73df94193f4d05523e7a9fb918bae87cd292f3b73451706534e5724a85d9ed84",
+        "quarterly-payroll-provider-performance-review": "dc46c7c404e7a80770fecfc1ead85c72205499331a92eff9d0a21dedda570741"
       },
-      "maximumPairwiseFiveWordShingleJaccard": 0.08343,
+      "maximumPairwiseFiveWordShingleJaccard": 0.082012,
       "maximumOverlapPair": [
         "payroll-audit-evidence-provider-request",
         "payroll-provider-invoice-reconciliation"

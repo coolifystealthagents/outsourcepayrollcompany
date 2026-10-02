@@ -60,6 +60,12 @@ for (const family of families) {
     const imagePath = attr(article, /<img\b[^>]*src="([^"]+)"/i);
     const image = await get(`${base}${imagePath}`);
     const imageMeta = await sharp(image.buffer).metadata();
+    const internalLinks = [...new Set([...article.matchAll(/href="([^"]+)"/g)].map((match) => decode(match[1]))
+      .filter((href) => href.startsWith('/')))];
+    const internalLinkResponses = await Promise.all(internalLinks.map(async (href) => {
+      const response = await fetch(`${base}${href}`, { redirect: 'follow' });
+      return { href, status: response.status, ok: response.ok };
+    }));
     const schemaCanonical = typeof articleSchema.mainEntityOfPage === 'string'
       ? articleSchema.mainEntityOfPage
       : articleSchema.mainEntityOfPage?.['@id']?.replace(/#webpage$/, '');
@@ -71,12 +77,14 @@ for (const family of families) {
       canonicalMatches: renderedCanonical === canonical && schemaCanonical === canonical,
       imageMime: (image.response.headers.get('content-type') || '').startsWith('image/'),
       imageDecoded: Boolean(imageMeta.format && imageMeta.width && imageMeta.height),
+      internalLinks: internalLinkResponses.every(({ ok }) => ok),
       indexEntry: indexPages[family.name].includes(`href="${route}"`),
       sitemapEntry: sitemap.includes(`<loc>${canonical}</loc>`),
     };
     routes.push({ family: family.name, slug: entry.slug, route, title: h1, bodyWords, datePublished: timeDate,
       canonical: renderedCanonical, image: imagePath, imageContentType: image.response.headers.get('content-type'),
       imageFormat: imageMeta.format, imageWidth: imageMeta.width, imageHeight: imageMeta.height, checks,
+      internalLinkResponses,
       passed: Object.values(checks).every(Boolean) });
   }
 }
