@@ -28,15 +28,18 @@ The site renders publication dates in UTC. The prepared local date is `2026-10-0
 - Repository tests: 10/10 passed.
 - Dedicated validators: employee-status, control-metric, year-end payroll, and provider-rejection handoffs passed.
 - Clean production build: passed from a fresh `.next`; only the pre-existing Autoprefixer `start`/`flex-start` compatibility warning and workspace-root lockfile warning remain.
-- Locked production dependency audit: 3 high and 1 critical advisory reported. No unbounded dependency mutation was performed in this content-only candidate.
+- Scoped locked dependency repair: Next and `@next/third-parties` `15.5.27`, PostCSS override `8.5.28`, Sharp override `0.35.5`, and Nanoid override `3.3.19`.
+- Final `npm audit`: zero vulnerabilities at every severity.
 - Blog rendered body counts: 1407, 1578, 1591, 1504, 1571, 1492, 1438, 1481, 1454, 1457, 1445, 1421.
 - Blog maximum pairwise five-word-shingle Jaccard: `0.083430`.
 - Research rendered body counts: 1654, 1411, 1374, 1340, 1350.
 - Research maximum pairwise five-word-shingle Jaccard: `0.106950`.
+- September 28 cross-cycle originality passed. Blog maximum rendered-body Jaccard is `0.065856`, overlap coefficient `0.143488`, exact repeated substantive paragraphs `0`, and ordered-heading-bigram Jaccard `0.166667`. Research maximum rendered-body Jaccard is `0.041599`, overlap coefficient `0.114350`, exact repeated substantive paragraphs `0` after excluding one universal 26-word renderer note, and ordered-heading-bigram Jaccard `0.088235`.
 - All 17 local HTTP routes passed HTTP status, title and Article schema headline, full-body minimum, UTC visible/schema date, canonical, image MIME, binary image decode and dimensions, family index entry, and sitemap entry.
 - Bounded source checks returned HTTP 200 for IRS Publication 15, both NIST resources, and the Philippine National Privacy Commission page. The official U.S. Department of Labor fact-sheet URL returned HTTP 403 to the automated request; the limitation is recorded without claiming availability.
 - Per-route evidence: `ops/october-2-local-http-verification.json`.
 - Rendered originality and hash evidence: `ops/october-2-combined-rendered-audit.json`.
+- Prior-cycle originality evidence: `ops/october-2-prior-cycle-originality-audit.json`.
 - Blog and Research manifests contain the current normalized rendered-body SHA-256 values.
 
 ## Production boundary

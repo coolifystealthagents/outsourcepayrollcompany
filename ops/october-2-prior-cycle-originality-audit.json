@@ -1,0 +1,48 @@
+{
+  "generatedAt": "2026-10-02T19:36:05.196Z",
+  "currentCycle": "2026-10-02",
+  "priorCycle": "2026-09-28",
+  "families": {
+    "blog": {
+      "currentCount": 12,
+      "priorCount": 12,
+      "maximumCrossCycleFiveWordShingleJaccard": 0.065856,
+      "maximumCrossCycleFiveWordShingleOverlapCoefficient": 0.143488,
+      "maximumBodyPair": [
+        "quarterly-payroll-provider-performance-review",
+        "payroll-outsourcing-service-level-agreement"
+      ],
+      "exactRepeatedSubstantiveParagraphCount": 0,
+      "repeatedParagraphs": [],
+      "excludedUniversalRendererBoilerplate": [],
+      "maximumOrderedHeadingBigramJaccard": 0.166667,
+      "maximumHeadingPair": [
+        "payroll-outsourcing-transition-governance",
+        "payroll-outsourcing-service-level-agreement"
+      ],
+      "passed": true
+    },
+    "research": {
+      "currentCount": 5,
+      "priorCount": 5,
+      "maximumCrossCycleFiveWordShingleJaccard": 0.041599,
+      "maximumCrossCycleFiveWordShingleOverlapCoefficient": 0.11435,
+      "maximumBodyPair": [
+        "payroll-provider-assurance-evidence-study",
+        "payroll-multi-currency-conversion-evidence-study"
+      ],
+      "exactRepeatedSubstantiveParagraphCount": 0,
+      "repeatedParagraphs": [],
+      "excludedUniversalRendererBoilerplate": [
+        "This brief triangulates the headline measure against official Philippine government, regulatory, development, and labor sources. It translates the evidence into an operating control and separates context from recommendations."
+      ],
+      "maximumOrderedHeadingBigramJaccard": 0.088235,
+      "maximumHeadingPair": [
+        "payroll-self-service-change-audit-study",
+        "payroll-funding-readiness-evidence-study"
+      ],
+      "passed": true
+    }
+  },
+  "passed": true
+}
