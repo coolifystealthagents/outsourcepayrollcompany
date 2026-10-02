@@ -1,4 +1,4 @@
-import { buildDecisionBlogBatch, type DecisionTopic } from './september28-blog';
+import { buildDecisionBlogBatch, type DecisionTopic } from './october2-blog-framework';
 
 const DATE = '2026-10-02';
 
