@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-10-02T13:55:03.195Z",
+  "buildRoot": "/paperclip/instances/default/projects/179ca2a0-82eb-496f-856d-eff31c871da8/dac9382f-77f7-4b10-84a9-29ed3379f1f9/_default/blog-publish-2026-10-02/.next/server/app",
+  "families": {
+    "blog": {
+      "manifest": "/paperclip/instances/default/projects/179ca2a0-82eb-496f-856d-eff31c871da8/dac9382f-77f7-4b10-84a9-29ed3379f1f9/_default/blog-publish-2026-10-02/.paperclip/daily-content/2026-10-02/blog.json",
+      "requiredCount": 12,
+      "auditedCount": 12,
+      "minimumBodyWords": 900,
+      "wordCounts": {
+        "payroll-outsourcing-transition-governance": 1335,
+        "retained-payroll-team-capacity-plan": 1353,
+        "payroll-provider-escalation-design": 1348,
+        "outsourced-payroll-funding-controls": 1355,
+        "payroll-calendar-provider-alignment": 1365,
+        "payroll-hris-integration-ownership": 1392,
+        "payroll-outsourcing-merger-acquisition-readiness": 1411,
+        "seasonal-payroll-outsourcing-capacity": 1385,
+        "payroll-audit-evidence-provider-request": 1437,
+        "employee-communications-payroll-provider-change": 1388,
+        "payroll-provider-invoice-reconciliation": 1368,
+        "quarterly-payroll-provider-performance-review": 1379
+      },
+      "maximumPairwiseFiveWordShingleJaccard": 0.38878,
+      "maximumOverlapPair": [
+        "payroll-provider-escalation-design",
+        "seasonal-payroll-outsourcing-capacity"
+      ],
+      "depthFailures": [],
+      "overlapFailure": false,
+      "passed": true
+    },
+    "research": {
+      "manifest": "/paperclip/instances/default/projects/179ca2a0-82eb-496f-856d-eff31c871da8/dac9382f-77f7-4b10-84a9-29ed3379f1f9/_default/blog-publish-2026-10-02/.paperclip/daily-content/2026-10-02/research.json",
+      "requiredCount": 5,
+      "auditedCount": 5,
+      "minimumBodyWords": 1200,
+      "wordCounts": {
+        "payroll-calendar-compression-readiness-study": 1654,
+        "payroll-self-service-change-audit-study": 1411,
+        "payroll-off-cycle-payment-authorization-study": 1374,
+        "payroll-benefit-deduction-interface-study": 1340,
+        "payroll-provider-assurance-evidence-study": 1350
+      },
+      "maximumPairwiseFiveWordShingleJaccard": 0.10695,
+      "maximumOverlapPair": [
+        "payroll-benefit-deduction-interface-study",
+        "payroll-provider-assurance-evidence-study"
+      ],
+      "depthFailures": [],
+      "overlapFailure": false,
+      "passed": true
+    }
+  },
+  "passed": true
+}
