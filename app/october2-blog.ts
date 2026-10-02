@@ -1,4 +1,5 @@
 import { buildDecisionBlogBatch, type DecisionTopic } from './october2-blog-framework';
+import { october2LiteralSections } from './october2-blog-literal';
 
 const DATE = '2026-10-02';
 
@@ -19,4 +20,4 @@ const topics: readonly DecisionTopic[] = [
 
 const batch = buildDecisionBlogBatch(topics.map(topic => ({ ...topic, independent: true })), DATE, 'opc-20261002');
 export const october2BlogPosts = batch.posts;
-export const october2BlogDetails = batch.details;
+export const october2BlogDetails = Object.fromEntries(Object.entries(batch.details).map(([slug,detail])=>[slug,october2LiteralSections[slug]?{...detail,sections:october2LiteralSections[slug]}:detail]));
