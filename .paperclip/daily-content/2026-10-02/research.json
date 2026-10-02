@@ -1,0 +1,52 @@
+{
+  "cycleLabel": "October 2, 2026 combined release",
+  "family": "research",
+  "status": "local_handoff_prepared",
+  "requiredCount": 5,
+  "preparedCount": 5,
+  "verifiedLiveCount": 0,
+  "publicationDate": "2026-10-02",
+  "publicationDateBasis": "Prepared on October 2 in the site's established UTC rendering convention; Blog integrator must reconcile immediately before the sole combined production push.",
+  "siteTimezone": "UTC",
+  "repository": "coolifystealthagents/outsourcepayrollcompany",
+  "productionBranch": "main",
+  "baselineRemoteSha": "dd28da3fce95fab766efc07772c722fb788baa8b",
+  "researchBranch": "research/2026-10-02-handoff",
+  "researchWorktree": "/paperclip/instances/default/projects/179ca2a0-82eb-496f-856d-eff31c871da8/dac9382f-77f7-4b10-84a9-29ed3379f1f9/_default/research-2026-10-02",
+  "paperclipIssueId": "14ac63f7-ce14-46ad-879b-88e9e848d65c",
+  "paperclipRunId": "1d2da8e7-a36e-48fa-8ab0-fb6708b1107c",
+  "releaseOwner": "Blog routine OUTAAAAAAAAAA-74",
+  "deploymentOwner": "Browser Operator",
+  "deploymentApplication": "vikzsmt3maxniqw8po0yd3rh",
+  "pushOrDeploymentPerformed": false,
+  "validation": {
+    "typescript": "passed",
+    "cleanProductionBuild": "passed with pre-existing autoprefixer flex-start compatibility warning",
+    "staticResearchRoutes": 5,
+    "canonicalAndDateChecks": "passed",
+    "sourceReachability": "IRS, DOL, and NIST returned HTTP 200; Philippine NPC returned HTTP 403 to bounded automated request while retaining its established official URL",
+    "renderedBodyWordCounts": {
+      "payroll-calendar-compression-readiness-study": 2238,
+      "payroll-self-service-change-audit-study": 2197,
+      "payroll-off-cycle-payment-authorization-study": 2167,
+      "payroll-benefit-deduction-interface-study": 2143,
+      "payroll-provider-assurance-evidence-study": 2167
+    },
+    "maximumPairwiseFiveWordShingleJaccard": 0.486814,
+    "maximumOverlapPair": ["payroll-benefit-deduction-interface-study", "payroll-provider-assurance-evidence-study"]
+  },
+  "sourcesCheckedAt": "2026-10-02",
+  "sources": [
+    {"title":"Publication 15 (2026), Employer's Tax Guide","publisher":"Internal Revenue Service","url":"https://www.irs.gov/publications/p15"},
+    {"title":"Fact Sheet #21: Recordkeeping Requirements under the FLSA","publisher":"U.S. Department of Labor","url":"https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping"},
+    {"title":"SP 800-53 Rev. 5, Security and Privacy Controls","publisher":"National Institute of Standards and Technology","url":"https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"},
+    {"title":"Data Privacy Act of 2012","publisher":"Philippine National Privacy Commission","url":"https://privacy.gov.ph/data-privacy-act/"}
+  ],
+  "entries": [
+    {"topic":"compressed payroll calendar readiness","slug":"payroll-calendar-compression-readiness-study","contentHash":"1d6bc3c44e89105dabb7ddf1e062913df7141609feff6ef7dde91a6159520355","datePublished":"2026-10-02","plannedUrl":"https://outsourcepayrollcompany.com/research/payroll-calendar-compression-readiness-study","liveVerified":false},
+    {"topic":"employee self-service payroll change audit","slug":"payroll-self-service-change-audit-study","contentHash":"1c9349ac06f3daf1330c7b84c04510a42212f195fa2d5cbc0145ddbedd722f99","datePublished":"2026-10-02","plannedUrl":"https://outsourcepayrollcompany.com/research/payroll-self-service-change-audit-study","liveVerified":false},
+    {"topic":"off-cycle payment authorization","slug":"payroll-off-cycle-payment-authorization-study","contentHash":"32af8c0ea88270be63758445794dd4c8bcfa752aa93a5c8801cbc920e453a400","datePublished":"2026-10-02","plannedUrl":"https://outsourcepayrollcompany.com/research/payroll-off-cycle-payment-authorization-study","liveVerified":false},
+    {"topic":"benefit deduction interface reconciliation","slug":"payroll-benefit-deduction-interface-study","contentHash":"7757e7425d0c114fba1dfcbd5f9c31341561525631e2930fea88ef1394a0d0db","datePublished":"2026-10-02","plannedUrl":"https://outsourcepayrollcompany.com/research/payroll-benefit-deduction-interface-study","liveVerified":false},
+    {"topic":"payroll provider assurance evidence","slug":"payroll-provider-assurance-evidence-study","contentHash":"099464201d135edf149c1a41bd50ea0d38b45a9d4ec3358280b1aded6cfd386f","datePublished":"2026-10-02","plannedUrl":"https://outsourcepayrollcompany.com/research/payroll-provider-assurance-evidence-study","liveVerified":false}
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "generatedAt": "2026-10-02T11:42:38.023Z",
+  "buildRoot": "/paperclip/instances/default/projects/179ca2a0-82eb-496f-856d-eff31c871da8/dac9382f-77f7-4b10-84a9-29ed3379f1f9/_default/research-2026-10-02/.next/server/app",
+  "families": {
+    "research": {
+      "manifest": "/paperclip/instances/default/projects/179ca2a0-82eb-496f-856d-eff31c871da8/dac9382f-77f7-4b10-84a9-29ed3379f1f9/_default/research-2026-10-02/.paperclip/daily-content/2026-10-02/research.json",
+      "requiredCount": 5,
+      "auditedCount": 5,
+      "minimumBodyWords": 1200,
+      "wordCounts": {
+        "payroll-calendar-compression-readiness-study": 2238,
+        "payroll-self-service-change-audit-study": 2197,
+        "payroll-off-cycle-payment-authorization-study": 2167,
+        "payroll-benefit-deduction-interface-study": 2143,
+        "payroll-provider-assurance-evidence-study": 2167
+      },
+      "maximumPairwiseFiveWordShingleJaccard": 0.486814,
+      "maximumOverlapPair": [
+        "payroll-benefit-deduction-interface-study",
+        "payroll-provider-assurance-evidence-study"
+      ],
+      "depthFailures": [],
+      "overlapFailure": false,
+      "passed": true
+    }
+  },
+  "passed": true
+}
