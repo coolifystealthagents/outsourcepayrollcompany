@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-10-02T11:40:51.401Z",
+  "buildRoot": "/paperclip/instances/default/projects/179ca2a0-82eb-496f-856d-eff31c871da8/dac9382f-77f7-4b10-84a9-29ed3379f1f9/_default/blog-publish-2026-10-02/.next/server/app",
+  "families": {
+    "blog": {
+      "manifest": "/paperclip/instances/default/projects/179ca2a0-82eb-496f-856d-eff31c871da8/dac9382f-77f7-4b10-84a9-29ed3379f1f9/_default/blog-publish-2026-10-02/.paperclip/daily-content/2026-10-02/blog.json",
+      "requiredCount": 12,
+      "auditedCount": 12,
+      "minimumBodyWords": 900,
+      "wordCounts": {
+        "payroll-outsourcing-transition-governance": 2307,
+        "retained-payroll-team-capacity-plan": 2357,
+        "payroll-provider-escalation-design": 2329,
+        "outsourced-payroll-funding-controls": 2408,
+        "payroll-calendar-provider-alignment": 2448,
+        "payroll-hris-integration-ownership": 2428,
+        "payroll-outsourcing-merger-acquisition-readiness": 2536,
+        "seasonal-payroll-outsourcing-capacity": 2432,
+        "payroll-audit-evidence-provider-request": 2577,
+        "employee-communications-payroll-provider-change": 2432,
+        "payroll-provider-invoice-reconciliation": 2467,
+        "quarterly-payroll-provider-performance-review": 2487
+      },
+      "maximumPairwiseFiveWordShingleJaccard": 0.491955,
+      "maximumOverlapPair": [
+        "payroll-provider-escalation-design",
+        "payroll-provider-invoice-reconciliation"
+      ],
+      "depthFailures": [],
+      "overlapFailure": false,
+      "passed": true
+    }
+  },
+  "passed": true
+}

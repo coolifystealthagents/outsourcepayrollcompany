@@ -1,0 +1,43 @@
+{
+  "cycleLabel": "October 2, 2026",
+  "family": "blog",
+  "status": "drafted_awaiting_research_handoff",
+  "requiredCount": 12,
+  "draftedCount": 12,
+  "verifiedCount": 0,
+  "repository": "coolifystealthagents/outsourcepayrollcompany",
+  "productionBranch": "main",
+  "baselineSha": "dd28da3fce95fab766efc07772c722fb788baa8b",
+  "worktree": "blog-publish-2026-10-02",
+  "branch": "routine/blog-2026-10-02",
+  "siteTimezone": "UTC",
+  "publicationDate": "2026-10-02",
+  "datePolicy": "The cycle label is not authority to backdate. Reconfirm UTC immediately before the sole push and revise all release metadata if first public verification occurs on another local date.",
+  "pairedResearchIssue": "OUTAAAAAAAAAA-73",
+  "pairedResearchRun": "1d2da8e7-a36e-48fa-8ab0-fb6708b1107c",
+  "deploymentOwner": "BROWSER OPERATOR",
+  "deploymentApplication": "vikzsmt3maxniqw8po0yd3rh",
+  "entries": [
+    {"topic":"transition governance for payroll outsourcing","slug":"payroll-outsourcing-transition-governance","datePublished":"2026-10-02","plannedUrl":"https://outsourcepayrollcompany.com/blog/payroll-outsourcing-transition-governance","status":"prepared","liveVerified":false},
+    {"topic":"retained payroll team capacity after outsourcing","slug":"retained-payroll-team-capacity-plan","datePublished":"2026-10-02","plannedUrl":"https://outsourcepayrollcompany.com/blog/retained-payroll-team-capacity-plan","status":"prepared","liveVerified":false},
+    {"topic":"payroll provider escalation design","slug":"payroll-provider-escalation-design","datePublished":"2026-10-02","plannedUrl":"https://outsourcepayrollcompany.com/blog/payroll-provider-escalation-design","status":"prepared","liveVerified":false},
+    {"topic":"funding controls for outsourced payroll","slug":"outsourced-payroll-funding-controls","datePublished":"2026-10-02","plannedUrl":"https://outsourcepayrollcompany.com/blog/outsourced-payroll-funding-controls","status":"prepared","liveVerified":false},
+    {"topic":"company and provider payroll calendar alignment","slug":"payroll-calendar-provider-alignment","datePublished":"2026-10-02","plannedUrl":"https://outsourcepayrollcompany.com/blog/payroll-calendar-provider-alignment","status":"prepared","liveVerified":false},
+    {"topic":"payroll and HRIS integration ownership","slug":"payroll-hris-integration-ownership","datePublished":"2026-10-02","plannedUrl":"https://outsourcepayrollcompany.com/blog/payroll-hris-integration-ownership","status":"prepared","liveVerified":false},
+    {"topic":"payroll outsourcing readiness for mergers and acquisitions","slug":"payroll-outsourcing-merger-acquisition-readiness","datePublished":"2026-10-02","plannedUrl":"https://outsourcepayrollcompany.com/blog/payroll-outsourcing-merger-acquisition-readiness","status":"prepared","liveVerified":false},
+    {"topic":"seasonal payroll outsourcing capacity","slug":"seasonal-payroll-outsourcing-capacity","datePublished":"2026-10-02","plannedUrl":"https://outsourcepayrollcompany.com/blog/seasonal-payroll-outsourcing-capacity","status":"prepared","liveVerified":false},
+    {"topic":"payroll audit evidence requests to providers","slug":"payroll-audit-evidence-provider-request","datePublished":"2026-10-02","plannedUrl":"https://outsourcepayrollcompany.com/blog/payroll-audit-evidence-provider-request","status":"prepared","liveVerified":false},
+    {"topic":"employee communications for a payroll provider change","slug":"employee-communications-payroll-provider-change","datePublished":"2026-10-02","plannedUrl":"https://outsourcepayrollcompany.com/blog/employee-communications-payroll-provider-change","status":"prepared","liveVerified":false},
+    {"topic":"payroll provider invoice reconciliation","slug":"payroll-provider-invoice-reconciliation","datePublished":"2026-10-02","plannedUrl":"https://outsourcepayrollcompany.com/blog/payroll-provider-invoice-reconciliation","status":"prepared","liveVerified":false},
+    {"topic":"quarterly payroll provider performance reviews","slug":"quarterly-payroll-provider-performance-review","datePublished":"2026-10-02","plannedUrl":"https://outsourcepayrollcompany.com/blog/quarterly-payroll-provider-performance-review","status":"prepared","liveVerified":false}
+  ],
+  "audit": {
+    "existingInventoryChecked": true,
+    "duplicateSlugsFound": 0,
+    "typescript": "passed",
+    "cleanProductionBuild": "passed with pre-existing autoprefixer flex-start compatibility warning",
+    "productionPush": "not attempted",
+    "deployment": "not attempted",
+    "liveClaims": "none"
+  }
+}
