@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T11:46:43.348Z",
+  "generatedAt": "2026-10-02T19:28:22.188Z",
   "buildRoot": "/paperclip/instances/default/projects/179ca2a0-82eb-496f-856d-eff31c871da8/dac9382f-77f7-4b10-84a9-29ed3379f1f9/_default/blog-publish-2026-10-02/.next/server/app",
   "families": {
     "blog": {
@@ -8,22 +8,36 @@
       "auditedCount": 12,
       "minimumBodyWords": 900,
       "wordCounts": {
-        "payroll-outsourcing-transition-governance": 2307,
-        "retained-payroll-team-capacity-plan": 2357,
-        "payroll-provider-escalation-design": 2329,
-        "outsourced-payroll-funding-controls": 2408,
-        "payroll-calendar-provider-alignment": 2448,
-        "payroll-hris-integration-ownership": 2428,
-        "payroll-outsourcing-merger-acquisition-readiness": 2536,
-        "seasonal-payroll-outsourcing-capacity": 2432,
-        "payroll-audit-evidence-provider-request": 2577,
-        "employee-communications-payroll-provider-change": 2432,
-        "payroll-provider-invoice-reconciliation": 2467,
-        "quarterly-payroll-provider-performance-review": 2487
+        "payroll-outsourcing-transition-governance": 1407,
+        "retained-payroll-team-capacity-plan": 1578,
+        "payroll-provider-escalation-design": 1591,
+        "outsourced-payroll-funding-controls": 1504,
+        "payroll-calendar-provider-alignment": 1571,
+        "payroll-hris-integration-ownership": 1492,
+        "payroll-outsourcing-merger-acquisition-readiness": 1438,
+        "seasonal-payroll-outsourcing-capacity": 1481,
+        "payroll-audit-evidence-provider-request": 1454,
+        "employee-communications-payroll-provider-change": 1457,
+        "payroll-provider-invoice-reconciliation": 1445,
+        "quarterly-payroll-provider-performance-review": 1421
       },
-      "maximumPairwiseFiveWordShingleJaccard": 0.491955,
+      "contentHashes": {
+        "payroll-outsourcing-transition-governance": "620a937acc1a421490a794d62a3ad701ad791e8df08503a5d611095364e25051",
+        "retained-payroll-team-capacity-plan": "7437fc16974f4777e95d929f8c22e900e5baebb082939725f2ecf0be9d1145ea",
+        "payroll-provider-escalation-design": "20716e88090b3f2db2037ce09ee1d5c391800acbc71a74ee5611a8bc9094c48c",
+        "outsourced-payroll-funding-controls": "aa3ef1a9339983f023224f52dc952c3b76a3a62524177417c11290cee0f3e1e2",
+        "payroll-calendar-provider-alignment": "955d8bbb6e6387621c9977d549183b31264d6835f2b67e0778262867eb17db28",
+        "payroll-hris-integration-ownership": "b446771a0c027026da1268468a8738e5f737966cbd100098919402fae674e598",
+        "payroll-outsourcing-merger-acquisition-readiness": "96798a87d7d81b6f3975812929e705c02dc9341524b8e0733f097879edd9cca4",
+        "seasonal-payroll-outsourcing-capacity": "29969c5293dea9886dd119567650833ec6cc5c857273d38269ffcb0e3e75ef07",
+        "payroll-audit-evidence-provider-request": "0eeb7c0804d93cdc07edb19c9d75f4955b5c9ef538e55c13afd913c00a976dee",
+        "employee-communications-payroll-provider-change": "287d797303ce28784fab3ed70a14fdc4ad5557c3624adb4d77bd10114cb7779d",
+        "payroll-provider-invoice-reconciliation": "8536276934e23b35cd876d274149284effbfe943d5b0433cfb4e2c440ba60640",
+        "quarterly-payroll-provider-performance-review": "3e54dcc71d63e2a7135aff942b8d7de2208b58ca8247a599115782924c8aa9ea"
+      },
+      "maximumPairwiseFiveWordShingleJaccard": 0.08343,
       "maximumOverlapPair": [
-        "payroll-provider-escalation-design",
+        "payroll-audit-evidence-provider-request",
         "payroll-provider-invoice-reconciliation"
       ],
       "depthFailures": [],
@@ -36,13 +50,20 @@
       "auditedCount": 5,
       "minimumBodyWords": 1200,
       "wordCounts": {
-        "payroll-calendar-compression-readiness-study": 2238,
-        "payroll-self-service-change-audit-study": 2197,
-        "payroll-off-cycle-payment-authorization-study": 2167,
-        "payroll-benefit-deduction-interface-study": 2143,
-        "payroll-provider-assurance-evidence-study": 2167
+        "payroll-calendar-compression-readiness-study": 1654,
+        "payroll-self-service-change-audit-study": 1411,
+        "payroll-off-cycle-payment-authorization-study": 1374,
+        "payroll-benefit-deduction-interface-study": 1340,
+        "payroll-provider-assurance-evidence-study": 1350
       },
-      "maximumPairwiseFiveWordShingleJaccard": 0.486814,
+      "contentHashes": {
+        "payroll-calendar-compression-readiness-study": "335d04e391c5f8f0ad68ad4e776d28f79d43734b0b822c25593d5e281b166f41",
+        "payroll-self-service-change-audit-study": "438729efe35f98f0d0cffa6170fef1d881e16f84d204116d2f782b25cd52c4c3",
+        "payroll-off-cycle-payment-authorization-study": "6ea197cc339a691ac0bb2b168c30d430ce8c5eb4ad94dfd700242537743ff90c",
+        "payroll-benefit-deduction-interface-study": "a4718773da52d743fffb2f01a54921b2f91c3a5f89144753806f3366a699501a",
+        "payroll-provider-assurance-evidence-study": "2e8d196d3d7025382d8907ddf1e2ac007412c9cb70f3c195a93604e12f6baaf7"
+      },
+      "maximumPairwiseFiveWordShingleJaccard": 0.10695,
       "maximumOverlapPair": [
         "payroll-benefit-deduction-interface-study",
         "payroll-provider-assurance-evidence-study"

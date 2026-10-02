@@ -2,6 +2,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import crypto from 'node:crypto';
 
 const args = Object.fromEntries(process.argv.slice(2).map((arg) => {
   const [key, ...value] = arg.replace(/^--/, '').split('=');
@@ -83,7 +84,8 @@ for (const report of reports) {
     const file = renderedFile(report.family, entry.slug);
     const body = articleBody(fs.readFileSync(file, 'utf8'));
     const tokens = words(body);
-    return { slug: entry.slug, file, wordCount: tokens.length, tokens, shingles: shingles(tokens) };
+    const contentHash = crypto.createHash('sha256').update(body).digest('hex');
+    return { slug: entry.slug, file, wordCount: tokens.length, contentHash, tokens, shingles: shingles(tokens) };
   });
 
   let maximum = { score: 0, slugs: [] };
@@ -104,6 +106,7 @@ for (const report of reports) {
     auditedCount: entries.length,
     minimumBodyWords: report.minimum,
     wordCounts: Object.fromEntries(entries.map(({ slug, wordCount }) => [slug, wordCount])),
+    contentHashes: Object.fromEntries(entries.map(({ slug, contentHash }) => [slug, contentHash])),
     maximumPairwiseFiveWordShingleJaccard: Number(maximum.score.toFixed(6)),
     maximumOverlapPair: maximum.slugs,
     depthFailures,

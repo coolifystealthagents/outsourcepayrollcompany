@@ -1,7 +1,7 @@
 {
   "cycleLabel": "October 2, 2026 combined release",
   "family": "research",
-  "status": "local_handoff_prepared",
+  "status": "local_candidate_validated",
   "requiredCount": 5,
   "preparedCount": 5,
   "verifiedLiveCount": 0,
@@ -33,20 +33,78 @@
       "payroll-provider-assurance-evidence-study": 2167
     },
     "maximumPairwiseFiveWordShingleJaccard": 0.486814,
-    "maximumOverlapPair": ["payroll-benefit-deduction-interface-study", "payroll-provider-assurance-evidence-study"]
+    "maximumOverlapPair": [
+      "payroll-benefit-deduction-interface-study",
+      "payroll-provider-assurance-evidence-study"
+    ]
   },
   "sourcesCheckedAt": "2026-10-02",
   "sources": [
-    {"title":"Publication 15 (2026), Employer's Tax Guide","publisher":"Internal Revenue Service","url":"https://www.irs.gov/publications/p15"},
-    {"title":"Fact Sheet #21: Recordkeeping Requirements under the FLSA","publisher":"U.S. Department of Labor","url":"https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping"},
-    {"title":"SP 800-53 Rev. 5, Security and Privacy Controls","publisher":"National Institute of Standards and Technology","url":"https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"},
-    {"title":"Data Privacy Act of 2012","publisher":"Philippine National Privacy Commission","url":"https://privacy.gov.ph/data-privacy-act/"}
+    {
+      "title": "Publication 15 (2026), Employer's Tax Guide",
+      "publisher": "Internal Revenue Service",
+      "url": "https://www.irs.gov/publications/p15"
+    },
+    {
+      "title": "Fact Sheet #21: Recordkeeping Requirements under the FLSA",
+      "publisher": "U.S. Department of Labor",
+      "url": "https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping"
+    },
+    {
+      "title": "SP 800-53 Rev. 5, Security and Privacy Controls",
+      "publisher": "National Institute of Standards and Technology",
+      "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+    },
+    {
+      "title": "Data Privacy Act of 2012",
+      "publisher": "Philippine National Privacy Commission",
+      "url": "https://privacy.gov.ph/data-privacy-act/"
+    }
   ],
   "entries": [
-    {"topic":"compressed payroll calendar readiness","slug":"payroll-calendar-compression-readiness-study","contentHash":"1d6bc3c44e89105dabb7ddf1e062913df7141609feff6ef7dde91a6159520355","datePublished":"2026-10-02","plannedUrl":"https://outsourcepayrollcompany.com/research/payroll-calendar-compression-readiness-study","liveVerified":false},
-    {"topic":"employee self-service payroll change audit","slug":"payroll-self-service-change-audit-study","contentHash":"1c9349ac06f3daf1330c7b84c04510a42212f195fa2d5cbc0145ddbedd722f99","datePublished":"2026-10-02","plannedUrl":"https://outsourcepayrollcompany.com/research/payroll-self-service-change-audit-study","liveVerified":false},
-    {"topic":"off-cycle payment authorization","slug":"payroll-off-cycle-payment-authorization-study","contentHash":"32af8c0ea88270be63758445794dd4c8bcfa752aa93a5c8801cbc920e453a400","datePublished":"2026-10-02","plannedUrl":"https://outsourcepayrollcompany.com/research/payroll-off-cycle-payment-authorization-study","liveVerified":false},
-    {"topic":"benefit deduction interface reconciliation","slug":"payroll-benefit-deduction-interface-study","contentHash":"7757e7425d0c114fba1dfcbd5f9c31341561525631e2930fea88ef1394a0d0db","datePublished":"2026-10-02","plannedUrl":"https://outsourcepayrollcompany.com/research/payroll-benefit-deduction-interface-study","liveVerified":false},
-    {"topic":"payroll provider assurance evidence","slug":"payroll-provider-assurance-evidence-study","contentHash":"099464201d135edf149c1a41bd50ea0d38b45a9d4ec3358280b1aded6cfd386f","datePublished":"2026-10-02","plannedUrl":"https://outsourcepayrollcompany.com/research/payroll-provider-assurance-evidence-study","liveVerified":false}
-  ]
+    {
+      "topic": "compressed payroll calendar readiness",
+      "slug": "payroll-calendar-compression-readiness-study",
+      "contentHash": "335d04e391c5f8f0ad68ad4e776d28f79d43734b0b822c25593d5e281b166f41",
+      "datePublished": "2026-10-02",
+      "plannedUrl": "https://outsourcepayrollcompany.com/research/payroll-calendar-compression-readiness-study",
+      "liveVerified": false
+    },
+    {
+      "topic": "employee self-service payroll change audit",
+      "slug": "payroll-self-service-change-audit-study",
+      "contentHash": "438729efe35f98f0d0cffa6170fef1d881e16f84d204116d2f782b25cd52c4c3",
+      "datePublished": "2026-10-02",
+      "plannedUrl": "https://outsourcepayrollcompany.com/research/payroll-self-service-change-audit-study",
+      "liveVerified": false
+    },
+    {
+      "topic": "off-cycle payment authorization",
+      "slug": "payroll-off-cycle-payment-authorization-study",
+      "contentHash": "6ea197cc339a691ac0bb2b168c30d430ce8c5eb4ad94dfd700242537743ff90c",
+      "datePublished": "2026-10-02",
+      "plannedUrl": "https://outsourcepayrollcompany.com/research/payroll-off-cycle-payment-authorization-study",
+      "liveVerified": false
+    },
+    {
+      "topic": "benefit deduction interface reconciliation",
+      "slug": "payroll-benefit-deduction-interface-study",
+      "contentHash": "a4718773da52d743fffb2f01a54921b2f91c3a5f89144753806f3366a699501a",
+      "datePublished": "2026-10-02",
+      "plannedUrl": "https://outsourcepayrollcompany.com/research/payroll-benefit-deduction-interface-study",
+      "liveVerified": false
+    },
+    {
+      "topic": "payroll provider assurance evidence",
+      "slug": "payroll-provider-assurance-evidence-study",
+      "contentHash": "2e8d196d3d7025382d8907ddf1e2ac007412c9cb70f3c195a93604e12f6baaf7",
+      "datePublished": "2026-10-02",
+      "plannedUrl": "https://outsourcepayrollcompany.com/research/payroll-provider-assurance-evidence-study",
+      "liveVerified": false
+    }
+  ],
+  "datePolicy": "The cycle label is not authority to backdate. Reconfirm UTC immediately before the sole push and revise all 17 routes and release metadata if first public verification will occur on another UTC date.",
+  "worktree": "/paperclip/instances/default/projects/179ca2a0-82eb-496f-856d-eff31c871da8/dac9382f-77f7-4b10-84a9-29ed3379f1f9/_default/blog-publish-2026-10-02",
+  "branch": "rewrite/oct2-independent-writing",
+  "baselineSha": "64f7bd39f3d7e2ff3c1e91c68f22b3d4451f3bfa"
 }
