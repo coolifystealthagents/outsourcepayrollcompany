@@ -2,6 +2,7 @@ import { buildDecisionBlogBatch, type DecisionTopic } from './october2-blog-fram
 import { october2LiteralSections } from './october2-blog-literal';
 
 const DATE = '2026-10-02';
+const MODIFIED_DATE = '2026-10-03';
 
 const topics: readonly DecisionTopic[] = [
   {slug:'payroll-outsourcing-transition-governance',title:'Set up payroll outsourcing transition governance before work moves',excerpt:'Create a practical governance rhythm for scope, dependencies, decisions, defects, and launch readiness during a payroll outsourcing transition.',subject:'payroll outsourcing transition governance',artifact:'a transition governance pack with decision rights, dependency owners, meeting triggers, and evidence-based gates',fields:'workstream, deliverable, accountable owner, dependency, due date, decision required, evidence link, risk consequence, current state, and acceptance record',authority:'transition scope, policy interpretation, budget, risk acceptance, launch timing, rollback, and final payroll approval',scenario:'a critical configuration decision is still open when the provider asks to freeze the build',failure:'a weekly status meeting reports percentages but no one owns the unresolved decision or its launch consequence',test:'reconstruct one open decision from request through evidence, named authority, deadline, resolution, and downstream acceptance',metrics:'open dependencies, overdue decisions, aging defects, gate failures, owner response time, and unresolved launch conditions',lens:'Governance should accelerate decisions, not add ceremony. Separate working sessions from decision forums and publish a short record after each consequential choice. A red status needs a recovery owner and a date; a green status needs objective evidence. Keep the first production cycle, contingency route, and post-launch support window visible alongside configuration work. When a dependency belongs to the buyer, state it plainly so the provider schedule does not conceal internal work.',service:'/services/payroll-preparation',image:'/blog-heroes/payroll-owner-review-packet.png'},
@@ -19,5 +20,5 @@ const topics: readonly DecisionTopic[] = [
 ];
 
 const batch = buildDecisionBlogBatch(topics.map(topic => ({ ...topic, independent: true })), DATE, 'opc-20261002');
-export const october2BlogPosts = batch.posts;
+export const october2BlogPosts = batch.posts.map((post) => ({ ...post, updated: MODIFIED_DATE }));
 export const october2BlogDetails = Object.fromEntries(Object.entries(batch.details).map(([slug,detail])=>[slug,october2LiteralSections[slug]?{...detail,sections:october2LiteralSections[slug]}:detail]));

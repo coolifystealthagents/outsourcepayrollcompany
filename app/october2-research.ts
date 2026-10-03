@@ -1,6 +1,7 @@
 import { type ResearchStudyFrame } from './september22-research';
 
 const DATE = '2026-10-02';
+const MODIFIED_DATE = '2026-10-03';
 const sources = [
   { label: "Internal Revenue Service — Publication 15 (2026), Employer's Tax Guide (checked October 2, 2026)", url: 'https://www.irs.gov/publications/p15' },
   { label: 'U.S. Department of Labor — Fact Sheet #21: Recordkeeping Requirements under the FLSA (checked October 2, 2026)', url: 'https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping' },
@@ -117,6 +118,7 @@ const faq = [
 
 export const october2ResearchPosts = studies.map((study, index) => ({
   slug: study.slug, title: study.title, excerpt: `Research protocol: ${study.question}`, published: DATE, order: 1600 + index,
+  ...(study.slug === 'payroll-benefit-deduction-interface-study' ? { updated: MODIFIED_DATE } : {}),
   stat: `One ${study.unit} is the predeclared unit; no measured result is asserted.`, image: study.image,
   takeaways: [`Define ${study.subject} states and authority boundaries before extracting records.`, 'Publish missing evidence, reviewer disagreements, and unresolved units beside successful classifications.', 'Use the result to bound preparation work while named owners retain consequential decisions.'],
   sections: [...study.uniqueSections],

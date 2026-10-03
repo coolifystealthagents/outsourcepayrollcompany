@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T22:23:47.329Z",
+  "generatedAt": "2026-10-03T02:43:16.580Z",
   "buildRoot": "/paperclip/instances/default/projects/179ca2a0-82eb-496f-856d-eff31c871da8/dac9382f-77f7-4b10-84a9-29ed3379f1f9/_default/blog-publish-2026-10-02/.next/server/app",
   "families": {
     "blog": {
@@ -53,17 +53,17 @@
         "payroll-calendar-compression-readiness-study": 1654,
         "payroll-self-service-change-audit-study": 1411,
         "payroll-off-cycle-payment-authorization-study": 1374,
-        "payroll-benefit-deduction-interface-study": 1340,
+        "payroll-benefit-deduction-interface-study": 1344,
         "payroll-provider-assurance-evidence-study": 1350
       },
       "contentHashes": {
         "payroll-calendar-compression-readiness-study": "335d04e391c5f8f0ad68ad4e776d28f79d43734b0b822c25593d5e281b166f41",
         "payroll-self-service-change-audit-study": "438729efe35f98f0d0cffa6170fef1d881e16f84d204116d2f782b25cd52c4c3",
         "payroll-off-cycle-payment-authorization-study": "6ea197cc339a691ac0bb2b168c30d430ce8c5eb4ad94dfd700242537743ff90c",
-        "payroll-benefit-deduction-interface-study": "a4718773da52d743fffb2f01a54921b2f91c3a5f89144753806f3366a699501a",
+        "payroll-benefit-deduction-interface-study": "260d29fdc81fc75b577c04530348573151a8d24843a7e16f8c15a0dfb5ff80a1",
         "payroll-provider-assurance-evidence-study": "2e8d196d3d7025382d8907ddf1e2ac007412c9cb70f3c195a93604e12f6baaf7"
       },
-      "maximumPairwiseFiveWordShingleJaccard": 0.10695,
+      "maximumPairwiseFiveWordShingleJaccard": 0.106312,
       "maximumOverlapPair": [
         "payroll-benefit-deduction-interface-study",
         "payroll-provider-assurance-evidence-study"

@@ -103,6 +103,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   const postUrl = `${siteUrl}/blog/${post.slug}`;
   const rich = detail?.rich;
   const published = 'published' in post ? post.published : rich?.published;
+  const modified = 'updated' in post ? post.updated : published;
 
   const graph: Record<string, unknown>[] = [
     {
@@ -114,7 +115,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
       mainEntityOfPage: { '@id': `${postUrl}#webpage` },
       author: { '@type': 'Organization', name: site.brand, url: siteUrl },
       publisher: { '@type': 'Organization', name: site.brand, url: siteUrl },
-      ...(published ? { datePublished: published, dateModified: published } : {}),
+      ...(published ? { datePublished: published, dateModified: modified } : {}),
       ...(detail ? {
         citation: detail.sources.map((source) => source.url),
         hasPart: detail.sections.map((section, index) => ({

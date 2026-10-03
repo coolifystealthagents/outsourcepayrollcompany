@@ -73,7 +73,8 @@ for (const family of families) {
       status200: response.status === 200,
       titleMatchesH1: title.startsWith(h1) && articleSchema.headline === h1,
       fullBody: bodyWords >= family.minimum,
-      dateMatches: timeDate === manifest.publicationDate && articleSchema.datePublished === manifest.publicationDate,
+      dateMatches: timeDate === manifest.publicationDate && articleSchema.datePublished === manifest.publicationDate
+        && articleSchema.dateModified === (entry.dateModified || entry.datePublished),
       canonicalMatches: renderedCanonical === canonical && schemaCanonical === canonical,
       imageMime: (image.response.headers.get('content-type') || '').startsWith('image/'),
       imageDecoded: Boolean(imageMeta.format && imageMeta.width && imageMeta.height),
@@ -82,6 +83,7 @@ for (const family of families) {
       sitemapEntry: sitemap.includes(`<loc>${canonical}</loc>`),
     };
     routes.push({ family: family.name, slug: entry.slug, route, title: h1, bodyWords, datePublished: timeDate,
+      dateModified: articleSchema.dateModified,
       canonical: renderedCanonical, image: imagePath, imageContentType: image.response.headers.get('content-type'),
       imageFormat: imageMeta.format, imageWidth: imageMeta.width, imageHeight: imageMeta.height, checks,
       internalLinkResponses,
