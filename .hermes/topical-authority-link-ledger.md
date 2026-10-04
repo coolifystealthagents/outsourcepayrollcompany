@@ -23,6 +23,13 @@ The service pages are the commercial pillars. Research briefs and practical payr
 
 The provider-rejection route now has its one Payroll Query Support handoff in rendered-source commit `674f576ba13162edc7fa6768df65c99b632ea035`. Do not add another. The leave-accrual route now has one Leave Balance Administration handoff; do not add a second CTA. The remittance route remains the next verified-absent follow-up; do not invent a replacement route or CTA.
 
+## 2026-10-04 leave-accrual delivery status
+
+- Rendered source: `fb455deecfa2cea3987f82003f301098947f512a`
+- Local proof: `npm run lint`, the four pre-existing handoff validators, a fresh 688-page production build, and `npm run validate:leave-accrual-handoff` passed. The selected research `<main>` has one Leave Balance Administration link, the owner boundary, canonical metadata, Article/Open Graph modified date `2026-10-04`, and a sitemap location. The target service is self-canonical and sitemap-listed; this sitemap intentionally has no `<lastmod>` values.
+- Delivery state: `deployment_pending_public_verification`. `ops/recurring-routines.json` assigns Coolify deployment and live checks to the Batched Coolify Deployment routine, so this operator did not trigger deployment or make a public verification claim.
+- Preserve rendered-source commit `fb455deecfa2cea3987f82003f301098947f512a`; do not add a second Leave Balance Administration CTA.
+
 ## 2026-09-28 restored-route artifact reconciliation
 
 A fresh 653-page production build confirmed that the provider-rejection, leave-accrual, and remittance research routes and their matched service routes each have one generated artifact, a self-canonical URL, and a sitemap location. Each source route has zero route-local links to its matched service. This removes the old route-registration blocker only; it does not authorize three same-run CTAs. The sitemap intentionally has no `<lastmod>` fields.
