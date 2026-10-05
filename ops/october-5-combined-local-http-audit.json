@@ -1,0 +1,845 @@
+{
+  "cycleLabel": "2026-10-05",
+  "generatedAt": "2026-10-05T13:49:49.258Z",
+  "base": "http://127.0.0.1:3105",
+  "configuredSiteTimezone": "UTC",
+  "requiredCount": 17,
+  "verifiedLocalCount": 17,
+  "sourceHashComparison": {
+    "mismatches": [],
+    "note": "Manifest hashes are compared with complete rendered paragraph bodies. Any mismatch must be reconciled before push."
+  },
+  "indexes": {
+    "blog": 200,
+    "research": 200,
+    "sitemap": {
+      "status": 200,
+      "contentType": "application/xml"
+    }
+  },
+  "routes": [
+    {
+      "family": "blog",
+      "slug": "payroll-benefit-deduction-handoff-boundary",
+      "minimumWords": 900,
+      "expectedHash": "23b3bc9e6961d0026e1ad946e18a380f637d763887be30fb6dbdfe00ba0ac6e3",
+      "path": "/blog/payroll-benefit-deduction-handoff-boundary",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Define the handoff boundary for benefit deductions in outsourced payroll",
+      "date": "2026-10-05",
+      "canonical": "https://outsourcepayrollcompany.com/blog/payroll-benefit-deduction-handoff-boundary",
+      "paragraphCount": 35,
+      "bodyWords": 1631,
+      "renderedBodySha256": "23b3bc9e6961d0026e1ad946e18a380f637d763887be30fb6dbdfe00ba0ac6e3",
+      "expectedHashMatches": true,
+      "image": {
+        "path": "/blog-heroes/payroll-record-source-register.png",
+        "status": 200,
+        "contentType": "image/png",
+        "hex": "89504e470d0a1a0a0000000d",
+        "decoded": true,
+        "detected": "image/png"
+      },
+      "links": [
+        {
+          "href": "/contact",
+          "status": 200
+        },
+        {
+          "href": "/services/payroll-preparation",
+          "status": 200
+        },
+        {
+          "href": "/services/payroll-reporting",
+          "status": 200
+        },
+        {
+          "href": "/blog/payroll-general-ledger-handoff-reconciliation",
+          "status": 200
+        },
+        {
+          "href": "/blog/payroll-filing-amendment-change-control",
+          "status": 200
+        }
+      ],
+      "indexPresent": true,
+      "sitemapPresent": true
+    },
+    {
+      "family": "blog",
+      "slug": "payroll-general-ledger-handoff-reconciliation",
+      "minimumWords": 900,
+      "expectedHash": "6df0308e37a60aa7d7eb8df484b1728aba6645f3614aa3d814f4c8dac630e4f9",
+      "path": "/blog/payroll-general-ledger-handoff-reconciliation",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Reconcile the payroll general-ledger handoff before finance closes",
+      "date": "2026-10-05",
+      "canonical": "https://outsourcepayrollcompany.com/blog/payroll-general-ledger-handoff-reconciliation",
+      "paragraphCount": 36,
+      "bodyWords": 1673,
+      "renderedBodySha256": "6df0308e37a60aa7d7eb8df484b1728aba6645f3614aa3d814f4c8dac630e4f9",
+      "expectedHashMatches": true,
+      "image": {
+        "path": "/blog-heroes/payroll-input-control-map.png",
+        "status": 200,
+        "contentType": "image/png",
+        "hex": "89504e470d0a1a0a0000000d",
+        "decoded": true,
+        "detected": "image/png"
+      },
+      "links": [
+        {
+          "href": "/contact",
+          "status": 200
+        },
+        {
+          "href": "/services/payroll-reporting",
+          "status": 200
+        },
+        {
+          "href": "/blog/payroll-benefit-deduction-handoff-boundary",
+          "status": 200
+        },
+        {
+          "href": "/blog/payroll-filing-amendment-change-control",
+          "status": 200
+        }
+      ],
+      "indexPresent": true,
+      "sitemapPresent": true
+    },
+    {
+      "family": "blog",
+      "slug": "payroll-filing-amendment-change-control",
+      "minimumWords": 900,
+      "expectedHash": "a0ef5dd0290415e145dea3bff9cc5495251edbe72116037e8075c1194cb061b8",
+      "path": "/blog/payroll-filing-amendment-change-control",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Control payroll filing amendments from source correction to accepted record",
+      "date": "2026-10-05",
+      "canonical": "https://outsourcepayrollcompany.com/blog/payroll-filing-amendment-change-control",
+      "paragraphCount": 38,
+      "bodyWords": 1786,
+      "renderedBodySha256": "a0ef5dd0290415e145dea3bff9cc5495251edbe72116037e8075c1194cb061b8",
+      "expectedHashMatches": true,
+      "image": {
+        "path": "/blog-heroes/payroll-employee-question-routing.png",
+        "status": 200,
+        "contentType": "image/png",
+        "hex": "89504e470d0a1a0a0000000d",
+        "decoded": true,
+        "detected": "image/png"
+      },
+      "links": [
+        {
+          "href": "/contact",
+          "status": 200
+        },
+        {
+          "href": "/services/payroll-data-entry",
+          "status": 200
+        },
+        {
+          "href": "/services/payroll-reporting",
+          "status": 200
+        },
+        {
+          "href": "/blog/payroll-benefit-deduction-handoff-boundary",
+          "status": 200
+        },
+        {
+          "href": "/blog/payroll-general-ledger-handoff-reconciliation",
+          "status": 200
+        }
+      ],
+      "indexPresent": true,
+      "sitemapPresent": true
+    },
+    {
+      "family": "blog",
+      "slug": "payroll-overpayment-case-coordination",
+      "minimumWords": 900,
+      "expectedHash": "bfab78e4ad4a74f49124a924e138e30fe26cbd4e8575b1c095ea877d1c4fda3a",
+      "path": "/blog/payroll-overpayment-case-coordination",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Coordinate payroll overpayment cases without turning support staff into decision makers",
+      "date": "2026-10-05",
+      "canonical": "https://outsourcepayrollcompany.com/blog/payroll-overpayment-case-coordination",
+      "paragraphCount": 36,
+      "bodyWords": 1599,
+      "renderedBodySha256": "bfab78e4ad4a74f49124a924e138e30fe26cbd4e8575b1c095ea877d1c4fda3a",
+      "expectedHashMatches": true,
+      "image": {
+        "path": "/blog-heroes/payroll-exception-root-cause-review.png",
+        "status": 200,
+        "contentType": "image/png",
+        "hex": "89504e470d0a1a0a0000000d",
+        "decoded": true,
+        "detected": "image/png"
+      },
+      "links": [
+        {
+          "href": "/contact",
+          "status": 200
+        },
+        {
+          "href": "/services/payroll-query-support",
+          "status": 200
+        },
+        {
+          "href": "/services/payroll-reporting",
+          "status": 200
+        },
+        {
+          "href": "/blog/payroll-benefit-deduction-handoff-boundary",
+          "status": 200
+        },
+        {
+          "href": "/blog/payroll-general-ledger-handoff-reconciliation",
+          "status": 200
+        }
+      ],
+      "indexPresent": true,
+      "sitemapPresent": true
+    },
+    {
+      "family": "blog",
+      "slug": "retroactive-pay-request-evidence-packet",
+      "minimumWords": 900,
+      "expectedHash": "6effbf263996c44458029d193e8d17f465b863372f4a067a10e67ee26106cc23",
+      "path": "/blog/retroactive-pay-request-evidence-packet",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Build a reviewable evidence packet for retroactive pay requests",
+      "date": "2026-10-05",
+      "canonical": "https://outsourcepayrollcompany.com/blog/retroactive-pay-request-evidence-packet",
+      "paragraphCount": 36,
+      "bodyWords": 1601,
+      "renderedBodySha256": "6effbf263996c44458029d193e8d17f465b863372f4a067a10e67ee26106cc23",
+      "expectedHashMatches": true,
+      "image": {
+        "path": "/blog-heroes/employee-change-date-ledger.png",
+        "status": 200,
+        "contentType": "image/png",
+        "hex": "89504e470d0a1a0a0000000d",
+        "decoded": true,
+        "detected": "image/png"
+      },
+      "links": [
+        {
+          "href": "/contact",
+          "status": 200
+        },
+        {
+          "href": "/services/payroll-preparation",
+          "status": 200
+        },
+        {
+          "href": "/services/payroll-reporting",
+          "status": 200
+        },
+        {
+          "href": "/blog/payroll-benefit-deduction-handoff-boundary",
+          "status": 200
+        },
+        {
+          "href": "/blog/payroll-general-ledger-handoff-reconciliation",
+          "status": 200
+        }
+      ],
+      "indexPresent": true,
+      "sitemapPresent": true
+    },
+    {
+      "family": "blog",
+      "slug": "payroll-location-change-intake-control",
+      "minimumWords": 900,
+      "expectedHash": "4b62680d6e58013921dc4b4833acc51e2cd85526c25bb19a18beb308ee1efb85",
+      "path": "/blog/payroll-location-change-intake-control",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Control employee work-location changes before they affect payroll",
+      "date": "2026-10-05",
+      "canonical": "https://outsourcepayrollcompany.com/blog/payroll-location-change-intake-control",
+      "paragraphCount": 36,
+      "bodyWords": 1604,
+      "renderedBodySha256": "4b62680d6e58013921dc4b4833acc51e2cd85526c25bb19a18beb308ee1efb85",
+      "expectedHashMatches": true,
+      "image": {
+        "path": "/blog-heroes/payroll-record-authority-index.png",
+        "status": 200,
+        "contentType": "image/png",
+        "hex": "89504e470d0a1a0a0000000d",
+        "decoded": true,
+        "detected": "image/png"
+      },
+      "links": [
+        {
+          "href": "/contact",
+          "status": 200
+        },
+        {
+          "href": "/services/payroll-data-entry",
+          "status": 200
+        },
+        {
+          "href": "/services/payroll-reporting",
+          "status": 200
+        },
+        {
+          "href": "/blog/payroll-benefit-deduction-handoff-boundary",
+          "status": 200
+        },
+        {
+          "href": "/blog/payroll-general-ledger-handoff-reconciliation",
+          "status": 200
+        }
+      ],
+      "indexPresent": true,
+      "sitemapPresent": true
+    },
+    {
+      "family": "blog",
+      "slug": "bonus-commission-payroll-input-signoff",
+      "minimumWords": 900,
+      "expectedHash": "4d206e556cec7e9cc5381ec086ddbe8878bdd8210d367aeb406a095f7d9c44cd",
+      "path": "/blog/bonus-commission-payroll-input-signoff",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Require clear signoff for bonus and commission payroll inputs",
+      "date": "2026-10-05",
+      "canonical": "https://outsourcepayrollcompany.com/blog/bonus-commission-payroll-input-signoff",
+      "paragraphCount": 36,
+      "bodyWords": 1581,
+      "renderedBodySha256": "4d206e556cec7e9cc5381ec086ddbe8878bdd8210d367aeb406a095f7d9c44cd",
+      "expectedHashMatches": true,
+      "image": {
+        "path": "/blog-heroes/payroll-approval-evidence-packet.png",
+        "status": 200,
+        "contentType": "image/png",
+        "hex": "89504e470d0a1a0a0000000d",
+        "decoded": true,
+        "detected": "image/png"
+      },
+      "links": [
+        {
+          "href": "/contact",
+          "status": 200
+        },
+        {
+          "href": "/services/payroll-reporting",
+          "status": 200
+        },
+        {
+          "href": "/blog/payroll-benefit-deduction-handoff-boundary",
+          "status": 200
+        },
+        {
+          "href": "/blog/payroll-general-ledger-handoff-reconciliation",
+          "status": 200
+        }
+      ],
+      "indexPresent": true,
+      "sitemapPresent": true
+    },
+    {
+      "family": "blog",
+      "slug": "payroll-offcycle-request-gate",
+      "minimumWords": 900,
+      "expectedHash": "f00b6607e3f2aa9133394761130e05c596ef66aed712d68b2bc0f4fe59016234",
+      "path": "/blog/payroll-offcycle-request-gate",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Put a decision gate in front of off-cycle payroll requests",
+      "date": "2026-10-05",
+      "canonical": "https://outsourcepayrollcompany.com/blog/payroll-offcycle-request-gate",
+      "paragraphCount": 37,
+      "bodyWords": 1640,
+      "renderedBodySha256": "f00b6607e3f2aa9133394761130e05c596ef66aed712d68b2bc0f4fe59016234",
+      "expectedHashMatches": true,
+      "image": {
+        "path": "/blog-heroes/payroll-cycle-closeout-review.png",
+        "status": 200,
+        "contentType": "image/png",
+        "hex": "89504e470d0a1a0a0000000d",
+        "decoded": true,
+        "detected": "image/png"
+      },
+      "links": [
+        {
+          "href": "/contact",
+          "status": 200
+        },
+        {
+          "href": "/services/payroll-preparation",
+          "status": 200
+        },
+        {
+          "href": "/services/payroll-reporting",
+          "status": 200
+        },
+        {
+          "href": "/blog/payroll-benefit-deduction-handoff-boundary",
+          "status": 200
+        },
+        {
+          "href": "/blog/payroll-general-ledger-handoff-reconciliation",
+          "status": 200
+        }
+      ],
+      "indexPresent": true,
+      "sitemapPresent": true
+    },
+    {
+      "family": "blog",
+      "slug": "payroll-paystub-access-case-routing",
+      "minimumWords": 900,
+      "expectedHash": "154938c4b7f4a25561de8af2679f4723ca27cb108e6956810b024fe0e1af36b0",
+      "path": "/blog/payroll-paystub-access-case-routing",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Route paystub access cases without exposing payroll records",
+      "date": "2026-10-05",
+      "canonical": "https://outsourcepayrollcompany.com/blog/payroll-paystub-access-case-routing",
+      "paragraphCount": 36,
+      "bodyWords": 1583,
+      "renderedBodySha256": "154938c4b7f4a25561de8af2679f4723ca27cb108e6956810b024fe0e1af36b0",
+      "expectedHashMatches": true,
+      "image": {
+        "path": "/blog-heroes/employee-payroll-question-intake.png",
+        "status": 200,
+        "contentType": "image/png",
+        "hex": "89504e470d0a1a0a0000000d",
+        "decoded": true,
+        "detected": "image/png"
+      },
+      "links": [
+        {
+          "href": "/contact",
+          "status": 200
+        },
+        {
+          "href": "/services/payroll-query-support",
+          "status": 200
+        },
+        {
+          "href": "/services/payroll-reporting",
+          "status": 200
+        },
+        {
+          "href": "/blog/payroll-benefit-deduction-handoff-boundary",
+          "status": 200
+        },
+        {
+          "href": "/blog/payroll-general-ledger-handoff-reconciliation",
+          "status": 200
+        }
+      ],
+      "indexPresent": true,
+      "sitemapPresent": true
+    },
+    {
+      "family": "blog",
+      "slug": "payroll-provider-subprocessor-inventory",
+      "minimumWords": 900,
+      "expectedHash": "0463d451b492d1cc35952649d4a2e9bf702083d777183e41796a099d999695fa",
+      "path": "/blog/payroll-provider-subprocessor-inventory",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Keep a working inventory of payroll provider subprocessors",
+      "date": "2026-10-05",
+      "canonical": "https://outsourcepayrollcompany.com/blog/payroll-provider-subprocessor-inventory",
+      "paragraphCount": 36,
+      "bodyWords": 1569,
+      "renderedBodySha256": "0463d451b492d1cc35952649d4a2e9bf702083d777183e41796a099d999695fa",
+      "expectedHashMatches": true,
+      "image": {
+        "path": "/blog-heroes/payroll-access-exit-register.png",
+        "status": 200,
+        "contentType": "image/png",
+        "hex": "89504e470d0a1a0a0000000d",
+        "decoded": true,
+        "detected": "image/png"
+      },
+      "links": [
+        {
+          "href": "/contact",
+          "status": 200
+        },
+        {
+          "href": "/services/payroll-preparation",
+          "status": 200
+        },
+        {
+          "href": "/services/payroll-reporting",
+          "status": 200
+        },
+        {
+          "href": "/blog/payroll-benefit-deduction-handoff-boundary",
+          "status": 200
+        },
+        {
+          "href": "/blog/payroll-general-ledger-handoff-reconciliation",
+          "status": 200
+        }
+      ],
+      "indexPresent": true,
+      "sitemapPresent": true
+    },
+    {
+      "family": "blog",
+      "slug": "payroll-termination-final-pay-packet",
+      "minimumWords": 900,
+      "expectedHash": "dadc779bf7eb71216152c1ad2e8f1166c2878168ce1ad9d44f4a47d80e9b48ac",
+      "path": "/blog/payroll-termination-final-pay-packet",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Prepare a complete termination and final-pay packet for payroll review",
+      "date": "2026-10-05",
+      "canonical": "https://outsourcepayrollcompany.com/blog/payroll-termination-final-pay-packet",
+      "paragraphCount": 36,
+      "bodyWords": 1627,
+      "renderedBodySha256": "dadc779bf7eb71216152c1ad2e8f1166c2878168ce1ad9d44f4a47d80e9b48ac",
+      "expectedHashMatches": true,
+      "image": {
+        "path": "/blog-heroes/payroll-employee-change-effective-date.png",
+        "status": 200,
+        "contentType": "image/png",
+        "hex": "89504e470d0a1a0a0000000d",
+        "decoded": true,
+        "detected": "image/png"
+      },
+      "links": [
+        {
+          "href": "/contact",
+          "status": 200
+        },
+        {
+          "href": "/services/payroll-data-entry",
+          "status": 200
+        },
+        {
+          "href": "/services/payroll-reporting",
+          "status": 200
+        },
+        {
+          "href": "/blog/payroll-benefit-deduction-handoff-boundary",
+          "status": 200
+        },
+        {
+          "href": "/blog/payroll-general-ledger-handoff-reconciliation",
+          "status": 200
+        }
+      ],
+      "indexPresent": true,
+      "sitemapPresent": true
+    },
+    {
+      "family": "blog",
+      "slug": "payroll-payment-return-case-workflow",
+      "minimumWords": 900,
+      "expectedHash": "1f594c9f2cfffa1199b56d7917e7626fd23aa3e826484d2c7750de8dece148a8",
+      "path": "/blog/payroll-payment-return-case-workflow",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Build a controlled workflow for returned payroll payments",
+      "date": "2026-10-05",
+      "canonical": "https://outsourcepayrollcompany.com/blog/payroll-payment-return-case-workflow",
+      "paragraphCount": 36,
+      "bodyWords": 1619,
+      "renderedBodySha256": "1f594c9f2cfffa1199b56d7917e7626fd23aa3e826484d2c7750de8dece148a8",
+      "expectedHashMatches": true,
+      "image": {
+        "path": "/blog-heroes/payroll-provider-rejection-response.png",
+        "status": 200,
+        "contentType": "image/png",
+        "hex": "89504e470d0a1a0a0000000d",
+        "decoded": true,
+        "detected": "image/png"
+      },
+      "links": [
+        {
+          "href": "/contact",
+          "status": 200
+        },
+        {
+          "href": "/services/payroll-query-support",
+          "status": 200
+        },
+        {
+          "href": "/services/payroll-reporting",
+          "status": 200
+        },
+        {
+          "href": "/blog/payroll-benefit-deduction-handoff-boundary",
+          "status": 200
+        },
+        {
+          "href": "/blog/payroll-general-ledger-handoff-reconciliation",
+          "status": 200
+        }
+      ],
+      "indexPresent": true,
+      "sitemapPresent": true
+    },
+    {
+      "family": "research",
+      "slug": "payroll-funding-return-traceability-study",
+      "minimumWords": 1200,
+      "expectedHash": "0506ce73b80482a2795aa1318b8c1a8a3eb74396af4fd69171c600dad84ef899",
+      "path": "/research/payroll-funding-return-traceability-study",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Payroll funding return traceability study",
+      "date": "2026-10-05",
+      "canonical": "https://outsourcepayrollcompany.com/research/payroll-funding-return-traceability-study",
+      "paragraphCount": 72,
+      "bodyWords": 1264,
+      "renderedBodySha256": "0506ce73b80482a2795aa1318b8c1a8a3eb74396af4fd69171c600dad84ef899",
+      "expectedHashMatches": true,
+      "image": {
+        "path": "/research-heroes/philippines-payroll-remittance-source-match-research.png",
+        "status": 200,
+        "contentType": "image/png",
+        "hex": "89504e470d0a1a0a0000000d",
+        "decoded": true,
+        "detected": "image/png"
+      },
+      "links": [
+        {
+          "href": "/services/payroll-reporting",
+          "status": 200
+        },
+        {
+          "href": "/services/payroll-preparation",
+          "status": 200
+        },
+        {
+          "href": "/blog",
+          "status": 200
+        },
+        {
+          "href": "/research/payroll-event-sequence-integrity-study",
+          "status": 200
+        },
+        {
+          "href": "/research/payroll-output-confirmation-gap-study",
+          "status": 200
+        },
+        {
+          "href": "/research/payroll-provider-assurance-evidence-study",
+          "status": 200
+        }
+      ],
+      "indexPresent": true,
+      "sitemapPresent": true
+    },
+    {
+      "family": "research",
+      "slug": "payroll-time-rule-configuration-drift-study",
+      "minimumWords": 1200,
+      "expectedHash": "c8f1a85508e5b2fccf7f28c8d2b141a24db921e45863ce7ebe5d109ee88fa27e",
+      "path": "/research/payroll-time-rule-configuration-drift-study",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Payroll time-rule configuration drift study",
+      "date": "2026-10-05",
+      "canonical": "https://outsourcepayrollcompany.com/research/payroll-time-rule-configuration-drift-study",
+      "paragraphCount": 72,
+      "bodyWords": 1215,
+      "renderedBodySha256": "c8f1a85508e5b2fccf7f28c8d2b141a24db921e45863ce7ebe5d109ee88fa27e",
+      "expectedHashMatches": true,
+      "image": {
+        "path": "/research-heroes/philippines-payroll-duplicate-time-entry-detection-study.png",
+        "status": 200,
+        "contentType": "image/png",
+        "hex": "89504e470d0a1a0a0000000d",
+        "decoded": true,
+        "detected": "image/png"
+      },
+      "links": [
+        {
+          "href": "/services/payroll-data-entry",
+          "status": 200
+        },
+        {
+          "href": "/services/payroll-preparation",
+          "status": 200
+        },
+        {
+          "href": "/blog",
+          "status": 200
+        },
+        {
+          "href": "/research/payroll-event-sequence-integrity-study",
+          "status": 200
+        },
+        {
+          "href": "/research/payroll-output-confirmation-gap-study",
+          "status": 200
+        },
+        {
+          "href": "/research/payroll-provider-assurance-evidence-study",
+          "status": 200
+        }
+      ],
+      "indexPresent": true,
+      "sitemapPresent": true
+    },
+    {
+      "family": "research",
+      "slug": "payroll-garnishment-intake-chain-study",
+      "minimumWords": 1200,
+      "expectedHash": "6cee2a7614b5c27cb5be9d841191713651dafac2e4baa64565b91a8f794f7a06",
+      "path": "/research/payroll-garnishment-intake-chain-study",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Payroll garnishment intake chain study",
+      "date": "2026-10-05",
+      "canonical": "https://outsourcepayrollcompany.com/research/payroll-garnishment-intake-chain-study",
+      "paragraphCount": 72,
+      "bodyWords": 1205,
+      "renderedBodySha256": "6cee2a7614b5c27cb5be9d841191713651dafac2e4baa64565b91a8f794f7a06",
+      "expectedHashMatches": true,
+      "image": {
+        "path": "/research-heroes/philippines-payroll-correction-lineage-review.png",
+        "status": 200,
+        "contentType": "image/png",
+        "hex": "89504e470d0a1a0a0000000d",
+        "decoded": true,
+        "detected": "image/png"
+      },
+      "links": [
+        {
+          "href": "/services/payroll-preparation",
+          "status": 200
+        },
+        {
+          "href": "/blog",
+          "status": 200
+        },
+        {
+          "href": "/research/payroll-event-sequence-integrity-study",
+          "status": 200
+        },
+        {
+          "href": "/research/payroll-output-confirmation-gap-study",
+          "status": 200
+        },
+        {
+          "href": "/research/payroll-provider-assurance-evidence-study",
+          "status": 200
+        }
+      ],
+      "indexPresent": true,
+      "sitemapPresent": true
+    },
+    {
+      "family": "research",
+      "slug": "cross-border-shadow-payroll-reconciliation-study",
+      "minimumWords": 1200,
+      "expectedHash": "c8f27ad067d5f215473ac6e3d82b01c95b42469ed747bedaa9633fa711e045ea",
+      "path": "/research/cross-border-shadow-payroll-reconciliation-study",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Cross-border shadow payroll reconciliation study",
+      "date": "2026-10-05",
+      "canonical": "https://outsourcepayrollcompany.com/research/cross-border-shadow-payroll-reconciliation-study",
+      "paragraphCount": 77,
+      "bodyWords": 1204,
+      "renderedBodySha256": "c8f27ad067d5f215473ac6e3d82b01c95b42469ed747bedaa9633fa711e045ea",
+      "expectedHashMatches": true,
+      "image": {
+        "path": "/research-heroes/philippines-payroll-source-output-bridge-study.png",
+        "status": 200,
+        "contentType": "image/png",
+        "hex": "89504e470d0a1a0a0000000d",
+        "decoded": true,
+        "detected": "image/png"
+      },
+      "links": [
+        {
+          "href": "/services/payroll-reporting",
+          "status": 200
+        },
+        {
+          "href": "/services/payroll-preparation",
+          "status": 200
+        },
+        {
+          "href": "/blog",
+          "status": 200
+        },
+        {
+          "href": "/research/payroll-event-sequence-integrity-study",
+          "status": 200
+        },
+        {
+          "href": "/research/payroll-output-confirmation-gap-study",
+          "status": 200
+        },
+        {
+          "href": "/research/payroll-provider-assurance-evidence-study",
+          "status": 200
+        }
+      ],
+      "indexPresent": true,
+      "sitemapPresent": true
+    },
+    {
+      "family": "research",
+      "slug": "earned-wage-access-payroll-interface-study",
+      "minimumWords": 1200,
+      "expectedHash": "65c50c3e258861f1a3d1fb8e13674a4139c80589ec850c045e02a0e8425e1148",
+      "path": "/research/earned-wage-access-payroll-interface-study",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "title": "Earned wage access payroll interface study",
+      "date": "2026-10-05",
+      "canonical": "https://outsourcepayrollcompany.com/research/earned-wage-access-payroll-interface-study",
+      "paragraphCount": 72,
+      "bodyWords": 1201,
+      "renderedBodySha256": "65c50c3e258861f1a3d1fb8e13674a4139c80589ec850c045e02a0e8425e1148",
+      "expectedHashMatches": true,
+      "image": {
+        "path": "/research/philippines-payroll-offcycle-controls.svg",
+        "status": 200,
+        "contentType": "image/svg+xml",
+        "hex": "3c73766720786d6c6e733d22",
+        "decoded": true,
+        "detected": "image/svg+xml"
+      },
+      "links": [
+        {
+          "href": "/services/payroll-preparation",
+          "status": 200
+        },
+        {
+          "href": "/blog",
+          "status": 200
+        },
+        {
+          "href": "/research/payroll-event-sequence-integrity-study",
+          "status": 200
+        },
+        {
+          "href": "/research/payroll-output-confirmation-gap-study",
+          "status": 200
+        },
+        {
+          "href": "/research/payroll-provider-assurance-evidence-study",
+          "status": 200
+        }
+      ],
+      "indexPresent": true,
+      "sitemapPresent": true
+    }
+  ],
+  "failures": [],
+  "status": "passed",
+  "releaseState": "local-only; production push and live verification not performed"
+}
