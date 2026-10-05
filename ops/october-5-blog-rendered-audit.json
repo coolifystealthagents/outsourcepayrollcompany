@@ -1,0 +1,492 @@
+{
+  "cycleLabel": "2026-10-05",
+  "family": "blog",
+  "generatedAt": "2026-10-05T13:35:57.147Z",
+  "requiredCount": 12,
+  "renderedCount": 12,
+  "provisionalPublicationDate": "2026-10-05",
+  "publicationDateReconciliationRequiredBeforePush": true,
+  "maximumPairwiseFiveWordShingleOverlap": {
+    "overlap": 0.4023809523809524,
+    "first": "bonus-commission-payroll-input-signoff",
+    "second": "payroll-termination-final-pay-packet",
+    "common": 507,
+    "denominator": 1260
+  },
+  "articles": [
+    {
+      "slug": "payroll-benefit-deduction-handoff-boundary",
+      "title": "Define the handoff boundary for benefit deductions in outsourced payroll",
+      "published": "2026-10-05",
+      "canonical": "https://outsourcepayrollcompany.com/blog/payroll-benefit-deduction-handoff-boundary",
+      "paragraphCount": 35,
+      "bodyWords": 1631,
+      "bodySha256": "23b3bc9e6961d0026e1ad946e18a380f637d763887be30fb6dbdfe00ba0ac6e3",
+      "markerPresent": true,
+      "sourceBodyRendered": true,
+      "image": {
+        "path": "/blog-heroes/payroll-record-source-register.png",
+        "exists": true,
+        "mime": "image/png",
+        "signature": "89504e470d0a1a0a0000000d",
+        "decodableSignature": true
+      },
+      "internalLinks": [
+        {
+          "href": "/contact",
+          "destinationExists": true
+        },
+        {
+          "href": "/services/payroll-preparation",
+          "destinationExists": true
+        },
+        {
+          "href": "/services/payroll-reporting",
+          "destinationExists": true
+        },
+        {
+          "href": "/blog/payroll-general-ledger-handoff-reconciliation",
+          "destinationExists": true
+        },
+        {
+          "href": "/blog/payroll-filing-amendment-change-control",
+          "destinationExists": true
+        }
+      ]
+    },
+    {
+      "slug": "payroll-general-ledger-handoff-reconciliation",
+      "title": "Reconcile the payroll general-ledger handoff before finance closes",
+      "published": "2026-10-05",
+      "canonical": "https://outsourcepayrollcompany.com/blog/payroll-general-ledger-handoff-reconciliation",
+      "paragraphCount": 36,
+      "bodyWords": 1673,
+      "bodySha256": "6df0308e37a60aa7d7eb8df484b1728aba6645f3614aa3d814f4c8dac630e4f9",
+      "markerPresent": true,
+      "sourceBodyRendered": true,
+      "image": {
+        "path": "/blog-heroes/payroll-input-control-map.png",
+        "exists": true,
+        "mime": "image/png",
+        "signature": "89504e470d0a1a0a0000000d",
+        "decodableSignature": true
+      },
+      "internalLinks": [
+        {
+          "href": "/contact",
+          "destinationExists": true
+        },
+        {
+          "href": "/services/payroll-reporting",
+          "destinationExists": true
+        },
+        {
+          "href": "/blog/payroll-benefit-deduction-handoff-boundary",
+          "destinationExists": true
+        },
+        {
+          "href": "/blog/payroll-filing-amendment-change-control",
+          "destinationExists": true
+        }
+      ]
+    },
+    {
+      "slug": "payroll-filing-amendment-change-control",
+      "title": "Control payroll filing amendments from source correction to accepted record",
+      "published": "2026-10-05",
+      "canonical": "https://outsourcepayrollcompany.com/blog/payroll-filing-amendment-change-control",
+      "paragraphCount": 38,
+      "bodyWords": 1786,
+      "bodySha256": "a0ef5dd0290415e145dea3bff9cc5495251edbe72116037e8075c1194cb061b8",
+      "markerPresent": true,
+      "sourceBodyRendered": true,
+      "image": {
+        "path": "/blog-heroes/payroll-employee-question-routing.png",
+        "exists": true,
+        "mime": "image/png",
+        "signature": "89504e470d0a1a0a0000000d",
+        "decodableSignature": true
+      },
+      "internalLinks": [
+        {
+          "href": "/contact",
+          "destinationExists": true
+        },
+        {
+          "href": "/services/payroll-data-entry",
+          "destinationExists": true
+        },
+        {
+          "href": "/services/payroll-reporting",
+          "destinationExists": true
+        },
+        {
+          "href": "/blog/payroll-benefit-deduction-handoff-boundary",
+          "destinationExists": true
+        },
+        {
+          "href": "/blog/payroll-general-ledger-handoff-reconciliation",
+          "destinationExists": true
+        }
+      ]
+    },
+    {
+      "slug": "payroll-overpayment-case-coordination",
+      "title": "Coordinate payroll overpayment cases without turning support staff into decision makers",
+      "published": "2026-10-05",
+      "canonical": "https://outsourcepayrollcompany.com/blog/payroll-overpayment-case-coordination",
+      "paragraphCount": 36,
+      "bodyWords": 1599,
+      "bodySha256": "bfab78e4ad4a74f49124a924e138e30fe26cbd4e8575b1c095ea877d1c4fda3a",
+      "markerPresent": true,
+      "sourceBodyRendered": true,
+      "image": {
+        "path": "/blog-heroes/payroll-exception-root-cause-review.png",
+        "exists": true,
+        "mime": "image/png",
+        "signature": "89504e470d0a1a0a0000000d",
+        "decodableSignature": true
+      },
+      "internalLinks": [
+        {
+          "href": "/contact",
+          "destinationExists": true
+        },
+        {
+          "href": "/services/payroll-query-support",
+          "destinationExists": true
+        },
+        {
+          "href": "/services/payroll-reporting",
+          "destinationExists": true
+        },
+        {
+          "href": "/blog/payroll-benefit-deduction-handoff-boundary",
+          "destinationExists": true
+        },
+        {
+          "href": "/blog/payroll-general-ledger-handoff-reconciliation",
+          "destinationExists": true
+        }
+      ]
+    },
+    {
+      "slug": "retroactive-pay-request-evidence-packet",
+      "title": "Build a reviewable evidence packet for retroactive pay requests",
+      "published": "2026-10-05",
+      "canonical": "https://outsourcepayrollcompany.com/blog/retroactive-pay-request-evidence-packet",
+      "paragraphCount": 36,
+      "bodyWords": 1601,
+      "bodySha256": "6effbf263996c44458029d193e8d17f465b863372f4a067a10e67ee26106cc23",
+      "markerPresent": true,
+      "sourceBodyRendered": true,
+      "image": {
+        "path": "/blog-heroes/employee-change-date-ledger.png",
+        "exists": true,
+        "mime": "image/png",
+        "signature": "89504e470d0a1a0a0000000d",
+        "decodableSignature": true
+      },
+      "internalLinks": [
+        {
+          "href": "/contact",
+          "destinationExists": true
+        },
+        {
+          "href": "/services/payroll-preparation",
+          "destinationExists": true
+        },
+        {
+          "href": "/services/payroll-reporting",
+          "destinationExists": true
+        },
+        {
+          "href": "/blog/payroll-benefit-deduction-handoff-boundary",
+          "destinationExists": true
+        },
+        {
+          "href": "/blog/payroll-general-ledger-handoff-reconciliation",
+          "destinationExists": true
+        }
+      ]
+    },
+    {
+      "slug": "payroll-location-change-intake-control",
+      "title": "Control employee work-location changes before they affect payroll",
+      "published": "2026-10-05",
+      "canonical": "https://outsourcepayrollcompany.com/blog/payroll-location-change-intake-control",
+      "paragraphCount": 36,
+      "bodyWords": 1604,
+      "bodySha256": "4b62680d6e58013921dc4b4833acc51e2cd85526c25bb19a18beb308ee1efb85",
+      "markerPresent": true,
+      "sourceBodyRendered": true,
+      "image": {
+        "path": "/blog-heroes/payroll-record-authority-index.png",
+        "exists": true,
+        "mime": "image/png",
+        "signature": "89504e470d0a1a0a0000000d",
+        "decodableSignature": true
+      },
+      "internalLinks": [
+        {
+          "href": "/contact",
+          "destinationExists": true
+        },
+        {
+          "href": "/services/payroll-data-entry",
+          "destinationExists": true
+        },
+        {
+          "href": "/services/payroll-reporting",
+          "destinationExists": true
+        },
+        {
+          "href": "/blog/payroll-benefit-deduction-handoff-boundary",
+          "destinationExists": true
+        },
+        {
+          "href": "/blog/payroll-general-ledger-handoff-reconciliation",
+          "destinationExists": true
+        }
+      ]
+    },
+    {
+      "slug": "bonus-commission-payroll-input-signoff",
+      "title": "Require clear signoff for bonus and commission payroll inputs",
+      "published": "2026-10-05",
+      "canonical": "https://outsourcepayrollcompany.com/blog/bonus-commission-payroll-input-signoff",
+      "paragraphCount": 36,
+      "bodyWords": 1581,
+      "bodySha256": "4d206e556cec7e9cc5381ec086ddbe8878bdd8210d367aeb406a095f7d9c44cd",
+      "markerPresent": true,
+      "sourceBodyRendered": true,
+      "image": {
+        "path": "/blog-heroes/payroll-approval-evidence-packet.png",
+        "exists": true,
+        "mime": "image/png",
+        "signature": "89504e470d0a1a0a0000000d",
+        "decodableSignature": true
+      },
+      "internalLinks": [
+        {
+          "href": "/contact",
+          "destinationExists": true
+        },
+        {
+          "href": "/services/payroll-reporting",
+          "destinationExists": true
+        },
+        {
+          "href": "/blog/payroll-benefit-deduction-handoff-boundary",
+          "destinationExists": true
+        },
+        {
+          "href": "/blog/payroll-general-ledger-handoff-reconciliation",
+          "destinationExists": true
+        }
+      ]
+    },
+    {
+      "slug": "payroll-offcycle-request-gate",
+      "title": "Put a decision gate in front of off-cycle payroll requests",
+      "published": "2026-10-05",
+      "canonical": "https://outsourcepayrollcompany.com/blog/payroll-offcycle-request-gate",
+      "paragraphCount": 37,
+      "bodyWords": 1640,
+      "bodySha256": "f00b6607e3f2aa9133394761130e05c596ef66aed712d68b2bc0f4fe59016234",
+      "markerPresent": true,
+      "sourceBodyRendered": true,
+      "image": {
+        "path": "/blog-heroes/payroll-cycle-closeout-review.png",
+        "exists": true,
+        "mime": "image/png",
+        "signature": "89504e470d0a1a0a0000000d",
+        "decodableSignature": true
+      },
+      "internalLinks": [
+        {
+          "href": "/contact",
+          "destinationExists": true
+        },
+        {
+          "href": "/services/payroll-preparation",
+          "destinationExists": true
+        },
+        {
+          "href": "/services/payroll-reporting",
+          "destinationExists": true
+        },
+        {
+          "href": "/blog/payroll-benefit-deduction-handoff-boundary",
+          "destinationExists": true
+        },
+        {
+          "href": "/blog/payroll-general-ledger-handoff-reconciliation",
+          "destinationExists": true
+        }
+      ]
+    },
+    {
+      "slug": "payroll-paystub-access-case-routing",
+      "title": "Route paystub access cases without exposing payroll records",
+      "published": "2026-10-05",
+      "canonical": "https://outsourcepayrollcompany.com/blog/payroll-paystub-access-case-routing",
+      "paragraphCount": 36,
+      "bodyWords": 1583,
+      "bodySha256": "154938c4b7f4a25561de8af2679f4723ca27cb108e6956810b024fe0e1af36b0",
+      "markerPresent": true,
+      "sourceBodyRendered": true,
+      "image": {
+        "path": "/blog-heroes/employee-payroll-question-intake.png",
+        "exists": true,
+        "mime": "image/png",
+        "signature": "89504e470d0a1a0a0000000d",
+        "decodableSignature": true
+      },
+      "internalLinks": [
+        {
+          "href": "/contact",
+          "destinationExists": true
+        },
+        {
+          "href": "/services/payroll-query-support",
+          "destinationExists": true
+        },
+        {
+          "href": "/services/payroll-reporting",
+          "destinationExists": true
+        },
+        {
+          "href": "/blog/payroll-benefit-deduction-handoff-boundary",
+          "destinationExists": true
+        },
+        {
+          "href": "/blog/payroll-general-ledger-handoff-reconciliation",
+          "destinationExists": true
+        }
+      ]
+    },
+    {
+      "slug": "payroll-provider-subprocessor-inventory",
+      "title": "Keep a working inventory of payroll provider subprocessors",
+      "published": "2026-10-05",
+      "canonical": "https://outsourcepayrollcompany.com/blog/payroll-provider-subprocessor-inventory",
+      "paragraphCount": 36,
+      "bodyWords": 1569,
+      "bodySha256": "0463d451b492d1cc35952649d4a2e9bf702083d777183e41796a099d999695fa",
+      "markerPresent": true,
+      "sourceBodyRendered": true,
+      "image": {
+        "path": "/blog-heroes/payroll-access-exit-register.png",
+        "exists": true,
+        "mime": "image/png",
+        "signature": "89504e470d0a1a0a0000000d",
+        "decodableSignature": true
+      },
+      "internalLinks": [
+        {
+          "href": "/contact",
+          "destinationExists": true
+        },
+        {
+          "href": "/services/payroll-preparation",
+          "destinationExists": true
+        },
+        {
+          "href": "/services/payroll-reporting",
+          "destinationExists": true
+        },
+        {
+          "href": "/blog/payroll-benefit-deduction-handoff-boundary",
+          "destinationExists": true
+        },
+        {
+          "href": "/blog/payroll-general-ledger-handoff-reconciliation",
+          "destinationExists": true
+        }
+      ]
+    },
+    {
+      "slug": "payroll-termination-final-pay-packet",
+      "title": "Prepare a complete termination and final-pay packet for payroll review",
+      "published": "2026-10-05",
+      "canonical": "https://outsourcepayrollcompany.com/blog/payroll-termination-final-pay-packet",
+      "paragraphCount": 36,
+      "bodyWords": 1627,
+      "bodySha256": "dadc779bf7eb71216152c1ad2e8f1166c2878168ce1ad9d44f4a47d80e9b48ac",
+      "markerPresent": true,
+      "sourceBodyRendered": true,
+      "image": {
+        "path": "/blog-heroes/payroll-employee-change-effective-date.png",
+        "exists": true,
+        "mime": "image/png",
+        "signature": "89504e470d0a1a0a0000000d",
+        "decodableSignature": true
+      },
+      "internalLinks": [
+        {
+          "href": "/contact",
+          "destinationExists": true
+        },
+        {
+          "href": "/services/payroll-data-entry",
+          "destinationExists": true
+        },
+        {
+          "href": "/services/payroll-reporting",
+          "destinationExists": true
+        },
+        {
+          "href": "/blog/payroll-benefit-deduction-handoff-boundary",
+          "destinationExists": true
+        },
+        {
+          "href": "/blog/payroll-general-ledger-handoff-reconciliation",
+          "destinationExists": true
+        }
+      ]
+    },
+    {
+      "slug": "payroll-payment-return-case-workflow",
+      "title": "Build a controlled workflow for returned payroll payments",
+      "published": "2026-10-05",
+      "canonical": "https://outsourcepayrollcompany.com/blog/payroll-payment-return-case-workflow",
+      "paragraphCount": 36,
+      "bodyWords": 1619,
+      "bodySha256": "1f594c9f2cfffa1199b56d7917e7626fd23aa3e826484d2c7750de8dece148a8",
+      "markerPresent": true,
+      "sourceBodyRendered": true,
+      "image": {
+        "path": "/blog-heroes/payroll-provider-rejection-response.png",
+        "exists": true,
+        "mime": "image/png",
+        "signature": "89504e470d0a1a0a0000000d",
+        "decodableSignature": true
+      },
+      "internalLinks": [
+        {
+          "href": "/contact",
+          "destinationExists": true
+        },
+        {
+          "href": "/services/payroll-query-support",
+          "destinationExists": true
+        },
+        {
+          "href": "/services/payroll-reporting",
+          "destinationExists": true
+        },
+        {
+          "href": "/blog/payroll-benefit-deduction-handoff-boundary",
+          "destinationExists": true
+        },
+        {
+          "href": "/blog/payroll-general-ledger-handoff-reconciliation",
+          "destinationExists": true
+        }
+      ]
+    }
+  ],
+  "failures": [],
+  "status": "passed"
+}
