@@ -1,5 +1,6 @@
 import { buildDecisionBlogBatch, type DecisionTopic } from './october2-blog-framework';
 import { october5ExtraSections } from './october5-blog-extra';
+import { october5IndependentSections } from './october5-blog-independent';
 
 // Provisional while the combined release is staged. The integrator must reconcile
 // this value to the site's local calendar date immediately before the sole push.
@@ -24,5 +25,5 @@ const batch = buildDecisionBlogBatch(topics, OCTOBER5_PUBLICATION_DATE, 'opc-202
 export const october5BlogPosts = batch.posts;
 export const october5BlogDetails = Object.fromEntries(Object.entries(batch.details).map(([slug, detail]) => [slug, {
   ...detail,
-  sections: [...detail.sections, ...(october5ExtraSections[slug] ?? [])],
+  sections: [...(october5ExtraSections[slug] ?? []), ...(october5IndependentSections[slug] ?? [])],
 }]));

@@ -29,7 +29,7 @@ Each article now has a distinct operating question and example:
 
 ## Automated evidence
 
-The durable rendered audit is `ops/october-5-blog-rendered-audit.json`. It records full rendered body counts, SHA-256 body hashes, titles, provisional dates, canonical URLs, markers, local image signatures, internal destinations, and family shingle overlap. All 12 rendered bodies exceed 900 words. Maximum pairwise five-word-shingle overlap is below 50%.
+The shared framework paragraphs were removed from the final October 5 Blog bodies. Each route now renders only its literal topic-specific sections. The durable rendered audit is `ops/october-5-blog-rendered-audit.json`; maximum pairwise five-word-shingle overlap is 13.9434%. `ops/october-5-independent-writing-audit.json` compares the 17 current routes with 637 prior rendered routes and reports zero exact repeated substantive paragraphs of at least 50 words, zero repeated non-shell headings, and zero repeated adjacent narrative-heading sequences.
 
 ## Remaining release gates
 
@@ -37,4 +37,3 @@ The durable rendered audit is `ops/october-5-blog-rendered-audit.json`. It recor
 - Reconcile the provisional publication date to the actual first-publication date in the configured UTC site timezone before the sole combined push.
 - Run the combined 17-route checks, dependency and type checks, appropriate tests, and clean production build after integration.
 - Wait for browser-operator deployment readiness; do not deploy from this task.
-

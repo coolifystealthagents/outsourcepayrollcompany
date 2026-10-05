@@ -1,0 +1,11 @@
+{
+  "cycleLabel": "2026-10-05",
+  "generatedAt": "2026-10-05T14:14:20.199Z",
+  "currentRouteCount": 17,
+  "priorCorpusRouteCount": 637,
+  "minimumParagraphWordsForExactReuseAudit": 50,
+  "exactRepeatedSubstantiveParagraphs": [],
+  "repeatedNonShellHeadingsAcrossCurrentRoutes": [],
+  "exactRepeatedAdjacentHeadingSequences": [],
+  "status": "passed"
+}

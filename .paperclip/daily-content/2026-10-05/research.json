@@ -23,7 +23,7 @@
     "staticResearchRoutes": 5,
     "canonicalDateIndexSitemap": "passed",
     "images": "all five source assets decoded; four PNG and one SVG",
-    "maximumPairwiseFiveWordShingleJaccard": 0.416092,
+    "maximumPairwiseFiveWordShingleJaccard": 0.10126582278481013,
     "maximumOverlapPair": [
       "payroll-garnishment-intake-chain-study",
       "earned-wage-access-payroll-interface-study"
@@ -32,23 +32,23 @@
     "integratorParagraphBodyCounts": [
       {
         "slug": "payroll-funding-return-traceability-study",
-        "renderedBodyWords": 1264
+        "renderedBodyWords": 1287
       },
       {
         "slug": "payroll-time-rule-configuration-drift-study",
-        "renderedBodyWords": 1215
+        "renderedBodyWords": 1229
       },
       {
         "slug": "payroll-garnishment-intake-chain-study",
-        "renderedBodyWords": 1205
+        "renderedBodyWords": 1203
       },
       {
         "slug": "cross-border-shadow-payroll-reconciliation-study",
-        "renderedBodyWords": 1204
+        "renderedBodyWords": 1207
       },
       {
         "slug": "earned-wage-access-payroll-interface-study",
-        "renderedBodyWords": 1201
+        "renderedBodyWords": 1200
       }
     ],
     "integratorHashMethod": "SHA-256 of complete rendered article paragraph text after HTML normalization"
@@ -57,40 +57,40 @@
     {
       "topic": "payroll funding return traceability",
       "slug": "payroll-funding-return-traceability-study",
-      "renderedBodyWords": 1264,
-      "contentHash": "0506ce73b80482a2795aa1318b8c1a8a3eb74396af4fd69171c600dad84ef899",
+      "renderedBodyWords": 1287,
+      "contentHash": "166eff34dcd9bb815f7d02af0a85a61921e73725043fce9a278cec60b0d0cca2",
       "plannedUrl": "https://outsourcepayrollcompany.com/research/payroll-funding-return-traceability-study",
       "liveVerified": false
     },
     {
       "topic": "payroll time-rule configuration drift",
       "slug": "payroll-time-rule-configuration-drift-study",
-      "renderedBodyWords": 1215,
-      "contentHash": "c8f1a85508e5b2fccf7f28c8d2b141a24db921e45863ce7ebe5d109ee88fa27e",
+      "renderedBodyWords": 1229,
+      "contentHash": "f34e9f52318f8b79c42fcd7341b1d854a4363e7dde4d4eb563ac2a1594f0f08f",
       "plannedUrl": "https://outsourcepayrollcompany.com/research/payroll-time-rule-configuration-drift-study",
       "liveVerified": false
     },
     {
       "topic": "payroll garnishment intake chain",
       "slug": "payroll-garnishment-intake-chain-study",
-      "renderedBodyWords": 1205,
-      "contentHash": "6cee2a7614b5c27cb5be9d841191713651dafac2e4baa64565b91a8f794f7a06",
+      "renderedBodyWords": 1203,
+      "contentHash": "1600b4abf684fe2ceae50fe75f03bc7905ef82de89e67a0e1e295889ab6795d7",
       "plannedUrl": "https://outsourcepayrollcompany.com/research/payroll-garnishment-intake-chain-study",
       "liveVerified": false
     },
     {
       "topic": "cross-border shadow payroll reconciliation",
       "slug": "cross-border-shadow-payroll-reconciliation-study",
-      "renderedBodyWords": 1204,
-      "contentHash": "c8f27ad067d5f215473ac6e3d82b01c95b42469ed747bedaa9633fa711e045ea",
+      "renderedBodyWords": 1207,
+      "contentHash": "8147275d37fcd64d41950ac5266977226c79d755b29f7c3b4cba52a9ca040b9e",
       "plannedUrl": "https://outsourcepayrollcompany.com/research/cross-border-shadow-payroll-reconciliation-study",
       "liveVerified": false
     },
     {
       "topic": "earned wage access payroll interface",
       "slug": "earned-wage-access-payroll-interface-study",
-      "renderedBodyWords": 1201,
-      "contentHash": "65c50c3e258861f1a3d1fb8e13674a4139c80589ec850c045e02a0e8425e1148",
+      "renderedBodyWords": 1200,
+      "contentHash": "83178b6b2085ddd4501426b941e79709188a0c05171e56ff52ca9e5fbf943b22",
       "plannedUrl": "https://outsourcepayrollcompany.com/research/earned-wage-access-payroll-interface-study",
       "liveVerified": false
     }
