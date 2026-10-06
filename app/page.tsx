@@ -4,6 +4,10 @@ import { services, blogPosts, site } from './data';
 const supportLanes = services.slice(0, 4);
 const guides = blogPosts.slice(0, 3);
 
+export const metadata = {
+  alternates: { canonical: 'https://outsourcepayrollcompany.com/' },
+};
+
 const checkpoints = [
   { label: 'Hours', detail: 'Missing entries are listed before cut-off.', state: 'Review' },
   { label: 'Changes', detail: 'New hires, exits, and pay updates have an owner.', state: 'Assigned' },

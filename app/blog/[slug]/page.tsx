@@ -8,6 +8,8 @@ const publicationDateFormatter = new Intl.DateTimeFormat('en-US', {
   year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC',
 });
 const formatPublicationDate = (value: string) => publicationDateFormatter.format(new Date(`${value}T00:00:00Z`));
+const relatedBlogHref = (value: string) => value.startsWith('/blog/') ? value : `/blog/${value.replace(/^\/+/, '')}`;
+const relatedBlogLabel = (value: string) => value.replace(/^\/blog\//, '').replaceAll('-', ' ');
 
 const basicGuides: Record<string, {
   intro: string;
@@ -241,7 +243,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
               {detail.publication && <section className="guide-block article-publication-links article-related" aria-label="Related payroll resources">
                 <p>Continue the workflow with <a href={detail.publication.internalLinks[0]}>operations support</a> and <a href={detail.publication.internalLinks[1]}>reporting and QA support</a>. For the access principle behind this routine, review <a href={detail.publication.externalLink} rel="noreferrer">NIST Zero Trust Architecture</a>.</p>
                 <h2>Related articles</h2>
-                <ul>{detail.publication.related.map((related) => <li key={related}><a href={`/blog/${related}`}>{related.replaceAll('-', ' ')}</a></li>)}</ul>
+                <ul>{detail.publication.related.map((related) => <li key={related}><a href={relatedBlogHref(related)}>{relatedBlogLabel(related)}</a></li>)}</ul>
               </section>}
 
               {rich && <figure className="article-visual article-process" data-visual="payroll-access-path">
