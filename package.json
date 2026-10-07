@@ -10,7 +10,8 @@
     "validate:control-metric-handoff": "node scripts/validate-control-metric-handoff.js",
     "validate:year-end-payroll-handoff": "node scripts/validate-year-end-payroll-handoff.js",
     "validate:provider-rejection-handoff": "node scripts/validate-provider-rejection-handoff.js",
-    "validate:leave-accrual-handoff": "node scripts/validate-leave-accrual-handoff.js"
+    "validate:leave-accrual-handoff": "node scripts/validate-leave-accrual-handoff.js",
+    "validate:remittance-source-matching-handoff": "node scripts/validate-remittance-source-matching-handoff.mjs"
   },
   "dependencies": {
     "@next/third-parties": "15.5.27",
