@@ -16,12 +16,12 @@ The service pages are the commercial pillars. Research briefs and practical payr
 | `/services/payroll-query-support` | Sort employee payroll questions and route sensitive cases | `/research/philippines-payroll-provider-rejection-patterns` | Delivered locally: one route-local handoff to Payroll Query Support. Preserve rendered-source commit `674f576ba13162edc7fa6768df65c99b632ea035`; do not add a duplicate. |
 | `/services/leave-balance-administration` | Prepare leave records and surface missing source evidence | `/research/philippines-payroll-leave-accrual-evidence` | Delivered locally: one route-local link. Do not add a duplicate; the authorized payroll owner retains leave treatment, adjustment approval, and payroll-effect decisions. |
 | `/services/payroll-reporting` | Prepare exception reports and review-ready payroll summaries | `/research/philippines-payroll-control-metric-denominators` | Delivered locally: one route-local handoff explains the reporting boundary. Do not add a duplicate. |
-| `/services/contractor-payment-administration` | Prepare payment records and exception notes for owner review | `/research/philippines-payroll-remittance-source-matching` | Verified absent: source and service now have generated artifacts, self-canonicals, sitemap locations, and zero route-local target links. Hold until a later run. |
+| `/services/contractor-payment-administration` | Prepare payment records and exception notes for owner review | `/research/philippines-payroll-remittance-source-matching` | Delivered locally in rendered-source commit `9dff40bdd9e415882678ab7e4ff78ca0f4117a2b`: one route-local Contractor Payment Administration handoff. Do not add a duplicate. |
 | `/services/year-end-payroll-preparation` | Organize approved year-end payroll records for review | `/research/philippines-payroll-tax-form-checklist` | Delivered locally: one route-local handoff to Year-End Payroll Preparation. Do not add a duplicate; the authorized payroll owner keeps tax treatment and submission approval. |
 
 ## Next executable candidate
 
-The provider-rejection route now has its one Payroll Query Support handoff in rendered-source commit `674f576ba13162edc7fa6768df65c99b632ea035`. Do not add another. The leave-accrual route now has one Leave Balance Administration handoff; do not add a second CTA. The remittance route remains the next verified-absent follow-up; do not invent a replacement route or CTA.
+The remittance route now has its one Contractor Payment Administration handoff in rendered-source commit `9dff40bdd9e415882678ab7e4ff78ca0f4117a2b`. Do not add another. Reconcile a different verified-absent pair only after its route-data ownership and reader intent are independently reviewed.
 
 ## 2026-10-04 leave-accrual delivery status
 
