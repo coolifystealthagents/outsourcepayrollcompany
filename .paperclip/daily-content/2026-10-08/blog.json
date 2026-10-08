@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "family": "blog",
+  "publicationDate": "2026-10-08",
+  "requiredCount": 12,
+  "repository": "coolifystealthagents/outsourcepayrollcompany",
+  "entries": [
+    "payroll-cutoff-exception-intake-register",
+    "payroll-bank-change-cooling-off-control",
+    "payroll-negative-net-pay-case-review",
+    "payroll-new-starter-first-run-readiness",
+    "payroll-termination-final-pay-handoff",
+    "payroll-deduction-arrears-exception-lane",
+    "payroll-multi-entity-transfer-control",
+    "payroll-provider-case-aging-review",
+    "payroll-file-version-replacement-control",
+    "payroll-employee-query-privacy-boundary",
+    "payroll-post-run-correction-propagation",
+    "payroll-calendar-timezone-control"
+  ]
+}

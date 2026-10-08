@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "family": "research",
+  "publicationDate": "2026-10-08",
+  "requiredCount": 5,
+  "repository": "coolifystealthagents/outsourcepayrollcompany",
+  "entries": [
+    {
+      "slug": "payroll-cutoff-exception-aging-research",
+      "sources": [
+        "https://privacy.gov.ph/",
+        "https://privacy.gov.ph/data-privacy-act/",
+        "https://www.bir.gov.ph/",
+        "https://www.bsp.gov.ph/",
+        "https://www.ilo.org/manila",
+        "https://pages.nist.gov/800-63-4/",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.iso.org/iso-9001-quality-management.html"
+      ]
+    },
+    {
+      "slug": "payroll-bank-change-control-evidence-study",
+      "sources": [
+        "https://privacy.gov.ph/",
+        "https://privacy.gov.ph/data-privacy-act/",
+        "https://www.bir.gov.ph/",
+        "https://www.bsp.gov.ph/",
+        "https://www.ilo.org/manila",
+        "https://pages.nist.gov/800-63-4/",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.iso.org/iso-9001-quality-management.html"
+      ]
+    },
+    {
+      "slug": "payroll-correction-downstream-completeness-analysis",
+      "sources": [
+        "https://privacy.gov.ph/",
+        "https://privacy.gov.ph/data-privacy-act/",
+        "https://www.bir.gov.ph/",
+        "https://www.bsp.gov.ph/",
+        "https://www.ilo.org/manila",
+        "https://pages.nist.gov/800-63-4/",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.iso.org/iso-9001-quality-management.html"
+      ]
+    },
+    {
+      "slug": "payroll-provider-rejection-recovery-time-study",
+      "sources": [
+        "https://privacy.gov.ph/",
+        "https://privacy.gov.ph/data-privacy-act/",
+        "https://www.bir.gov.ph/",
+        "https://www.bsp.gov.ph/",
+        "https://www.ilo.org/manila",
+        "https://pages.nist.gov/800-63-4/",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.iso.org/iso-9001-quality-management.html"
+      ]
+    },
+    {
+      "slug": "payroll-cross-border-calendar-reliability-research",
+      "sources": [
+        "https://privacy.gov.ph/",
+        "https://privacy.gov.ph/data-privacy-act/",
+        "https://www.bir.gov.ph/",
+        "https://www.bsp.gov.ph/",
+        "https://www.ilo.org/manila",
+        "https://pages.nist.gov/800-63-4/",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.iso.org/iso-9001-quality-management.html"
+      ]
+    }
+  ]
+}
