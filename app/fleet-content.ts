@@ -22,6 +22,7 @@ import {september28ResearchPosts} from './september28-research';
 import {october2ResearchPosts} from './october2-research';
 import {october5ResearchPosts} from './october5-research';
 import {october8ResearchPosts} from './october8-research';
+import {october9ResearchPosts} from './october9-research';
 
 export const fleetServices = [
   {
@@ -540,6 +541,7 @@ const august17ResearchPosts: readonly ResearchPost[] = [
 ] as const;
 
 export const researchPosts: readonly ResearchPost[] = [...october8ResearchPosts, ...october5ResearchPosts, ...october2ResearchPosts, ...september28ResearchPosts, ...september25ResearchPosts, ...september24ResearchPosts, ...september23ResearchPosts, ...september22ResearchPosts, ...september18ResearchPosts, ...september14ResearchPosts, ...september11ResearchPosts, ...september10ResearchPosts, ...september9ResearchPosts, ...september8ResearchPosts, ...september7ResearchPosts, ...september4ResearchPosts, ...september2ResearchPosts, ...september1ResearchPosts, ...august31ResearchPosts, ...legacyResearchPosts, ...august13ResearchPosts, ...august13RecoveredResearchPosts, ...august14ResearchPosts, ...august17ResearchPosts, researchAug20CutoffEvidence, researchAug20ChangeEffectiveDate, researchAug20QuerySampling, researchAug20ProviderRejection, researchAug20ExportMinimization, ...august21ResearchPosts, ...august23ResearchPosts, ...august23ResearchV8Posts];
+export const researchPosts: readonly ResearchPost[] = [...october9ResearchPosts, ...october5ResearchPosts, ...october2ResearchPosts, ...september28ResearchPosts, ...september25ResearchPosts, ...september24ResearchPosts, ...september23ResearchPosts, ...september22ResearchPosts, ...september18ResearchPosts, ...september14ResearchPosts, ...september11ResearchPosts, ...september10ResearchPosts, ...september9ResearchPosts, ...september8ResearchPosts, ...september7ResearchPosts, ...september4ResearchPosts, ...september2ResearchPosts, ...september1ResearchPosts, ...august31ResearchPosts, ...legacyResearchPosts, ...august13ResearchPosts, ...august13RecoveredResearchPosts, ...august14ResearchPosts, ...august17ResearchPosts, researchAug20CutoffEvidence, researchAug20ChangeEffectiveDate, researchAug20QuerySampling, researchAug20ProviderRejection, researchAug20ExportMinimization, ...august21ResearchPosts, ...august23ResearchPosts, ...august23ResearchV8Posts];
 export const publicTiers = [
   {name:'Executive Assistants', price:'$10/hour', detail:'Philippines-based support for structured executive and administrative work.'},
   {name:'Senior Assistants', price:'$15/hour', detail:'Experienced Philippines-based support for specialized workflows and coordination.'},

@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-09",
+  "kind": "blog",
+  "count": 12,
+  "publicationDateVisible": true,
+  "items": [
+    {
+      "slug": "outsourcepayrollcompany-priority-intake-triage",
+      "title": "Outsourced Payroll Priority Intake Triage",
+      "excerpt": "A practical guide to sequence new requests by evidence, impact, and accepted ownership.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/outsourcepayrollcompany-priority-intake-triage"
+    },
+    {
+      "slug": "outsourcepayrollcompany-exception-owner-map",
+      "title": "Outsourced Payroll Exception Owner Map",
+      "excerpt": "A practical guide to route ambiguous work to an authorized decision owner.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/outsourcepayrollcompany-exception-owner-map"
+    },
+    {
+      "slug": "outsourcepayrollcompany-source-record-verification",
+      "title": "Outsourced Payroll Source Record Verification",
+      "excerpt": "A practical guide to confirm the governing record before work begins.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/outsourcepayrollcompany-source-record-verification"
+    },
+    {
+      "slug": "outsourcepayrollcompany-handoff-acceptance-receipt",
+      "title": "Outsourced Payroll Handoff Acceptance Receipt",
+      "excerpt": "A practical guide to prove the receiving team accepted the next action.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/outsourcepayrollcompany-handoff-acceptance-receipt"
+    },
+    {
+      "slug": "outsourcepayrollcompany-backlog-aging-review",
+      "title": "Outsourced Payroll Backlog Aging Review",
+      "excerpt": "A practical guide to separate active handling from documented waiting states.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/outsourcepayrollcompany-backlog-aging-review"
+    },
+    {
+      "slug": "outsourcepayrollcompany-quality-sample-calibration",
+      "title": "Outsourced Payroll Quality Sample Calibration",
+      "excerpt": "A practical guide to align reviewers on observable acceptance evidence.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/outsourcepayrollcompany-quality-sample-calibration"
+    },
+    {
+      "slug": "outsourcepayrollcompany-access-scope-recertification",
+      "title": "Outsourced Payroll Access Scope Recertification",
+      "excerpt": "A practical guide to keep permissions aligned with current duties.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/outsourcepayrollcompany-access-scope-recertification"
+    },
+    {
+      "slug": "outsourcepayrollcompany-change-control-release-note",
+      "title": "Outsourced Payroll Change Control Release Note",
+      "excerpt": "A practical guide to publish a dated rule change with rollback context.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/outsourcepayrollcompany-change-control-release-note"
+    },
+    {
+      "slug": "outsourcepayrollcompany-capacity-overflow-trigger",
+      "title": "Outsourced Payroll Capacity Overflow Trigger",
+      "excerpt": "A practical guide to surface demand that exceeds the safe service window.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/outsourcepayrollcompany-capacity-overflow-trigger"
+    },
+    {
+      "slug": "outsourcepayrollcompany-client-decision-packet",
+      "title": "Outsourced Payroll Client Decision Packet",
+      "excerpt": "A practical guide to prepare facts without transferring client authority.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/outsourcepayrollcompany-client-decision-packet"
+    },
+    {
+      "slug": "outsourcepayrollcompany-correction-propagation-check",
+      "title": "Outsourced Payroll Correction Propagation Check",
+      "excerpt": "A practical guide to reconcile corrected facts across dependent systems.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/outsourcepayrollcompany-correction-propagation-check"
+    },
+    {
+      "slug": "outsourcepayrollcompany-monthly-control-closeout",
+      "title": "Outsourced Payroll Monthly Control Closeout",
+      "excerpt": "A practical guide to close open exceptions and preserve review evidence.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/outsourcepayrollcompany-monthly-control-closeout"
+    }
+  ]
+}
