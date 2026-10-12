@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "npm run validate:research-aggregate && npm run test:research-aggregate",
     "build": "next build",
     "start": "next start -H 0.0.0.0 -p 3000",
     "lint": "tsc --noEmit",
@@ -11,7 +12,9 @@
     "validate:year-end-payroll-handoff": "node scripts/validate-year-end-payroll-handoff.js",
     "validate:provider-rejection-handoff": "node scripts/validate-provider-rejection-handoff.js",
     "validate:leave-accrual-handoff": "node scripts/validate-leave-accrual-handoff.js",
-    "validate:remittance-source-matching-handoff": "node scripts/validate-remittance-source-matching-handoff.mjs"
+    "validate:remittance-source-matching-handoff": "node scripts/validate-remittance-source-matching-handoff.mjs",
+    "validate:research-aggregate": "node scripts/validate-research-aggregate.cjs",
+    "test:research-aggregate": "node scripts/test-validate-research-aggregate.cjs"
   },
   "dependencies": {
     "@next/third-parties": "15.5.27",
