@@ -1,0 +1,141 @@
+{
+  "site": "OutsourcePayrollCompany.com",
+  "repository": "coolifystealthagents/outsourcepayrollcompany",
+  "branch": "main",
+  "baseSha": "ab46b33c6c151abfe7ab9ceac8d37ca4edbf4807",
+  "publicationDate": "2026-10-12",
+  "counts": {
+    "blog": 12,
+    "research": 5,
+    "thumbnails": 17
+  },
+  "registryPaths": [
+    "app/data.ts",
+    "app/fleet-content.ts"
+  ],
+  "routePaths": [
+    "app/blog/[slug]/page.tsx",
+    "app/research/[slug]/page.tsx"
+  ],
+  "articles": [
+    {
+      "section": "Blog",
+      "title": "Verify Pay-Rate Effective Dates Before Payroll Input",
+      "slug": "payroll-pay-rate-effective-date-evidence",
+      "sourcePath": "app/october12-blog.ts",
+      "thumbnailPath": "public/oct12-heroes/payroll-pay-rate-effective-date-evidence.webp"
+    },
+    {
+      "section": "Blog",
+      "title": "Set a Safe Intake Boundary for Payroll Garnishment Orders",
+      "slug": "payroll-garnishment-order-intake-boundary",
+      "sourcePath": "app/october12-blog.ts",
+      "thumbnailPath": "public/oct12-heroes/payroll-garnishment-order-intake-boundary.webp"
+    },
+    {
+      "section": "Blog",
+      "title": "Reconcile Shift Differential Sources Before Payroll Close",
+      "slug": "payroll-shift-differential-source-reconciliation",
+      "sourcePath": "app/october12-blog.ts",
+      "thumbnailPath": "public/oct12-heroes/payroll-shift-differential-source-reconciliation.webp"
+    },
+    {
+      "section": "Blog",
+      "title": "Check Bonus Approval Populations Before Payroll Release",
+      "slug": "payroll-bonus-approval-population-check",
+      "sourcePath": "app/october12-blog.ts",
+      "thumbnailPath": "public/oct12-heroes/payroll-bonus-approval-population-check.webp"
+    },
+    {
+      "section": "Blog",
+      "title": "Control Leave-Return Proration Handoffs in Payroll",
+      "slug": "payroll-leave-return-proration-handoff",
+      "sourcePath": "app/october12-blog.ts",
+      "thumbnailPath": "public/oct12-heroes/payroll-leave-return-proration-handoff.webp"
+    },
+    {
+      "section": "Blog",
+      "title": "Build a Retroactive Promotion Change Lane for Payroll",
+      "slug": "payroll-retroactive-promotion-change-lane",
+      "sourcePath": "app/october12-blog.ts",
+      "thumbnailPath": "public/oct12-heroes/payroll-retroactive-promotion-change-lane.webp"
+    },
+    {
+      "section": "Blog",
+      "title": "Maintain a Currency Instruction Register for Cross-Border Payroll",
+      "slug": "payroll-currency-instruction-register",
+      "sourcePath": "app/october12-blog.ts",
+      "thumbnailPath": "public/oct12-heroes/payroll-currency-instruction-register.webp"
+    },
+    {
+      "section": "Blog",
+      "title": "Route Deceased-Employee Payroll Cases Without Guessing",
+      "slug": "payroll-deceased-employee-payment-routing",
+      "sourcePath": "app/october12-blog.ts",
+      "thumbnailPath": "public/oct12-heroes/payroll-deceased-employee-payment-routing.webp"
+    },
+    {
+      "section": "Blog",
+      "title": "Escalate Unclaimed Payroll Payments With Traceable Evidence",
+      "slug": "payroll-unclaimed-payment-escalation",
+      "sourcePath": "app/october12-blog.ts",
+      "thumbnailPath": "public/oct12-heroes/payroll-unclaimed-payment-escalation.webp"
+    },
+    {
+      "section": "Blog",
+      "title": "Control New Earnings-Code Activation in Payroll",
+      "slug": "payroll-earnings-code-activation-control",
+      "sourcePath": "app/october12-blog.ts",
+      "thumbnailPath": "public/oct12-heroes/payroll-earnings-code-activation-control.webp"
+    },
+    {
+      "section": "Blog",
+      "title": "Organize Third-Party Sick Pay Evidence for Payroll",
+      "slug": "payroll-third-party-sick-pay-evidence",
+      "sourcePath": "app/october12-blog.ts",
+      "thumbnailPath": "public/oct12-heroes/payroll-third-party-sick-pay-evidence.webp"
+    },
+    {
+      "section": "Blog",
+      "title": "Review Payroll Journal Cost-Center Mappings Before Posting",
+      "slug": "payroll-journal-cost-center-mapping-review",
+      "sourcePath": "app/october12-blog.ts",
+      "thumbnailPath": "public/oct12-heroes/payroll-journal-cost-center-mapping-review.webp"
+    },
+    {
+      "section": "Research",
+      "title": "Payroll Withholding Method Version Research",
+      "slug": "payroll-withholding-method-version-research",
+      "sourcePath": "app/october12-research.ts",
+      "thumbnailPath": "public/oct12-heroes/payroll-withholding-method-version-research.webp"
+    },
+    {
+      "section": "Research",
+      "title": "Regular-Rate Overtime Input Boundary Study",
+      "slug": "regular-rate-overtime-input-boundary-study",
+      "sourcePath": "app/october12-research.ts",
+      "thumbnailPath": "public/oct12-heroes/regular-rate-overtime-input-boundary-study.webp"
+    },
+    {
+      "section": "Research",
+      "title": "Social Security Wage-Base Reconciliation Study",
+      "slug": "social-security-wage-base-reconciliation-study",
+      "sourcePath": "app/october12-research.ts",
+      "thumbnailPath": "public/oct12-heroes/social-security-wage-base-reconciliation-study.webp"
+    },
+    {
+      "section": "Research",
+      "title": "Third-Party Sick Pay Reporting Evidence Study",
+      "slug": "third-party-sick-pay-reporting-evidence-study",
+      "sourcePath": "app/october12-research.ts",
+      "thumbnailPath": "public/oct12-heroes/third-party-sick-pay-reporting-evidence-study.webp"
+    },
+    {
+      "section": "Research",
+      "title": "Payroll Administrator Session Security Study",
+      "slug": "payroll-administrator-session-security-study",
+      "sourcePath": "app/october12-research.ts",
+      "thumbnailPath": "public/oct12-heroes/payroll-administrator-session-security-study.webp"
+    }
+  ]
+}

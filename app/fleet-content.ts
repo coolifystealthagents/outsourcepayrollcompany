@@ -23,6 +23,7 @@ import {october2ResearchPosts} from './october2-research';
 import {october5ResearchPosts} from './october5-research';
 import {october8ResearchPosts} from './october8-research';
 import {october9ResearchPosts} from './october9-research';
+import {october12ResearchPosts} from './october12-research';
 
 export const fleetServices = [
   {
