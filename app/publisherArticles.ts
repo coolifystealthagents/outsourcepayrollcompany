@@ -611,6 +611,13 @@ additionalPublisherBlogDetails['timesheet-follow-up-workflow'].contextualLink = 
   label: 'See timesheet reconciliation support',
 };
 
+additionalPublisherBlogDetails['payroll-benefits-deduction-handoff'].contextualLink = {
+  heading: 'Prepare benefit and deduction records for review',
+  body: 'A Philippines-based payroll support specialist can organize approved benefit and deduction records, flag a mismatch, and prepare the handoff for review. The authorized payroll owner decides eligibility, policy treatment, deduction changes, and final payroll action.',
+  href: '/services/benefits-deduction-administration',
+  label: 'See benefits and deduction administration support',
+};
+
 // August 17, 2026 Blog batch. Every record owns the campaign date directly.
 const august17Topics = [
   ['payroll-approval-chain-design', 'Payroll approval chain design for outsourced support', 'Design a visible approval chain that lets a Philippines-based payroll support specialist prepare work while the authorized owner keeps decision control.', 'approval chains', 'Map each handoff from source record to final decision, with a named owner at every transition.', 'An approval chain is not complete when a message is sent; it is complete when the decision and evidence are recorded.'],
