@@ -1,0 +1,194 @@
+{
+  "site": "OutsourcePayrollCompany.com",
+  "canonicalDomain": "https://outsourcepayrollcompany.com",
+  "repository": "coolifystealthagents/outsourcepayrollcompany",
+  "branch": "main",
+  "baseSha": "f44d6f59dd3f42fc970305c8056bfe9fa6abb6ea",
+  "publicationDate": "2026-10-13",
+  "counts": {
+    "blog": 12,
+    "research": 5,
+    "total": 17,
+    "thumbnails": 17
+  },
+  "registryPaths": [
+    "app/data.ts",
+    "app/fleet-content.ts"
+  ],
+  "routePaths": [
+    "app/blog/[slug]/page.tsx",
+    "app/research/[slug]/page.tsx"
+  ],
+  "articles": [
+    {
+      "section": "Blog",
+      "title": "Assemble a Taxable Fringe Benefit Evidence Packet",
+      "slug": "taxable-fringe-benefit-evidence-packet",
+      "sourcePath": "app/october13-blog.ts",
+      "thumbnailPath": "public/oct13-heroes/taxable-fringe-benefit-evidence-packet.webp",
+      "publicationDate": "2026-10-13",
+      "wordCount": 1595,
+      "sha256": "a5b2131e201ec92435b747aa3c61a949694542bd00d122568d1efd3a67cfc759"
+    },
+    {
+      "section": "Blog",
+      "title": "Triage an Off-Cycle Payroll Request Without Bypassing Controls",
+      "slug": "off-cycle-payroll-request-triage",
+      "sourcePath": "app/october13-blog.ts",
+      "thumbnailPath": "public/oct13-heroes/off-cycle-payroll-request-triage.webp",
+      "publicationDate": "2026-10-13",
+      "wordCount": 1595,
+      "sha256": "a5b2131e201ec92435b747aa3c61a949694542bd00d122568d1efd3a67cfc759"
+    },
+    {
+      "section": "Blog",
+      "title": "Build a Final Pay Calendar Handoff for Departing Workers",
+      "slug": "final-pay-calendar-handoff",
+      "sourcePath": "app/october13-blog.ts",
+      "thumbnailPath": "public/oct13-heroes/final-pay-calendar-handoff.webp",
+      "publicationDate": "2026-10-13",
+      "wordCount": 1600,
+      "sha256": "a5b2131e201ec92435b747aa3c61a949694542bd00d122568d1efd3a67cfc759"
+    },
+    {
+      "section": "Blog",
+      "title": "Control a Direct Deposit Prenote Exception",
+      "slug": "direct-deposit-prenote-exception",
+      "sourcePath": "app/october13-blog.ts",
+      "thumbnailPath": "public/oct13-heroes/direct-deposit-prenote-exception.webp",
+      "publicationDate": "2026-10-13",
+      "wordCount": 1600,
+      "sha256": "a5b2131e201ec92435b747aa3c61a949694542bd00d122568d1efd3a67cfc759"
+    },
+    {
+      "section": "Blog",
+      "title": "Reconcile Employee Legal Name Change Evidence",
+      "slug": "employee-legal-name-change-evidence",
+      "sourcePath": "app/october13-blog.ts",
+      "thumbnailPath": "public/oct13-heroes/employee-legal-name-change-evidence.webp",
+      "publicationDate": "2026-10-13",
+      "wordCount": 1580,
+      "sha256": "a5b2131e201ec92435b747aa3c61a949694542bd00d122568d1efd3a67cfc759"
+    },
+    {
+      "section": "Blog",
+      "title": "Route a Multi-State Work Location Intake to Qualified Owners",
+      "slug": "multi-state-work-location-intake",
+      "sourcePath": "app/october13-blog.ts",
+      "thumbnailPath": "public/oct13-heroes/multi-state-work-location-intake.webp",
+      "publicationDate": "2026-10-13",
+      "wordCount": 1600,
+      "sha256": "a5b2131e201ec92435b747aa3c61a949694542bd00d122568d1efd3a67cfc759"
+    },
+    {
+      "section": "Blog",
+      "title": "Maintain a Payroll Provider Case Number Register",
+      "slug": "payroll-provider-case-number-register",
+      "sourcePath": "app/october13-blog.ts",
+      "thumbnailPath": "public/oct13-heroes/payroll-provider-case-number-register.webp",
+      "publicationDate": "2026-10-13",
+      "wordCount": 1595,
+      "sha256": "a5b2131e201ec92435b747aa3c61a949694542bd00d122568d1efd3a67cfc759"
+    },
+    {
+      "section": "Blog",
+      "title": "Verify Timecard Correction Authorization Before Payroll Close",
+      "slug": "timecard-correction-authorization",
+      "sourcePath": "app/october13-blog.ts",
+      "thumbnailPath": "public/oct13-heroes/timecard-correction-authorization.webp",
+      "publicationDate": "2026-10-13",
+      "wordCount": 1585,
+      "sha256": "a5b2131e201ec92435b747aa3c61a949694542bd00d122568d1efd3a67cfc759"
+    },
+    {
+      "section": "Blog",
+      "title": "Document a Benefit Deduction Arrears Handoff",
+      "slug": "benefit-deduction-arrears-handoff",
+      "sourcePath": "app/october13-blog.ts",
+      "thumbnailPath": "public/oct13-heroes/benefit-deduction-arrears-handoff.webp",
+      "publicationDate": "2026-10-13",
+      "wordCount": 1590,
+      "sha256": "a5b2131e201ec92435b747aa3c61a949694542bd00d122568d1efd3a67cfc759"
+    },
+    {
+      "section": "Blog",
+      "title": "Escalate a Negative Net Pay Exception With Complete Evidence",
+      "slug": "negative-net-pay-exception",
+      "sourcePath": "app/october13-blog.ts",
+      "thumbnailPath": "public/oct13-heroes/negative-net-pay-exception.webp",
+      "publicationDate": "2026-10-13",
+      "wordCount": 1615,
+      "sha256": "a5b2131e201ec92435b747aa3c61a949694542bd00d122568d1efd3a67cfc759"
+    },
+    {
+      "section": "Blog",
+      "title": "Separate Payroll Funding Confirmation From Release Approval",
+      "slug": "payroll-funding-confirmation-separation",
+      "sourcePath": "app/october13-blog.ts",
+      "thumbnailPath": "public/oct13-heroes/payroll-funding-confirmation-separation.webp",
+      "publicationDate": "2026-10-13",
+      "wordCount": 1585,
+      "sha256": "a5b2131e201ec92435b747aa3c61a949694542bd00d122568d1efd3a67cfc759"
+    },
+    {
+      "section": "Blog",
+      "title": "Control Year-End Address Change Cutoffs and Receipts",
+      "slug": "year-end-address-change-cutoff",
+      "sourcePath": "app/october13-blog.ts",
+      "thumbnailPath": "public/oct13-heroes/year-end-address-change-cutoff.webp",
+      "publicationDate": "2026-10-13",
+      "wordCount": 1590,
+      "sha256": "a5b2131e201ec92435b747aa3c61a949694542bd00d122568d1efd3a67cfc759"
+    },
+    {
+      "section": "Research",
+      "title": "Pay Statement Delivery Failure Evidence Study",
+      "slug": "pay-statement-delivery-failure-study",
+      "sourcePath": "app/october13-research.ts",
+      "thumbnailPath": "public/oct13-heroes/pay-statement-delivery-failure-study.webp",
+      "publicationDate": "2026-10-13",
+      "wordCount": 2443,
+      "sha256": "519fdccbfa9ef5a6529aee763e0a7825a026a4f6f14c939ca0593ef3b3ca9aca"
+    },
+    {
+      "section": "Research",
+      "title": "Payroll Change Approval Latency Study",
+      "slug": "payroll-change-approval-latency-study",
+      "sourcePath": "app/october13-research.ts",
+      "thumbnailPath": "public/oct13-heroes/payroll-change-approval-latency-study.webp",
+      "publicationDate": "2026-10-13",
+      "wordCount": 2455,
+      "sha256": "519fdccbfa9ef5a6529aee763e0a7825a026a4f6f14c939ca0593ef3b3ca9aca"
+    },
+    {
+      "section": "Research",
+      "title": "Bank Account Change Dual Verification Study",
+      "slug": "bank-account-change-dual-verification-study",
+      "sourcePath": "app/october13-research.ts",
+      "thumbnailPath": "public/oct13-heroes/bank-account-change-dual-verification-study.webp",
+      "publicationDate": "2026-10-13",
+      "wordCount": 2443,
+      "sha256": "519fdccbfa9ef5a6529aee763e0a7825a026a4f6f14c939ca0593ef3b3ca9aca"
+    },
+    {
+      "section": "Research",
+      "title": "Payroll Cutoff Exception Recurrence Study",
+      "slug": "payroll-cutoff-exception-recurrence-study",
+      "sourcePath": "app/october13-research.ts",
+      "thumbnailPath": "public/oct13-heroes/payroll-cutoff-exception-recurrence-study.webp",
+      "publicationDate": "2026-10-13",
+      "wordCount": 2407,
+      "sha256": "519fdccbfa9ef5a6529aee763e0a7825a026a4f6f14c939ca0593ef3b3ca9aca"
+    },
+    {
+      "section": "Research",
+      "title": "Departed Worker Access Revocation Lag Study",
+      "slug": "departed-worker-access-revocation-lag-study",
+      "sourcePath": "app/october13-research.ts",
+      "thumbnailPath": "public/oct13-heroes/departed-worker-access-revocation-lag-study.webp",
+      "publicationDate": "2026-10-13",
+      "wordCount": 2443,
+      "sha256": "519fdccbfa9ef5a6529aee763e0a7825a026a4f6f14c939ca0593ef3b3ca9aca"
+    }
+  ]
+}
