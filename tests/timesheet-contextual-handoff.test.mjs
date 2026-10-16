@@ -19,6 +19,17 @@ test('timesheet follow-up guide owns a contextual reconciliation handoff', () =>
   assert.match(record, /authorized payroll owner resolves disputed hours and approves the final result/);
 });
 
+test('new-hire document checklist owns a bounded payroll-setup handoff', () => {
+  const start = publisherSource.indexOf("additionalPublisherBlogDetails['new-hire-payroll-document-checklist']");
+  assert.ok(start >= 0, 'new-hire setup handoff record is present');
+  const record = publisherSource.slice(start, publisherSource.indexOf('\n};', start) + 3);
+  assert.match(record, /heading: 'Prepare new-hire records before payroll setup'/);
+  assert.match(record, /href: '\/services\/new-hire-payroll-setup'/);
+  assert.match(record, /label: 'See new-hire payroll setup support'/);
+  assert.match(record, /authorized payroll owner decides whether the record is complete, approves payroll setup, and resolves employment-status questions/);
+  assert.doesNotMatch(record, /support specialist may approve payroll setup/);
+});
+
 test('blog renderer keeps a data-owned contextual handoff inside the article', () => {
   assert.match(articleSource, /detail\.contextualLink/);
   assert.match(articleSource, /className="guide-block article-contextual-link"/);

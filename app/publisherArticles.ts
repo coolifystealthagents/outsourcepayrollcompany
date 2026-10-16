@@ -618,6 +618,13 @@ additionalPublisherBlogDetails['payroll-benefits-deduction-handoff'].contextualL
   label: 'See benefits and deduction administration support',
 };
 
+additionalPublisherBlogDetails['new-hire-payroll-document-checklist'].contextualLink = {
+  heading: 'Prepare new-hire records before payroll setup',
+  body: 'A Philippines-based payroll support specialist can organize approved new-hire records, flag missing details, and prepare the setup packet for review. The authorized payroll owner decides whether the record is complete, approves payroll setup, and resolves employment-status questions.',
+  href: '/services/new-hire-payroll-setup',
+  label: 'See new-hire payroll setup support',
+};
+
 // August 17, 2026 Blog batch. Every record owns the campaign date directly.
 const august17Topics = [
   ['payroll-approval-chain-design', 'Payroll approval chain design for outsourced support', 'Design a visible approval chain that lets a Philippines-based payroll support specialist prepare work while the authorized owner keeps decision control.', 'approval chains', 'Map each handoff from source record to final decision, with a named owner at every transition.', 'An approval chain is not complete when a message is sent; it is complete when the decision and evidence are recorded.'],
