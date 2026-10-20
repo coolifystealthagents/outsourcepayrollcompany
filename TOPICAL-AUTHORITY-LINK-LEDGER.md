@@ -37,3 +37,9 @@ A fresh 726-page production build checked all ten rows above against their exact
 ## 2026-10-17 new-hire setup reconciliation
 
 A fresh 761-page production build selected the exact blog artifact by its canonical URL. Its `<main>` contains one `/services/new-hire-payroll-setup` link and the matching preparation marker. The source blog and service URLs are both present in the generated sitemap, which intentionally has no `<lastmod>` values. This map correction records the already delivered route; it does not add or change reader-facing copy.
+
+## 2026-10-20 verified-absent candidate reconciliation
+
+A fresh 761-page production build selected the exact source and destination artifacts for the four open rows. Each source and service artifact has one H1, one self-canonical URL, and one sitemap location. The matching destination href is absent from the source route-local `<main>` in each case: Payroll Inbox Triage → Payroll Query Support, Payroll QA Exception Log → Payroll Reporting, Philippines Payroll Source-Record Versioning → Contractor Payment Administration, and Philippines Payroll Review Evidence Retention → Year-End Payroll Preparation.
+
+These remain four separate review candidates. The next rendered change must inspect the owning typed record and source paragraph, then add only the closest immediate next task; it must not add a generic service CTA. The sitemap intentionally has no `<lastmod>` values.
