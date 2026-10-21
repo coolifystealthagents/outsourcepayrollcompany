@@ -15,7 +15,9 @@
     "validate:benefits-deduction-handoff": "node scripts/validate-benefits-deduction-handoff.mjs",
     "validate:remittance-source-matching-handoff": "node scripts/validate-remittance-source-matching-handoff.mjs",
     "validate:research-aggregate": "node scripts/validate-research-aggregate.cjs",
-    "test:research-aggregate": "node scripts/test-validate-research-aggregate.cjs"
+    "test:research-aggregate": "node scripts/test-validate-research-aggregate.cjs",
+    "test": "node --test tests/*.test.mjs",
+    "test:v3": "node --test tests/v3-site-contract.test.mjs"
   },
   "dependencies": {
     "@next/third-parties": "15.5.27",

@@ -1,101 +1,10 @@
-import type { Metadata } from 'next';
-import { CTA, Footer, Header, JsonLd } from '../components';
+import { Footer, Header } from '../components';
+import { services } from '../data';
 import { fleetServices } from '../fleet-content';
 
-const baseUrl = 'https://outsourcepayrollcompany.com';
-const pageUrl = `${baseUrl}/services`;
-const description =
-  'Compare Philippines payroll support services for data entry, timesheets, employee changes, reporting, and pay-cycle preparation.';
+export const metadata={title:'Payroll Support Services',description:'Compare payroll operations support services for preparation, reconciliation, employee questions, reporting, and controlled handoffs.',alternates:{canonical:'/services'}};
 
-export const metadata: Metadata = {
-  title: 'Philippines payroll support services',
-  description,
-  alternates: { canonical: '/services' },
-  openGraph: {
-    title: 'Philippines payroll support services',
-    description,
-    url: pageUrl,
-    type: 'website',
-  },
-};
+const serviceImages=['/oct13-heroes/timecard-correction-authorization.webp','/oct13-heroes/payroll-change-approval-latency-study.webp','/oct13-heroes/payroll-provider-case-number-register.webp','/oct13-heroes/payroll-cutoff-exception-recurrence-study.webp','/oct12-heroes/payroll-pay-rate-effective-date-evidence.webp','/oct12-heroes/payroll-earnings-code-activation-control.webp','/oct12-heroes/payroll-bonus-approval-population-check.webp','/oct12-heroes/payroll-journal-cost-center-mapping-review.webp'];
+const catalog=[...services.map((s)=>({slug:s.slug,title:s.title,summary:s.desc})),...fleetServices.map((s)=>({slug:s.slug,title:s.title,summary:s.summary}))].filter((item,index,array)=>array.findIndex((candidate)=>candidate.slug===item.slug)===index);
 
-const serviceList = {
-  '@type': 'ItemList',
-  '@id': `${pageUrl}#service-list`,
-  name: 'Philippines payroll support services',
-  numberOfItems: fleetServices.length,
-  itemListElement: fleetServices.map((service, index) => ({
-    '@type': 'ListItem',
-    position: index + 1,
-    name: service.title,
-    url: `${pageUrl}/${service.slug}`,
-  })),
-};
-
-const servicesSchema = {
-  '@context': 'https://schema.org',
-  '@graph': [
-    {
-      '@type': 'CollectionPage',
-      '@id': `${pageUrl}#page`,
-      url: pageUrl,
-      name: 'Philippines payroll support services',
-      description,
-      mainEntity: { '@id': `${pageUrl}#service-list` },
-      breadcrumb: { '@id': `${pageUrl}#breadcrumb` },
-    },
-    serviceList,
-    {
-      '@type': 'BreadcrumbList',
-      '@id': `${pageUrl}#breadcrumb`,
-      itemListElement: [
-        {
-          '@type': 'ListItem',
-          position: 1,
-          name: 'Home',
-          item: baseUrl,
-        },
-        {
-          '@type': 'ListItem',
-          position: 2,
-          name: 'Services',
-          item: pageUrl,
-        },
-      ],
-    },
-  ],
-};
-
-export default function Services() {
-  return (
-    <>
-      <Header />
-      <main className="fleet-main fleet-outsourcepayrollcompany">
-        <JsonLd data={servicesSchema} />
-        <section className="fleet-hero">
-          <div className="container">
-            <p className="eyebrow">Philippines-based services</p>
-            <h1>Philippines payroll support, scoped around real work</h1>
-            <p className="lead">
-              Choose a focused service lane, then define the tools, examples, approvals, and reporting your Philippines-based specialist will use.
-            </p>
-          </div>
-        </section>
-        <section className="section">
-          <div className="container fleet-card-grid">
-            {fleetServices.map((service, index) => (
-              <a className="fleet-card" href={`/services/${service.slug}`} key={service.slug}>
-                <span>{String(index + 1).padStart(2, '0')}</span>
-                <h2>{service.title}</h2>
-                <p>{service.summary}</p>
-                <b>View service →</b>
-              </a>
-            ))}
-          </div>
-        </section>
-        <CTA />
-      </main>
-      <Footer />
-    </>
-  );
-}
+export default function Services(){return <><Header/><main id="main-content" className="services-page"><section className="fleet-hero service-hero"><div className="container service-hero-grid"><div><p className="eyebrow">Payroll support catalog</p><h1>Choose a payroll work lane with a clear owner and review path.</h1><p className="lead">Each service defines the recurring preparation work, evidence, escalation rules, and decisions that remain with your authorized payroll owner.</p><a className="btn primary" href="/contact-us">Scope a support role</a></div><img src="/illustrations/getillustrations/drawink-e-commerce/payroll-preparation-handoff.svg" alt="Illustration of payroll documents prepared for a controlled handoff"/></div></section><section className="section"><div className="container"><div className="services-editorial-intro"><h2>Explore all payroll support services</h2><p>Start with one bounded workflow, test it across a full pay cycle, and expand only after the evidence and review path are dependable.</p></div><div className="fleet-grid services-grid">{catalog.map((service,index)=><a className="service-card" href={`/services/${service.slug}`} key={service.slug}><img src={serviceImages[index%serviceImages.length]} alt=""/><div><span>Payroll support</span><h2>{service.title}</h2><p>{service.summary}</p><strong>Explore the service</strong></div></a>)}</div></div></section></main><Footer/></>}

@@ -1,0 +1,26 @@
+{
+  "site": "outsourcepayrollcompany.com",
+  "brandRelationship": "Specialist resource powered by Stealth Agents",
+  "visualDirection": "Editorial payroll operations ledger",
+  "tokens": {
+    "ink": "#102416",
+    "green": "#15803d",
+    "blue": "#0ea5e9",
+    "paper": "#f7faf7",
+    "maxContentWidth": "1160px",
+    "bodyMeasure": "72ch",
+    "radius": "18px"
+  },
+  "approvedAssets": {
+    "parentLogo": "/stealth-agents-logo-black.png",
+    "parentTeam": "/team-bacolod.jpg",
+    "reviewsSource": "https://stealthagents.com/our-clients"
+  },
+  "layoutRules": [
+    "Use a sticky global header with exactly Home, Services, Contact Us",
+    "Keep long-form body text within 72 characters",
+    "Use editorial grids and full-bleed bands rather than repeated card stacks",
+    "Use horizontal review rails with no carousel controls",
+    "Give service detail pages a relevant hero visual and substantive sections"
+  ]
+}

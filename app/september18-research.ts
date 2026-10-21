@@ -1,10 +1,10 @@
 const DATE = '2026-09-18';
 
 const sources = [
-  { label: "Internal Revenue Service — Publication 15 (2026), Employer's Tax Guide (checked September 18, 2026)", url: 'https://www.irs.gov/publications/p15' },
-  { label: 'U.S. Department of Labor — Fact Sheet #21: Recordkeeping Requirements under the FLSA (checked September 18, 2026)', url: 'https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping' },
-  { label: 'National Institute of Standards and Technology — SP 800-53 Rev. 5, Security and Privacy Controls (checked September 18, 2026)', url: 'https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final' },
-  { label: 'Philippine National Privacy Commission — Data Privacy Act of 2012 (checked September 18, 2026)', url: 'https://privacy.gov.ph/data-privacy-act/' },
+  { label: "Internal Revenue Service  -  Publication 15 (2026), Employer's Tax Guide (checked September 18, 2026)", url: 'https://www.irs.gov/publications/p15' },
+  { label: 'U.S. Department of Labor  -  Fact Sheet #21: Recordkeeping Requirements under the FLSA (checked September 18, 2026)', url: 'https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping' },
+  { label: 'National Institute of Standards and Technology  -  SP 800-53 Rev. 5, Security and Privacy Controls (checked September 18, 2026)', url: 'https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final' },
+  { label: 'Philippine National Privacy Commission  -  Data Privacy Act of 2012 (checked September 18, 2026)', url: 'https://privacy.gov.ph/data-privacy-act/' },
 ];
 
 const studies = [

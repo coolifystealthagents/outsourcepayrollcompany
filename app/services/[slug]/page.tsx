@@ -1,38 +1,22 @@
-import {notFound} from 'next/navigation';
-import {Header,Footer,CTA,JsonLd} from '../../components';
-import {fleetServices} from '../../fleet-content';
-import {site,services as legacyServices} from '../../data';
+import { notFound } from 'next/navigation';
+import type { Metadata } from 'next';
+import { CTA, Footer, Header, JsonLd } from '../../components';
+import { services } from '../../data';
+import { fleetServices } from '../../fleet-content';
 
-const getService=(slug:string)=>{
-  const current=fleetServices.find(x=>x.slug===slug);
-  if(current)return current;
-  const legacy=legacyServices.find(x=>x.slug===slug);
-  return legacy?{
-    slug:legacy.slug,
-    title:legacy.title,
-    summary:`${legacy.desc} ${legacy.buyerProblem}`,
-    tasks:legacy.bestTasks,
-    controls:legacy.controls,
-    launch:legacy.launchPlan,
-  }:undefined;
-};
+const imagePool=['/oct13-heroes/timecard-correction-authorization.webp','/oct13-heroes/payroll-change-approval-latency-study.webp','/oct13-heroes/payroll-provider-case-number-register.webp','/oct13-heroes/payroll-cutoff-exception-recurrence-study.webp','/oct12-heroes/payroll-pay-rate-effective-date-evidence.webp','/oct12-heroes/payroll-earnings-code-activation-control.webp','/oct12-heroes/payroll-bonus-approval-population-check.webp','/oct12-heroes/payroll-journal-cost-center-mapping-review.webp','/oct13-heroes/direct-deposit-prenote-exception.webp','/oct13-heroes/final-pay-calendar-handoff.webp'];
+const all=[...services.map((s)=>({slug:s.slug,title:s.title,summary:s.desc,tasks:s.bestTasks,controls:s.controls,launch:s.launchPlan,faqs:s.faqs})),...fleetServices.map((s)=>({slug:s.slug,title:s.title,summary:s.summary,tasks:s.tasks,controls:s.controls,launch:s.launch,faqs:[{question:`What does ${s.title.toLowerCase()} support include?`,answer:`The role prepares the recurring records, queue updates, and exception notes described on this page. Your authorized owner retains decisions and final approval.`},{question:'How should we start?',answer:'Pilot one bounded pay cycle with named source records, a reviewer, an escalation rule, and a closeout check.'}]}))].filter((item,index,array)=>array.findIndex((candidate)=>candidate.slug===item.slug)===index);
 
-export function generateStaticParams(){
-  return [...fleetServices,...legacyServices].map(s=>({slug:s.slug}));
-}
+export function generateStaticParams(){return all.map(({slug})=>({slug}))}
+export async function generateMetadata({params}:{params:Promise<{slug:string}>}):Promise<Metadata>{const {slug}=await params;const service=all.find((item)=>item.slug===slug);if(!service)return{};return{title:service.title,description:service.summary,alternates:{canonical:`/services/${slug}`}}}
 
-export async function generateMetadata({params}:{params:Promise<{slug:string}>}){
-  const {slug}=await params;
-  const service=getService(slug);
-  if(!service)return {};
-  const canonical=`https://${site.domain.toLowerCase()}/services/${service.slug}`;
-  return {title:service.title,description:service.summary,alternates:{canonical}};
-}
-
-export default async function ServicePage({params}:{params:Promise<{slug:string}>}){
-  const {slug}=await params;
-  const service=getService(slug);
-  if(!service)notFound();
-  const url=`https://${site.domain.toLowerCase()}/services/${service.slug}`;
-  return <><Header/><main className="fleet-main"><JsonLd data={{'@context':'https://schema.org','@type':'Service',name:service.title,description:service.summary,url,areaServed:'Philippines'}}/><section className="fleet-hero"><div className="container"><p className="eyebrow">Philippines service</p><h1>{service.title}</h1><p className="lead">{service.summary}</p><a className="btn primary" href="/contact">Discuss this service</a></div></section><section className="section"><div className="container fleet-detail-grid"><article><h2>Work this role can support</h2><ul>{service.tasks.map(x=><li key={x}>{x}</li>)}</ul></article><article><h2>Controls to set first</h2><ul>{service.controls.map(x=><li key={x}>{x}</li>)}</ul></article><article><h2>Practical launch plan</h2><ol>{service.launch.map(x=><li key={x}>{x}</li>)}</ol></article></div></section><CTA/></main><Footer/></>;
-}
+export default async function ServicePage({params}:{params:Promise<{slug:string}>}){const {slug}=await params;const index=all.findIndex((item)=>item.slug===slug);const service=all[index];if(!service)notFound();const related=all.filter((item)=>item.slug!==slug).slice(index%4,index%4+3);const image=imagePool[index%imagePool.length];const schema={'@context':'https://schema.org','@type':'Service',name:service.title,description:service.summary,url:`https://outsourcepayrollcompany.com/services/${service.slug}`,provider:{'@type':'Organization',name:'Outsource Payroll Company'}};return <><Header/><main id="main-content" className="service-detail"><JsonLd data={schema}/><section className="fleet-hero service-hero"><div className="container service-hero-grid"><div><p className="eyebrow">Payroll support service</p><h1>{service.title}</h1><p className="lead">{service.summary}</p><a className="btn primary" href="/contact-us">Discuss this service</a></div><img src={image} alt={`${service.title} workflow and review planning`}/></div></section><article className="service-longform container">
+<section><h2>Who this service is for</h2><p>This service is designed for payroll owners, finance leaders, people teams, and operators who need recurring preparation work to move on schedule without giving up approval authority. It is especially useful when routine follow-up is crowding out review, exception handling, and decisions that require qualified judgment.</p></section>
+<section><h2>Inputs required</h2><p>A dependable lane begins with a named source system, a current pay-period calendar, approved examples, access boundaries, and one accountable reviewer. Your team should identify which records are authoritative, when each item is due, and what the specialist must stop and escalate.</p><ul>{service.launch.slice(0,3).map((item)=><li key={item}>{item}</li>)}</ul></section>
+<section><h2>Deliverables</h2><p>The specialist prepares a reviewable work queue rather than making unsupported decisions. Typical deliverables include dated trackers, source links, completion notes, exception lists, and a final handoff that shows what is complete and what still needs owner action.</p><ul>{service.tasks.map((item)=><li key={item}>{item}</li>)}</ul></section>
+<section><h2>Quality controls</h2><p>Controls should be visible in the ordinary workflow. Every changed item needs a source, every exception needs an owner, and every final action needs an authorized decision. Sample the evidence during the pilot before broadening access or scope.</p><ul>{service.controls.map((item)=><li key={item}>{item}</li>)}</ul></section>
+<section><h2>Decision boundaries</h2><p>The support role may organize approved inputs, prepare records, maintain status, and flag inconsistencies. Tax interpretation, employment decisions, pay changes, bank changes, payment release, filing, and final payroll approval remain with your qualified payroll owner, provider, or adviser.</p></section>
+<section><h2>Common starting scenarios</h2><p>Teams often begin after a late input, a growing exception queue, repeated provider rejections, or a pay-cycle closeout that depends on undocumented follow-up. Start with the narrowest recurring scenario, define the finish line, and run it through one complete cycle.</p></section>
+<section><h2>Frequently asked questions</h2><div className="guide-faqs">{service.faqs.map((faq)=><div key={faq.question}><h3>{faq.question}</h3><p>{faq.answer}</p></div>)}</div></section>
+<section><h2>Related services</h2><div className="related-services">{related.map((item)=><a href={`/services/${item.slug}`} key={item.slug}><strong>{item.title}</strong><span>{item.summary}</span></a>)}</div></section>
+</article><CTA/></main><Footer/></>}

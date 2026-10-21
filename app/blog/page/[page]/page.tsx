@@ -30,7 +30,7 @@ export async function generateMetadata({
       alternates: { canonical: "https://outsourcepayrollcompany.com/blog" },
     };
   return {
-    title: `Blog — Page ${page}`,
+    title: `Blog  -  Page ${page}`,
     description: "Guides for planning Philippines-based payroll staffing.",
     alternates: {
       canonical: `https://outsourcepayrollcompany.com/blog/page/${page}`,

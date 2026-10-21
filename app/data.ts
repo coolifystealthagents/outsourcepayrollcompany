@@ -161,7 +161,6 @@ export const services = [
 export const blogPosts = [
   ...october13BlogPosts,
   ...october12BlogPosts,
-  ...october12BlogPosts,
   ...october8BlogPosts,
   ...october9BlogPosts,
   ...october5BlogPosts,
@@ -223,7 +222,6 @@ type BlogDetail = {
 
 export const blogDetails: Record<string, BlogDetail> = {
   ...october13BlogDetails,
-  ...october12BlogDetails,
   ...october12BlogDetails,
   ...october8BlogDetails,
   ...october9BlogDetails,

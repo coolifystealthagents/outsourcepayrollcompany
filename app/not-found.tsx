@@ -1,0 +1,2 @@
+import { Footer, Header } from './components';
+export default function NotFound(){return <><Header/><main id="main-content" className="not-found"><div className="container"><p className="eyebrow">Page not found</p><h1>That payroll resource is not here.</h1><p>The page may have moved. Choose a reliable route below.</p><div className="button-row"><a className="btn primary" href="/">Home</a><a className="btn secondary" href="/services">Services</a><a className="btn secondary" href="/contact-us">Contact Us</a></div></div></main><Footer/></>}

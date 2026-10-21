@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation';
 import { Header, Footer, CTA, JsonLd } from '../../components';
 import { blogDetails, blogPosts, site } from '../../data';
+import { ArticleToc } from '../../article-toc';
 
 const siteUrl = 'https://outsourcepayrollcompany.com';
 
@@ -106,6 +107,9 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   const rich = detail?.rich;
   const published = 'published' in post ? post.published : rich?.published;
   const modified = 'updated' in post ? post.updated : published;
+  const tocEntries = detail
+    ? [...detail.sections.map((section, index) => ({ id: `section-${index + 1}`, label: section.heading })), { id: 'faq', label: 'Questions from payroll buyers' }, { id: 'sources', label: 'Sources' }]
+    : (basicGuide?.sections.map((section, index) => ({ id: `section-${index + 1}`, label: section.heading })) || []);
 
   const graph: Record<string, unknown>[] = [
     {
@@ -162,9 +166,11 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   return (
     <>
       <Header hidePricing={Boolean(rich)} />
-      <main className="section guide-page">
+      <main id="main-content" className="section guide-page">
         <JsonLd data={schema} />
-        <article className={`container guide-article${rich ? ' publisher-article' : ''}`} data-article-marker={rich?.marker}>
+        <div className="container article-layout">
+        <ArticleToc entries={tocEntries} relatedHref="/services" />
+        <article className={`guide-article${rich ? ' publisher-article' : ''}`} data-article-marker={rich?.marker}>
           <p className="eyebrow">{site.brand} guide</p>
           <h1>{post.title}</h1>
           {'published' in post && <p className="article-published">Published: <time dateTime={post.published}>{formatPublicationDate(post.published)}</time></p>}
@@ -287,7 +293,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
                 <div className="guide-faqs">{detail.faqs.map((faq) => <div className="card" key={faq.question}><h3>{faq.question}</h3><p>{faq.answer}</p></div>)}</div>
               </section>
 
-              <section className="guide-sources" aria-labelledby="sources-heading">
+              <section className="guide-sources" id="sources" aria-labelledby="sources-heading">
                 <h2 id="sources-heading">Sources</h2>
                 <ol>{detail.sources.map((source) => <li key={source.url}><a href={source.url} rel="noreferrer">{source.name}</a><span>{source.note}</span></li>)}</ol>
               </section>
@@ -295,7 +301,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
           ) : basicGuide ? (
             <>
               <aside className="guide-callout"><h2>The short answer</h2><p>{basicGuide.intro}</p></aside>
-              {basicGuide.sections.map((section) => <section className="guide-block" key={section.heading}>
+              {basicGuide.sections.map((section, index) => <section className="guide-block" id={`section-${index + 1}`} key={section.heading}>
                 <h2>{section.heading}</h2>
                 {section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
                 {section.bullets && <ul>{section.bullets.map((item) => <li key={item}>{item}</li>)}</ul>}
@@ -304,7 +310,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
           ) : (
             <div className="card guide-block"><p>This payroll guide is not available.</p></div>
           )}
-        </article>
+        </article></div>
         <CTA />
       </main>
       <Footer hidePricing={Boolean(rich)} />

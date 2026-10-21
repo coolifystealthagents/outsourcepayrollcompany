@@ -15,9 +15,9 @@ const checkpoints = [
 ];
 
 const steps = [
-  { number: '01', title: 'Pick one pay cycle', body: 'Show us where hours, changes, and approvals get stuck.' },
-  { number: '02', title: 'Set the stop signs', body: 'Your Filipino payroll assistant gets clear rules for access, money changes, and escalation.' },
-  { number: '03', title: 'Run a checked handoff', body: 'Your Filipino payroll assistant prepares the tracker. Your payroll owner reviews and submits.' },
+  { number: '1', title: 'Pick one pay cycle', body: 'Show us where hours, changes, and approvals get stuck.' },
+  { number: '2', title: 'Set the stop signs', body: 'Your Filipino payroll assistant gets clear rules for access, money changes, and escalation.' },
+  { number: '3', title: 'Run a checked handoff', body: 'Your Filipino payroll assistant prepares the tracker. Your payroll owner reviews and submits.' },
 ];
 
 export default function Home() {
@@ -65,7 +65,7 @@ export default function Home() {
               <li><img src="/icons/getillustrations/3d-finance/sensitive-data-vault.webp" alt="Sensitive payroll data icon" />Route sensitive changes to the right owner</li>
               <li><img src="/icons/getillustrations/3d-finance/approval-document.webp" alt="Payroll approval document icon" />Prepare clean notes for your payroll provider</li>
             </ul>
-            <a className="btn payroll-primary" href="/contact">Plan my payroll support</a>
+            <a className="btn payroll-primary" href="/contact-us">Plan my payroll support</a>
             <p className="payroll-tagline">Keep the handoff clear and cut-off day calmer.</p>
           </div>
 
@@ -95,7 +95,7 @@ export default function Home() {
           </div>
           <div className="payroll-lane-grid">
             {supportLanes.map((service, index) => <a href="/services" className="payroll-lane" key={service.slug}>
-              <span>0{index + 1}</span>
+              <span>{index + 1}</span>
               <h3>{service.title}</h3>
               <p>{service.desc}</p>
               <strong>See tasks and guardrails</strong>
@@ -129,7 +129,7 @@ export default function Home() {
           <div className="step-track">
             {steps.map((step) => <article key={step.number}><span>{step.number}</span><h3>{step.title}</h3><p>{step.body}</p></article>)}
           </div>
-          <a className="btn payroll-primary" href="/contact">Plan my payroll support</a>
+          <a className="btn payroll-primary" href="/contact-us">Plan my payroll support</a>
         </div>
       </section>
 
@@ -149,7 +149,7 @@ export default function Home() {
       <section className="payroll-final">
         <div className="container payroll-final-inner">
           <div><p className="payroll-kicker">Start with the messy part</p><h2>Tell us what slows down payroll day.</h2><p>We will help you map a support lane, owner checks, and a first-cycle handoff.</p></div>
-          <a className="btn payroll-primary light" href="/contact">Plan my payroll support</a>
+          <a className="btn payroll-primary light" href="/contact-us">Plan my payroll support</a>
         </div>
       </section>
     </main>

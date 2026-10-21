@@ -1,0 +1,4 @@
+import type { Metadata } from 'next';
+import { Footer, Header } from '../components';
+export const metadata:Metadata={title:'What Happens Next',robots:{index:false,follow:false}};
+export default function ThanksWhatsNext(){return <><Header/><main id="main-content" className="thanks-next"><div className="container content-narrow"><p className="eyebrow">Meeting confirmed</p><h1>Your payroll support conversation is booked.</h1><p>We will review the role, tools, schedule, and approval boundaries you shared. Bring one recent workflow example if you can, but do not send employee payroll data before secure handling is agreed.</p><h2>What happens next</h2><ol><li>We clarify the repeatable task lane.</li><li>We document access and decision boundaries.</li><li>We agree on the owner, reporting cadence, and launch sequence.</li></ol><a className="btn primary" href="/services">Review payroll support services</a></div></main><Footer/></>}
