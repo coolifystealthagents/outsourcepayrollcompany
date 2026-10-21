@@ -108,6 +108,8 @@ test('canonical redirect and production security policy are configured', () => {
   assert.match(middleware, /x-forwarded-host/);
   assert.match(middleware, /split\(','\)/);
   assert.match(middleware, /replace\(\/:\\d\+\$\//);
+  assert.match(middleware, /const protocol=visitorProtocol\|\|originalProtocol\|\|forwardedProtocol/);
+  assert.match(middleware, /x-original-proto/);
   assert.match(middleware, /308/);
   const config = read('next.config.mjs');
   for (const header of ['Strict-Transport-Security', 'Content-Security-Policy', 'X-Content-Type-Options', 'Referrer-Policy', 'Permissions-Policy']) {

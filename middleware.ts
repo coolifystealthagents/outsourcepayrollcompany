@@ -10,7 +10,9 @@ export function middleware(request:NextRequest){
   if(!allowedHosts.has(host))return NextResponse.next();
   const cfVisitor=request.headers.get('cf-visitor')||'';
   const visitorProtocol=/"scheme"\s*:\s*"([^"]+)"/i.exec(cfVisitor)?.[1]?.toLowerCase()||'';
-  const protocol=firstForwarded(request.headers.get('x-forwarded-proto'))||visitorProtocol||request.nextUrl.protocol.replace(':','').toLowerCase();
+  const originalProtocol=firstForwarded(request.headers.get('x-original-proto'));
+  const forwardedProtocol=firstForwarded(request.headers.get('x-forwarded-proto'));
+  const protocol=visitorProtocol||originalProtocol||forwardedProtocol||request.nextUrl.protocol.replace(':','').toLowerCase();
   if(host===`www.${productionHost}`||protocol==='http'){
     const canonical=request.nextUrl.clone();
     canonical.protocol='https:';
