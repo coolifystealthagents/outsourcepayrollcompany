@@ -16,6 +16,8 @@ const reviews = read('app/reviews.ts');
 const booking = read('app/booking-components.tsx');
 const blog = read('app/blog/[slug]/page.tsx');
 const research = read('app/research/[slug]/page.tsx');
+const datedArticles = read('app/aug19-content.tsx');
+const comparisonArticle = read('app/blog/top-25-payroll-hr-outsourcing-companies/page.tsx');
 const css = read('app/globals.css');
 const contactCss = read('app/contact-us/contact.css');
 const contactApi = read('app/api/contact/route.ts');
@@ -83,14 +85,22 @@ test('service index and every shared detail template are substantial and visual'
   assert.match(css, /grid-template-columns:repeat\(4/);
 });
 
-test('article families provide complete sticky TOCs and useful sidebars', () => {
-  for (const source of [blog, research]) {
+test('every article renderer provides complete sticky TOCs and useful sidebars', () => {
+  for (const source of [blog, research, datedArticles, comparisonArticle]) {
     assert.match(source, /ArticleToc/);
     assert.match(source, /article-layout/);
     assert.match(source, /Related/);
   }
+  assert.match(datedArticles, /filter\(part=>part\.startsWith\('## '\)\)/);
+  assert.match(datedArticles, /id=\{`section-\$\{\+\+headingIndex\}`\}/);
+  for (const id of ['company-list','method','questions','buyer-checklist','next-step']) {
+    assert.match(comparisonArticle, new RegExp(`id=["']${id}["']`));
+  }
   assert.match(css, /\.article-sidebar\s*\{[^}]*position:sticky/s);
   assert.match(css, /aria-current/);
+  assert.match(css, /scroll-margin-top:104px/);
+  assert.match(datedArticles, /main id="main-content"/);
+  assert.match(comparisonArticle, /main id="main-content"/);
 });
 
 test('commercial templates contain no decorative padded labels or forbidden punctuation', () => {

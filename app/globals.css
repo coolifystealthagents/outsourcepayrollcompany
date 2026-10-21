@@ -87,6 +87,7 @@
 .article-sidebar li { margin:0; }
 .article-sidebar a { display:block; padding:7px 0 7px 14px; color:#526258; font-size:13px; line-height:1.35; text-decoration:none; }
 .article-sidebar a[aria-current] { color:#0f7136; border-left:3px solid #15803d; margin-left:-2px; font-weight:900; }
+.article-layout [id] { scroll-margin-top:104px; }
 .article-sidebar-support { margin-top:24px; padding:18px; background:#edf7f0; border-radius:14px; }
 .article-sidebar-support h3 { margin:0 0 8px; font-size:18px; }
 .article-sidebar-support p { font-size:13px; line-height:1.5; }
