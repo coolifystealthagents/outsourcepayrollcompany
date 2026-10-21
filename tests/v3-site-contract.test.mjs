@@ -96,6 +96,11 @@ test('every article renderer provides complete sticky TOCs and useful sidebars',
   for (const id of ['company-list','method','questions','buyer-checklist','next-step']) {
     assert.match(comparisonArticle, new RegExp(`id=["']${id}["']`));
   }
+  for (const id of ['direct-answer-heading','takeaways-heading','readiness-heading','banner-1','contextual-link-heading','related-articles','banner-2','brief-heading','banner-3','related-heading','faq','sources','basic-answer']) {
+    assert.match(blog, new RegExp(id));
+  }
+  assert.match(research, /id="service-handoff"/);
+  assert.match(research, /post\.serviceHandoff\?\[\{id:'service-handoff'/);
   assert.match(css, /\.article-sidebar\s*\{[^}]*position:sticky/s);
   assert.match(css, /aria-current/);
   assert.match(css, /scroll-margin-top:104px/);

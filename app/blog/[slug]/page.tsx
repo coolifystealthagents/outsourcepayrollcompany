@@ -108,8 +108,24 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   const published = 'published' in post ? post.published : rich?.published;
   const modified = 'updated' in post ? post.updated : published;
   const tocEntries = detail
-    ? [...detail.sections.map((section, index) => ({ id: `section-${index + 1}`, label: section.heading })), { id: 'faq', label: 'Questions from payroll buyers' }, { id: 'sources', label: 'Sources' }]
-    : (basicGuide?.sections.map((section, index) => ({ id: `section-${index + 1}`, label: section.heading })) || []);
+    ? [
+        ...(rich ? [{ id: 'direct-answer-heading', label: 'The short answer' }] : []),
+        { id: 'takeaways-heading', label: 'What to keep in the plan' },
+        { id: 'readiness-heading', label: 'Payroll handoff readiness check' },
+        ...(rich?.banners[0] ? [{ id: 'banner-1', label: rich.banners[0].heading }] : []),
+        ...detail.sections.map((section, index) => ({ id: `section-${index + 1}`, label: section.heading })),
+        ...(detail.contextualLink ? [{ id: 'contextual-link-heading', label: detail.contextualLink.heading }] : []),
+        ...(detail.publication ? [{ id: 'related-articles', label: 'Related articles' }] : []),
+        ...(rich?.banners[1] ? [{ id: 'banner-2', label: rich.banners[1].heading }] : []),
+        { id: 'brief-heading', label: 'Payroll support role brief' },
+        ...(rich?.banners[2] ? [{ id: 'banner-3', label: rich.banners[2].heading }] : []),
+        ...(rich ? [{ id: 'related-heading', label: 'Keep planning' }] : []),
+        { id: 'faq', label: 'Questions from payroll buyers' },
+        { id: 'sources', label: 'Sources' },
+      ]
+    : basicGuide
+      ? [{ id: 'basic-answer', label: 'The short answer' }, ...basicGuide.sections.map((section, index) => ({ id: `section-${index + 1}`, label: section.heading }))]
+      : [];
 
   const graph: Record<string, unknown>[] = [
     {
@@ -230,7 +246,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
                 <cite><a href={rich.quote.url} rel="noreferrer">{rich.quote.attribution}</a></cite>
               </blockquote>}
 
-              {rich && rich.banners.slice(0, 1).map((banner) => <aside className="article-banner banner-blue" data-banner-rotation="1" key={banner.heading}><div><span>{banner.eyebrow}</span><h2>{banner.heading}</h2><p>{banner.text}</p></div><a href={banner.href}>{banner.label}</a></aside>)}
+              {rich && rich.banners.slice(0, 1).map((banner) => <aside id="banner-1" className="article-banner banner-blue" data-banner-rotation="1" key={banner.heading}><div><span>{banner.eyebrow}</span><h2>{banner.heading}</h2><p>{banner.text}</p></div><a href={banner.href}>{banner.label}</a></aside>)}
 
               {detail.sections.map((section, index) => (
                 <section className="guide-block" id={`section-${index + 1}`} key={section.heading}>
@@ -246,7 +262,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
                 <a href={detail.contextualLink.href}>{detail.contextualLink.label}</a>
               </section>}
 
-              {detail.publication && <section className="guide-block article-publication-links article-related" aria-label="Related payroll resources">
+              {detail.publication && <section id="related-articles" className="guide-block article-publication-links article-related" aria-label="Related payroll resources">
                 <p>Continue the workflow with <a href={detail.publication.internalLinks[0]}>operations support</a> and <a href={detail.publication.internalLinks[1]}>reporting and QA support</a>. For the access principle behind this routine, review <a href={detail.publication.externalLink} rel="noreferrer">NIST Zero Trust Architecture</a>.</p>
                 <h2>Related articles</h2>
                 <ul>{detail.publication.related.map((related) => <li key={related}><a href={relatedBlogHref(related)}>{relatedBlogLabel(related)}</a></li>)}</ul>
@@ -272,7 +288,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
                 <figcaption><strong>{rich.graphic.title}</strong><span>Each arrow is a handoff. The owner review stays separate from record preparation.</span></figcaption>
               </figure>}
 
-              {rich && rich.banners.slice(1, 2).map((banner) => <aside className="article-banner banner-green" data-banner-rotation="2" key={banner.heading}><div><span>{banner.eyebrow}</span><h2>{banner.heading}</h2><p>{banner.text}</p></div><a href={banner.href}>{banner.label}</a></aside>)}
+              {rich && rich.banners.slice(1, 2).map((banner) => <aside id="banner-2" className="article-banner banner-green" data-banner-rotation="2" key={banner.heading}><div><span>{banner.eyebrow}</span><h2>{banner.heading}</h2><p>{banner.text}</p></div><a href={banner.href}>{banner.label}</a></aside>)}
 
               <section className="guide-brief" aria-labelledby="brief-heading">
                 <p className="eyebrow">Copy-ready brief</p>
@@ -281,7 +297,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
                 <ul>{detail.roleBrief.map((item) => <li key={item}>{item}</li>)}</ul>
               </section>
 
-              {rich && rich.banners.slice(2, 3).map((banner) => <aside className="article-banner banner-dark" data-banner-rotation="3" key={banner.heading}><div><span>{banner.eyebrow}</span><h2>{banner.heading}</h2><p>{banner.text}</p></div><a href={banner.href}>{banner.label}</a></aside>)}
+              {rich && rich.banners.slice(2, 3).map((banner) => <aside id="banner-3" className="article-banner banner-dark" data-banner-rotation="3" key={banner.heading}><div><span>{banner.eyebrow}</span><h2>{banner.heading}</h2><p>{banner.text}</p></div><a href={banner.href}>{banner.label}</a></aside>)}
 
               {rich && <section className="guide-block article-related" aria-labelledby="related-heading">
                 <h2 id="related-heading">Keep planning</h2>
@@ -300,7 +316,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
             </>
           ) : basicGuide ? (
             <>
-              <aside className="guide-callout"><h2>The short answer</h2><p>{basicGuide.intro}</p></aside>
+              <aside id="basic-answer" className="guide-callout"><h2>The short answer</h2><p>{basicGuide.intro}</p></aside>
               {basicGuide.sections.map((section, index) => <section className="guide-block" id={`section-${index + 1}`} key={section.heading}>
                 <h2>{section.heading}</h2>
                 {section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
