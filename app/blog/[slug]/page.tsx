@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import { Header, Footer, CTA, JsonLd } from '../../components';
 import { blogDetails, blogPosts, site } from '../../data';
-import { ArticleToc } from '../../article-toc';
+import { ArticleToc, ArticleTocMobile } from '../../article-toc';
 
 const siteUrl = 'https://outsourcepayrollcompany.com';
 
@@ -184,7 +184,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
       <Header hidePricing={Boolean(rich)} />
       <main id="main-content" className="section guide-page">
         <JsonLd data={schema} />
-        <div className="container article-layout">
+        <div className="container"><ArticleTocMobile entries={tocEntries} /><div className="article-layout">
         <ArticleToc entries={tocEntries} relatedHref="/services" />
         <article className={`guide-article${rich ? ' publisher-article' : ''}`} data-article-marker={rich?.marker}>
           <p className="eyebrow">{site.brand} guide</p>
@@ -326,7 +326,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
           ) : (
             <div className="card guide-block"><p>This payroll guide is not available.</p></div>
           )}
-        </article></div>
+        </article></div></div>
         <CTA />
       </main>
       <Footer hidePricing={Boolean(rich)} />

@@ -130,3 +130,15 @@
 }
 
 @media(max-width:640px){.tc-topic-grid{grid-template-columns:minmax(0,1fr)!important}.tc-topic-grid>*{min-width:0}}
+
+/* Sticky mobile article table of contents */
+@media(max-width:1050px){
+  .article-toc-mobile{position:sticky;top:72px;z-index:30;max-height:calc(100vh - 84px);overflow-y:auto;overscroll-behavior:contain;background:#fff;box-shadow:0 8px 20px rgba(16,28,45,.10)}
+  .article-toc-mobile nav{max-height:52vh;overflow-y:auto}
+}
+
+/* Research page: the ToC is a direct grid child, so make it sticky itself */
+@media(min-width:1051px){
+  .article-toc-desktop{position:sticky;top:104px;align-self:start;max-height:calc(100vh - 124px);overflow-y:auto;overscroll-behavior:contain}
+}
+@media(min-width:1051px){.article-layout{align-items:stretch}}
