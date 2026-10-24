@@ -142,3 +142,6 @@
   .article-toc-desktop{position:sticky;top:104px;align-self:start;max-height:calc(100vh - 124px);overflow-y:auto;overscroll-behavior:contain}
 }
 @media(min-width:1051px){.article-layout{align-items:stretch}}
+
+/* Preserve the visible publication date in sentence case inside uppercase eyebrows. */
+time{text-transform:none}
