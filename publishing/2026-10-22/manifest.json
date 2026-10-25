@@ -1,0 +1,422 @@
+{
+  "site": "OutsourcePayrollCompany.com",
+  "domain": "https://outsourcepayrollcompany.com",
+  "repository": "coolifystealthagents/outsourcepayrollcompany",
+  "branch": "main",
+  "baseSha": "73f9a277e3140b8936fa4d8867165c12837f7ed1",
+  "publicationDate": "2026-10-22",
+  "visibleDate": "October 22, 2026",
+  "counts": {
+    "blog": 12,
+    "research": 5,
+    "total": 17,
+    "thumbnails": 17
+  },
+  "registryPaths": [
+    "app/data.ts",
+    "app/fleet-content.ts"
+  ],
+  "articles": [
+    {
+      "section": "Blog",
+      "title": "Deduplicate Payroll Inbox Requests Before the Queue Doubles",
+      "slug": "payroll-inbox-duplicate-request-dedup",
+      "route": "/blog/payroll-inbox-duplicate-request-dedup",
+      "sourcePath": "app/oct22-blog.ts",
+      "sourceSha256": "e4187185cbfeffcb1b947dff995567cee140f5ae25c67066f3132f52823d53b8",
+      "thumbnailPath": "public/oct22-heroes/payroll-inbox-duplicate-request-dedup.webp",
+      "thumbnailSha256": "3d18653d86c3fef91d1fdc5a41b2000eb37e33779e4217bcb86503f74b144e80",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-inbox-duplicate-request-dedup-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-inbox-duplicate-request-dedup-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-inbox-duplicate-request-dedup-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-inbox-duplicate-request-dedup-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-inbox-duplicate-request-dedup-mobile-toc.png"
+      }
+    },
+    {
+      "section": "Blog",
+      "title": "Document Bank Detail Change Callbacks Before Activation",
+      "slug": "bank-detail-change-callback-evidence",
+      "route": "/blog/bank-detail-change-callback-evidence",
+      "sourcePath": "app/oct22-blog.ts",
+      "sourceSha256": "e4187185cbfeffcb1b947dff995567cee140f5ae25c67066f3132f52823d53b8",
+      "thumbnailPath": "public/oct22-heroes/bank-detail-change-callback-evidence.webp",
+      "thumbnailSha256": "d6206166b1bedfeaf5726927668458366f38cbc7ce1501b52fa0a4d29bdeb721",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcepayrollcompany/render/shots/bank-detail-change-callback-evidence-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcepayrollcompany/render/shots/bank-detail-change-callback-evidence-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcepayrollcompany/render/shots/bank-detail-change-callback-evidence-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcepayrollcompany/render/shots/bank-detail-change-callback-evidence-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcepayrollcompany/render/shots/bank-detail-change-callback-evidence-mobile-toc.png"
+      }
+    },
+    {
+      "section": "Blog",
+      "title": "Shift the Payroll Calendar for Holidays Without Losing a Cutoff",
+      "slug": "payroll-calendar-holiday-shift",
+      "route": "/blog/payroll-calendar-holiday-shift",
+      "sourcePath": "app/oct22-blog.ts",
+      "sourceSha256": "e4187185cbfeffcb1b947dff995567cee140f5ae25c67066f3132f52823d53b8",
+      "thumbnailPath": "public/oct22-heroes/payroll-calendar-holiday-shift.webp",
+      "thumbnailSha256": "2cb345cf82af3517c125f388a1f5c0377d9de7461b085b25055bc8964c7e0c39",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-calendar-holiday-shift-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-calendar-holiday-shift-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-calendar-holiday-shift-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-calendar-holiday-shift-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-calendar-holiday-shift-mobile-toc.png"
+      }
+    },
+    {
+      "section": "Blog",
+      "title": "Route Garnishment Order Intake Without Interpreting the Order",
+      "slug": "garnishment-order-intake-routing",
+      "route": "/blog/garnishment-order-intake-routing",
+      "sourcePath": "app/oct22-blog.ts",
+      "sourceSha256": "e4187185cbfeffcb1b947dff995567cee140f5ae25c67066f3132f52823d53b8",
+      "thumbnailPath": "public/oct22-heroes/garnishment-order-intake-routing.webp",
+      "thumbnailSha256": "079dcec6cd69505ebbd3fb1cb96a123fb7d301d285a79d9575a01d1766d8da13",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcepayrollcompany/render/shots/garnishment-order-intake-routing-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcepayrollcompany/render/shots/garnishment-order-intake-routing-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcepayrollcompany/render/shots/garnishment-order-intake-routing-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcepayrollcompany/render/shots/garnishment-order-intake-routing-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcepayrollcompany/render/shots/garnishment-order-intake-routing-mobile-toc.png"
+      }
+    },
+    {
+      "section": "Blog",
+      "title": "Prepare PTO Balance Corrections With Traceable Evidence",
+      "slug": "pto-balance-correction-evidence",
+      "route": "/blog/pto-balance-correction-evidence",
+      "sourcePath": "app/oct22-blog.ts",
+      "sourceSha256": "e4187185cbfeffcb1b947dff995567cee140f5ae25c67066f3132f52823d53b8",
+      "thumbnailPath": "public/oct22-heroes/pto-balance-correction-evidence.webp",
+      "thumbnailSha256": "a820eadf2eece6481959784ee9211b0acc25abad980a48460a5537c12197a7ab",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcepayrollcompany/render/shots/pto-balance-correction-evidence-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcepayrollcompany/render/shots/pto-balance-correction-evidence-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcepayrollcompany/render/shots/pto-balance-correction-evidence-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcepayrollcompany/render/shots/pto-balance-correction-evidence-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcepayrollcompany/render/shots/pto-balance-correction-evidence-mobile-toc.png"
+      }
+    },
+    {
+      "section": "Blog",
+      "title": "Control Payroll Report Distribution Access Lists",
+      "slug": "payroll-report-distribution-access-list",
+      "route": "/blog/payroll-report-distribution-access-list",
+      "sourcePath": "app/oct22-blog.ts",
+      "sourceSha256": "e4187185cbfeffcb1b947dff995567cee140f5ae25c67066f3132f52823d53b8",
+      "thumbnailPath": "public/oct22-heroes/payroll-report-distribution-access-list.webp",
+      "thumbnailSha256": "b06ae167d7ff4f613b4a8fc0f8e568c6b4d6919326a6a4b39d2ac8c459628aa6",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-report-distribution-access-list-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-report-distribution-access-list-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-report-distribution-access-list-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-report-distribution-access-list-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-report-distribution-access-list-mobile-toc.png"
+      }
+    },
+    {
+      "section": "Blog",
+      "title": "Assemble a Quarter-End Payroll Reconciliation Binder",
+      "slug": "quarter-end-reconciliation-binder",
+      "route": "/blog/quarter-end-reconciliation-binder",
+      "sourcePath": "app/oct22-blog.ts",
+      "sourceSha256": "e4187185cbfeffcb1b947dff995567cee140f5ae25c67066f3132f52823d53b8",
+      "thumbnailPath": "public/oct22-heroes/quarter-end-reconciliation-binder.webp",
+      "thumbnailSha256": "af2e85d1ee521a0a3c427a0bc1fca128807988383daf56175951ac246a301a9a",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcepayrollcompany/render/shots/quarter-end-reconciliation-binder-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcepayrollcompany/render/shots/quarter-end-reconciliation-binder-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcepayrollcompany/render/shots/quarter-end-reconciliation-binder-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcepayrollcompany/render/shots/quarter-end-reconciliation-binder-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcepayrollcompany/render/shots/quarter-end-reconciliation-binder-mobile-toc.png"
+      }
+    },
+    {
+      "section": "Blog",
+      "title": "Keep Payday Moving During a Payroll Vendor Outage",
+      "slug": "payroll-vendor-outage-payday-continuity",
+      "route": "/blog/payroll-vendor-outage-payday-continuity",
+      "sourcePath": "app/oct22-blog.ts",
+      "sourceSha256": "e4187185cbfeffcb1b947dff995567cee140f5ae25c67066f3132f52823d53b8",
+      "thumbnailPath": "public/oct22-heroes/payroll-vendor-outage-payday-continuity.webp",
+      "thumbnailSha256": "cd4cf12ef7e2838c57d499ac1e938612eb3fdaa6f19ffce0d05cba97ad1abbe4",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-vendor-outage-payday-continuity-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-vendor-outage-payday-continuity-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-vendor-outage-payday-continuity-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-vendor-outage-payday-continuity-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-vendor-outage-payday-continuity-mobile-toc.png"
+      }
+    },
+    {
+      "section": "Blog",
+      "title": "Check New-Hire Payroll Documents Before the First Cycle",
+      "slug": "new-hire-payroll-document-completeness",
+      "route": "/blog/new-hire-payroll-document-completeness",
+      "sourcePath": "app/oct22-blog.ts",
+      "sourceSha256": "e4187185cbfeffcb1b947dff995567cee140f5ae25c67066f3132f52823d53b8",
+      "thumbnailPath": "public/oct22-heroes/new-hire-payroll-document-completeness.webp",
+      "thumbnailSha256": "752af4753b3441917ce2430575ee0dd84cfa231dcb86c9e09c93bf282b7a4cbb",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcepayrollcompany/render/shots/new-hire-payroll-document-completeness-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcepayrollcompany/render/shots/new-hire-payroll-document-completeness-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcepayrollcompany/render/shots/new-hire-payroll-document-completeness-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcepayrollcompany/render/shots/new-hire-payroll-document-completeness-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcepayrollcompany/render/shots/new-hire-payroll-document-completeness-mobile-toc.png"
+      }
+    },
+    {
+      "section": "Blog",
+      "title": "Pause Payroll Ticket Clocks Only for Documented Dependencies",
+      "slug": "payroll-ticket-sla-clock-pause",
+      "route": "/blog/payroll-ticket-sla-clock-pause",
+      "sourcePath": "app/oct22-blog.ts",
+      "sourceSha256": "e4187185cbfeffcb1b947dff995567cee140f5ae25c67066f3132f52823d53b8",
+      "thumbnailPath": "public/oct22-heroes/payroll-ticket-sla-clock-pause.webp",
+      "thumbnailSha256": "396ba775f115483de30c67c9f4b2343fe7b53a02f91d78970521d9ff9f5b4fd3",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-ticket-sla-clock-pause-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-ticket-sla-clock-pause-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-ticket-sla-clock-pause-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-ticket-sla-clock-pause-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-ticket-sla-clock-pause-mobile-toc.png"
+      }
+    },
+    {
+      "section": "Blog",
+      "title": "Build a Retro Pay Request Evidence Packet",
+      "slug": "retro-pay-request-evidence-packet",
+      "route": "/blog/retro-pay-request-evidence-packet",
+      "sourcePath": "app/oct22-blog.ts",
+      "sourceSha256": "e4187185cbfeffcb1b947dff995567cee140f5ae25c67066f3132f52823d53b8",
+      "thumbnailPath": "public/oct22-heroes/retro-pay-request-evidence-packet.webp",
+      "thumbnailSha256": "f790e1ca5360a2f8dd693feef36fc1258f2502de113aa0067064bfa5c13c1dd2",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcepayrollcompany/render/shots/retro-pay-request-evidence-packet-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcepayrollcompany/render/shots/retro-pay-request-evidence-packet-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcepayrollcompany/render/shots/retro-pay-request-evidence-packet-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcepayrollcompany/render/shots/retro-pay-request-evidence-packet-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcepayrollcompany/render/shots/retro-pay-request-evidence-packet-mobile-toc.png"
+      }
+    },
+    {
+      "section": "Blog",
+      "title": "Verify Payroll File Transmission Receipts, Not Just Uploads",
+      "slug": "payroll-file-transmission-receipt",
+      "route": "/blog/payroll-file-transmission-receipt",
+      "sourcePath": "app/oct22-blog.ts",
+      "sourceSha256": "e4187185cbfeffcb1b947dff995567cee140f5ae25c67066f3132f52823d53b8",
+      "thumbnailPath": "public/oct22-heroes/payroll-file-transmission-receipt.webp",
+      "thumbnailSha256": "fa098adb30503140afedac5ebfeac579569f5ee7c36c0aa8739c9dea5ef52118",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-file-transmission-receipt-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-file-transmission-receipt-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-file-transmission-receipt-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-file-transmission-receipt-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-file-transmission-receipt-mobile-toc.png"
+      }
+    },
+    {
+      "section": "Research",
+      "title": "Duplicate Payroll Request Rate Study",
+      "slug": "duplicate-payroll-request-rate-study",
+      "route": "/research/duplicate-payroll-request-rate-study",
+      "sourcePath": "app/oct22-research.ts",
+      "sourceSha256": "a312f48586785cb2f6ca29692c5895202066476bf0e5ee59e8a3deb720d24dfa",
+      "thumbnailPath": "public/oct22-heroes/duplicate-payroll-request-rate-study.webp",
+      "thumbnailSha256": "f3fc539504dd6a8b807c9abe932d0f04b891456b1bd587454cc0829636cfb01a",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcepayrollcompany/render/shots/duplicate-payroll-request-rate-study-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcepayrollcompany/render/shots/duplicate-payroll-request-rate-study-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcepayrollcompany/render/shots/duplicate-payroll-request-rate-study-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcepayrollcompany/render/shots/duplicate-payroll-request-rate-study-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcepayrollcompany/render/shots/duplicate-payroll-request-rate-study-mobile-toc.png"
+      }
+    },
+    {
+      "section": "Research",
+      "title": "Bank Change Verification Completion Study",
+      "slug": "bank-change-verification-completion-study",
+      "route": "/research/bank-change-verification-completion-study",
+      "sourcePath": "app/oct22-research.ts",
+      "sourceSha256": "a312f48586785cb2f6ca29692c5895202066476bf0e5ee59e8a3deb720d24dfa",
+      "thumbnailPath": "public/oct22-heroes/bank-change-verification-completion-study.webp",
+      "thumbnailSha256": "da36d731fb6ebf7f2dd8b7a5f1ac9efbf45bd48ce82241d21d90f56798f645b6",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcepayrollcompany/render/shots/bank-change-verification-completion-study-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcepayrollcompany/render/shots/bank-change-verification-completion-study-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcepayrollcompany/render/shots/bank-change-verification-completion-study-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcepayrollcompany/render/shots/bank-change-verification-completion-study-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcepayrollcompany/render/shots/bank-change-verification-completion-study-mobile-toc.png"
+      }
+    },
+    {
+      "section": "Research",
+      "title": "Payroll Ticket Pause Attribution Study",
+      "slug": "payroll-ticket-pause-attribution-study",
+      "route": "/research/payroll-ticket-pause-attribution-study",
+      "sourcePath": "app/oct22-research.ts",
+      "sourceSha256": "a312f48586785cb2f6ca29692c5895202066476bf0e5ee59e8a3deb720d24dfa",
+      "thumbnailPath": "public/oct22-heroes/payroll-ticket-pause-attribution-study.webp",
+      "thumbnailSha256": "af87fa80a3be2ba83f9b8419ddaa67314a7ac2a706b32e6ba7b8f549a487f770",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-ticket-pause-attribution-study-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-ticket-pause-attribution-study-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-ticket-pause-attribution-study-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-ticket-pause-attribution-study-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-ticket-pause-attribution-study-mobile-toc.png"
+      }
+    },
+    {
+      "section": "Research",
+      "title": "New-Hire Payroll Document Completeness Study",
+      "slug": "new-hire-payroll-document-completeness-study",
+      "route": "/research/new-hire-payroll-document-completeness-study",
+      "sourcePath": "app/oct22-research.ts",
+      "sourceSha256": "a312f48586785cb2f6ca29692c5895202066476bf0e5ee59e8a3deb720d24dfa",
+      "thumbnailPath": "public/oct22-heroes/new-hire-payroll-document-completeness-study.webp",
+      "thumbnailSha256": "2ad49aab0abb55cbecda6762069a4159c4b50cfcf13d6998322fd352d1ccd54e",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcepayrollcompany/render/shots/new-hire-payroll-document-completeness-study-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcepayrollcompany/render/shots/new-hire-payroll-document-completeness-study-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcepayrollcompany/render/shots/new-hire-payroll-document-completeness-study-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcepayrollcompany/render/shots/new-hire-payroll-document-completeness-study-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcepayrollcompany/render/shots/new-hire-payroll-document-completeness-study-mobile-toc.png"
+      }
+    },
+    {
+      "section": "Research",
+      "title": "Payroll File Receipt Latency Study",
+      "slug": "payroll-file-receipt-latency-study",
+      "route": "/research/payroll-file-receipt-latency-study",
+      "sourcePath": "app/oct22-research.ts",
+      "sourceSha256": "a312f48586785cb2f6ca29692c5895202066476bf0e5ee59e8a3deb720d24dfa",
+      "thumbnailPath": "public/oct22-heroes/payroll-file-receipt-latency-study.webp",
+      "thumbnailSha256": "6acf794e9fd21166cb8bbdac18ccb39ff598afa0f6f97ac9c338e1c2d8e4c45e",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-file-receipt-latency-study-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-file-receipt-latency-study-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-file-receipt-latency-study-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-file-receipt-latency-study-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcepayrollcompany/render/shots/payroll-file-receipt-latency-study-mobile-toc.png"
+      }
+    }
+  ],
+  "errors": [],
+  "generatedAt": "2026-10-25",
+  "coverageJob": "outsourcepayrollcompany|2026-10-22|render_evidence",
+  "checks": {
+    "contentCounts": "12 blog + 5 research",
+    "publicationDate": "2026-10-22",
+    "thumbnailSize": "1200x630",
+    "uniqueSlugs": true,
+    "uniqueTitles": true,
+    "sourceHashes": "sha256 per source registry",
+    "thumbnailHashes": "sha256 per article",
+    "build": "pass (npm run build through safe_build.sh)",
+    "renderedAudit": "17/17 articles pass desktop+mobile",
+    "visibleDate": "October 22, 2026 observed",
+    "timeDatetime": "2026-10-22 observed",
+    "desktopStickyToc": "pass",
+    "mobileStickyToc": "pass",
+    "horizontalOverflow": "0",
+    "missingAnchors": "none",
+    "brokenImages": "none",
+    "sources": "10 authoritative HTTPS sources in research registry; blog source sections present"
+  },
+  "evidence": {
+    "helperArtifact": "helper-2/qa/coverage-outsourcepayrollcompany/render/qa.json",
+    "screenshots": "helper-2/qa/coverage-outsourcepayrollcompany/render/shots",
+    "note": "Evidence generated from local production server at baseSha before this manifest-only commit."
+  }
+}
