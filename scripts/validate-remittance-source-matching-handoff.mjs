@@ -22,7 +22,15 @@ for (const retired of ['/services/payroll-data-entry', 'automatically approve', 
 }
 
 const renderer = fs.readFileSync('app/research/[slug]/page.tsx', 'utf8');
-if (!renderer.includes("post.serviceHandoff&&<section className=\"article-direct-answer\">")) {
-  throw new Error('research renderer does not render the typed service handoff in the article');
+for (const required of [
+  'post.serviceHandoff&&<section',
+  'id="service-handoff"',
+  'className="article-direct-answer"',
+  'href={post.serviceHandoff.href}',
+  '{post.serviceHandoff.cta}',
+]) {
+  if (!renderer.includes(required)) {
+    throw new Error(`research renderer does not retain the typed service-handoff contract: ${required}`);
+  }
 }
 console.log('remittance source-matching handoff source contract passed');
