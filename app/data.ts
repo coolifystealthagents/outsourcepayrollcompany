@@ -26,7 +26,9 @@ import { october9BlogDetails, october9BlogPosts } from './october9-blog';
 import { october12BlogDetails, october12BlogPosts } from './october12-blog';
 import { october13BlogDetails, october13BlogPosts } from './october13-blog';
 import { oct22BlogDetails, oct22BlogPosts } from './oct22-blog';
+import { oct27CurrentBlogPosts } from './oct27-current-blog';
 import { oct26CurrentBlogPosts } from './oct26-current-blog';
+import { oct27CurrentBlogDetails } from './oct27-current-details';
 import { oct26CurrentBlogDetails } from './oct26-current-details';
 
 export const site = {
@@ -162,6 +164,7 @@ export const services = [
 ] as const;
 
 export const blogPosts = [
+  ...oct27CurrentBlogPosts,
   ...oct26CurrentBlogPosts,
   ...oct22BlogPosts,
   ...october13BlogPosts,
@@ -226,6 +229,7 @@ type BlogDetail = {
 };
 
 export const blogDetails: Record<string, BlogDetail> = {
+  ...oct27CurrentBlogDetails,
   ...oct26CurrentBlogDetails,
   ...oct22BlogDetails,
   ...october13BlogDetails,
