@@ -55,19 +55,16 @@ export const oct27CurrentResearchPosts: Oct27ResearchPost[] = [
     ],
     "sources": [
       {
-        "name": "Consumer Financial Protection Bureau: debt collection",
+        "label": "Consumer Financial Protection Bureau: debt collection",
         "url": "https://www.consumerfinance.gov/consumer-tools/debt-collection/",
-        "note": "Consumer context on debt collection and garnishment."
       },
       {
-        "name": "IRS Publication 15 (Circular E)",
+        "label": "IRS Publication 15 (Circular E)",
         "url": "https://www.irs.gov/publications/p15",
-        "note": "Payroll withholding and employer reporting guidance."
       },
       {
-        "name": "U.S. Department of Labor, Wage and Hour Division",
+        "label": "U.S. Department of Labor, Wage and Hour Division",
         "url": "https://www.dol.gov/agencies/whd",
-        "note": "Federal wage and recordkeeping resources."
       }
     ],
     "faq": [
@@ -140,19 +137,16 @@ export const oct27CurrentResearchPosts: Oct27ResearchPost[] = [
     ],
     "sources": [
       {
-        "name": "IRS Publication 15 (Circular E)",
+        "label": "IRS Publication 15 (Circular E)",
         "url": "https://www.irs.gov/publications/p15",
-        "note": "Payroll reporting context for supplemental and correction payments."
       },
       {
-        "name": "IRS employment tax recordkeeping",
+        "label": "IRS employment tax recordkeeping",
         "url": "https://www.irs.gov/businesses/small-businesses-self-employed/employment-tax-recordkeeping",
-        "note": "Record retention guidance."
       },
       {
-        "name": "U.S. Department of Labor: FLSA",
+        "label": "U.S. Department of Labor: FLSA",
         "url": "https://www.dol.gov/agencies/whd/flsa",
-        "note": "Federal wage payment framework."
       }
     ],
     "faq": [
@@ -225,19 +219,16 @@ export const oct27CurrentResearchPosts: Oct27ResearchPost[] = [
     ],
     "sources": [
       {
-        "name": "NIST SP 800-63B: Digital identity guidelines",
+        "label": "NIST SP 800-63B: Digital identity guidelines",
         "url": "https://pages.nist.gov/800-63-3/sp800-63b.html",
-        "note": "Identity proofing and authentication context."
       },
       {
-        "name": "CISA: Turn on multifactor authentication",
+        "label": "CISA: Turn on multifactor authentication",
         "url": "https://www.cisa.gov/secure-our-world/turn-mfa",
-        "note": "Account protection guidance."
       },
       {
-        "name": "Consumer Financial Protection Bureau: bank accounts",
+        "label": "Consumer Financial Protection Bureau: bank accounts",
         "url": "https://www.consumerfinance.gov/consumer-tools/bank-accounts/",
-        "note": "Consumer guidance on bank accounts and deposits."
       }
     ],
     "faq": [
@@ -310,19 +301,16 @@ export const oct27CurrentResearchPosts: Oct27ResearchPost[] = [
     ],
     "sources": [
       {
-        "name": "U.S. Department of Labor: overtime",
+        "label": "U.S. Department of Labor: overtime",
         "url": "https://www.dol.gov/agencies/whd/overtime",
-        "note": "Overtime guidance that interacts with shift premiums."
       },
       {
-        "name": "U.S. Department of Labor: FLSA",
+        "label": "U.S. Department of Labor: FLSA",
         "url": "https://www.dol.gov/agencies/whd/flsa",
-        "note": "Federal wage and hour framework."
       },
       {
-        "name": "IRS Publication 15 (Circular E)",
+        "label": "IRS Publication 15 (Circular E)",
         "url": "https://www.irs.gov/publications/p15",
-        "note": "Payroll reporting guidance."
       }
     ],
     "faq": [
@@ -395,19 +383,16 @@ export const oct27CurrentResearchPosts: Oct27ResearchPost[] = [
     ],
     "sources": [
       {
-        "name": "IRS Publication 15 (Circular E)",
+        "label": "IRS Publication 15 (Circular E)",
         "url": "https://www.irs.gov/publications/p15",
-        "note": "Employer tax reporting guidance."
       },
       {
-        "name": "IRS employment tax recordkeeping",
+        "label": "IRS employment tax recordkeeping",
         "url": "https://www.irs.gov/businesses/small-businesses-self-employed/employment-tax-recordkeeping",
-        "note": "Record retention guidance."
       },
       {
-        "name": "IRS: About Form 941",
+        "label": "IRS: About Form 941",
         "url": "https://www.irs.gov/forms-pubs/about-form-941",
-        "note": "Quarterly return overview."
       }
     ],
     "faq": [
