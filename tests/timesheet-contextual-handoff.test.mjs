@@ -30,6 +30,18 @@ test('new-hire document checklist owns a bounded payroll-setup handoff', () => {
   assert.doesNotMatch(record, /support specialist may approve payroll setup/);
 });
 
+test('payroll inbox triage owns a bounded payroll-query handoff', () => {
+  const start = publisherSource.indexOf("additionalPublisherBlogDetails['payroll-inbox-triage']");
+  assert.ok(start >= 0, 'payroll inbox triage handoff record is present');
+  const record = publisherSource.slice(start, publisherSource.indexOf('\n};', start) + 3);
+  assert.match(record, /heading: 'Route payroll inbox questions for review'/);
+  assert.match(record, /href: '\/services\/payroll-query-support'/);
+  assert.match(record, /label: 'Review payroll query support'/);
+  assert.match(record, /sort the approved message, source record, and open question into a review-ready queue/);
+  assert.match(record, /authorized payroll owner decides the answer, any correction, and any effect on pay, tax, banking, benefits, or employment/);
+  assert.doesNotMatch(record, /support specialist decides the answer/);
+});
+
 test('blog renderer keeps a data-owned contextual handoff inside the article', () => {
   assert.match(articleSource, /detail\.contextualLink/);
   assert.match(articleSource, /className="guide-block article-contextual-link"/);

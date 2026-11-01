@@ -625,6 +625,13 @@ additionalPublisherBlogDetails['new-hire-payroll-document-checklist'].contextual
   label: 'See new-hire payroll setup support',
 };
 
+additionalPublisherBlogDetails['payroll-inbox-triage'].contextualLink = {
+  heading: 'Route payroll inbox questions for review',
+  body: 'A Philippines-based payroll support specialist can sort the approved message, source record, and open question into a review-ready queue. The authorized payroll owner decides the answer, any correction, and any effect on pay, tax, banking, benefits, or employment.',
+  href: '/services/payroll-query-support',
+  label: 'Review payroll query support',
+};
+
 // August 17, 2026 Blog batch. Every record owns the campaign date directly.
 const august17Topics = [
   ['payroll-approval-chain-design', 'Payroll approval chain design for outsourced support', 'Design a visible approval chain that lets a Philippines-based payroll support specialist prepare work while the authorized owner keeps decision control.', 'approval chains', 'Map each handoff from source record to final decision, with a named owner at every transition.', 'An approval chain is not complete when a message is sent; it is complete when the decision and evidence are recorded.'],
