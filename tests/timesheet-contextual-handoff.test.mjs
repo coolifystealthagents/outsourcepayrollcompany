@@ -42,6 +42,18 @@ test('payroll inbox triage owns a bounded payroll-query handoff', () => {
   assert.doesNotMatch(record, /support specialist decides the answer/);
 });
 
+test('payroll QA exception log owns a bounded payroll-reporting handoff', () => {
+  const start = publisherSource.indexOf("additionalPublisherBlogDetails['payroll-qa-exception-log']");
+  assert.ok(start >= 0, 'payroll reporting handoff record is present');
+  const record = publisherSource.slice(start, publisherSource.indexOf('\n};', start) + 3);
+  assert.match(record, /heading: 'Turn the exception log into a review-ready report'/);
+  assert.match(record, /href: '\/services\/payroll-reporting'/);
+  assert.match(record, /label: 'Review payroll reporting support'/);
+  assert.match(record, /group duplicate entries, late approvals, and unusual changes with their source records/);
+  assert.match(record, /authorized payroll owner decides whether an exception changes pay, tax, benefits, banking, or the final payroll result/);
+  assert.doesNotMatch(record, /support specialist decides whether an exception changes pay/);
+});
+
 test('blog renderer keeps a data-owned contextual handoff inside the article', () => {
   assert.match(articleSource, /detail\.contextualLink/);
   assert.match(articleSource, /className="guide-block article-contextual-link"/);

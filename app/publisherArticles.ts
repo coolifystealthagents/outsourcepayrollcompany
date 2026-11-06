@@ -632,6 +632,13 @@ additionalPublisherBlogDetails['payroll-inbox-triage'].contextualLink = {
   label: 'Review payroll query support',
 };
 
+additionalPublisherBlogDetails['payroll-qa-exception-log'].contextualLink = {
+  heading: 'Turn the exception log into a review-ready report',
+  body: 'A Philippines-based payroll support specialist can group duplicate entries, late approvals, and unusual changes with their source records. The authorized payroll owner decides whether an exception changes pay, tax, benefits, banking, or the final payroll result.',
+  href: '/services/payroll-reporting',
+  label: 'Review payroll reporting support',
+};
+
 // August 17, 2026 Blog batch. Every record owns the campaign date directly.
 const august17Topics = [
   ['payroll-approval-chain-design', 'Payroll approval chain design for outsourced support', 'Design a visible approval chain that lets a Philippines-based payroll support specialist prepare work while the authorized owner keeps decision control.', 'approval chains', 'Map each handoff from source record to final decision, with a named owner at every transition.', 'An approval chain is not complete when a message is sent; it is complete when the decision and evidence are recorded.'],
