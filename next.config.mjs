@@ -5,7 +5,7 @@ const securityHeaders=[
   {key:'Referrer-Policy',value:'strict-origin-when-cross-origin'},
   {key:'Permissions-Policy',value:'camera=(), microphone=(), geolocation=(), payment=()'},
   {key:'X-Frame-Options',value:'SAMEORIGIN'},
-  {key:'Content-Security-Policy',value:"default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; img-src 'self' data: https:; font-src 'self' data: https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;  https://databull.stealthagents.us 'self' 'unsafe-inline' https://acrtracking.stealthagents.us;  https://databull.stealthagents.us 'self' https://acrtracking.stealthagents.us; frame-src https://go.oncehub.com; upgrade-insecure-requests"}
+  {key:'Content-Security-Policy',value:"default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; img-src 'self' data: https:; font-src 'self' data: https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src https://databull.stealthagents.us 'self' 'unsafe-inline' https://acrtracking.stealthagents.us; connect-src https://databull.stealthagents.us 'self' https://acrtracking.stealthagents.us; frame-src https://go.oncehub.com; upgrade-insecure-requests"}
 ];
 const nextConfig={outputFileTracingRoot:process.cwd(),async headers(){return[{source:'/(.*)',headers:securityHeaders}]},async redirects(){return[{source:'/contact',destination:'/contact-us',permanent:true}]}};
 export default nextConfig;
