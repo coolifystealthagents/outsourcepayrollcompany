@@ -26,7 +26,7 @@ export const nov09CurrentBlogPosts = [
   },
   {
     "slug": "outsourcepayrollcompany-write-a-payroll-exception-escalation-matrix",
-    "title": "Write a Payroll Exception Escalation Matrix Support Staff Can Use",
+    "title": "Write a Payroll Exception Escalation Matrix",
     "excerpt": "A short matrix that names the trigger, the authority, the time band, and the evidence for every payroll decision support staff cannot make alone.",
     "minutes": 8,
     "published": "2026-11-09",
