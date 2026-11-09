@@ -2,7 +2,7 @@
 export const nov09CurrentBlogPosts = [
   {
     "slug": "outsourcepayrollcompany-separate-payroll-preparation-from-approval-authority",
-    "title": "Separate Payroll Preparation Work From Approval Authority",
+    "title": "Separate Payroll Preparation From Approval Authority",
     "excerpt": "A practical lane design that lets support staff prepare payroll evidence while every pay-affecting decision stays with an authorized owner.",
     "minutes": 9,
     "published": "2026-11-09",
