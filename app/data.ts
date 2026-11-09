@@ -26,11 +26,13 @@ import { october9BlogDetails, october9BlogPosts } from './october9-blog';
 import { october12BlogDetails, october12BlogPosts } from './october12-blog';
 import { october13BlogDetails, october13BlogPosts } from './october13-blog';
 import { oct22BlogDetails, oct22BlogPosts } from './oct22-blog';
+import { nov08CurrentBlogPosts } from './nov08-current-blog';
 import { nov07CurrentBlogPosts } from './nov07-current-blog';
 import { nov06CurrentBlogPosts } from './nov06-current-blog';
 import { nov05CurrentBlogPosts } from './nov05-current-blog';
 import { oct27CurrentBlogPosts } from './oct27-current-blog';
 import { oct26CurrentBlogPosts } from './oct26-current-blog';
+import { nov08CurrentBlogDetails } from './nov08-current-details';
 import { nov07CurrentBlogDetails } from './nov07-current-details';
 import { nov06CurrentBlogDetails } from './nov06-current-details';
 import { nov05CurrentBlogDetails } from './nov05-current-details';
@@ -170,6 +172,7 @@ export const services = [
 ] as const;
 
 export const blogPosts = [
+  ...nov08CurrentBlogPosts,
   ...nov07CurrentBlogPosts,
   ...nov06CurrentBlogPosts,
   ...nov05CurrentBlogPosts,
@@ -238,6 +241,7 @@ type BlogDetail = {
 };
 
 export const blogDetails: Record<string, BlogDetail> = {
+  ...nov08CurrentBlogDetails,
   ...nov07CurrentBlogDetails,
   ...nov06CurrentBlogDetails,
   ...nov05CurrentBlogDetails,

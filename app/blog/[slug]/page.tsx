@@ -190,7 +190,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
         <article className={`guide-article${rich ? ' publisher-article' : ''}`} data-article-marker={rich?.marker}>
           <p className="eyebrow">{site.brand} guide</p>
           <h1>{post.title}</h1>
-          {'published' in post && <p className="article-published">Published: <time dateTime={post.published}>{formatPublicationDate(post.published)}</time></p>}
+          {'published' in post && <p className="article-published">Published <time dateTime={post.published}>{formatPublicationDate(post.published)}</time></p>}
           {postImage && <img className="article-hero-image" src={postImage} alt="" width={1200} height={630} />}
           {rich?.image && <img className="article-hero-image" src={rich.image} alt="" width={1024} height={1024} />}
           <p className="lead">{post.excerpt}</p>
