@@ -26,6 +26,7 @@ import { october9BlogDetails, october9BlogPosts } from './october9-blog';
 import { october12BlogDetails, october12BlogPosts } from './october12-blog';
 import { october13BlogDetails, october13BlogPosts } from './october13-blog';
 import { oct22BlogDetails, oct22BlogPosts } from './oct22-blog';
+import { nov10CurrentBlogPosts } from './nov10-current-blog';
 import { nov09CurrentBlogPosts } from './nov09-current-blog';
 import { nov08CurrentBlogPosts } from './nov08-current-blog';
 import { nov07CurrentBlogPosts } from './nov07-current-blog';
@@ -33,6 +34,7 @@ import { nov06CurrentBlogPosts } from './nov06-current-blog';
 import { nov05CurrentBlogPosts } from './nov05-current-blog';
 import { oct27CurrentBlogPosts } from './oct27-current-blog';
 import { oct26CurrentBlogPosts } from './oct26-current-blog';
+import { nov10CurrentBlogDetails } from './nov10-current-details';
 import { nov09CurrentBlogDetails } from './nov09-current-details';
 import { nov08CurrentBlogDetails } from './nov08-current-details';
 import { nov07CurrentBlogDetails } from './nov07-current-details';
@@ -174,6 +176,7 @@ export const services = [
 ] as const;
 
 export const blogPosts = [
+  ...nov10CurrentBlogPosts,
   ...nov09CurrentBlogPosts,
   ...nov08CurrentBlogPosts,
   ...nov07CurrentBlogPosts,
@@ -244,6 +247,7 @@ type BlogDetail = {
 };
 
 export const blogDetails: Record<string, BlogDetail> = {
+  ...nov10CurrentBlogDetails,
   ...nov09CurrentBlogDetails,
   ...nov08CurrentBlogDetails,
   ...nov07CurrentBlogDetails,
