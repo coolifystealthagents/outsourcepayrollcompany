@@ -7,7 +7,7 @@ export const nov11CurrentResearchPosts = [
     "published": "2026-11-11",
     "updated": "2026-11-11",
     "order": 9916,
-    "image": "/daily10/outsourcepayrollcompany/outsourcepayrollcompany-payroll-provider-backup-and-recovery-evidence-review.webp",
+    "image": "/daily11/outsourcepayrollcompany/outsourcepayrollcompany-payroll-provider-backup-and-recovery-evidence-review.webp",
     "stat": "5 evidence gates applied to every provider restore claim.",
     "takeaways": [
       "Define the payroll service boundary before requesting continuity evidence.",
@@ -125,7 +125,7 @@ export const nov11CurrentResearchPosts = [
     "published": "2026-11-11",
     "updated": "2026-11-11",
     "order": 9917,
-    "image": "/daily10/outsourcepayrollcompany/outsourcepayrollcompany-payroll-calendar-recovery-after-a-missed-cutoff.webp",
+    "image": "/daily11/outsourcepayrollcompany/outsourcepayrollcompany-payroll-calendar-recovery-after-a-missed-cutoff.webp",
     "stat": "6 fixed obligations ranked before a calendar is rebuilt.",
     "takeaways": [
       "Freeze the incident timeline before changing dates so the cause is not rewritten by the recovery.",
@@ -243,7 +243,7 @@ export const nov11CurrentResearchPosts = [
     "published": "2026-11-11",
     "updated": "2026-11-11",
     "order": 9918,
-    "image": "/daily10/outsourcepayrollcompany/outsourcepayrollcompany-garnishment-priority-verification-before-withholding.webp",
+    "image": "/daily11/outsourcepayrollcompany/outsourcepayrollcompany-garnishment-priority-verification-before-withholding.webp",
     "stat": "4 review gates before any garnishment withholding is released.",
     "takeaways": [
       "Inventory every active order with its type, jurisdiction, dates, amount, and status.",
@@ -365,7 +365,7 @@ export const nov11CurrentResearchPosts = [
     "published": "2026-11-11",
     "updated": "2026-11-11",
     "order": 9919,
-    "image": "/daily10/outsourcepayrollcompany/outsourcepayrollcompany-exception-aging-as-a-payroll-close-indicator.webp",
+    "image": "/daily11/outsourcepayrollcompany/outsourcepayrollcompany-exception-aging-as-a-payroll-close-indicator.webp",
     "stat": "3 dimensions used to judge every open payroll exception.",
     "takeaways": [
       "Build the report from the full exception population, including items resolved during the month.",
@@ -491,7 +491,7 @@ export const nov11CurrentResearchPosts = [
     "published": "2026-11-11",
     "updated": "2026-11-11",
     "order": 9920,
-    "image": "/daily10/outsourcepayrollcompany/outsourcepayrollcompany-handoff-note-completeness-across-payroll-time-zones.webp",
+    "image": "/daily11/outsourcepayrollcompany/outsourcepayrollcompany-handoff-note-completeness-across-payroll-time-zones.webp",
     "stat": "5 required fields checked in every payroll handoff note.",
     "takeaways": [
       "Score the note on cycle state, decision authority, open-item ownership, timing precision, and acknowledgment.",
