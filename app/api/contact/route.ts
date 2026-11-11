@@ -33,7 +33,7 @@ export async function POST(request:NextRequest){
   const origin=request.headers.get('origin');
   if(!lengthHeader)return errorPage(411);
   if(!Number.isFinite(length)||length<=0||length>MAX_BODY_BYTES)return errorPage(413);
-  if((origin&&origin!==request.nextUrl.origin)||(!contentType.includes('application/x-www-form-urlencoded')&&!contentType.includes('multipart/form-data')))return errorPage(400);
+  if((origin&&origin !== 'https://outsourcepayrollcompany.com' && origin !== 'https://www.outsourcepayrollcompany.com')||(!contentType.includes('application/x-www-form-urlencoded')&&!contentType.includes('multipart/form-data')))return errorPage(400);
   if(limited(`ip:${ip(request)}`,10))return errorPage(429);
 
   let form:FormData;
@@ -66,5 +66,5 @@ export async function POST(request:NextRequest){
     if(!upstream.ok||result?.ok!==true)return errorPage(502);
   }catch{return errorPage(502)}
   void sendLeadFallbackToMattermost({name,email,phone,business,message,companySize,positions,referral,pageUrl,userAgent:request.headers.get('user-agent')||''});
-  return NextResponse.redirect(new URL('/thank-you?lead=accepted',request.url),303);
+  if (request.headers.get('accept')?.includes('application/json')) return NextResponse.json({ok:true,redirect:'/thank-you?lead=accepted'}, {headers:{'cache-control':'no-store'}});return NextResponse.redirect(new URL('/thank-you?lead=accepted', 'https://outsourcepayrollcompany.com'),303);
 }

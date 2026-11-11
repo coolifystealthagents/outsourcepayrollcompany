@@ -18,9 +18,9 @@ export default function StandardContactForm({ endpoint='/api/contact' }:{endpoin
     event.preventDefault();if(submitting)return;const form=event.currentTarget;const data=new FormData(form);if(String(data.get('website_url')||'').trim())return;
     const first=String(data.get('firstName')||'').trim(),last=String(data.get('lastName')||'').trim();data.set('name',`${first} ${last}`.trim());data.set('phone',`${countryCode} ${String(data.get('phoneLocal')||'').trim()}`.trim());
     setSubmitting(true);setStatus('Sending...');
-    try{const payload=Object.fromEntries(data);const response=await fetch(endpoint,{method:'POST',body:data});if(!response.ok)throw new Error('Request failed');try{(window as TrackerWindow).acrTracker?.trackLead?.(payload)}catch{}window.location.assign('/thank-you')}catch{setStatus('We could not send your request. Please try again.');setSubmitting(false)}
+    try{const payload=Object.fromEntries(data);const response=await fetch(endpoint,{method:'POST',body:data});if(!response.ok)throw new Error('Request failed');try{undefined /* ACR captures the native submit event once. */}catch{}window.location.assign('/thank-you')}catch{setStatus('We could not send your request. Please try again.');setSubmitting(false)}
   }
-  return <form id="contactPageForm" className="tc-form" action={endpoint} method="post" onSubmit={submit} aria-label="Free payroll support consultation">
+  return <form data-acr-managed="react" id="contactPageForm" className="tc-form" action={endpoint} method="post" onSubmit={submit} aria-label="Free payroll support consultation">
     <input className="sa-hp" name="website_url" tabIndex={-1} autoComplete="off" aria-hidden="true" />
     <div className="tc-form-head"><p>Free consultation</p><h2>Tell us about the payroll workflow</h2><span>All fields marked * are required.</span></div>
     <div className="tc-field-grid">
