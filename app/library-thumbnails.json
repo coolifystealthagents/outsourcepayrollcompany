@@ -1,0 +1,1902 @@
+{
+  "blog/payroll-returned-payment-evidence-lane": {
+    "image": "/blog-heroes/provider-rejection-correction-log.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-calendar-cutoff-change-control": {
+    "image": "/blog-heroes/payroll-cycle-closeout-ledger.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-verify-direct-deposit-change-requests-without-delaying-payday": {
+    "image": "/daily08/outsourcepayrollcompany/outsourcepayrollcompany-verify-direct-deposit-change-requests-without-delaying-payday.webp",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-access-permission-review-oct26": {
+    "image": "/aug19-heroes/outsourcepayrollcompany-access-permission-review-oct26.svg",
+    "imageAlt": ""
+  },
+  "blog/payroll-prior-period-correction-register": {
+    "image": "/blog-heroes/payroll-cycle-closeout-ledger.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-vendor-coordination-ledger-oct26": {
+    "image": "/aug19-heroes/outsourcepayrollcompany-vendor-coordination-ledger-oct26.svg",
+    "imageAlt": ""
+  },
+  "blog/payroll-correction-evidence-handoff": {
+    "image": "/blog-heroes/payroll-cycle-closeout-ledger.png",
+    "imageAlt": ""
+  },
+  "blog/seasonal-payroll-outsourcing-capacity": {
+    "image": "/blog-heroes/aug21-payroll-work-queue-owner-matrix.png",
+    "imageAlt": ""
+  },
+  "blog/bank-detail-change-callback-evidence": {
+    "image": "/oct22-heroes/bank-detail-change-callback-evidence.webp",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-test-a-tax-notice-response-handoff-with-one-adverse-case": {
+    "image": "/daily05/outsourcepayrollcompany/outsourcepayrollcompany-test-a-tax-notice-response-handoff-with-one-adverse-case.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-exception-aging-board": {
+    "image": "/blog-heroes/aug21-repair-payroll-exception-aging-board.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-keep-a-payroll-provider-issue-log-that-shows-resolution": {
+    "image": "/daily09/outsourcepayrollcompany/outsourcepayrollcompany-keep-a-payroll-provider-issue-log-that-shows-resolution.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-input-control-map": {
+    "image": "/blog-heroes/payroll-input-control-map.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-operations-escalation-path-design": {
+    "image": "/aug19-heroes/payroll-operations-escalation-path-design.webp",
+    "imageAlt": "Payroll Operations: Escalation Path Design editorial illustration"
+  },
+  "blog/payroll-provider-transfer-brief": {
+    "image": "/blog-heroes/aug21-repair-payroll-provider-transfer-brief.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-leave-return-status-handoff": {
+    "image": "/blog-heroes/aug21-repair-payroll-absence-continuity-runbook.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-ticket-sla-clock-pause": {
+    "image": "/oct22-heroes/payroll-ticket-sla-clock-pause.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-multi-currency-rate-source-log": {
+    "image": "/blog-heroes/payroll-cycle-closeout-review.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-keep-payroll-work-instructions-current-after-a-provider-portal-update": {
+    "image": "/daily10/outsourcepayrollcompany/outsourcepayrollcompany-keep-payroll-work-instructions-current-after-a-provider-portal-update.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-owner-decision-docket": {
+    "image": "/blog-heroes/aug21-repair-payroll-owner-decision-docket.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-access-exit-register": {
+    "image": "/blog-heroes/payroll-access-exit-register.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-catch-duplicate-payroll-payments-before-the-bank-file-leaves": {
+    "image": "/daily06/outsourcepayrollcompany/outsourcepayrollcompany-catch-duplicate-payroll-payments-before-the-bank-file-leaves.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-currency-instruction-register": {
+    "image": "/oct12-heroes/payroll-currency-instruction-register.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-hours-reconciliation-notebook": {
+    "image": "/blog-heroes/aug21-repair-payroll-hours-reconciliation-notebook.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-contractor-invoice-cutoff-oct27": {
+    "image": "/aug19-heroes/outsourcepayrollcompany-contractor-invoice-cutoff-oct27.svg",
+    "imageAlt": ""
+  },
+  "blog/payroll-provider-incident-status-brief": {
+    "image": "/blog-heroes/payroll-cycle-closeout-ledger.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-permission-recertification": {
+    "image": "/blog-heroes/aug21-repair-payroll-permission-recertification.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-cycle-evidence-close": {
+    "image": "/blog-heroes/aug21-repair-payroll-cycle-evidence-close.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-operations-change-control-record": {
+    "image": "/aug19-heroes/payroll-operations-change-control-record.webp",
+    "imageAlt": "Payroll Operations: Change Control Record editorial illustration"
+  },
+  "blog/payroll-location-change-intake-control": {
+    "image": "/blog-heroes/payroll-record-authority-index.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-shift-differential-input-control": {
+    "image": "/blog-heroes/payroll-cycle-closeout-review.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-direct-deposit-change-verification-log": {
+    "image": "/blog-heroes/payroll-sensitive-request-verification.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-uncashed-payment-follow-up-register": {
+    "image": "/blog-heroes/payroll-cycle-closeout-ledger.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-multi-country-vs-local-provider": {
+    "image": "/blog-heroes/payroll-input-ownership-map.png",
+    "imageAlt": ""
+  },
+  "blog/off-cycle-payroll-request-triage": {
+    "image": "/oct13-heroes/off-cycle-payroll-request-triage.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-journal-cost-center-mapping-review": {
+    "image": "/oct12-heroes/payroll-journal-cost-center-mapping-review.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-legal-entity-transfer-readiness": {
+    "image": "/blog-heroes/payroll-employee-change-effective-date.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-owner-review-packet": {
+    "image": "/blog-heroes/payroll-owner-review-packet.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-work-location-change-handoff": {
+    "image": "/blog-heroes/payroll-employee-change-effective-date.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-write-a-payroll-exception-escalation-matrix": {
+    "image": "/daily09/outsourcepayrollcompany/outsourcepayrollcompany-write-a-payroll-exception-escalation-matrix.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-zero-net-pay-check": {
+    "image": "/blog-heroes/payroll-cycle-closeout-review.png",
+    "imageAlt": ""
+  },
+  "blog/employee-payroll-question-intake": {
+    "image": "/blog-heroes/employee-payroll-question-intake.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-paycard-enrollment-exception": {
+    "image": "/blog-heroes/payroll-sensitive-request-verification.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-leave-return-proration-handoff": {
+    "image": "/oct12-heroes/payroll-leave-return-proration-handoff.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-union-dues-change-control": {
+    "image": "/blog-heroes/payroll-record-source-register.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-salary-proration-change-packet": {
+    "image": "/blog-heroes/payroll-employee-change-effective-date.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-prior-period-correction-queue": {
+    "image": "/blog-heroes/payroll-cycle-closeout-ledger.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-cycle-control-total-check": {
+    "image": "/blog-heroes/payroll-handoff-qa-scorecard.png",
+    "imageAlt": ""
+  },
+  "blog/final-pay-calendar-handoff": {
+    "image": "/oct13-heroes/final-pay-calendar-handoff.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-operations-intake-source-register": {
+    "image": "/aug19-heroes/payroll-operations-intake-source-register.webp",
+    "imageAlt": "Payroll Operations: Intake Source Register editorial illustration"
+  },
+  "blog/payroll-interface-reject-queue": {
+    "image": "/blog-heroes/payroll-input-control-map.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-overpayment-case-coordination": {
+    "image": "/blog-heroes/payroll-exception-root-cause-review.png",
+    "imageAlt": ""
+  },
+  "blog/provider-cutoff-coordination-plan": {
+    "image": "/blog-heroes/provider-cutoff-coordination-plan.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-new-hire-first-cycle-proof": {
+    "image": "/blog-heroes/aug21-payroll-cutoff-evidence-window.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-outsourcing-implementation-timeline": {
+    "image": "/blog-heroes/payroll-cycle-closeout-review.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-gross-to-net-variance-bridge": {
+    "image": "/blog-heroes/payroll-handoff-qa-scorecard.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-keep-open-enrollment-deduction-changes-out-of-the-current-pay-cycle": {
+    "image": "/daily07/outsourcepayrollcompany/outsourcepayrollcompany-keep-open-enrollment-deduction-changes-out-of-the-current-pay-cycle.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-court-order-receipt-log": {
+    "image": "/blog-heroes/payroll-approval-evidence-packet.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-third-party-sick-pay-reconciliation": {
+    "image": "/blog-heroes/payroll-cycle-closeout-ledger.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-operations-quality-review-cadence": {
+    "image": "/aug19-heroes/payroll-operations-quality-review-cadence.webp",
+    "imageAlt": "Payroll Operations: Quality Review Cadence editorial illustration"
+  },
+  "blog/outsourcepayrollcompany-build-a-multi-state-payroll-registration-tracker-for-remote-hires": {
+    "image": "/daily08/outsourcepayrollcompany/outsourcepayrollcompany-build-a-multi-state-payroll-registration-tracker-for-remote-hires.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-union-dues-deduction-roster": {
+    "image": "/blog-heroes/payroll-handoff-qa-scorecard.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-reconcile-labor-distribution-before-the-general-ledger-closes": {
+    "image": "/daily06/outsourcepayrollcompany/outsourcepayrollcompany-reconcile-labor-distribution-before-the-general-ledger-closes.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-name-change-identity-bridge": {
+    "image": "/blog-heroes/employee-payroll-question-intake.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-timesheet-late-change-diff": {
+    "image": "/blog-heroes/payroll-timesheet-source-check.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-bonus-approval-population-check": {
+    "image": "/oct12-heroes/payroll-bonus-approval-population-check.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-earnings-code-activation-control": {
+    "image": "/oct12-heroes/payroll-earnings-code-activation-control.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-retroactive-promotion-change-lane": {
+    "image": "/oct12-heroes/payroll-retroactive-promotion-change-lane.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-operations-exception-queue-triage": {
+    "image": "/aug19-heroes/payroll-operations-exception-queue-triage.webp",
+    "imageAlt": "Payroll Operations: Exception Queue Triage editorial illustration"
+  },
+  "blog/payroll-error-responsibility-matrix": {
+    "image": "/blog-heroes/payroll-exception-root-cause-review.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-benefit-deduction-file-bridge": {
+    "image": "/blog-heroes/payroll-timesheet-source-check.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-test-garnishment-deduction-priority-before-the-next-run": {
+    "image": "/daily11/outsourcepayrollcompany/outsourcepayrollcompany-test-garnishment-deduction-priority-before-the-next-run.webp",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-off-cycle-payment-triage-oct27": {
+    "image": "/aug19-heroes/outsourcepayrollcompany-off-cycle-payment-triage-oct27.svg",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-build-a-payroll-register-review-record-that-survives-audit": {
+    "image": "/daily05/outsourcepayrollcompany/outsourcepayrollcompany-build-a-payroll-register-review-record-that-survives-audit.webp",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-closeout-audit-oct26": {
+    "image": "/aug19-heroes/outsourcepayrollcompany-closeout-audit-oct26.svg",
+    "imageAlt": ""
+  },
+  "blog/payroll-unresolved-item-rollforward": {
+    "image": "/blog-heroes/payroll-cycle-closeout-review.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-tax-registration-readiness-handoff": {
+    "image": "/blog-heroes/payroll-record-source-register.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-foreign-currency-input-bridge": {
+    "image": "/blog-heroes/payroll-timesheet-source-check.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-report-distribution-access-list": {
+    "image": "/oct22-heroes/payroll-report-distribution-access-list.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-multiple-job-record-reconciliation": {
+    "image": "/blog-heroes/payroll-input-control-map.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-work-location-change-intake": {
+    "image": "/blog-heroes/employee-change-date-ledger.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-benefit-deduction-handoff-boundary": {
+    "image": "/blog-heroes/payroll-record-source-register.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-pay-group-transfer-checklist": {
+    "image": "/blog-heroes/payroll-employee-change-effective-date.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-inbox-identity-verification": {
+    "image": "/blog-heroes/payroll-sensitive-request-verification.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-paystub-access-case-routing": {
+    "image": "/blog-heroes/employee-payroll-question-intake.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-offcycle-request-gate": {
+    "image": "/blog-heroes/payroll-cycle-closeout-review.png",
+    "imageAlt": ""
+  },
+  "blog/employee-change-date-ledger": {
+    "image": "/blog-heroes/employee-change-date-ledger.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-general-ledger-mapping-change-review": {
+    "image": "/blog-heroes/payroll-cycle-closeout-ledger.png",
+    "imageAlt": ""
+  },
+  "blog/direct-deposit-prenote-exception": {
+    "image": "/oct13-heroes/direct-deposit-prenote-exception.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-workers-comp-code-change": {
+    "image": "/blog-heroes/employee-change-date-ledger.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-approval-evidence-expiry-review": {
+    "image": "/blog-heroes/aug21-payroll-exception-aging-review.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-cycle-version-release-note": {
+    "image": "/blog-heroes/payroll-sensitive-request-verification.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-return-status-cutoff-review": {
+    "image": "/blog-heroes/aug21-repair-payroll-absence-continuity-runbook.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-currency-conversion-evidence-log": {
+    "image": "/blog-heroes/payroll-cycle-closeout-review.png",
+    "imageAlt": ""
+  },
+  "blog/multi-state-work-location-intake": {
+    "image": "/oct13-heroes/multi-state-work-location-intake.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-provider-invoice-reconciliation": {
+    "image": "/blog-heroes/payroll-handoff-qa-scorecard.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-earned-wage-access-reconciliation": {
+    "image": "/blog-heroes/payroll-cycle-closeout-ledger.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-absence-coverage-protocol": {
+    "image": "/blog-heroes/payroll-absence-coverage-protocol.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-provider-subprocessor-inventory": {
+    "image": "/blog-heroes/payroll-access-exit-register.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-retroactive-pay-input-packet": {
+    "image": "/blog-heroes/payroll-cycle-closeout-review.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-hris-integration-ownership": {
+    "image": "/blog-heroes/payroll-record-source-register.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-calendar-provider-alignment": {
+    "image": "/blog-heroes/payroll-cycle-closeout-review.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-deduction-change-effective-date-check": {
+    "image": "/blog-heroes/payroll-employee-change-effective-date.png",
+    "imageAlt": ""
+  },
+  "blog/negative-net-pay-exception": {
+    "image": "/oct13-heroes/negative-net-pay-exception.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-multi-entity-worker-match": {
+    "image": "/blog-heroes/payroll-record-authority-index.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-owner-handoff-map-oct26": {
+    "image": "/aug19-heroes/outsourcepayrollcompany-owner-handoff-map-oct26.svg",
+    "imageAlt": ""
+  },
+  "blog/payroll-address-change-tax-routing": {
+    "image": "/blog-heroes/payroll-timesheet-source-check.png",
+    "imageAlt": ""
+  },
+  "blog/benefit-deduction-arrears-handoff": {
+    "image": "/oct13-heroes/benefit-deduction-arrears-handoff.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-variable-pay-source-register": {
+    "image": "/blog-heroes/aug21-repair-payroll-record-conflict-register.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-shift-differential-source-reconciliation": {
+    "image": "/oct12-heroes/payroll-shift-differential-source-reconciliation.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-third-party-file-receipt": {
+    "image": "/blog-heroes/payroll-employee-change-effective-date.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-tax-agency-notice-intake": {
+    "image": "/blog-heroes/payroll-sensitive-request-verification.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-reporting-cadence-review-oct26": {
+    "image": "/aug19-heroes/outsourcepayrollcompany-reporting-cadence-review-oct26.svg",
+    "imageAlt": ""
+  },
+  "blog/payroll-retroactive-rate-change-bridge": {
+    "image": "/blog-heroes/payroll-employee-change-effective-date.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-provider-case-number-register": {
+    "image": "/oct13-heroes/payroll-provider-case-number-register.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-deduction-cap-review-queue": {
+    "image": "/blog-heroes/payroll-cycle-closeout-review.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-garnishment-document-routing": {
+    "image": "/blog-heroes/sensitive-payroll-request-routing.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-garnishment-order-intake-oct27": {
+    "image": "/aug19-heroes/outsourcepayrollcompany-garnishment-order-intake-oct27.svg",
+    "imageAlt": ""
+  },
+  "blog/payroll-work-location-source-review": {
+    "image": "/blog-heroes/payroll-employee-change-effective-date.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-cutoff-evidence-clock": {
+    "image": "/blog-heroes/aug21-payroll-cutoff-evidence-window.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-new-hire-first-payment-readiness": {
+    "image": "/blog-heroes/employee-change-date-ledger.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-pto-balance-source-mismatch": {
+    "image": "/blog-heroes/payroll-sensitive-request-verification.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-pay-rate-effective-date-evidence": {
+    "image": "/oct12-heroes/payroll-pay-rate-effective-date-evidence.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-operations-weekly-decision-brief": {
+    "image": "/aug19-heroes/payroll-operations-weekly-decision-brief.webp",
+    "imageAlt": "Payroll Operations: Weekly Decision Brief editorial illustration"
+  },
+  "blog/payroll-direct-deposit-prenote-exception-log": {
+    "image": "/blog-heroes/payroll-sensitive-request-verification.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-plan-payroll-support-capacity-around-the-pay-calendar": {
+    "image": "/daily06/outsourcepayrollcompany/outsourcepayrollcompany-plan-payroll-support-capacity-around-the-pay-calendar.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-new-jurisdiction-worker-intake": {
+    "image": "/blog-heroes/employee-change-date-ledger.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-holiday-calendar-exception-plan": {
+    "image": "/blog-heroes/payroll-timesheet-source-check.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-general-ledger-handoff-reconciliation": {
+    "image": "/blog-heroes/payroll-input-control-map.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-turn-late-timesheet-corrections-into-a-controlled-queue": {
+    "image": "/daily09/outsourcepayrollcompany/outsourcepayrollcompany-turn-late-timesheet-corrections-into-a-controlled-queue.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-emergency-payment-review-log": {
+    "image": "/blog-heroes/payroll-approval-evidence-packet.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-reversal-reason-code-review": {
+    "image": "/blog-heroes/provider-rejection-correction-log.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-shadow-payroll-input-coordination": {
+    "image": "/blog-heroes/payroll-record-source-register.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-deferred-compensation-input-bridge": {
+    "image": "/blog-heroes/payroll-record-source-register.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-payment-reversal-followup-board": {
+    "image": "/blog-heroes/aug21-payroll-exception-aging-review.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-calendar-holiday-shift": {
+    "image": "/oct22-heroes/payroll-calendar-holiday-shift.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-payment-return-case-workflow": {
+    "image": "/blog-heroes/payroll-provider-rejection-response.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-returned-direct-deposit-resolution": {
+    "image": "/blog-heroes/payroll-provider-rejection-response.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-earning-code-retirement-checklist": {
+    "image": "/blog-heroes/payroll-record-source-register.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-quarterly-document-request-tracker-oct27": {
+    "image": "/aug19-heroes/outsourcepayrollcompany-quarterly-document-request-tracker-oct27.svg",
+    "imageAlt": ""
+  },
+  "blog/payroll-provider-sla-exception-log": {
+    "image": "/blog-heroes/payroll-timesheet-source-check.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-exception-escalation-path-oct26": {
+    "image": "/aug19-heroes/outsourcepayrollcompany-exception-escalation-path-oct26.svg",
+    "imageAlt": ""
+  },
+  "blog/payroll-bonus-approval-lineage": {
+    "image": "/blog-heroes/payroll-approval-evidence-packet.png",
+    "imageAlt": ""
+  },
+  "blog/year-end-address-change-cutoff": {
+    "image": "/oct13-heroes/year-end-address-change-cutoff.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-holiday-premium-input-review": {
+    "image": "/blog-heroes/payroll-timesheet-source-check.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-provider-escalation-design": {
+    "image": "/blog-heroes/payroll-sensitive-request-verification.png",
+    "imageAlt": ""
+  },
+  "blog/retro-pay-request-evidence-packet": {
+    "image": "/oct22-heroes/retro-pay-request-evidence-packet.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-employee-question-triage-board": {
+    "image": "/blog-heroes/payroll-employee-question-triage-board.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-client-onboarding-brief-oct26": {
+    "image": "/aug19-heroes/outsourcepayrollcompany-client-onboarding-brief-oct26.svg",
+    "imageAlt": ""
+  },
+  "blog/payroll-outsourcing-transition-governance": {
+    "image": "/blog-heroes/payroll-owner-review-packet.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-retro-pay-period-map": {
+    "image": "/blog-heroes/aug21-repair-payroll-absence-continuity-runbook.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-outsourcing-service-level-agreement": {
+    "image": "/blog-heroes/payroll-cycle-closeout-ledger.png",
+    "imageAlt": ""
+  },
+  "blog/taxable-fringe-benefit-evidence-packet": {
+    "image": "/oct13-heroes/taxable-fringe-benefit-evidence-packet.webp",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-write-a-payroll-handoff-note-that-survives-a-time-zone-gap": {
+    "image": "/daily11/outsourcepayrollcompany/outsourcepayrollcompany-write-a-payroll-handoff-note-that-survives-a-time-zone-gap.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-negative-net-pay-exception": {
+    "image": "/blog-heroes/payroll-exception-root-cause-review.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-build-a-payroll-entity-change-runbook-before-the-next-filing": {
+    "image": "/daily07/outsourcepayrollcompany/outsourcepayrollcompany-build-a-payroll-entity-change-runbook-before-the-next-filing.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-benefit-arrears-exception-review": {
+    "image": "/blog-heroes/payroll-exception-root-cause-review.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-outsourcing-rfp-scorecard": {
+    "image": "/blog-heroes/payroll-handoff-qa-scorecard.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-time-zone-cutoff-board": {
+    "image": "/blog-heroes/payroll-sensitive-request-verification.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-termination-date-conflict-triage": {
+    "image": "/blog-heroes/payroll-handoff-qa-scorecard.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-business-continuity-test": {
+    "image": "/blog-heroes/aug21-repair-payroll-absence-continuity-runbook.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-recurring-deduction-instruction-log": {
+    "image": "/blog-heroes/payroll-record-source-register.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-outsourcing-merger-acquisition-readiness": {
+    "image": "/blog-heroes/payroll-handoff-qa-scorecard.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-deduction-refund-case-register": {
+    "image": "/blog-heroes/employee-payroll-question-intake.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-new-entity-readiness-register": {
+    "image": "/blog-heroes/payroll-approval-evidence-packet.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-parallel-run-coverage-matrix": {
+    "image": "/blog-heroes/payroll-record-source-register.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-prevailing-wage-input-review": {
+    "image": "/blog-heroes/payroll-timesheet-source-check.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-in-house-vs-outsourced-payroll": {
+    "image": "/blog-heroes/aug21-payroll-work-queue-owner-matrix.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-new-hire-record-completeness-oct27": {
+    "image": "/aug19-heroes/outsourcepayrollcompany-new-hire-record-completeness-oct27.svg",
+    "imageAlt": ""
+  },
+  "blog/payroll-taxable-fringe-benefit-input": {
+    "image": "/blog-heroes/payroll-input-control-map.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-sensitive-final-pay-routing": {
+    "image": "/blog-heroes/employee-payroll-question-intake.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-rebuild-a-payroll-calendar-after-a-missed-cutoff": {
+    "image": "/daily11/outsourcepayrollcompany/outsourcepayrollcompany-rebuild-a-payroll-calendar-after-a-missed-cutoff.webp",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-turn-payroll-bank-returns-into-a-same-day-exception-route": {
+    "image": "/daily10/outsourcepayrollcompany/outsourcepayrollcompany-turn-payroll-bank-returns-into-a-same-day-exception-route.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-operations-approval-evidence-matrix": {
+    "image": "/aug19-heroes/payroll-operations-approval-evidence-matrix.webp",
+    "imageAlt": "Payroll Operations: Approval Evidence Matrix editorial illustration"
+  },
+  "blog/payroll-funding-confirmation-handoff": {
+    "image": "/blog-heroes/payroll-provider-cutoff-calendar.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-provider-user-access-review": {
+    "image": "/blog-heroes/aug21-payroll-exception-aging-review.png",
+    "imageAlt": ""
+  },
+  "blog/timecard-correction-authorization": {
+    "image": "/oct13-heroes/timecard-correction-authorization.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-provider-portal-access-review": {
+    "image": "/blog-heroes/aug21-payroll-access-review-cycle.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-returned-bank-file-recovery": {
+    "image": "/blog-heroes/aug21-payroll-cutoff-evidence-window.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-tip-input-reconciliation": {
+    "image": "/blog-heroes/payroll-handoff-qa-scorecard.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-prepare-a-garnishment-handoff-packet-before-payroll-runs": {
+    "image": "/daily08/outsourcepayrollcompany/outsourcepayrollcompany-prepare-a-garnishment-handoff-packet-before-payroll-runs.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-termination-input-boundary": {
+    "image": "/blog-heroes/payroll-employee-change-effective-date.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-gross-up-request-intake": {
+    "image": "/blog-heroes/payroll-approval-evidence-packet.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-employee-master-change-diff": {
+    "image": "/blog-heroes/payroll-record-source-register.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-run-a-payslip-dispute-queue-that-ends-with-evidence": {
+    "image": "/daily06/outsourcepayrollcompany/outsourcepayrollcompany-run-a-payslip-dispute-queue-that-ends-with-evidence.webp",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-control-retroactive-pay-adjustments-with-a-two-key-review": {
+    "image": "/daily10/outsourcepayrollcompany/outsourcepayrollcompany-control-retroactive-pay-adjustments-with-a-two-key-review.webp",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-separate-payroll-preparation-from-approval-authority": {
+    "image": "/daily09/outsourcepayrollcompany/outsourcepayrollcompany-separate-payroll-preparation-from-approval-authority.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-garnishment-notice-intake-boundary": {
+    "image": "/blog-heroes/payroll-approval-evidence-packet.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-make-payroll-close-evidence-easy-to-reconstruct": {
+    "image": "/daily08/outsourcepayrollcompany/outsourcepayrollcompany-make-payroll-close-evidence-easy-to-reconstruct.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-expense-reimbursement-separation": {
+    "image": "/blog-heroes/payroll-input-control-map.png",
+    "imageAlt": ""
+  },
+  "blog/employee-legal-name-change-evidence": {
+    "image": "/oct13-heroes/employee-legal-name-change-evidence.webp",
+    "imageAlt": ""
+  },
+  "blog/bonus-commission-payroll-input-signoff": {
+    "image": "/blog-heroes/payroll-approval-evidence-packet.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-bank-file-release-separation-oct27": {
+    "image": "/aug19-heroes/outsourcepayrollcompany-bank-file-release-separation-oct27.svg",
+    "imageAlt": ""
+  },
+  "blog/payroll-operations-work-queue-ownership": {
+    "image": "/aug19-heroes/payroll-operations-work-queue-ownership.webp",
+    "imageAlt": "Payroll Operations: Work Queue Ownership editorial illustration"
+  },
+  "blog/payroll-unapproved-hours-quarantine": {
+    "image": "/blog-heroes/payroll-timesheet-source-check.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-bank-change-verification-oct27": {
+    "image": "/aug19-heroes/outsourcepayrollcompany-bank-change-verification-oct27.svg",
+    "imageAlt": ""
+  },
+  "blog/payroll-support-document-intake-safety": {
+    "image": "/blog-heroes/payroll-handoff-qa-scorecard.png",
+    "imageAlt": ""
+  },
+  "blog/retained-payroll-team-capacity-plan": {
+    "image": "/blog-heroes/payroll-input-ownership-map.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-voided-payment-control-log": {
+    "image": "/blog-heroes/payroll-cycle-closeout-ledger.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-operations-handoff-acceptance-log": {
+    "image": "/aug19-heroes/payroll-operations-handoff-acceptance-log.webp",
+    "imageAlt": "Payroll Operations: Handoff Acceptance Log editorial illustration"
+  },
+  "blog/payroll-manual-check-custody-log": {
+    "image": "/blog-heroes/payroll-approval-evidence-packet.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-small-balance-writeoff-routing": {
+    "image": "/blog-heroes/payroll-timesheet-source-check.png",
+    "imageAlt": ""
+  },
+  "blog/pto-balance-correction-evidence": {
+    "image": "/oct22-heroes/pto-balance-correction-evidence.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-change-request-intake": {
+    "image": "/blog-heroes/aug21-repair-payroll-change-request-intake.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-documentation-version-control-oct26": {
+    "image": "/aug19-heroes/outsourcepayrollcompany-documentation-version-control-oct26.svg",
+    "imageAlt": ""
+  },
+  "blog/payroll-commission-input-handoff": {
+    "image": "/blog-heroes/payroll-approval-evidence-packet.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-void-after-release-control": {
+    "image": "/blog-heroes/payroll-provider-rejection-response.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-set-a-payroll-records-retention-calendar-support-staff-can-follow": {
+    "image": "/daily07/outsourcepayrollcompany/outsourcepayrollcompany-set-a-payroll-records-retention-calendar-support-staff-can-follow.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-termination-cutoff-coordination": {
+    "image": "/blog-heroes/payroll-access-exit-register.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-exception-cause-audit": {
+    "image": "/blog-heroes/payroll-exception-cause-audit.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-deceased-employee-case-routing": {
+    "image": "/blog-heroes/employee-payroll-question-intake.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-cost-allocation-input-review": {
+    "image": "/blog-heroes/payroll-cycle-closeout-review.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-pto-cashout-evidence-oct27": {
+    "image": "/aug19-heroes/outsourcepayrollcompany-pto-cashout-evidence-oct27.svg",
+    "imageAlt": ""
+  },
+  "blog/payroll-operations-launch-readiness-review": {
+    "image": "/aug19-heroes/payroll-operations-launch-readiness-review.webp",
+    "imageAlt": "Payroll Operations: Launch Readiness Review editorial illustration"
+  },
+  "blog/payroll-manual-check-reconciliation-trail": {
+    "image": "/blog-heroes/aug21-payroll-exception-aging-review.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-multi-entity-worker-allocation-check": {
+    "image": "/blog-heroes/employee-payroll-question-intake.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-stage-a-parallel-payroll-run-before-switching-providers": {
+    "image": "/daily10/outsourcepayrollcompany/outsourcepayrollcompany-stage-a-parallel-payroll-run-before-switching-providers.webp",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-trim-payroll-exports-to-the-fields-a-task-actually-needs": {
+    "image": "/daily06/outsourcepayrollcompany/outsourcepayrollcompany-trim-payroll-exports-to-the-fields-a-task-actually-needs.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-absence-continuity-runbook": {
+    "image": "/blog-heroes/aug21-repair-payroll-absence-continuity-runbook.png",
+    "imageAlt": ""
+  },
+  "blog/sensitive-payroll-request-routing": {
+    "image": "/blog-heroes/sensitive-payroll-request-routing.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-file-retention-disposition-check": {
+    "image": "/blog-heroes/payroll-cycle-closeout-ledger.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-turn-a-final-pay-timing-exception-into-a-reviewable-case": {
+    "image": "/daily05/outsourcepayrollcompany/outsourcepayrollcompany-turn-a-final-pay-timing-exception-into-a-reviewable-case.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-new-hire-first-cycle-readiness": {
+    "image": "/blog-heroes/payroll-input-control-map.png",
+    "imageAlt": ""
+  },
+  "blog/new-hire-payroll-document-completeness": {
+    "image": "/oct22-heroes/new-hire-payroll-document-completeness.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-record-authority-index": {
+    "image": "/blog-heroes/payroll-record-authority-index.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-cutoff-proof-window": {
+    "image": "/blog-heroes/aug21-repair-payroll-cutoff-proof-window.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-data-migration-reconciliation": {
+    "image": "/blog-heroes/payroll-record-source-register.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-wage-repayment-intake": {
+    "image": "/blog-heroes/payroll-exception-root-cause-review.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-turn-payroll-email-into-a-triaged-work-queue": {
+    "image": "/daily08/outsourcepayrollcompany/outsourcepayrollcompany-turn-payroll-email-into-a-triaged-work-queue.webp",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-make-a-benefit-deduction-reconciliation-usable-at-handoff": {
+    "image": "/daily05/outsourcepayrollcompany/outsourcepayrollcompany-make-a-benefit-deduction-reconciliation-usable-at-handoff.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-filing-amendment-change-control": {
+    "image": "/blog-heroes/payroll-employee-question-routing.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-intake-request-triage-oct26": {
+    "image": "/aug19-heroes/outsourcepayrollcompany-intake-request-triage-oct26.svg",
+    "imageAlt": ""
+  },
+  "blog/payroll-master-data-freshness-check": {
+    "image": "/blog-heroes/payroll-cycle-closeout-ledger.png",
+    "imageAlt": ""
+  },
+  "blog/retroactive-pay-request-evidence-packet": {
+    "image": "/blog-heroes/employee-change-date-ledger.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-operations-source-of-truth-map": {
+    "image": "/aug19-heroes/payroll-operations-source-of-truth-map.webp",
+    "imageAlt": "Payroll Operations: Source of Truth Map editorial illustration"
+  },
+  "blog/payroll-outsourcing-pricing-model-comparison": {
+    "image": "/blog-heroes/payroll-owner-review-packet.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-stale-employee-master-data-review": {
+    "image": "/blog-heroes/payroll-cycle-closeout-ledger.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-court-order-release-intake": {
+    "image": "/blog-heroes/payroll-sensitive-request-verification.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-supplemental-wage-input-review": {
+    "image": "/blog-heroes/payroll-approval-evidence-packet.png",
+    "imageAlt": ""
+  },
+  "blog/quarterly-payroll-provider-performance-review": {
+    "image": "/blog-heroes/payroll-cycle-closeout-review.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-leave-return-effective-date-check": {
+    "image": "/blog-heroes/aug21-repair-payroll-absence-continuity-runbook.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-tax-form-delivery-exception-queue": {
+    "image": "/blog-heroes/employee-payroll-question-intake.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-wage-attachment-order-intake": {
+    "image": "/blog-heroes/payroll-sensitive-request-verification.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-multi-state-registration-handoff-oct27": {
+    "image": "/aug19-heroes/outsourcepayrollcompany-multi-state-registration-handoff-oct27.svg",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-stage-new-hire-payroll-setup-before-the-first-pay-run": {
+    "image": "/daily09/outsourcepayrollcompany/outsourcepayrollcompany-stage-new-hire-payroll-setup-before-the-first-pay-run.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-audit-evidence-provider-request": {
+    "image": "/blog-heroes/payroll-cycle-closeout-ledger.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-bank-validation-exception-board": {
+    "image": "/blog-heroes/payroll-sensitive-request-verification.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-tip-file-acceptance-check": {
+    "image": "/blog-heroes/payroll-handoff-qa-scorecard.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-shift-differential-input-review": {
+    "image": "/blog-heroes/payroll-timesheet-source-check.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-cycle-closeout-ledger": {
+    "image": "/blog-heroes/payroll-cycle-closeout-ledger.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-unclaimed-payment-followup": {
+    "image": "/blog-heroes/payroll-provider-rejection-response.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-shift-differential-review-oct27": {
+    "image": "/aug19-heroes/outsourcepayrollcompany-shift-differential-review-oct27.svg",
+    "imageAlt": ""
+  },
+  "blog/payroll-duplicate-payment-prevention-review": {
+    "image": "/blog-heroes/payroll-approval-evidence-packet.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-provider-ticket-escalation-oct27": {
+    "image": "/aug19-heroes/outsourcepayrollcompany-provider-ticket-escalation-oct27.svg",
+    "imageAlt": ""
+  },
+  "blog/payroll-funding-confirmation-separation": {
+    "image": "/oct13-heroes/payroll-funding-confirmation-separation.webp",
+    "imageAlt": ""
+  },
+  "blog/employee-communications-payroll-provider-change": {
+    "image": "/blog-heroes/payroll-employee-question-triage-board.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-off-cycle-request-decision-packet": {
+    "image": "/blog-heroes/aug21-repair-payroll-absence-continuity-runbook.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-deceased-worker-case-intake": {
+    "image": "/blog-heroes/payroll-sensitive-request-verification.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-duplicate-worker-record-check": {
+    "image": "/blog-heroes/aug21-repair-payroll-record-conflict-register.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-manual-check-authorization-packet": {
+    "image": "/blog-heroes/payroll-approval-evidence-packet.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-garnishment-remittance-reconciliation": {
+    "image": "/blog-heroes/payroll-cycle-closeout-ledger.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-parallel-run-acceptance-criteria": {
+    "image": "/blog-heroes/payroll-input-control-map.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-pay-frequency-transition-map": {
+    "image": "/blog-heroes/payroll-cycle-closeout-review.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-benefit-arrears-followup-register": {
+    "image": "/blog-heroes/payroll-provider-rejection-response.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-queue-accountability-grid": {
+    "image": "/blog-heroes/aug21-repair-payroll-queue-accountability-grid.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-record-conflict-register": {
+    "image": "/blog-heroes/aug21-repair-payroll-record-conflict-register.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-termination-final-cycle-handoff": {
+    "image": "/blog-heroes/aug21-repair-payroll-record-conflict-register.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-benefit-deduction-change-ledger": {
+    "image": "/blog-heroes/payroll-timesheet-source-check.png",
+    "imageAlt": ""
+  },
+  "blog/provider-rejection-correction-log": {
+    "image": "/blog-heroes/provider-rejection-correction-log.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-keep-an-off-cycle-payment-log-a-new-reviewer-can-trust": {
+    "image": "/daily05/outsourcepayrollcompany/outsourcepayrollcompany-keep-an-off-cycle-payment-log-a-new-reviewer-can-trust.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-funding-shortfall-escalation-record": {
+    "image": "/blog-heroes/aug21-payroll-exception-aging-review.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-evidence-capture-standard-oct26": {
+    "image": "/aug19-heroes/outsourcepayrollcompany-evidence-capture-standard-oct26.svg",
+    "imageAlt": ""
+  },
+  "blog/payroll-closeout-open-item-rollforward": {
+    "image": "/blog-heroes/payroll-cycle-closeout-ledger.png",
+    "imageAlt": ""
+  },
+  "blog/garnishment-order-intake-routing": {
+    "image": "/oct22-heroes/garnishment-order-intake-routing.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-third-party-sick-pay-evidence": {
+    "image": "/oct12-heroes/payroll-third-party-sick-pay-evidence.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-termination-final-pay-packet": {
+    "image": "/blog-heroes/payroll-employee-change-effective-date.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-queue-aging-review-oct26": {
+    "image": "/aug19-heroes/outsourcepayrollcompany-queue-aging-review-oct26.svg",
+    "imageAlt": ""
+  },
+  "blog/payroll-provider-transition-access-inventory": {
+    "image": "/blog-heroes/payroll-sensitive-request-verification.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-vendor-outage-payday-continuity": {
+    "image": "/oct22-heroes/payroll-vendor-outage-payday-continuity.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-unclaimed-payment-escalation": {
+    "image": "/oct12-heroes/payroll-unclaimed-payment-escalation.webp",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-benefits-deduction-arrears-oct27": {
+    "image": "/aug19-heroes/outsourcepayrollcompany-benefits-deduction-arrears-oct27.svg",
+    "imageAlt": ""
+  },
+  "blog/outsourced-payroll-funding-controls": {
+    "image": "/blog-heroes/payroll-input-control-map.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-post-termination-recurring-input-scan": {
+    "image": "/blog-heroes/payroll-access-exit-register.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-run-a-payroll-cutoff-drill-before-the-busy-season": {
+    "image": "/daily07/outsourcepayrollcompany/outsourcepayrollcompany-run-a-payroll-cutoff-drill-before-the-busy-season.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-provider-file-version-register": {
+    "image": "/blog-heroes/payroll-provider-rejection-response.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-parallel-run-difference-log": {
+    "image": "/blog-heroes/payroll-cycle-closeout-ledger.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-time-clock-outage-input-recovery": {
+    "image": "/blog-heroes/payroll-timesheet-source-check.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-deceased-employee-payment-routing": {
+    "image": "/oct12-heroes/payroll-deceased-employee-payment-routing.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-inbox-duplicate-request-dedup": {
+    "image": "/oct22-heroes/payroll-inbox-duplicate-request-dedup.webp",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-audit-employee-withholding-elections-before-the-filing-season": {
+    "image": "/daily07/outsourcepayrollcompany/outsourcepayrollcompany-audit-employee-withholding-elections-before-the-filing-season.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-leave-return-date-coordination": {
+    "image": "/blog-heroes/employee-change-date-ledger.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-funding-confirmation-checkpoint": {
+    "image": "/blog-heroes/aug21-payroll-exception-aging-review.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-manager-delegation-window": {
+    "image": "/blog-heroes/aug21-payroll-exception-aging-review.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-off-cycle-request-register": {
+    "image": "/blog-heroes/aug21-payroll-exception-aging-review.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-worker-identifier-collision-triage": {
+    "image": "/blog-heroes/payroll-sensitive-request-verification.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-pay-group-transfer-reconciliation": {
+    "image": "/blog-heroes/payroll-employee-change-effective-date.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-file-transmission-receipt": {
+    "image": "/oct22-heroes/payroll-file-transmission-receipt.webp",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-quality-sample-review-oct26": {
+    "image": "/aug19-heroes/outsourcepayrollcompany-quality-sample-review-oct26.svg",
+    "imageAlt": ""
+  },
+  "blog/payroll-paper-check-custody-register": {
+    "image": "/blog-heroes/payroll-approval-evidence-packet.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-ach-notice-of-change-intake": {
+    "image": "/blog-heroes/payroll-sensitive-request-verification.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-provider-exit-plan": {
+    "image": "/blog-heroes/payroll-access-exit-register.png",
+    "imageAlt": ""
+  },
+  "blog/payroll-support-access-breakglass-review": {
+    "image": "/blog-heroes/aug21-repair-payroll-absence-continuity-runbook.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-audit-payroll-provider-backup-and-recovery-evidence": {
+    "image": "/daily11/outsourcepayrollcompany/outsourcepayrollcompany-audit-payroll-provider-backup-and-recovery-evidence.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-tax-notice-intake-routing": {
+    "image": "/blog-heroes/employee-payroll-question-intake.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-close-a-payroll-month-with-an-exception-aging-report": {
+    "image": "/daily11/outsourcepayrollcompany/outsourcepayrollcompany-close-a-payroll-month-with-an-exception-aging-report.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-operations-access-recertification-review": {
+    "image": "/aug19-heroes/payroll-operations-access-recertification-review.webp",
+    "imageAlt": "Payroll Operations: Access Recertification Review editorial illustration"
+  },
+  "blog/quarter-end-reconciliation-binder": {
+    "image": "/oct22-heroes/quarter-end-reconciliation-binder.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-special-bonus-payout-readiness": {
+    "image": "/blog-heroes/payroll-approval-evidence-packet.png",
+    "imageAlt": ""
+  },
+  "blog/outsourcepayrollcompany-set-a-payroll-document-redaction-standard-before-sharing-files": {
+    "image": "/daily10/outsourcepayrollcompany/outsourcepayrollcompany-set-a-payroll-document-redaction-standard-before-sharing-files.webp",
+    "imageAlt": ""
+  },
+  "blog/payroll-provider-security-due-diligence": {
+    "image": "/blog-heroes/payroll-sensitive-request-verification.png",
+    "imageAlt": ""
+  },
+  "research/payroll-leave-balance-interface-study": {
+    "image": "/research-heroes/philippines-payroll-correction-lineage-review.png",
+    "imageAlt": ""
+  },
+  "research/philippines-payroll-cross-timezone-cutoff-study": {
+    "image": "/research-heroes/philippines-payroll-approval-authority-boundary-research.png",
+    "imageAlt": ""
+  },
+  "research/payroll-operations-source-quality-evidence-research": {
+    "image": "/aug19-heroes/payroll-operations-source-quality-evidence-research.webp",
+    "imageAlt": "Research Brief: Payroll Operations Source Quality Evidence editorial illustration"
+  },
+  "research/outsourcepayrollcompany-evidence-reliability-study-oct26": {
+    "image": "/aug19-heroes/outsourcepayrollcompany-evidence-reliability-study-oct26.svg",
+    "imageAlt": ""
+  },
+  "research/payroll-provider-file-receipt-study": {
+    "image": "/research-heroes/philippines-payroll-provider-rejection-cohort-study.png",
+    "imageAlt": ""
+  },
+  "research/payroll-unresolved-case-carryforward-study": {
+    "image": "/research-heroes/philippines-payroll-correction-lineage-review.png",
+    "imageAlt": ""
+  },
+  "research/payroll-file-receipt-latency-study": {
+    "image": "/oct22-heroes/payroll-file-receipt-latency-study.webp",
+    "imageAlt": ""
+  },
+  "research/payroll-operations-review-consistency-research": {
+    "image": "/aug19-heroes/payroll-operations-review-consistency-research.webp",
+    "imageAlt": "Research Brief: Payroll Operations Review Consistency editorial illustration"
+  },
+  "research/payroll-withholding-method-version-research": {
+    "image": "/oct12-heroes/payroll-withholding-method-version-research.webp",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-garnishment-response-latency-oct27": {
+    "image": "/aug19-heroes/outsourcepayrollcompany-garnishment-response-latency-oct27.svg",
+    "imageAlt": ""
+  },
+  "research/payroll-source-definition-change-detection-study": {
+    "image": "/research-heroes/philippines-payroll-source-output-bridge-study.png",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-payroll-provider-backup-and-recovery-evidence-review": {
+    "image": "/daily11/outsourcepayrollcompany/outsourcepayrollcompany-payroll-provider-backup-and-recovery-evidence-review.webp",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-payroll-support-capacity-evidence-against-queue-demand": {
+    "image": "/daily06/outsourcepayrollcompany/outsourcepayrollcompany-payroll-support-capacity-evidence-against-queue-demand.webp",
+    "imageAlt": ""
+  },
+  "research/payroll-funding-return-traceability-study": {
+    "image": "/research-heroes/philippines-payroll-remittance-source-match-research.png",
+    "imageAlt": ""
+  },
+  "research/payroll-export-minimization-and-review-research": {
+    "image": "/research-heroes/payroll-export-minimization-and-review-research.png",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-exception-escalation-adherence-review": {
+    "image": "/daily09/outsourcepayrollcompany/outsourcepayrollcompany-exception-escalation-adherence-review.webp",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-payroll-entity-change-readiness-evidence": {
+    "image": "/daily07/outsourcepayrollcompany/outsourcepayrollcompany-payroll-entity-change-readiness-evidence.webp",
+    "imageAlt": ""
+  },
+  "research/payroll-operations-access-governance-research": {
+    "image": "/aug19-heroes/payroll-operations-access-governance-research.webp",
+    "imageAlt": "Research Brief: Payroll Operations Access Governance editorial illustration"
+  },
+  "research/payroll-emergency-export-accountability-study": {
+    "image": "/research-heroes/philippines-payroll-evidence-retention-minimization-study.png",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-payroll-cutoff-drill-defect-discovery": {
+    "image": "/daily07/outsourcepayrollcompany/outsourcepayrollcompany-payroll-cutoff-drill-defect-discovery.webp",
+    "imageAlt": ""
+  },
+  "research/philippines-payroll-evidence-retention-minimization-study": {
+    "image": "/research-heroes/philippines-payroll-evidence-retention-minimization-study.png",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-open-enrollment-deduction-effective-date-accuracy": {
+    "image": "/daily07/outsourcepayrollcompany/outsourcepayrollcompany-open-enrollment-deduction-effective-date-accuracy.webp",
+    "imageAlt": ""
+  },
+  "research/payroll-master-data-freshness-study": {
+    "image": "/research-heroes/philippines-payroll-effective-date-collision-research.png",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-final-pay-timing-evidence-quality": {
+    "image": "/daily05/outsourcepayrollcompany/outsourcepayrollcompany-final-pay-timing-evidence-quality.webp",
+    "imageAlt": ""
+  },
+  "research/payroll-garnishment-order-intake-boundary-study": {
+    "image": "/research-heroes/philippines-payroll-approval-authority-boundary-research.png",
+    "imageAlt": ""
+  },
+  "research/pay-statement-delivery-failure-study": {
+    "image": "/oct13-heroes/pay-statement-delivery-failure-study.webp",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-retroactive-pay-adjustment-review-timeliness": {
+    "image": "/daily10/outsourcepayrollcompany/outsourcepayrollcompany-retroactive-pay-adjustment-review-timeliness.webp",
+    "imageAlt": ""
+  },
+  "research/payroll-off-cycle-payment-authorization-study": {
+    "image": "/research-heroes/philippines-payroll-approval-authority-boundary-research.png",
+    "imageAlt": ""
+  },
+  "research/philippines-payroll-pay-group-transfer-study": {
+    "image": "/research-heroes/philippines-payroll-approval-authority-boundary-research.png",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-shift-differential-exceptions-oct27": {
+    "image": "/aug19-heroes/outsourcepayrollcompany-shift-differential-exceptions-oct27.svg",
+    "imageAlt": ""
+  },
+  "research/philippines-payroll-cutoff-exception-recovery-study": {
+    "image": "/research-heroes/philippines-payroll-deadline-slack-research.png",
+    "imageAlt": ""
+  },
+  "research/philippines-payroll-open-item-rollforward-study": {
+    "image": "/research-heroes/philippines-payroll-exception-cohort-research.png",
+    "imageAlt": ""
+  },
+  "research/payroll-operations-exception-aging-patterns-research": {
+    "image": "/aug19-heroes/payroll-operations-exception-aging-patterns-research.webp",
+    "imageAlt": "Research Brief: Payroll Operations Exception Aging Patterns editorial illustration"
+  },
+  "research/outsourcepayrollcompany-handoff-latency-study-oct26": {
+    "image": "/aug19-heroes/outsourcepayrollcompany-handoff-latency-study-oct26.svg",
+    "imageAlt": ""
+  },
+  "research/bank-change-verification-completion-study": {
+    "image": "/oct22-heroes/bank-change-verification-completion-study.webp",
+    "imageAlt": ""
+  },
+  "research/payroll-provider-sla-attribution-study": {
+    "image": "/research-heroes/payroll-provider-rejection-traceability-study.png",
+    "imageAlt": ""
+  },
+  "research/payroll-calendar-version-divergence-study": {
+    "image": "/research-heroes/philippines-payroll-deadline-review-slack-study.png",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-payroll-document-redaction-consistency": {
+    "image": "/daily10/outsourcepayrollcompany/outsourcepayrollcompany-payroll-document-redaction-consistency.webp",
+    "imageAlt": ""
+  },
+  "research/philippines-payroll-parallel-run-variance-study": {
+    "image": "/research-heroes/philippines-payroll-exception-cohort-research.png",
+    "imageAlt": ""
+  },
+  "research/philippines-payroll-bank-change-verification-study": {
+    "image": "/research-heroes/philippines-payroll-approval-authority-boundary-research.png",
+    "imageAlt": ""
+  },
+  "research/bank-account-change-dual-verification-study": {
+    "image": "/oct13-heroes/bank-account-change-dual-verification-study.webp",
+    "imageAlt": ""
+  },
+  "research/payroll-pay-group-configuration-drift-study": {
+    "image": "/research-heroes/philippines-payroll-source-output-bridge-study.png",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-benefit-deduction-reconciliation-handoff-evidence": {
+    "image": "/daily05/outsourcepayrollcompany/outsourcepayrollcompany-benefit-deduction-reconciliation-handoff-evidence.webp",
+    "imageAlt": ""
+  },
+  "research/payroll-operations-handoff-reliability-research": {
+    "image": "/aug19-heroes/payroll-operations-handoff-reliability-research.webp",
+    "imageAlt": "Research Brief: Payroll Operations Handoff Reliability editorial illustration"
+  },
+  "research/payroll-retroactive-change-closure-study": {
+    "image": "/research-heroes/philippines-payroll-retroactive-change-propagation-study.png",
+    "imageAlt": ""
+  },
+  "research/philippines-payroll-retroactive-change-propagation-study": {
+    "image": "/research-heroes/philippines-payroll-retroactive-change-propagation-study.png",
+    "imageAlt": ""
+  },
+  "research/philippines-payroll-access-removal-lag-study": {
+    "image": "/research-heroes/philippines-payroll-transition-exit-evidence-research.png",
+    "imageAlt": ""
+  },
+  "research/philippines-payroll-file-version-control-study": {
+    "image": "/research-heroes/philippines-payroll-source-output-bridge-study.png",
+    "imageAlt": ""
+  },
+  "research/payroll-garnishment-intake-chain-study": {
+    "image": "/research-heroes/philippines-payroll-correction-lineage-review.png",
+    "imageAlt": ""
+  },
+  "research/payroll-correction-downstream-completeness-analysis": {
+    "image": "/research/philippines-payroll-offcycle-controls.svg",
+    "imageAlt": ""
+  },
+  "research/payroll-event-sequence-integrity-study": {
+    "image": "/research-heroes/philippines-payroll-deadline-review-slack-study.png",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-payroll-preparation-approval-separation-coverage": {
+    "image": "/daily09/outsourcepayrollcompany/outsourcepayrollcompany-payroll-preparation-approval-separation-coverage.webp",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-new-hire-payroll-setup-completeness-coverage": {
+    "image": "/daily09/outsourcepayrollcompany/outsourcepayrollcompany-new-hire-payroll-setup-completeness-coverage.webp",
+    "imageAlt": ""
+  },
+  "research/philippines-payroll-deadline-review-slack-study": {
+    "image": "/research-heroes/philippines-payroll-deadline-review-slack-study.png",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-access-recertification-study-oct26": {
+    "image": "/aug19-heroes/outsourcepayrollcompany-access-recertification-study-oct26.svg",
+    "imageAlt": ""
+  },
+  "research/payroll-deduction-priority-conflict-study": {
+    "image": "/research-heroes/philippines-payroll-correction-lineage-review.png",
+    "imageAlt": ""
+  },
+  "research/philippines-payroll-late-timesheet-change-study": {
+    "image": "/research-heroes/philippines-payroll-duplicate-time-entry-detection-study.png",
+    "imageAlt": ""
+  },
+  "research/payroll-funding-confirmation-timing-study": {
+    "image": "/research-heroes/payroll-cutoff-evidence-window-study.png",
+    "imageAlt": ""
+  },
+  "research/payroll-emergency-payment-evidence-study": {
+    "image": "/research-heroes/payroll-provider-rejection-traceability-study.png",
+    "imageAlt": ""
+  },
+  "research/payroll-provider-assurance-evidence-study": {
+    "image": "/research-heroes/philippines-payroll-evidence-retention-minimization-study.png",
+    "imageAlt": ""
+  },
+  "research/philippines-payroll-bank-file-rejection-cohort": {
+    "image": "/research-heroes/philippines-payroll-deadline-slack-research.png",
+    "imageAlt": ""
+  },
+  "research/third-party-sick-pay-reporting-evidence-study": {
+    "image": "/oct12-heroes/third-party-sick-pay-reporting-evidence-study.webp",
+    "imageAlt": ""
+  },
+  "research/payroll-employee-case-closure-evidence-study": {
+    "image": "/research-heroes/philippines-payroll-query-cohort-research.png",
+    "imageAlt": ""
+  },
+  "research/payroll-off-cycle-authority-boundary-study": {
+    "image": "/research-heroes/philippines-payroll-approval-authority-boundary-research.png",
+    "imageAlt": ""
+  },
+  "research/philippines-payroll-provider-incident-study": {
+    "image": "/research-heroes/philippines-payroll-exception-cohort-research.png",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-payroll-register-review-evidence-under-review": {
+    "image": "/daily05/outsourcepayrollcompany/outsourcepayrollcompany-payroll-register-review-evidence-under-review.webp",
+    "imageAlt": ""
+  },
+  "research/payroll-cutoff-evidence-window-study": {
+    "image": "/research-heroes/payroll-cutoff-evidence-window-study.png",
+    "imageAlt": ""
+  },
+  "research/payroll-cross-border-calendar-reliability-research": {
+    "image": "/research/philippines-payroll-offcycle-controls.svg",
+    "imageAlt": ""
+  },
+  "research/payroll-funding-readiness-evidence-study": {
+    "image": "/research-heroes/philippines-payroll-remittance-source-match-research.png",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-duplicate-payroll-payment-detection-under-review": {
+    "image": "/daily06/outsourcepayrollcompany/outsourcepayrollcompany-duplicate-payroll-payment-detection-under-review.webp",
+    "imageAlt": ""
+  },
+  "research/payroll-query-sampling-and-resolution-research": {
+    "image": "/research-heroes/payroll-query-sampling-and-resolution-research.png",
+    "imageAlt": ""
+  },
+  "research/payroll-exception-owner-transfer-study": {
+    "image": "/research-heroes/philippines-payroll-transition-exit-evidence-research.png",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-payroll-provider-issue-resolution-evidence": {
+    "image": "/daily09/outsourcepayrollcompany/outsourcepayrollcompany-payroll-provider-issue-resolution-evidence.webp",
+    "imageAlt": ""
+  },
+  "research/philippines-payroll-effective-date-collision-research": {
+    "image": "/research-heroes/philippines-payroll-effective-date-collision-research.png",
+    "imageAlt": ""
+  },
+  "research/philippines-payroll-approval-latency-cascade-study": {
+    "image": "/research-heroes/philippines-payroll-approval-latency-cascade-study.png",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-quarterly-document-completeness-oct27": {
+    "image": "/aug19-heroes/outsourcepayrollcompany-quarterly-document-completeness-oct27.svg",
+    "imageAlt": ""
+  },
+  "research/payroll-new-hire-input-readiness-study": {
+    "image": "/research-heroes/philippines-payroll-source-output-bridge-study.png",
+    "imageAlt": ""
+  },
+  "research/payroll-manual-payment-control-study": {
+    "image": "/research-heroes/payroll-provider-rejection-traceability-study.png",
+    "imageAlt": ""
+  },
+  "research/payroll-termination-input-boundary-study": {
+    "image": "/research-heroes/philippines-payroll-transition-exit-evidence-research.png",
+    "imageAlt": ""
+  },
+  "research/philippines-payroll-new-hire-first-output-study": {
+    "image": "/research-heroes/philippines-payroll-deadline-slack-research.png",
+    "imageAlt": ""
+  },
+  "research/payroll-provider-rejection-traceability-study": {
+    "image": "/research-heroes/payroll-provider-rejection-traceability-study.png",
+    "imageAlt": ""
+  },
+  "research/philippines-payroll-approval-latency-cohort-study": {
+    "image": "/research-heroes/philippines-payroll-deadline-slack-research.png",
+    "imageAlt": ""
+  },
+  "research/payroll-reconciliation-tolerance-override-study": {
+    "image": "/research-heroes/payroll-cutoff-evidence-window-study.png",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-off-cycle-payment-evidence-after-handoff": {
+    "image": "/daily05/outsourcepayrollcompany/outsourcepayrollcompany-off-cycle-payment-evidence-after-handoff.webp",
+    "imageAlt": ""
+  },
+  "research/duplicate-payroll-request-rate-study": {
+    "image": "/oct22-heroes/duplicate-payroll-request-rate-study.webp",
+    "imageAlt": ""
+  },
+  "research/philippines-payroll-inbox-severity-calibration-research": {
+    "image": "/research-heroes/philippines-payroll-inbox-severity-calibration-research.png",
+    "imageAlt": ""
+  },
+  "research/philippines-payroll-cutoff-slack-research": {
+    "image": "/research-heroes/philippines-payroll-cutoff-slack-research.png",
+    "imageAlt": ""
+  },
+  "research/payroll-administrator-session-security-study": {
+    "image": "/oct12-heroes/payroll-administrator-session-security-study.webp",
+    "imageAlt": ""
+  },
+  "research/philippines-payroll-source-output-bridge-study": {
+    "image": "/research-heroes/philippines-payroll-source-output-bridge-study.png",
+    "imageAlt": ""
+  },
+  "research/new-hire-payroll-document-completeness-study": {
+    "image": "/oct22-heroes/new-hire-payroll-document-completeness-study.webp",
+    "imageAlt": ""
+  },
+  "research/payroll-superseded-instruction-containment-study": {
+    "image": "/research-heroes/philippines-payroll-effective-date-collision-research.png",
+    "imageAlt": ""
+  },
+  "research/payroll-variable-pay-source-lineage-study": {
+    "image": "/research-heroes/philippines-payroll-correction-lineage-review.png",
+    "imageAlt": ""
+  },
+  "research/philippines-payroll-identity-change-linkage-study": {
+    "image": "/research-heroes/philippines-payroll-source-output-bridge-study.png",
+    "imageAlt": ""
+  },
+  "research/payroll-cutoff-exception-aging-research": {
+    "image": "/research/philippines-payroll-offcycle-controls.svg",
+    "imageAlt": ""
+  },
+  "research/payroll-cutoff-exception-recurrence-study": {
+    "image": "/oct13-heroes/payroll-cutoff-exception-recurrence-study.webp",
+    "imageAlt": ""
+  },
+  "research/payroll-correction-handoff-loss-study": {
+    "image": "/research-heroes/philippines-payroll-correction-lineage-review.png",
+    "imageAlt": ""
+  },
+  "research/contractor-payment-to-payroll-boundary-study": {
+    "image": "/research-heroes/philippines-payroll-multi-entity-record-segregation-test.png",
+    "imageAlt": ""
+  },
+  "research/payroll-deduction-change-evidence-study": {
+    "image": "/research-heroes/philippines-payroll-population-bridge-research.png",
+    "imageAlt": ""
+  },
+  "research/payroll-correction-evidence-completeness-study": {
+    "image": "/research-heroes/philippines-payroll-correction-lineage-review.png",
+    "imageAlt": ""
+  },
+  "research/payroll-evidence-provenance-break-study": {
+    "image": "/research-heroes/philippines-payroll-source-output-bridge-study.png",
+    "imageAlt": ""
+  },
+  "research/philippines-payroll-review-export-minimization-research": {
+    "image": "/research-heroes/philippines-payroll-review-export-minimization-research.png",
+    "imageAlt": ""
+  },
+  "research/payroll-support-extract-minimization-study": {
+    "image": "/research-heroes/payroll-export-minimization-and-review-research.png",
+    "imageAlt": ""
+  },
+  "research/earned-wage-access-payroll-interface-study": {
+    "image": "/research/philippines-payroll-offcycle-controls.svg",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-garnishment-priority-verification-before-withholding": {
+    "image": "/daily11/outsourcepayrollcompany/outsourcepayrollcompany-garnishment-priority-verification-before-withholding.webp",
+    "imageAlt": ""
+  },
+  "research/payroll-multi-currency-conversion-evidence-study": {
+    "image": "/research-heroes/philippines-payroll-source-output-bridge-study.png",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-labor-distribution-review-evidence-across-cost-centers": {
+    "image": "/daily06/outsourcepayrollcompany/outsourcepayrollcompany-labor-distribution-review-evidence-across-cost-centers.webp",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-off-cycle-payment-patterns-oct27": {
+    "image": "/aug19-heroes/outsourcepayrollcompany-off-cycle-payment-patterns-oct27.svg",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-parallel-run-evidence-during-payroll-provider-transitions": {
+    "image": "/daily10/outsourcepayrollcompany/outsourcepayrollcompany-parallel-run-evidence-during-payroll-provider-transitions.webp",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-late-timesheet-correction-aging-evidence": {
+    "image": "/daily09/outsourcepayrollcompany/outsourcepayrollcompany-late-timesheet-correction-aging-evidence.webp",
+    "imageAlt": ""
+  },
+  "research/philippines-payroll-manual-payment-study": {
+    "image": "/research-heroes/philippines-payroll-source-output-bridge-study.png",
+    "imageAlt": ""
+  },
+  "research/philippines-payroll-variable-pay-lineage-study": {
+    "image": "/research-heroes/philippines-payroll-duplicate-time-entry-detection-study.png",
+    "imageAlt": ""
+  },
+  "research/payroll-funding-alert-lead-time-study": {
+    "image": "/research-heroes/payroll-cutoff-evidence-window-study.png",
+    "imageAlt": ""
+  },
+  "research/philippines-payroll-provider-receipt-reliability-study": {
+    "image": "/research-heroes/payroll-provider-rejection-traceability-study.png",
+    "imageAlt": ""
+  },
+  "research/payroll-bank-change-channel-integrity-study": {
+    "image": "/research-heroes/philippines-payroll-approval-authority-boundary-research.png",
+    "imageAlt": ""
+  },
+  "research/philippines-payroll-exception-reopen-rate-study": {
+    "image": "/research-heroes/philippines-payroll-exception-cohort-research.png",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-tax-notice-response-closure-evidence": {
+    "image": "/daily05/outsourcepayrollcompany/outsourcepayrollcompany-tax-notice-response-closure-evidence.webp",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-remote-work-state-withholding-review-coverage": {
+    "image": "/daily08/outsourcepayrollcompany/outsourcepayrollcompany-remote-work-state-withholding-review-coverage.webp",
+    "imageAlt": ""
+  },
+  "research/payroll-benefit-deduction-interface-study": {
+    "image": "/research-heroes/philippines-payroll-correction-lineage-review.png",
+    "imageAlt": ""
+  },
+  "research/payroll-time-rule-configuration-drift-study": {
+    "image": "/research-heroes/philippines-payroll-duplicate-time-entry-detection-study.png",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-payroll-calendar-recovery-after-a-missed-cutoff": {
+    "image": "/daily11/outsourcepayrollcompany/outsourcepayrollcompany-payroll-calendar-recovery-after-a-missed-cutoff.webp",
+    "imageAlt": ""
+  },
+  "research/payroll-source-timestamp-integrity-study": {
+    "image": "/research-heroes/philippines-payroll-source-output-bridge-study.png",
+    "imageAlt": ""
+  },
+  "research/payroll-bank-change-control-evidence-study": {
+    "image": "/research/philippines-payroll-offcycle-controls.svg",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-exception-pattern-audit-oct26": {
+    "image": "/aug19-heroes/outsourcepayrollcompany-exception-pattern-audit-oct26.svg",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-payroll-records-retention-schedule-adherence": {
+    "image": "/daily07/outsourcepayrollcompany/outsourcepayrollcompany-payroll-records-retention-schedule-adherence.webp",
+    "imageAlt": ""
+  },
+  "research/philippines-payroll-master-data-drift-sampling-study": {
+    "image": "/research-heroes/philippines-payroll-source-output-bridge-study.png",
+    "imageAlt": ""
+  },
+  "research/social-security-wage-base-reconciliation-study": {
+    "image": "/oct12-heroes/social-security-wage-base-reconciliation-study.webp",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-payslip-dispute-resolution-evidence-quality": {
+    "image": "/daily06/outsourcepayrollcompany/outsourcepayrollcompany-payslip-dispute-resolution-evidence-quality.webp",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-payroll-close-evidence-sufficiency": {
+    "image": "/daily08/outsourcepayrollcompany/outsourcepayrollcompany-payroll-close-evidence-sufficiency.webp",
+    "imageAlt": ""
+  },
+  "research/payroll-cutoff-change-propagation-study": {
+    "image": "/research-heroes/payroll-cutoff-evidence-window-study.png",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-intake-completeness-study-oct26": {
+    "image": "/aug19-heroes/outsourcepayrollcompany-intake-completeness-study-oct26.svg",
+    "imageAlt": ""
+  },
+  "research/payroll-provider-rejection-recovery-time-study": {
+    "image": "/research/philippines-payroll-offcycle-controls.svg",
+    "imageAlt": ""
+  },
+  "research/payroll-change-approval-latency-study": {
+    "image": "/oct13-heroes/payroll-change-approval-latency-study.webp",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-payroll-inbox-first-response-completeness": {
+    "image": "/daily08/outsourcepayrollcompany/outsourcepayrollcompany-payroll-inbox-first-response-completeness.webp",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-payroll-export-minimization-evidence-at-task-level": {
+    "image": "/daily06/outsourcepayrollcompany/outsourcepayrollcompany-payroll-export-minimization-evidence-at-task-level.webp",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-bank-change-control-study-oct27": {
+    "image": "/aug19-heroes/outsourcepayrollcompany-bank-change-control-study-oct27.svg",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-garnishment-handoff-traceability": {
+    "image": "/daily08/outsourcepayrollcompany/outsourcepayrollcompany-garnishment-handoff-traceability.webp",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-payroll-bank-return-handling-coverage": {
+    "image": "/daily10/outsourcepayrollcompany/outsourcepayrollcompany-payroll-bank-return-handling-coverage.webp",
+    "imageAlt": ""
+  },
+  "research/payroll-approval-replay-detection-study": {
+    "image": "/research-heroes/philippines-payroll-approval-authority-boundary-research.png",
+    "imageAlt": ""
+  },
+  "research/payroll-authorization-matrix-drift-study": {
+    "image": "/research-heroes/philippines-payroll-approval-authority-boundary-research.png",
+    "imageAlt": ""
+  },
+  "research/payroll-self-service-change-audit-study": {
+    "image": "/research-heroes/philippines-payroll-source-output-bridge-study.png",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-exception-aging-as-a-payroll-close-indicator": {
+    "image": "/daily11/outsourcepayrollcompany/outsourcepayrollcompany-exception-aging-as-a-payroll-close-indicator.webp",
+    "imageAlt": ""
+  },
+  "research/philippines-payroll-multi-entity-record-segregation-test": {
+    "image": "/research-heroes/philippines-payroll-multi-entity-record-segregation-test.png",
+    "imageAlt": ""
+  },
+  "research/philippines-payroll-off-cycle-request-study": {
+    "image": "/research-heroes/philippines-payroll-duplicate-time-entry-detection-study.png",
+    "imageAlt": ""
+  },
+  "research/departed-worker-access-revocation-lag-study": {
+    "image": "/oct13-heroes/departed-worker-access-revocation-lag-study.webp",
+    "imageAlt": ""
+  },
+  "research/philippines-payroll-duplicate-time-entry-detection-study": {
+    "image": "/research-heroes/philippines-payroll-duplicate-time-entry-detection-study.png",
+    "imageAlt": ""
+  },
+  "research/payroll-output-confirmation-gap-study": {
+    "image": "/research-heroes/philippines-payroll-correction-lineage-review.png",
+    "imageAlt": ""
+  },
+  "research/payroll-calendar-compression-readiness-study": {
+    "image": "/research-heroes/philippines-payroll-deadline-review-slack-study.png",
+    "imageAlt": ""
+  },
+  "research/payroll-master-data-field-ownership-study": {
+    "image": "/research-heroes/philippines-payroll-multi-entity-record-segregation-test.png",
+    "imageAlt": ""
+  },
+  "research/payroll-deduction-population-drift-study": {
+    "image": "/research-heroes/philippines-payroll-population-bridge-research.png",
+    "imageAlt": ""
+  },
+  "research/payroll-master-data-lag-study": {
+    "image": "/research-heroes/philippines-payroll-effective-date-collision-research.png",
+    "imageAlt": ""
+  },
+  "research/payroll-ticket-pause-attribution-study": {
+    "image": "/oct22-heroes/payroll-ticket-pause-attribution-study.webp",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-handoff-note-completeness-across-payroll-time-zones": {
+    "image": "/daily11/outsourcepayrollcompany/outsourcepayrollcompany-handoff-note-completeness-across-payroll-time-zones.webp",
+    "imageAlt": ""
+  },
+  "research/cross-border-shadow-payroll-reconciliation-study": {
+    "image": "/research-heroes/philippines-payroll-source-output-bridge-study.png",
+    "imageAlt": ""
+  },
+  "research/payroll-approval-expiry-exposure-study": {
+    "image": "/research-heroes/philippines-payroll-approval-latency-cascade-study.png",
+    "imageAlt": ""
+  },
+  "research/regular-rate-overtime-input-boundary-study": {
+    "image": "/oct12-heroes/regular-rate-overtime-input-boundary-study.webp",
+    "imageAlt": ""
+  },
+  "research/payroll-new-entity-launch-evidence-study": {
+    "image": "/research-heroes/philippines-payroll-source-output-bridge-study.png",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-payroll-work-instruction-currency-after-portal-releases": {
+    "image": "/daily10/outsourcepayrollcompany/outsourcepayrollcompany-payroll-work-instruction-currency-after-portal-releases.webp",
+    "imageAlt": ""
+  },
+  "research/payroll-correction-reopen-rate-study": {
+    "image": "/research-heroes/philippines-payroll-correction-lineage-review.png",
+    "imageAlt": ""
+  },
+  "research/philippines-payroll-provider-rejection-evidence-research": {
+    "image": "/research-heroes/philippines-payroll-provider-rejection-evidence-research.png",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-direct-deposit-change-verification-coverage": {
+    "image": "/daily08/outsourcepayrollcompany/outsourcepayrollcompany-direct-deposit-change-verification-coverage.webp",
+    "imageAlt": ""
+  },
+  "research/philippines-payroll-correction-lineage-review": {
+    "image": "/research-heroes/philippines-payroll-correction-lineage-review.png",
+    "imageAlt": ""
+  },
+  "research/outsourcepayrollcompany-withholding-election-revalidation-coverage": {
+    "image": "/daily07/outsourcepayrollcompany/outsourcepayrollcompany-withholding-election-revalidation-coverage.webp",
+    "imageAlt": ""
+  },
+  "research/payroll-change-effective-date-collision-research": {
+    "image": "/research-heroes/payroll-change-effective-date-collision-research.png",
+    "imageAlt": ""
+  },
+  "research/philippines-payroll-query-cohort-research": {
+    "image": "/research-heroes/philippines-payroll-query-cohort-research.png",
+    "imageAlt": ""
+  },
+  "research/philippines-payroll-provider-rejection-cohort-study": {
+    "image": "/research-heroes/philippines-payroll-provider-rejection-cohort-study.png",
+    "imageAlt": ""
+  }
+}

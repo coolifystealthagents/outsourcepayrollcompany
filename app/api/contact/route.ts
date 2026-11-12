@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { sendLeadFallbackToMattermost } from '../../lib/lead-fallback-mattermost';
 
 const MAX_BODY_BYTES=64_000;
 const MAX_FIELD_LENGTH=4_000;
@@ -56,15 +55,6 @@ export async function POST(request:NextRequest){
   const referralSpecify=text(form,'referralSpecify',300);
   const referral=referralSource==='Other'&&referralSpecify?`Other: ${referralSpecify}`:referralSource;
   const message=[text(form,'message'),text(form,'needs'),text(form,'details'),positions,text(form,'tier'),companySize,text(form,'website')].filter(Boolean).join('\n');
-  const payload={full_name:name,email,phone,company_name:business,message,how_they_heard:referral||'Website contact form',client_event_id:crypto.randomUUID(),attribution:{source_page:pageUrl,landing_page:pageUrl,referrer:request.headers.get('referer')||'',page_journey:['Contact form']}};
-  const token=process.env.LEAD_AUTH_TOKEN;
-  const endpoint=process.env.LEAD_INGEST_URL||'https://leads.stealthagents.com/api/leads';
-  if(!token)return errorPage(503);
-  try{
-    const upstream=await fetch(endpoint,{method:'POST',headers:{'content-type':'application/json','x-lead-token':token},body:JSON.stringify(payload),cache:'no-store',signal:AbortSignal.timeout(12_000)});
-    const result=await upstream.json().catch(()=>null) as {ok?:boolean}|null;
-    if(!upstream.ok||result?.ok!==true)return errorPage(502);
-  }catch{return errorPage(502)}
-  void sendLeadFallbackToMattermost({name,email,phone,business,message,companySize,positions,referral,pageUrl,userAgent:request.headers.get('user-agent')||''});
+  // Validation only. The form emits one complete ACR lead event after this succeeds.
   if (request.headers.get('accept')?.includes('application/json')) return NextResponse.json({ok:true,redirect:'/thank-you?lead=accepted'}, {headers:{'cache-control':'no-store'}});return NextResponse.redirect(new URL('/thank-you?lead=accepted', 'https://outsourcepayrollcompany.com'),303);
 }

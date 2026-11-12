@@ -20,7 +20,9 @@
     "test:v3": "node --test tests/v3-site-contract.test.mjs"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.2",
     "@next/third-parties": "15.5.27",
+    "gsap": "^3.15.1",
     "next": "15.5.27",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"

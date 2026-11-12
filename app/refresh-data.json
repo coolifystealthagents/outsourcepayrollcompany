@@ -1,0 +1,782 @@
+{
+  "theme": "payroll",
+  "domain": "outsourcepayrollcompany.com",
+  "brand": "Outsource Payroll Company",
+  "short": "Payroll, prepared.",
+  "headline": "A calmer path",
+  "accent": "to payday.",
+  "intro": "Dedicated payroll support for the work before the numbers are final. Bring order to timesheets, employee changes, questions, and provider handoffs while your payroll owner keeps approval.",
+  "eyebrow": "Payroll support. Personal attention.",
+  "cta": "Plan your payroll support",
+  "serviceTitle": "Every detail. A dependable owner.",
+  "serviceIntro": "Build support around the pay cycle you actually run. Choose a focused workflow, give it clear inputs, and keep exceptions visible before the cutoff.",
+  "storyTitle": "Good payroll starts before payday.",
+  "story": "Late timesheets and unclear approvals create a scramble that software alone cannot solve. A dedicated assistant keeps requests moving, records current, and the next review ready.",
+  "footer": "Dedicated payroll administration support for organized inputs, timely follow-up, and dependable provider handoffs.",
+  "contact": "Let\u2019s take the rush out of payroll.",
+  "prepare": [
+    "Your pay calendar and current bottleneck",
+    "The systems and provider you work with",
+    "The reviewer responsible for final approval"
+  ],
+  "pillars": [
+    [
+      "A visible cutoff",
+      "Track missing hours, changes, and approvals against the actual pay calendar."
+    ],
+    [
+      "A checked handoff",
+      "Prepare source-linked records, exception notes, and a clear status for your reviewer."
+    ],
+    [
+      "Your approval",
+      "Pay, bank, tax, and release decisions stay with your authorized payroll team."
+    ]
+  ],
+  "homeImage": "/refresh-20261112/home.webp",
+  "homeImageAlt": "Two professionals collaborating on financial documents in a modern office setting.",
+  "servicesImage": "/refresh-20261112/services.webp",
+  "servicesImageAlt": "Colleagues working together in a contemporary office setting, counting money and discussing projects.",
+  "blogImage": "/refresh-20261112/blog.webp",
+  "blogImageAlt": "Multiracial office team working on financial documents, highlighting teamwork and productivity.",
+  "researchImage": "/refresh-20261112/research.webp",
+  "researchImageAlt": "Man working on financial reports with calculator, money, and laptop on a desk.",
+  "services": [
+    {
+      "slug": "operations-support",
+      "title": "Payroll operations support",
+      "description": "Filipino payroll operations help for timesheet chasing, employee-change logs, pay-period checklists, and payroll-provider handoffs.",
+      "image": "/refresh-20261112/service0.webp",
+      "alt": "Two women working on financial documents and calculations in an office.",
+      "audience": [
+        "Payroll managers, finance teams, and business owners who need dependable preparation before final review."
+      ],
+      "problem": "Your payroll provider can calculate checks, but your team still has to collect hours, chase approvals, log changes, and catch missing details before cut-off.",
+      "inputs": [
+        "The current pay calendar, source records, and approved checklist",
+        "Named system access and a reviewer for questions",
+        "Examples of accepted work and escalation rules"
+      ],
+      "work": [
+        "collect timesheets, PTO notes, bonus requests, and manager approvals before each payroll run",
+        "keep a pay-period tracker with missing items, due dates, and owner names",
+        "prepare employee-change packets for new hires, terminations, address updates, and direct-deposit changes",
+        "send clean handoff notes to the payroll provider or internal payroll owner"
+      ],
+      "outputs": [
+        "A current payroll operations support tracker with source references",
+        "A dated exception list with owners and next actions",
+        "A prepared handoff for the authorized reviewer"
+      ],
+      "controls": [
+        "the Filipino payroll assistant prepares payroll data but does not approve pay, change bank details alone, or submit final payroll",
+        "payroll owners review a cut-off checklist before any file goes to the provider",
+        "sensitive employee files stay in approved systems with role-based access"
+      ],
+      "boundaries": [
+        "Pay, tax, benefits, bank changes, and payment release remain with your authorized payroll owner."
+      ],
+      "scenarios": [
+        "Filipino payroll operations help for timesheet chasing, employee-change logs, pay-period checklists, and payroll-provider handoffs.",
+        "Start with one pay cycle. Review the work and unresolved items before extending the scope."
+      ],
+      "workflow": [
+        "pick one payroll cycle and list every item that slows the team down",
+        "build a cut-off tracker with columns for employee, item, owner, status, and approval",
+        "run one complete pay cycle where the Filipino payroll assistant prepares the tracker and the payroll owner checks it each workday",
+        "keep only the tasks that reduce late edits or manager follow-up time"
+      ],
+      "faqs": [
+        {
+          "question": "Can a Filipino payroll assistant run payroll?",
+          "answer": "No. Treat the role as payroll prep and follow-up support. A payroll owner or provider should approve final pay, tax, benefits, and banking actions."
+        },
+        {
+          "question": "What should we hand off first?",
+          "answer": "Start with timesheet chasing, missing approval lists, employee-change logs, and provider notes. These tasks are repeatable and easy to review."
+        },
+        {
+          "question": "How do we protect payroll data?",
+          "answer": "Use limited accounts, named access, audit logs, and a rule that bank, pay-rate, tax, and termination changes need owner approval."
+        }
+      ]
+    },
+    {
+      "slug": "customer-support",
+      "title": "Payroll employee support",
+      "description": "Payroll inbox and employee-support help for status replies, document requests, paystub routing, and issue triage.",
+      "image": "/refresh-20261112/service1.webp",
+      "alt": "Two diverse accountants working at a shared office table using laptops and calculators.",
+      "audience": [
+        "Payroll managers, finance teams, and business owners who need dependable preparation before final review."
+      ],
+      "problem": "Payroll questions pile up fast. Many are simple status or document requests, but a few need a payroll owner. The trick is sorting them safely.",
+      "inputs": [
+        "The current pay calendar, source records, and approved checklist",
+        "Named system access and a reviewer for questions",
+        "Examples of accepted work and escalation rules"
+      ],
+      "work": [
+        "sort payroll inbox messages by paystub, PTO, tax form, direct deposit, benefits, or manager approval need",
+        "send approved replies for common questions about timing, documents, and next steps",
+        "log employee issues with date, person, topic, system link, and payroll-owner decision needed",
+        "route urgent or sensitive questions to the right owner without guessing"
+      ],
+      "outputs": [
+        "A current payroll employee support tracker with source references",
+        "A dated exception list with owners and next actions",
+        "A prepared handoff for the authorized reviewer"
+      ],
+      "controls": [
+        "assistants use approved reply templates and do not promise payroll outcomes",
+        "pay disputes, tax questions, garnishments, benefits, and bank changes go to the payroll owner",
+        "weekly QA checks compare replies against the approved answer bank"
+      ],
+      "boundaries": [
+        "Pay, tax, benefits, bank changes, and payment release remain with your authorized payroll owner."
+      ],
+      "scenarios": [
+        "Payroll inbox and employee-support help for status replies, document requests, paystub routing, and issue triage.",
+        "Start with one pay cycle. Review the work and unresolved items before extending the scope."
+      ],
+      "workflow": [
+        "pull a recent set of payroll questions and group them by topic",
+        "write safe reply templates for the questions that keep coming back",
+        "give the Filipino payroll assistant an escalation list for anything involving pay amount, taxes, legal notices, or bank details",
+        "review the inbox log twice a week until the reply quality is steady"
+      ],
+      "faqs": [
+        {
+          "question": "Can a Filipino payroll assistant answer employee pay questions?",
+          "answer": "They can send approved status replies and collect details. Pay amount, tax, garnishment, and policy answers should come from the payroll owner."
+        },
+        {
+          "question": "What inbox work is safe to outsource?",
+          "answer": "Document routing, missing-detail requests, ticket tagging, follow-up reminders, and status updates are good first tasks."
+        },
+        {
+          "question": "How do we avoid bad answers?",
+          "answer": "Use a short answer bank, require escalation for sensitive topics, and review a sample of replies each week."
+        }
+      ]
+    },
+    {
+      "slug": "admin-support",
+      "title": "Payroll admin support",
+      "description": "Back-office payroll admin help for file naming, records cleanup, onboarding documents, and recurring HR/payroll reminders.",
+      "image": "/refresh-20261112/service2.webp",
+      "alt": "Business professional using calculator and laptop while working at office desk.",
+      "audience": [
+        "Payroll managers, finance teams, and business owners who need dependable preparation before final review."
+      ],
+      "problem": "Payroll admin work is usually small, repeated, and easy to delay. When it slips, payroll day turns into a scramble.",
+      "inputs": [
+        "The current pay calendar, source records, and approved checklist",
+        "Named system access and a reviewer for questions",
+        "Examples of accepted work and escalation rules"
+      ],
+      "work": [
+        "rename and file onboarding, tax, direct-deposit, and policy documents in the approved system",
+        "maintain payroll calendars with cut-off dates, reminders, and manager approval windows",
+        "prepare new-hire and termination checklists for payroll-owner review",
+        "reconcile employee lists across HR, scheduling, and payroll systems for missing records"
+      ],
+      "outputs": [
+        "A current payroll admin support tracker with source references",
+        "A dated exception list with owners and next actions",
+        "A prepared handoff for the authorized reviewer"
+      ],
+      "controls": [
+        "assistants organize and flag records but do not make pay-rate, tax, or employment-status decisions",
+        "the payroll owner approves final new-hire and termination packets",
+        "access starts with view or upload rights before any broader permissions are added"
+      ],
+      "boundaries": [
+        "Pay, tax, benefits, bank changes, and payment release remain with your authorized payroll owner."
+      ],
+      "scenarios": [
+        "Back-office payroll admin help for file naming, records cleanup, onboarding documents, and recurring HR/payroll reminders.",
+        "Start with one pay cycle. Review the work and unresolved items before extending the scope."
+      ],
+      "workflow": [
+        "choose one messy admin lane, such as new-hire packets or document filing",
+        "show three good examples and three bad examples so the Filipino payroll assistant can spot gaps",
+        "set a daily missing-record report during the first pay cycle",
+        "add more admin tasks only after the first lane stays clean through a full pay cycle"
+      ],
+      "faqs": [
+        {
+          "question": "Is payroll admin a full payroll role?",
+          "answer": "No. It is support work around files, checklists, reminders, and records. Keep final payroll decisions with the payroll owner."
+        },
+        {
+          "question": "What makes this work a good fit for Filipino talent?",
+          "answer": "The work repeats each pay period, has clear examples, and can be checked with a simple list."
+        },
+        {
+          "question": "How much access should we give first?",
+          "answer": "Start with the least access needed. Add permissions only after the Filipino payroll assistant shows they can follow the process."
+        }
+      ]
+    },
+    {
+      "slug": "reporting-and-qa",
+      "title": "Payroll reporting and QA support",
+      "description": "Payroll reporting support for exception logs, missing-data checks, approval reports, and post-run cleanup.",
+      "image": "/refresh-20261112/service3.webp",
+      "alt": "Person checking financial reports with a calculator and pen",
+      "audience": [
+        "Payroll managers, finance teams, and business owners who need dependable preparation before final review."
+      ],
+      "problem": "Small payroll errors often come from missing inputs, late approvals, and weak review notes. A clear QA log catches more of that before payroll closes.",
+      "inputs": [
+        "The current pay calendar, source records, and approved checklist",
+        "Named system access and a reviewer for questions",
+        "Examples of accepted work and escalation rules"
+      ],
+      "work": [
+        "build exception reports for missing hours, duplicate entries, late approvals, and unusual changes",
+        "prepare a pre-payroll QA checklist for the payroll owner",
+        "track post-run issues by root cause, owner, and fix date",
+        "summarize weekly payroll admin trends for managers"
+      ],
+      "outputs": [
+        "A current payroll reporting and qa support tracker with source references",
+        "A dated exception list with owners and next actions",
+        "A prepared handoff for the authorized reviewer"
+      ],
+      "controls": [
+        "assistants flag exceptions but do not decide final pay corrections",
+        "every QA report links back to the source record or manager approval",
+        "sensitive reports use approved folders and named reviewers only"
+      ],
+      "boundaries": [
+        "Pay, tax, benefits, bank changes, and payment release remain with your authorized payroll owner."
+      ],
+      "scenarios": [
+        "Payroll reporting support for exception logs, missing-data checks, approval reports, and post-run cleanup.",
+        "Start with one pay cycle. Review the work and unresolved items before extending the scope."
+      ],
+      "workflow": [
+        "pick three payroll mistakes or delays you want to prevent",
+        "turn those into a one-page QA checklist with examples",
+        "have the Filipino payroll assistant prepare the report before cut-off while the owner reviews the exceptions",
+        "compare the first two cycles and remove checks that do not catch real problems"
+      ],
+      "faqs": [
+        {
+          "question": "Can reporting support replace payroll review?",
+          "answer": "No. It helps the payroll owner see issues sooner. The owner still approves pay changes and final payroll."
+        },
+        {
+          "question": "Which reports should we start with?",
+          "answer": "Start with missing hours, late approvals, duplicate entries, and employee changes since the last run."
+        },
+        {
+          "question": "How do we know the Filipino payroll assistant is helping?",
+          "answer": "Track fewer late edits, fewer manager chases, cleaner handoff notes, and faster payroll-owner review."
+        }
+      ]
+    },
+    {
+      "slug": "payroll-data-entry",
+      "title": "Payroll Data Entry",
+      "description": "Payroll Data Entry delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+      "image": "/refresh-20261112/service4.webp",
+      "alt": "From above of crop businesswoman counting dollar bills while sitting at spacious desk with open planner and modern computer",
+      "audience": [
+        "Payroll managers, finance teams, and business owners who need dependable preparation before final review."
+      ],
+      "problem": "Payroll Data Entry delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+      "inputs": [
+        "The current pay calendar, source records, and approved checklist",
+        "Named system access and a reviewer for questions",
+        "Examples of accepted work and escalation rules"
+      ],
+      "work": [
+        "payroll data entry queue preparation",
+        "source-record checks and updates",
+        "exception logging for manager review",
+        "daily handoff notes and follow-up"
+      ],
+      "outputs": [
+        "A current payroll data entry tracker with source references",
+        "A dated exception list with owners and next actions",
+        "A prepared handoff for the authorized reviewer"
+      ],
+      "controls": [
+        "Named owner for approvals and exceptions",
+        "Role-based access to required tools",
+        "Sample review before the work lane expands"
+      ],
+      "boundaries": [
+        "Pay, tax, benefits, bank changes, and payment release remain with your authorized payroll owner."
+      ],
+      "scenarios": [
+        "Payroll Data Entry delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+        "Start with one pay cycle. Review the work and unresolved items before extending the scope."
+      ],
+      "workflow": [
+        "Share current examples and source records",
+        "Document the finish line and escalation rule",
+        "Review the first work batch together"
+      ],
+      "faqs": [
+        {
+          "question": "How do we start?",
+          "answer": "Choose a recurring queue, document the inputs and owner, and review a complete first cycle."
+        }
+      ]
+    },
+    {
+      "slug": "timesheet-reconciliation",
+      "title": "Timesheet Reconciliation",
+      "description": "Timesheet Reconciliation delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+      "image": "/refresh-20261112/service5.webp",
+      "alt": "Accountant reviewing financial documents with a calculator",
+      "audience": [
+        "Payroll managers, finance teams, and business owners who need dependable preparation before final review."
+      ],
+      "problem": "Timesheet Reconciliation delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+      "inputs": [
+        "The current pay calendar, source records, and approved checklist",
+        "Named system access and a reviewer for questions",
+        "Examples of accepted work and escalation rules"
+      ],
+      "work": [
+        "timesheet reconciliation queue preparation",
+        "source-record checks and updates",
+        "exception logging for manager review",
+        "daily handoff notes and follow-up"
+      ],
+      "outputs": [
+        "A current timesheet reconciliation tracker with source references",
+        "A dated exception list with owners and next actions",
+        "A prepared handoff for the authorized reviewer"
+      ],
+      "controls": [
+        "Named owner for approvals and exceptions",
+        "Role-based access to required tools",
+        "Sample review before the work lane expands"
+      ],
+      "boundaries": [
+        "Pay, tax, benefits, bank changes, and payment release remain with your authorized payroll owner."
+      ],
+      "scenarios": [
+        "Timesheet Reconciliation delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+        "Start with one pay cycle. Review the work and unresolved items before extending the scope."
+      ],
+      "workflow": [
+        "Share current examples and source records",
+        "Document the finish line and escalation rule",
+        "Review the first work batch together"
+      ],
+      "faqs": [
+        {
+          "question": "How do we start?",
+          "answer": "Choose a recurring queue, document the inputs and owner, and review a complete first cycle."
+        }
+      ]
+    },
+    {
+      "slug": "payroll-preparation",
+      "title": "Payroll Preparation",
+      "description": "Payroll Preparation delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+      "image": "/refresh-20261112/service6.webp",
+      "alt": "Accountant reviewing financial documents with a calculator",
+      "audience": [
+        "Payroll managers, finance teams, and business owners who need dependable preparation before final review."
+      ],
+      "problem": "Payroll Preparation delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+      "inputs": [
+        "The current pay calendar, source records, and approved checklist",
+        "Named system access and a reviewer for questions",
+        "Examples of accepted work and escalation rules"
+      ],
+      "work": [
+        "payroll preparation queue preparation",
+        "source-record checks and updates",
+        "exception logging for manager review",
+        "daily handoff notes and follow-up"
+      ],
+      "outputs": [
+        "A current payroll preparation tracker with source references",
+        "A dated exception list with owners and next actions",
+        "A prepared handoff for the authorized reviewer"
+      ],
+      "controls": [
+        "Named owner for approvals and exceptions",
+        "Role-based access to required tools",
+        "Sample review before the work lane expands"
+      ],
+      "boundaries": [
+        "Pay, tax, benefits, bank changes, and payment release remain with your authorized payroll owner."
+      ],
+      "scenarios": [
+        "Payroll Preparation delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+        "Start with one pay cycle. Review the work and unresolved items before extending the scope."
+      ],
+      "workflow": [
+        "Share current examples and source records",
+        "Document the finish line and escalation rule",
+        "Review the first work batch together"
+      ],
+      "faqs": [
+        {
+          "question": "How do we start?",
+          "answer": "Choose a recurring queue, document the inputs and owner, and review a complete first cycle."
+        }
+      ]
+    },
+    {
+      "slug": "benefits-deduction-administration",
+      "title": "Benefits Deduction Administration",
+      "description": "Benefits Deduction Administration delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+      "image": "/refresh-20261112/service7.webp",
+      "alt": "Accountant reviewing financial documents with a calculator",
+      "audience": [
+        "Payroll managers, finance teams, and business owners who need dependable preparation before final review."
+      ],
+      "problem": "Benefits Deduction Administration delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+      "inputs": [
+        "The current pay calendar, source records, and approved checklist",
+        "Named system access and a reviewer for questions",
+        "Examples of accepted work and escalation rules"
+      ],
+      "work": [
+        "benefits deduction administration queue preparation",
+        "source-record checks and updates",
+        "exception logging for manager review",
+        "daily handoff notes and follow-up"
+      ],
+      "outputs": [
+        "A current benefits deduction administration tracker with source references",
+        "A dated exception list with owners and next actions",
+        "A prepared handoff for the authorized reviewer"
+      ],
+      "controls": [
+        "Named owner for approvals and exceptions",
+        "Role-based access to required tools",
+        "Sample review before the work lane expands"
+      ],
+      "boundaries": [
+        "Pay, tax, benefits, bank changes, and payment release remain with your authorized payroll owner."
+      ],
+      "scenarios": [
+        "Benefits Deduction Administration delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+        "Start with one pay cycle. Review the work and unresolved items before extending the scope."
+      ],
+      "workflow": [
+        "Share current examples and source records",
+        "Document the finish line and escalation rule",
+        "Review the first work batch together"
+      ],
+      "faqs": [
+        {
+          "question": "How do we start?",
+          "answer": "Choose a recurring queue, document the inputs and owner, and review a complete first cycle."
+        }
+      ]
+    },
+    {
+      "slug": "new-hire-payroll-setup",
+      "title": "New Hire Payroll Setup",
+      "description": "New Hire Payroll Setup delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+      "image": "/refresh-20261112/service0.webp",
+      "alt": "Two women working on financial documents and calculations in an office.",
+      "audience": [
+        "Payroll managers, finance teams, and business owners who need dependable preparation before final review."
+      ],
+      "problem": "New Hire Payroll Setup delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+      "inputs": [
+        "The current pay calendar, source records, and approved checklist",
+        "Named system access and a reviewer for questions",
+        "Examples of accepted work and escalation rules"
+      ],
+      "work": [
+        "new hire payroll setup queue preparation",
+        "source-record checks and updates",
+        "exception logging for manager review",
+        "daily handoff notes and follow-up"
+      ],
+      "outputs": [
+        "A current new hire payroll setup tracker with source references",
+        "A dated exception list with owners and next actions",
+        "A prepared handoff for the authorized reviewer"
+      ],
+      "controls": [
+        "Named owner for approvals and exceptions",
+        "Role-based access to required tools",
+        "Sample review before the work lane expands"
+      ],
+      "boundaries": [
+        "Pay, tax, benefits, bank changes, and payment release remain with your authorized payroll owner."
+      ],
+      "scenarios": [
+        "New Hire Payroll Setup delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+        "Start with one pay cycle. Review the work and unresolved items before extending the scope."
+      ],
+      "workflow": [
+        "Share current examples and source records",
+        "Document the finish line and escalation rule",
+        "Review the first work batch together"
+      ],
+      "faqs": [
+        {
+          "question": "How do we start?",
+          "answer": "Choose a recurring queue, document the inputs and owner, and review a complete first cycle."
+        }
+      ]
+    },
+    {
+      "slug": "payroll-query-support",
+      "title": "Payroll Query Support",
+      "description": "Payroll Query Support delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+      "image": "/refresh-20261112/service1.webp",
+      "alt": "Two diverse accountants working at a shared office table using laptops and calculators.",
+      "audience": [
+        "Payroll managers, finance teams, and business owners who need dependable preparation before final review."
+      ],
+      "problem": "Payroll Query Support delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+      "inputs": [
+        "The current pay calendar, source records, and approved checklist",
+        "Named system access and a reviewer for questions",
+        "Examples of accepted work and escalation rules"
+      ],
+      "work": [
+        "payroll query support queue preparation",
+        "source-record checks and updates",
+        "exception logging for manager review",
+        "daily handoff notes and follow-up"
+      ],
+      "outputs": [
+        "A current payroll query support tracker with source references",
+        "A dated exception list with owners and next actions",
+        "A prepared handoff for the authorized reviewer"
+      ],
+      "controls": [
+        "Named owner for approvals and exceptions",
+        "Role-based access to required tools",
+        "Sample review before the work lane expands"
+      ],
+      "boundaries": [
+        "Pay, tax, benefits, bank changes, and payment release remain with your authorized payroll owner."
+      ],
+      "scenarios": [
+        "Payroll Query Support delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+        "Start with one pay cycle. Review the work and unresolved items before extending the scope."
+      ],
+      "workflow": [
+        "Share current examples and source records",
+        "Document the finish line and escalation rule",
+        "Review the first work batch together"
+      ],
+      "faqs": [
+        {
+          "question": "How do we start?",
+          "answer": "Choose a recurring queue, document the inputs and owner, and review a complete first cycle."
+        }
+      ]
+    },
+    {
+      "slug": "leave-balance-administration",
+      "title": "Leave Balance Administration",
+      "description": "Leave Balance Administration delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+      "image": "/refresh-20261112/service2.webp",
+      "alt": "Business professional using calculator and laptop while working at office desk.",
+      "audience": [
+        "Payroll managers, finance teams, and business owners who need dependable preparation before final review."
+      ],
+      "problem": "Leave Balance Administration delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+      "inputs": [
+        "The current pay calendar, source records, and approved checklist",
+        "Named system access and a reviewer for questions",
+        "Examples of accepted work and escalation rules"
+      ],
+      "work": [
+        "leave balance administration queue preparation",
+        "source-record checks and updates",
+        "exception logging for manager review",
+        "daily handoff notes and follow-up"
+      ],
+      "outputs": [
+        "A current leave balance administration tracker with source references",
+        "A dated exception list with owners and next actions",
+        "A prepared handoff for the authorized reviewer"
+      ],
+      "controls": [
+        "Named owner for approvals and exceptions",
+        "Role-based access to required tools",
+        "Sample review before the work lane expands"
+      ],
+      "boundaries": [
+        "Pay, tax, benefits, bank changes, and payment release remain with your authorized payroll owner."
+      ],
+      "scenarios": [
+        "Leave Balance Administration delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+        "Start with one pay cycle. Review the work and unresolved items before extending the scope."
+      ],
+      "workflow": [
+        "Share current examples and source records",
+        "Document the finish line and escalation rule",
+        "Review the first work batch together"
+      ],
+      "faqs": [
+        {
+          "question": "How do we start?",
+          "answer": "Choose a recurring queue, document the inputs and owner, and review a complete first cycle."
+        }
+      ]
+    },
+    {
+      "slug": "payroll-reporting",
+      "title": "Payroll Reporting",
+      "description": "Payroll Reporting delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+      "image": "/refresh-20261112/service3.webp",
+      "alt": "Person checking financial reports with a calculator and pen",
+      "audience": [
+        "Payroll managers, finance teams, and business owners who need dependable preparation before final review."
+      ],
+      "problem": "Payroll Reporting delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+      "inputs": [
+        "The current pay calendar, source records, and approved checklist",
+        "Named system access and a reviewer for questions",
+        "Examples of accepted work and escalation rules"
+      ],
+      "work": [
+        "payroll reporting queue preparation",
+        "source-record checks and updates",
+        "exception logging for manager review",
+        "daily handoff notes and follow-up"
+      ],
+      "outputs": [
+        "A current payroll reporting tracker with source references",
+        "A dated exception list with owners and next actions",
+        "A prepared handoff for the authorized reviewer"
+      ],
+      "controls": [
+        "Named owner for approvals and exceptions",
+        "Role-based access to required tools",
+        "Sample review before the work lane expands"
+      ],
+      "boundaries": [
+        "Pay, tax, benefits, bank changes, and payment release remain with your authorized payroll owner."
+      ],
+      "scenarios": [
+        "Payroll Reporting delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+        "Start with one pay cycle. Review the work and unresolved items before extending the scope."
+      ],
+      "workflow": [
+        "Share current examples and source records",
+        "Document the finish line and escalation rule",
+        "Review the first work batch together"
+      ],
+      "faqs": [
+        {
+          "question": "How do we start?",
+          "answer": "Choose a recurring queue, document the inputs and owner, and review a complete first cycle."
+        }
+      ]
+    },
+    {
+      "slug": "contractor-payment-administration",
+      "title": "Contractor Payment Administration",
+      "description": "Contractor Payment Administration delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+      "image": "/refresh-20261112/service4.webp",
+      "alt": "From above of crop businesswoman counting dollar bills while sitting at spacious desk with open planner and modern computer",
+      "audience": [
+        "Payroll managers, finance teams, and business owners who need dependable preparation before final review."
+      ],
+      "problem": "Contractor Payment Administration delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+      "inputs": [
+        "The current pay calendar, source records, and approved checklist",
+        "Named system access and a reviewer for questions",
+        "Examples of accepted work and escalation rules"
+      ],
+      "work": [
+        "contractor payment administration queue preparation",
+        "source-record checks and updates",
+        "exception logging for manager review",
+        "daily handoff notes and follow-up"
+      ],
+      "outputs": [
+        "A current contractor payment administration tracker with source references",
+        "A dated exception list with owners and next actions",
+        "A prepared handoff for the authorized reviewer"
+      ],
+      "controls": [
+        "Named owner for approvals and exceptions",
+        "Role-based access to required tools",
+        "Sample review before the work lane expands"
+      ],
+      "boundaries": [
+        "Pay, tax, benefits, bank changes, and payment release remain with your authorized payroll owner."
+      ],
+      "scenarios": [
+        "Contractor Payment Administration delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+        "Start with one pay cycle. Review the work and unresolved items before extending the scope."
+      ],
+      "workflow": [
+        "Share current examples and source records",
+        "Document the finish line and escalation rule",
+        "Review the first work batch together"
+      ],
+      "faqs": [
+        {
+          "question": "How do we start?",
+          "answer": "Choose a recurring queue, document the inputs and owner, and review a complete first cycle."
+        }
+      ]
+    },
+    {
+      "slug": "year-end-payroll-preparation",
+      "title": "Year-End Payroll Preparation",
+      "description": "Year-End Payroll Preparation delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+      "image": "/refresh-20261112/service5.webp",
+      "alt": "Accountant reviewing financial documents with a calculator",
+      "audience": [
+        "Payroll managers, finance teams, and business owners who need dependable preparation before final review."
+      ],
+      "problem": "Year-End Payroll Preparation delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+      "inputs": [
+        "The current pay calendar, source records, and approved checklist",
+        "Named system access and a reviewer for questions",
+        "Examples of accepted work and escalation rules"
+      ],
+      "work": [
+        "year-end payroll preparation queue preparation",
+        "source-record checks and updates",
+        "exception logging for manager review",
+        "daily handoff notes and follow-up"
+      ],
+      "outputs": [
+        "A current year-end payroll preparation tracker with source references",
+        "A dated exception list with owners and next actions",
+        "A prepared handoff for the authorized reviewer"
+      ],
+      "controls": [
+        "Named owner for approvals and exceptions",
+        "Role-based access to required tools",
+        "Sample review before the work lane expands"
+      ],
+      "boundaries": [
+        "Pay, tax, benefits, bank changes, and payment release remain with your authorized payroll owner."
+      ],
+      "scenarios": [
+        "Year-End Payroll Preparation delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+        "Start with one pay cycle. Review the work and unresolved items before extending the scope."
+      ],
+      "workflow": [
+        "Share current examples and source records",
+        "Document the finish line and escalation rule",
+        "Review the first work batch together"
+      ],
+      "faqs": [
+        {
+          "question": "How do we start?",
+          "answer": "Choose a recurring queue, document the inputs and owner, and review a complete first cycle."
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,8 @@
 'use client';
+import {submitAcrLead} from '../acr-submit';
 
-import { FormEvent, useEffect, useState } from 'react';
+
+import { FormEvent, useEffect, useRef, useState } from 'react';
 
 type TrackerWindow = Window & { acrTracker?: { trackLead?: (payload: Record<string, unknown>) => void } };
 const companySizes=['1-5','5-10','11-50','51-250','251-1k','1k+'];
@@ -9,6 +11,7 @@ const referrals=['Google','Email','LinkedIn','Reddit','X / Twitter','Referral','
 const countryCodes=[['US','+1'],['CA','+1'],['ID','+62'],['PH','+63'],['GB','+44'],['AU','+61'],['NZ','+64'],['SG','+65'],['IN','+91'],['AE','+971'],['MX','+52'],['BR','+55'],['ZA','+27'],['DE','+49'],['FR','+33']];
 
 export default function StandardContactForm({ endpoint='/api/contact' }:{endpoint?:string}){
+  const submissionLock=useRef(false);
   const [status,setStatus]=useState('');
   const [submitting,setSubmitting]=useState(false);
   const [countryCode,setCountryCode]=useState('+1');
@@ -17,10 +20,10 @@ export default function StandardContactForm({ endpoint='/api/contact' }:{endpoin
   async function submit(event:FormEvent<HTMLFormElement>){
     event.preventDefault();if(submitting)return;const form=event.currentTarget;const data=new FormData(form);if(String(data.get('website_url')||'').trim())return;
     const first=String(data.get('firstName')||'').trim(),last=String(data.get('lastName')||'').trim();data.set('name',`${first} ${last}`.trim());data.set('phone',`${countryCode} ${String(data.get('phoneLocal')||'').trim()}`.trim());
-    setSubmitting(true);setStatus('Sending...');
-    try{const payload=Object.fromEntries(data);const response=await fetch(endpoint,{method:'POST',body:data});if(!response.ok)throw new Error('Request failed');try{undefined /* ACR captures the native submit event once. */}catch{}window.location.assign('/thank-you')}catch{setStatus('We could not send your request. Please try again.');setSubmitting(false)}
+    if(submissionLock.current)return;submissionLock.current=true;setSubmitting(true);setStatus('Sending...');
+    try{const payload=Object.fromEntries(data);const response=await fetch(endpoint,{method:'POST',body:data});if(!response.ok)throw new Error('Request failed');submitAcrLead(payload,'contact-form');window.location.assign('/thank-you')}catch{setStatus('We could not send your request. Please try again.');submissionLock.current=false;setSubmitting(false)}
   }
-  return <form data-acr-managed="react" id="contactPageForm" className="tc-form" action={endpoint} method="post" onSubmit={submit} aria-label="Free payroll support consultation">
+  return <form data-acr-lead-mode="manual" data-acr-managed="react" id="contactPageForm" className="tc-form" action={endpoint} method="post" onSubmit={submit} aria-label="Free payroll support consultation">
     <input className="sa-hp" name="website_url" tabIndex={-1} autoComplete="off" aria-hidden="true" />
     <div className="tc-form-head"><p>Free consultation</p><h2>Tell us about the payroll workflow</h2><span>All fields marked * are required.</span></div>
     <div className="tc-field-grid">
