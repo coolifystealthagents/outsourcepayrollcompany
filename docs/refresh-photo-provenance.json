@@ -67,15 +67,15 @@
   {
     "theme": "payroll",
     "kind": "service1",
-    "id": "7654132",
-    "source": "https://www.pexels.com/photo/people-working-at-the-office-7654132/",
+    "id": "7654435",
+    "source": "https://www.pexels.com/photo/a-woman-using-a-calculator-while-sitting-on-the-table-7654435/",
     "photographer": "Pavel Danilyuk",
-    "alt": "Two diverse accountants working at a shared office table using laptops and calculators.",
+    "alt": "Accountant reviewing financial documents with a calculator",
     "license": "https://www.pexels.com/license/",
-    "download": "https://images.pexels.com/photos/7654132/pexels-photo-7654132.jpeg?auto=compress&cs=tinysrgb&w=2200&q=90",
+    "download": "https://images.pexels.com/photos/7654435/pexels-photo-7654435.jpeg?auto=compress&cs=tinysrgb&w=2200&q=90",
     "width": 2200,
     "height": 3296,
-    "sha256": "4ec11570f0e43c8ada97b97dc571394f1479aede565a063bb8ea78b8b5c82b8b"
+    "sha256": "540bd43edf36bd534938a08e962d4e709e4f0faaff0314e0d08422e6ace9f99d"
   },
   {
     "theme": "payroll",
@@ -119,28 +119,28 @@
   {
     "theme": "payroll",
     "kind": "service5",
-    "id": "8297220",
-    "source": "https://www.pexels.com/photo/a-person-working-on-the-documents-using-a-calculator-8297220/",
-    "photographer": "Mikhail Nilov",
-    "alt": "Accountant reviewing financial documents with a calculator",
+    "id": "7651738",
+    "source": "https://www.pexels.com/photo/person-using-a-calculator-7651738/",
+    "photographer": "Kindel Media",
+    "alt": "Person using a calculator beside financial documents at a desk",
     "license": "https://www.pexels.com/license/",
-    "download": "https://images.pexels.com/photos/8297220/pexels-photo-8297220.jpeg?auto=compress&cs=tinysrgb&w=2200&q=90",
+    "download": "https://images.pexels.com/photos/7651738/pexels-photo-7651738.jpeg?auto=compress&cs=tinysrgb&w=2200&q=90",
     "width": 2200,
-    "height": 3300,
-    "sha256": "141c9e92030685218c1565af05f824615a4fcc1bb28c0df7ada2b0a415f9c2de"
+    "height": 1650,
+    "sha256": "2d9a608815a1a0c06e950a183f4d92569c184aead2217e3dbc167bbd33dc0a25"
   },
   {
     "theme": "payroll",
     "kind": "service6",
-    "id": "8297030",
-    "source": "https://www.pexels.com/photo/person-holding-calculator-checking-on-documents-8297030/",
-    "photographer": "Mikhail Nilov",
-    "alt": "Accountant reviewing financial documents with a calculator",
+    "id": "4476375",
+    "source": "https://www.pexels.com/photo/bookkeeper-writing-down-on-paper-while-using-calculator-4476375/",
+    "photographer": "Kaboompics.com",
+    "alt": "Bookkeeper writing financial notes while checking a calculator",
     "license": "https://www.pexels.com/license/",
-    "download": "https://images.pexels.com/photos/8297030/pexels-photo-8297030.jpeg?auto=compress&cs=tinysrgb&w=2200&q=90",
+    "download": "https://images.pexels.com/photos/4476375/pexels-photo-4476375.jpeg?auto=compress&cs=tinysrgb&w=2200&q=90",
     "width": 2200,
-    "height": 3300,
-    "sha256": "f3c727b18345ee513ad0cd94c5e506352fd243b7a6bb8a27aff287c1c94c4c33"
+    "height": 1467,
+    "sha256": "d6dd0bc4c1ad2982c2001c41bde0241b0515afc49203ea14550bd7801e2427f1"
   },
   {
     "theme": "payroll",
