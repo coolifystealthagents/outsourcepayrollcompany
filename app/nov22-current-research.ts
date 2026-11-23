@@ -90,7 +90,7 @@ export const nov22CurrentResearchPosts = [
     "serviceHandoff": {
       "heading": "Prepare a payroll evidence pack",
       "body": "A Philippines-based payroll support specialist can build the population, collect the bank and register evidence, and prepare the exception report for owner review. Your payroll owner approves the calculation, the filing, and any correction.",
-      "label": "Plan payroll operations support",
+      "cta": "Plan payroll operations support",
       "href": "/services/payroll-operations-support"
     }
   },
@@ -184,7 +184,7 @@ export const nov22CurrentResearchPosts = [
     "serviceHandoff": {
       "heading": "Prepare a payroll evidence pack",
       "body": "A Philippines-based payroll support specialist can build the population, collect the bank and register evidence, and prepare the exception report for owner review. Your payroll owner approves the calculation, the filing, and any correction.",
-      "label": "Plan payroll operations support",
+      "cta": "Plan payroll operations support",
       "href": "/services/payroll-operations-support"
     }
   },
@@ -278,7 +278,7 @@ export const nov22CurrentResearchPosts = [
     "serviceHandoff": {
       "heading": "Prepare a payroll evidence pack",
       "body": "A Philippines-based payroll support specialist can build the population, collect the bank and register evidence, and prepare the exception report for owner review. Your payroll owner approves the calculation, the filing, and any correction.",
-      "label": "Plan payroll operations support",
+      "cta": "Plan payroll operations support",
       "href": "/services/payroll-operations-support"
     }
   },
@@ -372,7 +372,7 @@ export const nov22CurrentResearchPosts = [
     "serviceHandoff": {
       "heading": "Prepare a payroll evidence pack",
       "body": "A Philippines-based payroll support specialist can build the population, collect the bank and register evidence, and prepare the exception report for owner review. Your payroll owner approves the calculation, the filing, and any correction.",
-      "label": "Plan payroll operations support",
+      "cta": "Plan payroll operations support",
       "href": "/services/payroll-operations-support"
     }
   },
@@ -466,7 +466,7 @@ export const nov22CurrentResearchPosts = [
     "serviceHandoff": {
       "heading": "Prepare a payroll evidence pack",
       "body": "A Philippines-based payroll support specialist can build the population, collect the bank and register evidence, and prepare the exception report for owner review. Your payroll owner approves the calculation, the filing, and any correction.",
-      "label": "Plan payroll operations support",
+      "cta": "Plan payroll operations support",
       "href": "/services/payroll-operations-support"
     }
   }
