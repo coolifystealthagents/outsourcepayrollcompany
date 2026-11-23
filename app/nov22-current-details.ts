@@ -76,7 +76,56 @@ export const nov22CurrentBlogDetails = {
         ],
         "checks": []
       }
-    ]
+    ],
+    "roleBrief": "A Philippines-based payroll support specialist can prepare the reconciliation, maintain the evidence pack, and flag exceptions. Your payroll owner approves the calculation, the filing, and any correction.",
+    "faqs": [
+      {
+        "question": "Who owns the final payroll decision?",
+        "answer": "The client-side payroll owner approves the register, the funding, and any correction. The support team prepares the evidence and the exception list."
+      },
+      {
+        "question": "What evidence should be kept?",
+        "answer": "Keep the locked register, the bank confirmation, the reconciliation, and the exception record with the pay run."
+      },
+      {
+        "question": "When should the control be reviewed?",
+        "answer": "Review it after each close and each quarter, and whenever the bank, provider, or payroll system changes."
+      }
+    ],
+    "sources": [
+      {
+        "name": "IRS Publication 15 (Circular E)",
+        "url": "https://www.irs.gov/publications/p15",
+        "note": "Primary guidance used to frame the control."
+      },
+      {
+        "name": "IRS Publication 15-A",
+        "url": "https://www.irs.gov/publications/p15a",
+        "note": "Primary guidance used to frame the control."
+      },
+      {
+        "name": "DOL Wage and Hour Division, Recordkeeping",
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "note": "Primary guidance used to frame the control."
+      },
+      {
+        "name": "SSA, Employer Responsibilities",
+        "url": "https://www.ssa.gov/employer/",
+        "note": "Primary guidance used to frame the control."
+      }
+    ],
+    "publication": {
+      "internalLinks": [
+        "/services/payroll-operations-support",
+        "/services/reporting-and-qa"
+      ],
+      "externalLink": "https://www.irs.gov/publications/p15",
+      "related": [
+        "outsourcepayrollcompany-payroll-funding-reconciliation-timeliness-review",
+        "outsourcepayrollcompany-direct-deposit-change-verification-coverage-review",
+        "outsourcepayrollcompany-payroll-close-exception-aging-review"
+      ]
+    }
   },
   "outsourcepayrollcompany-review-a-garnishment-withholding-order-for-a-remote-employee": {
     "takeaways": [
@@ -162,7 +211,56 @@ export const nov22CurrentBlogDetails = {
         ],
         "checks": []
       }
-    ]
+    ],
+    "roleBrief": "A Philippines-based payroll support specialist can prepare the reconciliation, maintain the evidence pack, and flag exceptions. Your payroll owner approves the calculation, the filing, and any correction.",
+    "faqs": [
+      {
+        "question": "Who owns the final payroll decision?",
+        "answer": "The client-side payroll owner approves the register, the funding, and any correction. The support team prepares the evidence and the exception list."
+      },
+      {
+        "question": "What evidence should be kept?",
+        "answer": "Keep the locked register, the bank confirmation, the reconciliation, and the exception record with the pay run."
+      },
+      {
+        "question": "When should the control be reviewed?",
+        "answer": "Review it after each close and each quarter, and whenever the bank, provider, or payroll system changes."
+      }
+    ],
+    "sources": [
+      {
+        "name": "IRS Publication 15 (Circular E)",
+        "url": "https://www.irs.gov/publications/p15",
+        "note": "Primary guidance used to frame the control."
+      },
+      {
+        "name": "IRS Publication 15-A",
+        "url": "https://www.irs.gov/publications/p15a",
+        "note": "Primary guidance used to frame the control."
+      },
+      {
+        "name": "DOL Wage and Hour Division, Recordkeeping",
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "note": "Primary guidance used to frame the control."
+      },
+      {
+        "name": "SSA, Employer Responsibilities",
+        "url": "https://www.ssa.gov/employer/",
+        "note": "Primary guidance used to frame the control."
+      }
+    ],
+    "publication": {
+      "internalLinks": [
+        "/services/payroll-operations-support",
+        "/services/reporting-and-qa"
+      ],
+      "externalLink": "https://www.irs.gov/publications/p15",
+      "related": [
+        "outsourcepayrollcompany-payroll-funding-reconciliation-timeliness-review",
+        "outsourcepayrollcompany-direct-deposit-change-verification-coverage-review",
+        "outsourcepayrollcompany-payroll-close-exception-aging-review"
+      ]
+    }
   },
   "outsourcepayrollcompany-set-a-pay-card-funding-buffer-for-a-small-payroll-client": {
     "takeaways": [
@@ -248,7 +346,56 @@ export const nov22CurrentBlogDetails = {
         ],
         "checks": []
       }
-    ]
+    ],
+    "roleBrief": "A Philippines-based payroll support specialist can prepare the reconciliation, maintain the evidence pack, and flag exceptions. Your payroll owner approves the calculation, the filing, and any correction.",
+    "faqs": [
+      {
+        "question": "Who owns the final payroll decision?",
+        "answer": "The client-side payroll owner approves the register, the funding, and any correction. The support team prepares the evidence and the exception list."
+      },
+      {
+        "question": "What evidence should be kept?",
+        "answer": "Keep the locked register, the bank confirmation, the reconciliation, and the exception record with the pay run."
+      },
+      {
+        "question": "When should the control be reviewed?",
+        "answer": "Review it after each close and each quarter, and whenever the bank, provider, or payroll system changes."
+      }
+    ],
+    "sources": [
+      {
+        "name": "IRS Publication 15 (Circular E)",
+        "url": "https://www.irs.gov/publications/p15",
+        "note": "Primary guidance used to frame the control."
+      },
+      {
+        "name": "IRS Publication 15-A",
+        "url": "https://www.irs.gov/publications/p15a",
+        "note": "Primary guidance used to frame the control."
+      },
+      {
+        "name": "DOL Wage and Hour Division, Recordkeeping",
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "note": "Primary guidance used to frame the control."
+      },
+      {
+        "name": "SSA, Employer Responsibilities",
+        "url": "https://www.ssa.gov/employer/",
+        "note": "Primary guidance used to frame the control."
+      }
+    ],
+    "publication": {
+      "internalLinks": [
+        "/services/payroll-operations-support",
+        "/services/reporting-and-qa"
+      ],
+      "externalLink": "https://www.irs.gov/publications/p15",
+      "related": [
+        "outsourcepayrollcompany-payroll-funding-reconciliation-timeliness-review",
+        "outsourcepayrollcompany-direct-deposit-change-verification-coverage-review",
+        "outsourcepayrollcompany-payroll-close-exception-aging-review"
+      ]
+    }
   },
   "outsourcepayrollcompany-write-a-payroll-close-checklist-for-a-multi-state-client": {
     "takeaways": [
@@ -334,7 +481,56 @@ export const nov22CurrentBlogDetails = {
         ],
         "checks": []
       }
-    ]
+    ],
+    "roleBrief": "A Philippines-based payroll support specialist can prepare the reconciliation, maintain the evidence pack, and flag exceptions. Your payroll owner approves the calculation, the filing, and any correction.",
+    "faqs": [
+      {
+        "question": "Who owns the final payroll decision?",
+        "answer": "The client-side payroll owner approves the register, the funding, and any correction. The support team prepares the evidence and the exception list."
+      },
+      {
+        "question": "What evidence should be kept?",
+        "answer": "Keep the locked register, the bank confirmation, the reconciliation, and the exception record with the pay run."
+      },
+      {
+        "question": "When should the control be reviewed?",
+        "answer": "Review it after each close and each quarter, and whenever the bank, provider, or payroll system changes."
+      }
+    ],
+    "sources": [
+      {
+        "name": "IRS Publication 15 (Circular E)",
+        "url": "https://www.irs.gov/publications/p15",
+        "note": "Primary guidance used to frame the control."
+      },
+      {
+        "name": "IRS Publication 15-A",
+        "url": "https://www.irs.gov/publications/p15a",
+        "note": "Primary guidance used to frame the control."
+      },
+      {
+        "name": "DOL Wage and Hour Division, Recordkeeping",
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "note": "Primary guidance used to frame the control."
+      },
+      {
+        "name": "SSA, Employer Responsibilities",
+        "url": "https://www.ssa.gov/employer/",
+        "note": "Primary guidance used to frame the control."
+      }
+    ],
+    "publication": {
+      "internalLinks": [
+        "/services/payroll-operations-support",
+        "/services/reporting-and-qa"
+      ],
+      "externalLink": "https://www.irs.gov/publications/p15",
+      "related": [
+        "outsourcepayrollcompany-payroll-funding-reconciliation-timeliness-review",
+        "outsourcepayrollcompany-direct-deposit-change-verification-coverage-review",
+        "outsourcepayrollcompany-payroll-close-exception-aging-review"
+      ]
+    }
   },
   "outsourcepayrollcompany-audit-a-direct-deposit-change-request-before-the-next-run": {
     "takeaways": [
@@ -420,6 +616,55 @@ export const nov22CurrentBlogDetails = {
         ],
         "checks": []
       }
-    ]
+    ],
+    "roleBrief": "A Philippines-based payroll support specialist can prepare the reconciliation, maintain the evidence pack, and flag exceptions. Your payroll owner approves the calculation, the filing, and any correction.",
+    "faqs": [
+      {
+        "question": "Who owns the final payroll decision?",
+        "answer": "The client-side payroll owner approves the register, the funding, and any correction. The support team prepares the evidence and the exception list."
+      },
+      {
+        "question": "What evidence should be kept?",
+        "answer": "Keep the locked register, the bank confirmation, the reconciliation, and the exception record with the pay run."
+      },
+      {
+        "question": "When should the control be reviewed?",
+        "answer": "Review it after each close and each quarter, and whenever the bank, provider, or payroll system changes."
+      }
+    ],
+    "sources": [
+      {
+        "name": "IRS Publication 15 (Circular E)",
+        "url": "https://www.irs.gov/publications/p15",
+        "note": "Primary guidance used to frame the control."
+      },
+      {
+        "name": "IRS Publication 15-A",
+        "url": "https://www.irs.gov/publications/p15a",
+        "note": "Primary guidance used to frame the control."
+      },
+      {
+        "name": "DOL Wage and Hour Division, Recordkeeping",
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "note": "Primary guidance used to frame the control."
+      },
+      {
+        "name": "SSA, Employer Responsibilities",
+        "url": "https://www.ssa.gov/employer/",
+        "note": "Primary guidance used to frame the control."
+      }
+    ],
+    "publication": {
+      "internalLinks": [
+        "/services/payroll-operations-support",
+        "/services/reporting-and-qa"
+      ],
+      "externalLink": "https://www.irs.gov/publications/p15",
+      "related": [
+        "outsourcepayrollcompany-payroll-funding-reconciliation-timeliness-review",
+        "outsourcepayrollcompany-direct-deposit-change-verification-coverage-review",
+        "outsourcepayrollcompany-payroll-close-exception-aging-review"
+      ]
+    }
   }
 };
