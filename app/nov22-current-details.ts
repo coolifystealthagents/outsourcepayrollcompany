@@ -77,7 +77,12 @@ export const nov22CurrentBlogDetails = {
         "checks": []
       }
     ],
-    "roleBrief": "A Philippines-based payroll support specialist can prepare the reconciliation, maintain the evidence pack, and flag exceptions. Your payroll owner approves the calculation, the filing, and any correction.",
+    "roleBrief": [
+      "Prepare the reconciliation and the evidence pack for owner review.",
+      "Flag exceptions with the owner, the amount, and the next action.",
+      "Maintain the change log and the source system references.",
+      "Prepare the correction for approval; do not approve your own work."
+    ],
     "faqs": [
       {
         "question": "Who owns the final payroll decision?",
@@ -212,7 +217,12 @@ export const nov22CurrentBlogDetails = {
         "checks": []
       }
     ],
-    "roleBrief": "A Philippines-based payroll support specialist can prepare the reconciliation, maintain the evidence pack, and flag exceptions. Your payroll owner approves the calculation, the filing, and any correction.",
+    "roleBrief": [
+      "Prepare the reconciliation and the evidence pack for owner review.",
+      "Flag exceptions with the owner, the amount, and the next action.",
+      "Maintain the change log and the source system references.",
+      "Prepare the correction for approval; do not approve your own work."
+    ],
     "faqs": [
       {
         "question": "Who owns the final payroll decision?",
@@ -347,7 +357,12 @@ export const nov22CurrentBlogDetails = {
         "checks": []
       }
     ],
-    "roleBrief": "A Philippines-based payroll support specialist can prepare the reconciliation, maintain the evidence pack, and flag exceptions. Your payroll owner approves the calculation, the filing, and any correction.",
+    "roleBrief": [
+      "Prepare the reconciliation and the evidence pack for owner review.",
+      "Flag exceptions with the owner, the amount, and the next action.",
+      "Maintain the change log and the source system references.",
+      "Prepare the correction for approval; do not approve your own work."
+    ],
     "faqs": [
       {
         "question": "Who owns the final payroll decision?",
@@ -482,7 +497,12 @@ export const nov22CurrentBlogDetails = {
         "checks": []
       }
     ],
-    "roleBrief": "A Philippines-based payroll support specialist can prepare the reconciliation, maintain the evidence pack, and flag exceptions. Your payroll owner approves the calculation, the filing, and any correction.",
+    "roleBrief": [
+      "Prepare the reconciliation and the evidence pack for owner review.",
+      "Flag exceptions with the owner, the amount, and the next action.",
+      "Maintain the change log and the source system references.",
+      "Prepare the correction for approval; do not approve your own work."
+    ],
     "faqs": [
       {
         "question": "Who owns the final payroll decision?",
@@ -617,7 +637,12 @@ export const nov22CurrentBlogDetails = {
         "checks": []
       }
     ],
-    "roleBrief": "A Philippines-based payroll support specialist can prepare the reconciliation, maintain the evidence pack, and flag exceptions. Your payroll owner approves the calculation, the filing, and any correction.",
+    "roleBrief": [
+      "Prepare the reconciliation and the evidence pack for owner review.",
+      "Flag exceptions with the owner, the amount, and the next action.",
+      "Maintain the change log and the source system references.",
+      "Prepare the correction for approval; do not approve your own work."
+    ],
     "faqs": [
       {
         "question": "Who owns the final payroll decision?",
