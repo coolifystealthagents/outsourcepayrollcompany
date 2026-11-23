@@ -16,6 +16,8 @@ Published October 26, 2026.
 
 Outsourcepayrollcompany virtual assistant operations operating note: In daily virtual assistant operations work, Vendor Coordination Ledger gives Payroll Services teams a bounded way to coordinate vendor coordination. The operating risk is that a vendor promise can be treated as a completed service. A useful record keeps the request, source, owner, timing, exception state, and completion evidence together without expanding an administrative role into a professional decision. A second reviewer should be able to reconstruct the decision from the recorded evidence.
 
+If you would rather hand this off, the [virtual assistant directory](https://virtualassistantdirectories.com) lists vetted agencies and specialists you can compare.
+
 ## Define the controlled event
 
 Outsourcepayrollcompany virtual assistant operations operating note: In outsourcepayrollcompany's operating model, name the event that creates a record for vendor coordination in Payroll Services operations. A record should enter because a specific condition occurred, not because someone remembered to add a task. Define the source system, minimum evidence, accountable owner, and clock start before the queue opens. The vendor supplies a service; the accountable owner accepts the result.
