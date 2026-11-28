@@ -20,3 +20,14 @@ html, body { overflow-x: clip !important; }
 [data-site-footer] .site-footer-brand-link { display:inline-flex; align-items:center; gap:12px; max-width:100%; }
 [data-site-footer] .site-footer-brand-icon { width:36px; height:36px; flex:none; object-fit:contain; }
 [data-site-footer] .site-footer-wordmark { width:176px; height:auto; padding:8px; background:#fff; border-radius:6px; object-fit:contain; }
+
+/* Loop the existing review cards without a visible restart. */
+@keyframes site-review-loop { to { transform: translateX(calc(-50% - 7px)); } }
+@media (prefers-reduced-motion: no-preference) {
+  .sa-testimonials .sa-testimonial-viewport { overflow-x: hidden; scroll-snap-type: none; }
+  .sa-testimonials .sa-testimonial-track { animation: site-review-loop 100s linear infinite !important; }
+  .sa-testimonials .sa-testimonial-viewport:focus-within .sa-testimonial-track { animation-play-state: paused !important; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .sa-testimonials .sa-testimonial-card[aria-hidden="true"] { display: none; }
+}
